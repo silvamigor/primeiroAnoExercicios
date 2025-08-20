@@ -1,0 +1,125 @@
+% --------------------------------------------------------
+% CODIFICAÇÃO E TIPOGRAFIA
+% --------------------------------------------------------
+\usepackage[utf8]{inputenc}       % Permite acentuação direta no código-fonte
+\usepackage[T1]{fontenc}          % Usa codificação T1 (melhor para português)
+\usepackage[brazil]{babel}        % Tradução e hifenização para português
+\usepackage{microtype}            % Melhora o espaçamento entre letras/palavras
+\usepackage{parskip}              % Espaço entre parágrafos em vez de recuo
+
+% --------------------------------------------------------
+% PACOTES MATEMÁTICOS
+% --------------------------------------------------------
+\usepackage{amsmath}              % Ambientes matemáticos como align, equation
+%\usepackage{amssymb}              % Símbolos matemáticos adicionais
+\usepackage{amsthm}               % Ambientes de teoremas
+\usepackage{mathtools}            % Extensões do amsmath (ex: \coloneqq)
+\usepackage{mathrsfs}             % Fonte caligráfica com \mathscr
+\usepackage{bbm}                  % Indicador \mathbbm{1}
+\usepackage{dsfont}               % Alternativa para conjuntos: \mathds
+\usepackage{commath}              % Notações como \abs{}, \norm{}, \eval{}
+\usepackage{pgfmath}             % Permite realizar cálculos matemáticos (somas, produtos, números aleatórios, etc.)
+\usepackage{siunitx}              % sistema de unidades
+\sisetup{group-separator = {\,}} % espaço fino
+
+% --------------------------------------------------------
+% FONTE MODERNA (TEXTO E MATEMÁTICA)
+% --------------------------------------------------------
+%\usepackage{newtxtext}            % Fonte do texto (estilo Times)
+%\usepackage{newtxmath}            % Fonte matemática compatível com pacotes AMS
+\usepackage[bitstream-charter]{mathdesign} % Fonte elegante e matemática harmoniosa
+
+% --------------------------------------------------------
+% AMBIENTES TEÓRICOS PERSONALIZADOS
+% --------------------------------------------------------
+\theoremstyle{definition}
+\newtheorem{definicao}{Definição}       % Definição numerada por seção
+\newtheorem{exemplo}{Exemplo}           % Exemplo numerado por seção
+
+%\theoremstyle{plain}
+\newtheorem{teorema}{Teorema}           % Teorema numerado por seção
+\newtheorem{lema}[teorema]{Lema}                 % Lema com numeração conjunta
+\newtheorem{proposicao}[teorema]{Proposição}     % Proposição idem
+\newtheorem{corolario}[teorema]{Corolário}       % Corolário idem
+\newtheorem{exercicio}[teorema]{Exercício}
+
+%\theoremstyle{remark}
+\newtheorem{observacao}[teorema]{Observação}     % Observação com mesmo contador
+
+% --------------------------------------------------------
+% TABELAS E FIGURAS
+% --------------------------------------------------------
+\usepackage{graphicx}             % Inclusão de imagens
+\usepackage{float}                % Controle de posicionamento (ex: [H])
+\usepackage{caption}              % Personalização de legendas
+\usepackage{subcaption}          % Subfiguras com \begin{subfigure}
+\usepackage{booktabs}            % Tabelas com qualidade profissional
+\usepackage{array}               % Mais opções em colunas de tabelas
+\usepackage{multirow}            % Células que ocupam várias linhas
+\usepackage{multicol}            % Disposição em colunas múltiplas
+\usepackage{tabularx}            % Tabelas com colunas de largura ajustável
+\usepackage{longtable}           % Tabelas que quebram página
+\usepackage{arydshln}            % Linhas tracejadas horizontais e verticais
+\usepackage{makecell}            % Células com múltiplas linhas (e quebra de linha)
+\usepackage{diagbox}             % Cabeçalho diagonal em tabelas
+\usepackage{pdflscape}           % Gira páginas (modo paisagem)
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+
+% --------------------------------------------------------
+% FORMATAÇÃO E ESTRUTURA
+% --------------------------------------------------------
+\usepackage{geometry}            % Configuração de margens
+\geometry{a4paper, left=1cm, right=1cm, bottom=1.5cm, top=1.5cm, headsep=1cm, footskip=1cm}
+\usepackage{titlesec}            % Controle sobre títulos de seções
+\usepackage{fancyhdr}            % Cabeçalhos e rodapés personalizados
+\pagestyle{fancy}
+\fancyhf{}                % Limpa cabeçalho e rodapé
+\fancyfoot[R]{\thepage}   % Numeração à direita no rodapé
+\renewcommand{\headrulewidth}{0pt} % Remove linha no topo
+\usepackage{enumitem}            % Listas com controle de espaçamento e símbolo
+\usepackage{tikz}                % Desenho de gráficos vetoriais (diagramas, etc.)
+\usetikzlibrary{matrix,arrows,patterns,snakes,decorations.pathreplacing,3d,arrows.meta,calc}
+\usepackage{etoolbox}             % Permite lógica condicional e manipulação de comandos
+\usepackage{background}           % Permite adicionar conteúdo fixo no fundo da página (ex: linhas, marcas d'água)
+\SetBgContents{} % Remove conteúdo padrão ("DRAFT")
+\definecolor{background-color}{RGB}{233 227 206}
+
+% --------------------------------------------------------
+% GRÁFICOS E PLOTAGENS
+% --------------------------------------------------------
+\usepackage{pgfplots}             % Criação de gráficos vetoriais em 2D e 3D
+\pgfplotsset{compat=1.18}         % Compatibilidade com versão atual do pacote
+\usepackage{currfile} % Permite saber qual é o caminho completo do arquivo atual,
+
+% --------------------------------------------------------
+% LINKS E CORES
+% --------------------------------------------------------
+\usepackage{xcolor}              % Definição de cores (texto, links, etc.)
+\usepackage[hidelinks]{hyperref} % Links sem moldura colorida no PDF
+\usepackage{url}                 % Quebra automática de URLs
+% Dica: se quiser links coloridos, use:
+% \usepackage[colorlinks=true, linkcolor=blue, citecolor=blue, urlcolor=blue]{hyperref}
+
+% --------------------------------------------------------
+% CAIXAS E DESTAQUES VISUAIS
+% --------------------------------------------------------
+\usepackage[most]{tcolorbox}      % Criação de caixas coloridas e personalizadas para destaques, avisos, exemplos, etc.
+
+% --------------------------------------------------------
+% CÓDIGOS E ALGORITMOS
+% --------------------------------------------------------
+\usepackage{listings}            % Inclusão de código-fonte com destaque
+\usepackage{algorithm}           % Ambiente de algoritmo
+\usepackage[noend]{algpseudocode} % Sintaxe tipo pseudocódigo
+
+
+% --------------------------------------------------------
+% COMANDOS
+% --------------------------------------------------------
+
+\newcommand{\bbN}{\mathbb{N}}
+\newcommand{\bbZ}{\mathbb{Z}}
+\newcommand{\bbQ}{\mathbb{Q}}
+\newcommand{\bbR}{\mathbb{R}}

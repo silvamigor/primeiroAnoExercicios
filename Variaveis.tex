@@ -1,0 +1,58 @@
+\newcommand{\turma}{CONTROLE AMBIENTAL 1.\textordmasculine\ ANO}
+\newcommand{\professor}{Igor Martins Silva}
+\newcommand{\bimestre}{2}
+\newcommand{\ano}{2025}
+\newcommand{\mesTexto}{julho}
+\newcommand{\mesNum}{07}
+\newcommand{\dia}{30}
+\newcommand{\dataTexto}{\dia\ de \mesTexto\ de \ano}
+\newcommand{\dataNun}{\dia/\mesNum/\ano}
+
+\ifdefstring{\atividade}{prova}{
+    \newcommand{\titulo}{Avaliação de Matemática}
+}{
+    \newcommand{\titulo}{Lista de exercícios de Matemática}
+}
+
+\newcommand{\subtitulo}{
+    %
+    \begin{center}
+        CEFET -- Contagem \\[3pt]
+        \titulo \ -- \bimestre.\textordmasculine\ Bimestre de \ano \\[3pt]
+        \professor
+    \end{center}
+    %
+    \begin{center}
+        \vspace{15pt}
+        \begin{tabular}{|C{210pt}|C{70pt}|C{210pt}|}
+            \hline
+            \textbf{ASSUNTO} &
+            \textbf{DATA} &
+            \textbf{TURMA} \\
+            \hline
+            \assunto & \dataNun & \turma \\
+            \hline
+        \end{tabular}
+    \end{center}
+    %
+    \vspace{15pt}
+}
+
+\newcommand{\valorquestao}{}
+
+\newenvironment{exercicioBanco}[1][]{%
+    \ifdefstring{\atividade}{prova}{%
+        \begin{exercicio}[#1]%
+    }{%
+        \begin{exercicio}%
+    }%
+}{%
+    \end{exercicio}
+}
+
+\ifdefstring{\atividade}{lista}{
+    \pagecolor{background-color}
+}{
+    
+}
+

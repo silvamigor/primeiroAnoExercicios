@@ -1,0 +1,104 @@
+\documentclass[a4paper,12pt]{article}
+
+\input{../../Preambulo.tex}
+\newcommand{\assunto}{FUNÇÕES LOGARÍTMICAS}
+\newcommand{\atividade}{prova} % prova ou lista
+\newcommand{\NumQObj}{5}
+\newcommand{\NumQDisc}{1}
+\pgfmathparse{int(\NumQObj + \NumQDisc)}
+\edef\NumTotalQuestoes{\pgfmathresult}
+\newcommand{\questaoDiscursiva}{Exercício \NumTotalQuestoes}
+\newcommand{\ValorQObj}{1}
+\newcommand{\ValorQDisc}{2}
+\pgfmathparse{int(\NumQObj * \ValorQObj + \NumQDisc * \ValorQDisc)}
+\edef\ValorProva{\pgfmathresult}
+\newcommand{\tipo}{dupla} % dupla ou individual
+\newcommand{\calculadora}{nao} % sim ou nao
+\input{../../Variaveis.tex}
+
+\hypersetup{
+    pdfauthor={\professor},
+    pdftitle={\titulo -- \assunto},
+}
+
+\title{\titulo -- \assunto}
+\author{\professor}
+\date{\data}
+
+%************* INÍCIO DO DOCUMENTO *************
+\begin{document}
+    \NoBgThispage
+    \pagenumbering{alph}
+    %
+        
+    \phantomsection
+    \addcontentsline{toc}{section}{Capa}
+    \input{../../Capa}
+    \newpage
+        
+    \phantomsection
+    \addcontentsline{toc}{section}{Resposta para a questão discursiva}
+    \input{../../RespQuestaoDisc}
+    \addtocounter{page}{1}
+    \newpage
+    %
+        
+    \NoBgThispage
+    \pagenumbering{arabic}
+    %
+        
+    \subtitulo
+        
+    %
+    \begin{center}
+        QUESTÕES OBJETIVAS
+    \end{center}
+    %
+    
+    \vspace{15pt}
+    \newcommand{\modo}{objetivo} % objetivo ou discursivo
+    
+    \phantomsection
+    \addcontentsline{toc}{section}{Exercício 1}
+    \input{../FL_Exercicio1}
+    \vspace{15pt}
+    
+    \phantomsection
+    \addcontentsline{toc}{section}{Exercício 2}
+    \input{../FL_Exercicio2}
+    \vspace{15pt}
+    
+    \phantomsection
+    \addcontentsline{toc}{section}{Exercício 3}
+    \input{../FL_Exercicio3}
+    \vspace{15pt}
+    
+    \phantomsection
+    \addcontentsline{toc}{section}{Exercício 4}
+    \input{../FL_Exercicio4}
+    \vspace{15pt}
+    
+    \phantomsection
+    \addcontentsline{toc}{section}{Exercício 5}
+    \input{../FL_Exercicio5}
+    \vspace{15pt}
+    
+    %
+    \begin{center}
+        QUESTÃO DISCURSIVA 
+    \end{center}
+    %
+    \vspace{15pt}
+    
+    \renewcommand{\modo}{discursivo} % objetivo ou discursivo
+    \phantomsection
+    \addcontentsline{toc}{section}{Exercício 6}
+    \input{../FL_Exercicio6}
+    \vspace{10pt}
+    \newpage
+    \phantomsection
+    \addcontentsline{toc}{section}{Rascunho}
+    \input{../../Rascunho}
+    
+\end{document}
+%*************** FINAL DO DOCUMENTO ***************

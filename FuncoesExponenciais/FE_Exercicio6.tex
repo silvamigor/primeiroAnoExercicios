@@ -1,0 +1,48 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%       EXERCÍCIO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ifdefstring{\atividade}{prova}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \renewcommand{\valorquestao}{\ValorQObj\ ponto}
+    }{%
+        \renewcommand{\valorquestao}{\ValorQDisc\ pontos}
+    }%
+}%
+
+\begin{exercicioBanco}[\valorquestao]
+Computadores utilizam, por padrão, dados em formato binário, em que cada dígito, denominado de bit, pode assumir dois valores (0 ou 1). Para representação de caracteres e outras informações, é necessário fazer uso de uma sequência de bits, o byte. No passado, um byte era composto de 6 bits em alguns computadores, mas atualmente tem-se a padronização que o byte é um octeto, ou seja, uma sequência de 8 bits. Esse padrão permite representar apenas 28 informações distintas. Se um novo padrão for proposto, de modo que um byte seja capaz de representar pelo menos 2{ }560 informações distintas, o número de bits em um byte deve passar de 8 para:
+
+% Define as alternativas
+\newcommand{\alternativas}{%
+    \begin{center}
+        \begin{tabularx}{\textwidth}{XXXXX}
+            (a) \(10\). &
+            (b) \(12\). &
+            (c) \(13\). &
+            (d) \(18\). &
+            (e) \(20\).
+        \end{tabularx}
+    \end{center}
+}
+
+% Define a resposta correta
+\newcommand{\resposta}{B}
+
+% Lógica condicional para exibição
+\ifdefstring{\atividade}{lista}{%
+    \alternativas
+    \vspace{0.5em}
+    
+    \noindent\textbf{Resposta:} letra \textbf{\resposta}.
+}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \alternativas
+    }{%
+        % modo = discursiva → não mostra alternativas
+    }
+}
+\end{exercicioBanco}
+

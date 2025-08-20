@@ -1,0 +1,48 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%       EXERCÍCIO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ifdefstring{\atividade}{prova}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \renewcommand{\valorquestao}{\ValorQObj\ ponto}
+    }{%
+        \renewcommand{\valorquestao}{\ValorQDisc\ pontos}
+    }%
+}%
+
+\begin{exercicioBanco}[\valorquestao]
+O processo de resfriamento de um determinado corpo é descrito por \(T(t) = T_{A} + \alpha \cdot 3^{\beta t}\), onde \(T(t)\) é a temperatura do corpo, em graus Celsius, no instante \(t\) (em minutos), \(T_{A}\) é a temperatura ambiente e \(\alpha\) e \(\beta\) são constantes. O referido corpo foi colocado em um congelador com temperatura de \(-18^\circ\)C. Um termômetro no corpo indicou que ele atingiu \(0^\circ\)C após \(90\) minutos e chegou a \(-16^\circ\)C após \(270\) minutos. Determine o valor de \(t\) para o qual a temperatura do corpo no congelador é apenas \(\left(\tfrac{2}{3}\right)^\circ\text{C}\) superior à temperatura ambiente. 
+
+% Define as alternativas
+\newcommand{\alternativas}{%
+    \begin{center}
+        \begin{tabularx}{\textwidth}{XXXXX}
+            (a) \(50\) minutos. &
+            (b) \(100\) minutos. &
+            (c) \(360\) minutos. &
+            (d) \(900\) minutos. &
+            (e) \(1\,000\) minutos.
+        \end{tabularx}
+    \end{center}
+}
+
+% Define a resposta correta
+\newcommand{\resposta}{C}
+
+% Lógica condicional para exibição
+\ifdefstring{\atividade}{lista}{%
+    \alternativas
+    \vspace{0.5em}
+    
+    \noindent\textbf{Resposta:} letra \textbf{\resposta}.
+}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \alternativas
+    }{%
+        % modo = discursiva → não mostra alternativas
+    }
+}
+\end{exercicioBanco}
+

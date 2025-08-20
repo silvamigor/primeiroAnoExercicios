@@ -1,0 +1,48 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%       EXERCÍCIO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ifdefstring{\atividade}{prova}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \renewcommand{\valorquestao}{\ValorQObj\ ponto}
+    }{%
+        \renewcommand{\valorquestao}{\ValorQDisc\ pontos}
+    }%
+}%
+
+\begin{exercicioBanco}[\valorquestao]
+O decaimento radioativo de uma substância se dá de acordo com a fórmula \(r(t) = C\cdot 3^{-6t}\), com \(C\) sendo uma constante diferente de zero e \(r(t)\) a quantidade de radioatividade presente na substância após \(t\) segundos desde o início do decaimento. O valor de \(t\), em segundos, para que a substância fique com a terça parte da radioatividade que tinha inicialmente é igual a:
+
+% Define as alternativas
+\newcommand{\alternativas}{%
+    \begin{center}
+        \begin{tabularx}{\textwidth}{XXXXX}
+            (a) \(\dfrac{1}{4}\). &
+            (b) \(\dfrac{1}{5}\). &
+            (c) \(\dfrac{1}{3}\). &
+            (d) \(\dfrac{1}{6}\). &
+            (e) \(\dfrac{2}{5}\).
+        \end{tabularx}
+    \end{center}
+}
+
+% Define a resposta correta
+\newcommand{\resposta}{D}
+
+% Lógica condicional para exibição
+\ifdefstring{\atividade}{lista}{%
+    \alternativas
+    \vspace{0.5em}
+    
+    \noindent\textbf{Resposta:} letra \textbf{\resposta}.
+}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \alternativas
+    }{%
+        % modo = discursiva → não mostra alternativas
+    }
+}
+\end{exercicioBanco}
+

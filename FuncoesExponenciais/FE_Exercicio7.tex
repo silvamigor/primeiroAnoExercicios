@@ -1,0 +1,50 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%       EXERCÍCIO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ifdefstring{\atividade}{prova}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \renewcommand{\valorquestao}{\ValorQObj\ ponto}
+    }{%
+        \renewcommand{\valorquestao}{\ValorQDisc\ pontos}
+    }%
+}%
+
+\begin{exercicioBanco}[\valorquestao]
+Há uma lenda que credita a invenção do xadrez a um brâmane de uma corte indiana, que, atendendo a um pedido do rei, inventou o jogo para demonstrar o valor da inteligência. O rei, encantado com o invento, ofereceu ao brâmane a escolha de uma recompensa. De acordo com essa lenda, o inventor do jogo de xadrez pediu ao rei que a recompensa fosse paga em grãos de arroz da seguinte maneira: 1 grão para a casa 1 do tabuleiro, 2 grãos para a casa 2, 4 para a casa 3, 8 para a casa 4 e assim sucessivamente. Ou seja, a quantidade de grãos para cada casa do tabuleiro correspondia ao dobro da quantidade da casa imediatamente anterior. Escreva uma função \(f\) que expresse a quantidade de grãos de arroz em função do número \(x\) da casa do tabuleiro.
+
+% Define as alternativas
+\newcommand{\alternativas}{%
+    \begin{center}
+        \begin{tabularx}{\textwidth}{XXXXX}
+            (a) \(f(x) = x^{64}\). &
+            (b) \(f(x) = 2^{x}\). &
+            (c) \(f(x) = 64x\). &
+            (d) \(f(x) = 2^{x+1}\). &
+            (e) \(f(x) = 2^{x-1}\).
+        \end{tabularx}
+    \end{center}
+}
+
+% Define a resposta correta
+\newcommand{\resposta}{E}
+
+% Lógica condicional para exibição
+\ifdefstring{\atividade}{lista}{%
+    \alternativas
+    \vspace{0.5em}
+    
+    \noindent\textbf{Resposta:} letra \textbf{\resposta}.
+}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \alternativas
+    }{%
+        % modo = discursiva → não mostra alternativas
+    }
+}
+\end{exercicioBanco}
+
+\textbf{Observação}. A quantidade de \(2^{63}\) grãos de arroz equivalem a aproximadamente \(46\) trilhões de pacotes de 5 kg. Pensado esse número como distância, ele corresponde a aproximadamente \(975\) anos-luz, o que daria umas \(230\) bilhões de voltas na Terra.
+
