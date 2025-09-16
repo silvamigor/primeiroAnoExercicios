@@ -13,23 +13,29 @@
 }%
 
 \begin{exercicioBanco}[\valorquestao]
-TEXTO DA QUESTÃO.
+Se \(n\) é um número inteiro maior do que \(2\), o valor 
+%
+\[
+    \log_{n}\left(\log_{n}\left(\sqrt[n]{\sqrt[n]{\sqrt[n]{\sqrt[n]{n}}}}\right)\right)
+\]
+%
+é:
 
 % Define as alternativas
 \newcommand{\alternativas}{%
     \begin{center}
         \begin{tabularx}{\textwidth}{XXXXX}
-            (a) Alternativa A. &
-            (b) Alternativa B. &
-            (c) Alternativa C. &
-            (d) Alternativa D. &
-            (e) Alternativa E.
+            (a) \(3\). &
+            (b) \(-3\). &
+            (c) \(4\). &
+            (d) \(-4\). &
+            (e) \(2\).
         \end{tabularx}
     \end{center}
 }
 
 % Define a resposta correta
-\newcommand{\resposta}{X}
+\newcommand{\resposta}{D}
 
 % Lógica condicional para exibição
 \ifdefstring{\atividade}{lista}{%
