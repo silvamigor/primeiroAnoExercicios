@@ -1,0 +1,48 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%       EXERCÍCIO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ifdefstring{\atividade}{prova}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \renewcommand{\valorquestao}{\ValorQObj\ ponto}
+    }{%
+        \renewcommand{\valorquestao}{\ValorQDisc\ pontos}
+    }%
+}%
+
+\begin{exercicioBanco}[\valorquestao]
+Os biólogos observaram que, em condições ideais, o número de bactérias \(Q(t)\) em uma cultura cresce exponencialmente com o tempo \(t\), de acordo com a lei \(Q(t) = Q_{0}\cdot e^{kt}\), sendo \(k > 0\) uma constante que depende da natureza das bactérias, \(e\) o número de Euler, aproximadamente \(2,718\), e \(Q_{0}\) é a quantidade inicial de bactérias. Se uma cultura tem inicialmente \(6\,000\) bactérias e, \(20\) minutos depois, aumentou para \(12\,000\), quantas bactérias estarão presentes depois de \(1\) hora?
+
+% Define as alternativas
+\newcommand{\alternativas}{%
+    \begin{center}
+        \begin{tabularx}{\textwidth}{XXXXX}
+            (a) \(1,8 \cdot 10^{4}\). &
+            (b) \(2,4 \cdot 10^{4}\). &
+            (c) \(3,0 \cdot 10^{4}\). &
+            (d) \(3,6 \cdot 10^{4}\). &
+            (e) \(4,8 \cdot 10^{4}\).
+        \end{tabularx}
+    \end{center}
+}
+
+% Define a resposta correta
+\newcommand{\resposta}{E}
+
+% Lógica condicional para exibição
+\ifdefstring{\atividade}{lista}{%
+    \alternativas
+    \vspace{0.5em}
+    
+    \noindent\textbf{Resposta:} letra \textbf{\resposta}.
+}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \alternativas
+    }{%
+        % modo = discursiva → não mostra alternativas
+    }
+}
+\end{exercicioBanco}
+

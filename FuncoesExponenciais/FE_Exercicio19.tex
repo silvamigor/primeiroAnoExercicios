@@ -1,0 +1,48 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%       EXERCÍCIO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ifdefstring{\atividade}{prova}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \renewcommand{\valorquestao}{\ValorQObj\ ponto}
+    }{%
+        \renewcommand{\valorquestao}{\ValorQDisc\ pontos}
+    }%
+}%
+
+\begin{exercicioBanco}[\valorquestao]
+Determine o conjunto solução da equação exponencial \(0,125^{4-5x} = 0,25^{2x-1}\).
+
+% Define as alternativas
+\newcommand{\alternativas}{%
+    \begin{center}
+        \begin{tabularx}{\textwidth}{XXXXX}
+            (a) \(-\dfrac{2}{15}\). &
+            (b) \(4\). &
+            (c) \(-11\). &
+            (d) \(\dfrac{1}{9}\). &
+            (e) \(\dfrac{14}{19}\).
+        \end{tabularx}
+    \end{center}
+}
+
+% Define a resposta correta
+\newcommand{\resposta}{E}
+
+% Lógica condicional para exibição
+\ifdefstring{\atividade}{lista}{%
+    \alternativas
+    \vspace{0.5em}
+    
+    \noindent\textbf{Resposta:} letra \textbf{\resposta}.
+}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \alternativas
+    }{%
+        % modo = discursiva → não mostra alternativas
+    }
+}
+\end{exercicioBanco}
+

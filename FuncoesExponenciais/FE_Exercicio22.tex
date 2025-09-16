@@ -1,0 +1,48 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%       EXERCÍCIO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ifdefstring{\atividade}{prova}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \renewcommand{\valorquestao}{\ValorQObj\ ponto}
+    }{%
+        \renewcommand{\valorquestao}{\ValorQDisc\ pontos}
+    }%
+}%
+
+\begin{exercicioBanco}[\valorquestao]
+O conjunto solução da inequação \(0,5^{1-x} > 1\) é:
+
+% Define as alternativas
+\newcommand{\alternativas}{%
+    \begin{center}
+        \begin{tabularx}{\textwidth}{XXX}
+            (a) \(S = \{x \in \bbR \mid x > 1\}\). &
+            (b) \(S = \{x \in \bbR \mid x > 1\}\). &
+            (c) \(S = \{x \in \bbR \mid x > 0\}\). \\[5pt]
+            (d) \(S = \{x \in \bbR \mid x < 0\}\). &
+            (e) \(\bbR\).
+        \end{tabularx}
+    \end{center}
+}
+
+% Define a resposta correta
+\newcommand{\resposta}{E}
+
+% Lógica condicional para exibição
+\ifdefstring{\atividade}{lista}{%
+    \alternativas
+    \vspace{0.5em}
+    
+    \noindent\textbf{Resposta:} letra \textbf{\resposta}.
+}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \alternativas
+    }{%
+        % modo = discursiva → não mostra alternativas
+    }
+}
+\end{exercicioBanco}
+
