@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.12.14)  16 SEP 2025 16:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.12.14)  4 OCT 2025 17:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1827,23 +1827,38 @@ LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-di
 st/fonts/enc/dvips/ly1/texnansi.enc}]) (../FL_Exercicio7.tex) (../FL_Exercicio8
 .tex)
-(../FL_Exercicio9.tex) [2] (./Lista_FuncoesLogatmicas.aux)
+(../FL_Exercicio9.tex) (../FL_Exercicio10.tex) (../FL_Exercicio11.tex)
+(../FL_Exercicio12.tex) (../FL_Exercicio13.tex [2]) (../FL_Exercicio14.tex)
+(../FL_Exercicio15.tex
+LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
+(Font)              scaled to size 10.51207pt on input line 41.
+) (../FL_Exercicio16.tex [3]) (../FL_Exercicio17.tex)
+(../FL_Exercicio18.tex) (../FL_Exercicio19.tex
+LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
+(Font)              scaled to size 7.68005pt on input line 19.
+LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
+(Font)              scaled to size 5.76004pt on input line 19.
+ [4]) (../FL_Exercicio20.tex)
+(../FL_Exercicio21.tex) (../FL_Exercicio22.tex) (../FL_Exercicio23.tex)
+(../FL_Exercicio24.tex [5]) (../FL_Exercicio25.tex) (../FL_Exercicio26.tex)
+(../FL_Exercicio27.tex) (../FL_Exercicio28.tex) [6]
+(./Lista_FuncoesLogatmicas.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
 Package rerunfilecheck Info: File `Lista_FuncoesLogatmicas.out' has not changed
 .
-(rerunfilecheck)             Checksum: 7A1A6D941BC23DC843CDAE0102C9A70E;945.
+(rerunfilecheck)             Checksum: 73F23712240762F95F0C1408B5CB2DD4;3073.
  ) 
 Here is how much of TeX's memory you used:
- 52099 strings out of 474222
- 1213919 string characters out of 5748732
- 1957975 words of memory out of 5000000
- 73393 multiletter control sequences out of 15000+600000
- 581658 words of font info for 117 fonts, out of 8000000 for 9000
+ 53413 strings out of 474222
+ 1240083 string characters out of 5748732
+ 1960975 words of memory out of 5000000
+ 74476 multiletter control sequences out of 15000+600000
+ 600535 words of font info for 217 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 86i,22n,120p,1212b,1128s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 86i,22n,120p,1212b,1131s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></usr/
 share/texlive/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/bitstrea/charter/bchri8a.pfb></usr/share/texlive/t
@@ -1853,10 +1868,10 @@ texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr7v.pfb></usr/share/texlive
 e/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr8t.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chri7m.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chrma.pfb>
-Output written on Lista_FuncoesLogatmicas.pdf (2 pages, 69037 bytes).
+Output written on Lista_FuncoesLogatmicas.pdf (6 pages, 111308 bytes).
 PDF statistics:
- 153 PDF objects out of 1000 (max. 8388607)
- 105 compressed objects within 2 object streams
- 21 named destinations out of 1000 (max. 500000)
- 32997 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 274 PDF objects out of 1000 (max. 8388607)
+ 221 compressed objects within 3 object streams
+ 63 named destinations out of 1000 (max. 500000)
+ 47485 words of extra memory for PDF output out of 51595 (max. 10000000)
 

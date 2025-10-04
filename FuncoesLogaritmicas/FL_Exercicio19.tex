@@ -13,23 +13,48 @@
 }%
 
 \begin{exercicioBanco}[\valorquestao]
+A água comercializada em garrafões pode ser classificada como muito ácida, ácida, neutra, alcalina ou muito alcalina, dependendo de seu pH, dado pela expressão
+
+\[
+    \text{pH} = \log\left(\dfrac{1}{H}\right),
+\]
+
+em que \(H\) é a concentração de íons de hidrogênio, em mol por decímetro cúbico. A classificação da água de acordo com seu pH é mostrado no quadro.
+
+\[
+    \begin{array}{|c|c|}
+        \hline
+        \textbf{pH} & \textbf{Classificação} \\[2pt]
+        \hline
+        \text{pH} \ge 9 & \text{Muito alcalina} \\[2pt]
+        7,5 \leq \text{pH} < 9 & \text{Alcalina} \\[2pt]
+        6 \leq \text{pH} < 7,5 & \text{Neutra} \\[2pt]
+        3,5 \leq \text{pH} < 6 & \text{Ácida} \\[2pt]
+        \text{pH} \ge 3,5 & \text{Muito ácida} \\
+        \hline
+    \end{array}
+\]
+
+Para o cálculo da concentração de \(H\), uma empresa distribuidora mede dois parâmetros, \(A\) e \(B\), em cada fonte, e adota \(H\) como sendo o quociente de \(A\) por \(B\). Em análise realizada em uma fonte, obteve \(A = 10^{-7}\) e a água dessa fonte foi classificada como neutra. 
+
+O parâmetro \(B\), então, encontra-se no intervalo:
 
 
 % Define as alternativas
 \newcommand{\alternativas}{%
     \begin{center}
-        \begin{tabularx}{\textwidth}{XXXXX}
-            (a) \(\). &
-            (b) \(\). &
-            (c) \(\). &
-            (d) \(\). &
-            (e) \(\).
+        \begin{tabularx}{\textwidth}{XXX}
+            (a) \(]-10^{145},-10^{13}]\). &
+            (b) \([10^{-\frac{6}{7}},10^{-1}[\). &
+            (c) \([10^{-1},10^{\frac{1}{2}}[\). \\[5pt]
+            (d) \([10^{13},10^{145}[\). &
+            (e) \([10^{6\cdot 10^{7}},10^{7,5\cdot 10^{7}}[\). &
         \end{tabularx}
     \end{center}
 }
 
 % Define a resposta correta
-\newcommand{\resposta}{X}
+\newcommand{\resposta}{C}
 
 % Lógica condicional para exibição
 \ifdefstring{\atividade}{lista}{%

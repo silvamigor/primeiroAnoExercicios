@@ -13,23 +13,30 @@
 }%
 
 \begin{exercicioBanco}[\valorquestao]
+Em 2011, um terremoto de magnitude \(9{,}0\) na escala Richter causou um devastador tsunami no Japão, provocando um alerta na usina nuclear de Fukushima. Em 2013, outro terremoto, de magnitude \(7{,}0\) na mesma escala, sacudiu Sichuan (sudoeste da China), deixando centenas de mortos e milhares de feridos. A magnitude de um terremoto na escala Richter pode ser calculada por
+\[
+M = \frac{2}{3}\,\log\!\left(\frac{E}{E_0}\right),
+\]
+sendo \(E\) a energia, em kWh, liberada pelo terremoto e \(E_0\) uma constante real positiva. Considere que \(E_1\) e \(E_2\) representam as energias liberadas nos terremotos ocorridos no Japão e na China, respectivamente. 
+
+Qual a relação entre \(E_1\) e \(E_2\)?
 
 
 % Define as alternativas
 \newcommand{\alternativas}{%
     \begin{center}
         \begin{tabularx}{\textwidth}{XXXXX}
-            (a) \(\). &
-            (b) \(\). &
-            (c) \(\). &
-            (d) \(\). &
-            (e) \(\).
+            (a) \(E_1 = E_2 + 2\). &
+            (b) \(E_1 = 10^{2}\cdot E_2\). &
+            (c) \(E_1 = 10^{3}\cdot E_2\). &
+            (d) \(E_1 = 10^{\tfrac{9}{7}}\cdot E_2\). &
+            (e) \(E_1 = 10^{\tfrac{9}{7}}\cdot E_2\).
         \end{tabularx}
     \end{center}
 }
 
 % Define a resposta correta
-\newcommand{\resposta}{X}
+\newcommand{\resposta}{C}
 
 % Lógica condicional para exibição
 \ifdefstring{\atividade}{lista}{%

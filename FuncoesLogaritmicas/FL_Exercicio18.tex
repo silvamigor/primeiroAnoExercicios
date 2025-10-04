@@ -13,23 +13,32 @@
 }%
 
 \begin{exercicioBanco}[\valorquestao]
+Um jardineiro cultiva plantas ornamentais e as coloca à venda quando estas atingem \(30\) centímetros de altura. Esse jardineiro estudou o crescimento de suas plantas, em função do tempo, e deduziu uma fórmula que calcula a altura em função do tempo, a partir do momento em que a planta brota do solo até o momento em que ela atinge sua altura máxima de \(40\) centímetros. A fórmula é
+
+\[
+h = 5 \cdot \log_{2}(t + 1),
+\]
+
+em que \(t\) é o tempo contado em dias e \(h\), a altura da planta em centímetros.
+
+A partir do momento em que uma dessas plantas é colocada à venda, em quanto tempo, em dias, ela alcançará sua altura máxima?
 
 
 % Define as alternativas
 \newcommand{\alternativas}{%
     \begin{center}
         \begin{tabularx}{\textwidth}{XXXXX}
-            (a) \(\). &
-            (b) \(\). &
-            (c) \(\). &
-            (d) \(\). &
-            (e) \(\).
+            (a) \(63\). &
+            (b) \(96\). &
+            (c) \(128\). &
+            (d) \(192\). &
+            (e) \(255\).
         \end{tabularx}
     \end{center}
 }
 
 % Define a resposta correta
-\newcommand{\resposta}{X}
+\newcommand{\resposta}{D}
 
 % Lógica condicional para exibição
 \ifdefstring{\atividade}{lista}{%

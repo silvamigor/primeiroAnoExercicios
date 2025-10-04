@@ -13,23 +13,48 @@
 }%
 
 \begin{exercicioBanco}[\valorquestao]
+Na figura, temos o gráfico da função \(f(x) = a + \log_{b}(x)\). Determine o valor de \(a + b\).
 
+\begin{center}
+    \begin{tikzpicture}[scale=0.7]
+        % Eixos
+        \draw[->] (-0.5,0) -- (9.5,0) node[right] {$x$};
+        \draw[->] (0,-1) -- (0,2) node[above] {$y$};
 
+        % Curva y = log2(x/4)
+        \draw[domain=1.4:9, smooth, samples=200, thick, purple] plot (\x, {ln(\x/4)/ln(2)}) node[above right] {\(f(x)\)};
+
+        % Linha tracejada horizontal (y=1)
+        \draw[dashed, gray] (0,1) -- (8,1);
+
+        % Linha tracejada vertical (x=8)
+        \draw[dashed, gray] (8,0) -- (8,1);
+
+        % Ponto em (8,1)
+        \filldraw (8,1) circle (1.5pt);
+
+        % Marcas nos eixos
+        \node[below] at (4,0) {4};
+        \node[below] at (8,0) {8};
+        \node[left] at (0,1) {1};
+    \end{tikzpicture}
+\end{center}
+ 
 % Define as alternativas
 \newcommand{\alternativas}{%
     \begin{center}
         \begin{tabularx}{\textwidth}{XXXXX}
-            (a) \(\). &
-            (b) \(\). &
-            (c) \(\). &
-            (d) \(\). &
-            (e) \(\).
+            (a) \(-1\). &
+            (b) \(\dfrac{1}{5}\). &
+            (c) \(2^{3}\). &
+            (d) \(\log_{2}(3)\). &
+            (e) \(0\).
         \end{tabularx}
     \end{center}
 }
 
 % Define a resposta correta
-\newcommand{\resposta}{X}
+\newcommand{\resposta}{E}
 
 % Lógica condicional para exibição
 \ifdefstring{\atividade}{lista}{%

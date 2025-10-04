@@ -13,23 +13,33 @@
 }%
 
 \begin{exercicioBanco}[\valorquestao]
-
+Resolva o sistema
+%
+\[
+    \left\{
+    \begin{array}{rcl}
+        a + b &=& 20, \\[3pt]
+        \log(a) + \log(b) &=& 2.
+    \end{array}
+    \right.
+\]
+%
 
 % Define as alternativas
 \newcommand{\alternativas}{%
     \begin{center}
-        \begin{tabularx}{\textwidth}{XXXXX}
-            (a) \(\). &
-            (b) \(\). &
-            (c) \(\). &
-            (d) \(\). &
-            (e) \(\).
+        \begin{tabularx}{\textwidth}{XXX}
+            (a) \(a = 0\) e \(b = -10\). &
+            (b) \(a = -10\) e \(b = -10\). &
+            (c) \(a = 10\) e \(b = 10\). \\[5pt]
+            (d) \(a = -10\) e \(b = 0\). &
+            (e) \(a = 0\) e \(b = 10\). &
         \end{tabularx}
     \end{center}
 }
 
 % Define a resposta correta
-\newcommand{\resposta}{X}
+\newcommand{\resposta}{C}
 
 % Lógica condicional para exibição
 \ifdefstring{\atividade}{lista}{%
