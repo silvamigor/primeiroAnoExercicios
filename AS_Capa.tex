@@ -1,0 +1,106 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%       CAPA
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\edef\pathCapa{\currfiledir}
+
+\begin{titlepage}
+    \begin{center}
+        \includegraphics[width=3cm]{\pathCapa Logo_Cefet.png}
+    \end{center}
+
+    \begin{center}
+        SERVIÇO PÚBLICO FEDERAL -- MINISTÉRIO DA EDUCAÇÃO \\
+        CENTRO FEDERAL DE EDUCAÇÃO TECNOLÓGICA DE MINAS GERAIS \\
+        CAMPUS CONTAGEM \\
+        AVALIAÇÃO SOMATIVA -- \bimestre.\textordmasculine\ BIMESTRE DE \ano
+    \end{center}
+    
+    \vspace{0.3cm}
+    
+    \noindent\textbf{DISCIPLINA}: MATEMÁTICA \hfill \textbf{TURMA}: \turma
+    
+    \begin{center}
+        \ifdefstring{\calculadora}{nao}{%
+            \textbf{NÃO É} PERMITIDO O USO DE CALCULADORA
+        }{%
+            \textbf{É} PERMITIDO O USO DE CALCULADORA
+        }
+    \end{center}
+    
+    \begin{tcolorbox}[width=\linewidth,colback=white]
+        \textbf{PROFESSOR}: \professor \hfill
+        \textbf{DATA}: \dataTexto \hfill
+        \textbf{VALOR}: 12 pontos
+        \vspace{5pt}
+        
+        \begin{minipage}[t]{0.75\linewidth}
+            \textbf{ALUNO (A)}: \makebox[0.85\linewidth]{\hrulefill}
+        \end{minipage}%
+        \hfill
+        \begin{minipage}[t]{0.15\linewidth}
+            \begin{tcolorbox}[width=0.8\linewidth, height=20pt, sharp corners, boxrule=0.5pt, colback=white, colframe=black]
+                \centering
+                % Espaço para a nota
+                \vspace*{\fill}
+            \end{tcolorbox}
+        \end{minipage}
+        
+    \end{tcolorbox}
+    
+    \noindent\textbf{DURAÇÃO}: máximo de 100 minutos.
+
+    \begin{center}
+        INSTRUÇÕES
+    \end{center}
+
+    \begin{itemize}[left=0pt, topsep=2pt, itemsep=2pt, parsep=0pt]
+        \small
+        \item Esta prova é constituída por \textbf{12 questões} fechadas. Antes de começar a resolver as questões, verifique se sua prova está completa. Em caso de divergência, solicite a substituição imediatamente.
+        %
+        \item Marque o gabarito com caneta azul ou preta. Questões marcadas a lápis ou com rasura receberão nota zero.
+        %
+        \item Não é necessária explicação; apenas a resposta correta será avaliada.
+        %
+        \item A prova é individual e sem consulta. Alunos que copiarem respostas de colegas ou utilizarem meios indevidos para obter vantagem, como o uso de celulares, terão sua prova anulada, sem direito à segunda chamada.
+        %
+        \item Entender o enunciado e os termos de cada questão faz parte desta avaliação.
+        %
+        \item A última folha desta prova é uma folha de rascunho.
+        %
+        \item Para uma possível revisão, é necessário que todas as instruções acima tenham sido seguidas.
+    \end{itemize}
+
+    \noindent\rule{\linewidth}{1pt}  % linha horizontal fina
+    \vspace{10pt}
+    
+    \begin{center}
+        \textbf{GABARITO}
+    \end{center}
+    \vspace{10pt}
+
+    \renewcommand{\arraystretch}{1.1} % espaçamento vertical
+    \setlength{\tabcolsep}{10pt}
+
+    \begin{center}
+        \begin{tabular}{|*{12}{>{\centering\arraybackslash}p{0.7cm}|}}
+            \hline
+            \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+            \hline
+            \hline
+            A & A & A & A & A & A & A & A & A & A & A & A \\
+            \hline
+            B & B & B & B & B & B & B & B & B & B & B & B \\
+            \hline
+            C & C & C & C & C & C & C & C & C & C & C & C \\
+            \hline
+            D & D & D & D & D & D & D & D & D & D & D & D \\
+            \hline
+            E & E & E & E & E & E & E & E & E & E & E & E \\
+            \hline
+        \end{tabular}
+    \end{center}
+    
+\end{titlepage}

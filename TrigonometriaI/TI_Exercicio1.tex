@@ -1,0 +1,60 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%       EXERCÍCIO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ifdefstring{\atividade}{prova}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \renewcommand{\valorquestao}{\ValorQObj\ ponto}
+    }{%
+        \renewcommand{\valorquestao}{\ValorQDisc\ pontos}
+    }%
+}%
+
+\begin{exercicioBanco}[\valorquestao]
+Duas avenidas se encontram em um ponto $A$. Essas avenidas cruzam três ruas, $r_1$, $r_2$ e $r_3$, que são paralelas entre si.  Os segmentos de reta $\overline{AD}$, $\overline{AB}$ e $\overline{BC}$ representam quarteirões da avenida \(2\). Na figura, estão indicados os comprimentos, em metros, de alguns quarteirões.
+
+\medskip
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{../TI_Exercicio1_Fig.png}
+\end{figure}
+
+\smallskip
+
+Determine os comprimentos dos quarteirões representados pelos segmentos de reta $\overline{BC}$ e $\overline{AM}$.
+
+
+% Define as alternativas
+\newcommand{\alternativas}{%
+    \begin{center}
+        \begin{tabularx}{\textwidth}{XXX}
+            (a) \(BC = 89,9\) m e \(AM = 25\) m. &
+            (b) \(BC = 210\) m e \(AM = 50,2\) m. &
+            (c) \(BC = 85,6\) m e \(AM = 20,4\) m. \\[5pt]
+            (d) \(BC = 157,2\) m e \(AM = 80,3\) m. &
+            (e) \(BC = 128\) m e \(AM = 37,5\) m.
+        \end{tabularx}
+    \end{center}
+}
+
+% Define a resposta correta
+\newcommand{\resposta}{E}
+
+% Lógica condicional para exibição
+\ifdefstring{\atividade}{lista}{%
+    \alternativas
+    \vspace{0.5em}
+    
+    \noindent\textbf{Resposta:} letra \textbf{\resposta}.
+}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \alternativas
+    }{%
+        % modo = discursiva → não mostra alternativas
+    }
+}
+\end{exercicioBanco}
+

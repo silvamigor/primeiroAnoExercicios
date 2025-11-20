@@ -1,0 +1,56 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%       EXERCÍCIO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ifdefstring{\atividade}{prova}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \renewcommand{\valorquestao}{\ValorQObj\ ponto}
+    }{%
+        \renewcommand{\valorquestao}{\ValorQDisc\ pontos}
+    }%
+}%
+
+\begin{exercicioBanco}[\valorquestao]
+Considerando cada afirmação a seguir, responda se ela é verdadeira (V) ou falsa (F).
+%
+\begin{enumerate}[(a)]
+    \item O produto \(\tg(28^{\circ})\cdot\tg(230^{\circ})\cdot\tg(307^{\circ})\) é negativo.
+    %
+    \item Vale que \(\sen(135^{\circ}) = \dfrac{\sqrt{2}}{2}\).
+    \item Para todo \(\alpha \in \bbR\), \(\cos(\alpha) = \cos(-\alpha)\).
+\end{enumerate}
+%
+
+% Define as alternativas
+\newcommand{\alternativas}{%
+    \begin{center}
+        \begin{tabularx}{\textwidth}{XXXXX}
+            (a) \((V,F,F)\). &
+            (b) \((F,V,V)\). &
+            (c) \((V,F,V)\). &
+            (d) \((F,V,F)\). &
+            (e) \((V,V,V)\).
+        \end{tabularx}
+    \end{center}
+}
+
+% Define a resposta correta
+\newcommand{\resposta}{E}
+
+% Lógica condicional para exibição
+\ifdefstring{\atividade}{lista}{%
+    \alternativas
+    \vspace{0.5em}
+    
+    \noindent\textbf{Resposta:} letra \textbf{\resposta}.
+}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \alternativas
+    }{%
+        % modo = discursiva → não mostra alternativas
+    }
+}
+\end{exercicioBanco}
+

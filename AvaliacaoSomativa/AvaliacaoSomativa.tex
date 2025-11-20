@@ -1,0 +1,80 @@
+\documentclass[a4paper,12pt]{article}
+
+\input{../Preambulo.tex}
+\newcommand{\atividade}{prova} % prova ou lista
+\newcommand{\calculadora}{nao} % sim ou nao
+\newcommand{\ValorQObj}{1}
+\input{../Variaveis.tex}
+
+\hypersetup{
+    pdfauthor={\professor},
+    pdftitle={AS \-- MATEMÁTICA \-- \turma},
+}
+
+\title{AS \-- MATEMÁTICA \-- \turma}
+\author{\professor}
+\date{\data}
+
+%************* INÍCIO DO DOCUMENTO *************
+\begin{document}
+    \NoBgThispage
+    \pagenumbering{alph}
+    %
+        
+    \phantomsection
+    \addcontentsline{toc}{section}{Capa}
+    \input{../AS_Capa}
+    %
+    \newpage
+    \null
+    \thispagestyle{empty}
+    \addtocounter{page}{1}
+    \newpage
+    %        
+        
+    \NoBgThispage
+    \pagenumbering{arabic}
+    %
+        
+    \subtituloas
+    
+    \vspace{15pt}
+    \newcommand{\modo}{objetivo} % objetivo ou discursivo
+    
+    \phantomsection
+    \addcontentsline{toc}{section}{Exercício 1}
+    \input{../FuncoesExponenciais/FE_Exercicio1}
+    \vspace{15pt}
+    
+    \phantomsection
+    \addcontentsline{toc}{section}{Exercício 2}
+    \input{../FuncoesExponenciais/FE_Exercicio2}
+    \vspace{15pt}
+    
+    \phantomsection
+    \addcontentsline{toc}{section}{Exercício 3}
+    \input{../FuncoesExponenciais/FE_Exercicio3}
+    \vspace{15pt}
+    
+    \phantomsection
+    \addcontentsline{toc}{section}{Exercício 4}
+    \input{../FuncoesLogaritmicas/FL_Exercicio1}
+    \vspace{15pt}
+    
+    \phantomsection
+    \addcontentsline{toc}{section}{Exercício 5}
+    \input{../FuncoesLogaritmicas/FL_Exercicio2}
+    \vspace{15pt}
+    
+    
+    \newpage
+    \null
+    \thispagestyle{empty}
+    \newpage
+    
+    \phantomsection
+    \addcontentsline{toc}{section}{Rascunho}
+    \input{../Rascunho}
+    
+\end{document}
+%*************** FINAL DO DOCUMENTO ***************

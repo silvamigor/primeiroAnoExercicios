@@ -1,0 +1,60 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%       EXERCÍCIO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ifdefstring{\atividade}{prova}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \renewcommand{\valorquestao}{\ValorQObj\ ponto}
+    }{%
+        \renewcommand{\valorquestao}{\ValorQDisc\ pontos}
+    }%
+}%
+
+\begin{exercicioBanco}[\valorquestao]
+Na figura a seguir, o segmento AC representa uma parede cuja altura é 2,9 m. A medida do segmento AB é 1,3 m, o segmento CD representa o beiral da casa. Os raios de sol
+\(r_{1}\) e \(r_{2}\) passam ao mesmo tempo pela casa e pelo prédio, respectivamente.
+
+\medskip
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.3\textwidth]{../TI_Exercicio8_Fig.png}
+\end{figure}
+
+\smallskip
+
+Se \(r_{1}\) é paralelo com \(r_{1}\), então, o comprimento do beiral, em metros, é:
+
+% Define as alternativas
+\newcommand{\alternativas}{%
+    \begin{center}
+        \begin{tabularx}{\textwidth}{XXXXX}
+            (a) \(0,60\). &
+            (b) \(0,65\). &
+            (c) \(0,70\). &
+            (d) \(0,75\)D. &
+            (e) \(0,80\).
+        \end{tabularx}
+    \end{center}
+}
+
+% Define a resposta correta
+\newcommand{\resposta}{A}
+
+% Lógica condicional para exibição
+\ifdefstring{\atividade}{lista}{%
+    \alternativas
+    \vspace{0.5em}
+    
+    \noindent\textbf{Resposta:} letra \textbf{\resposta}.
+}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \alternativas
+    }{%
+        % modo = discursiva → não mostra alternativas
+    }
+}
+\end{exercicioBanco}
+

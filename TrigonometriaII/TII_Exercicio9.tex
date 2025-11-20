@@ -1,0 +1,57 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%       EXERCÍCIO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ifdefstring{\atividade}{prova}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \renewcommand{\valorquestao}{\ValorQObj\ ponto}
+    }{%
+        \renewcommand{\valorquestao}{\ValorQDisc\ pontos}
+    }%
+}%
+
+\begin{exercicioBanco}[\valorquestao]
+Observe o visor de um relógio de ponteiros que marca 2 horas. Sabendo que os ponteiros menor (das horas) e maior (dos minutos) medem, respectivamente, 50 cm e 80 cm, calcule a distância entre suas extremidades nesse horário.
+
+\medskip
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.15\textwidth]{../TII_Exercicio9_Fig.png}
+\end{figure}
+
+\smallskip
+
+% Define as alternativas
+\newcommand{\alternativas}{%
+    \begin{center}
+        \begin{tabularx}{\textwidth}{XXXXX}
+            (a) \(70\) cm. &
+            (b) \(76,5\) cm. &
+            (c) \(81,3\) cm. &
+            (d) \(99,9\) cm. &
+            (e) \(100\) cm.
+        \end{tabularx}
+    \end{center}
+}
+
+% Define a resposta correta
+\newcommand{\resposta}{A}
+
+% Lógica condicional para exibição
+\ifdefstring{\atividade}{lista}{%
+    \alternativas
+    \vspace{0.5em}
+    
+    \noindent\textbf{Resposta:} letra \textbf{\resposta}.
+}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \alternativas
+    }{%
+        % modo = discursiva → não mostra alternativas
+    }
+}
+\end{exercicioBanco}
+

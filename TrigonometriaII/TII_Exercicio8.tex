@@ -1,0 +1,59 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%       EXERCÍCIO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ifdefstring{\atividade}{prova}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \renewcommand{\valorquestao}{\ValorQObj\ ponto}
+    }{%
+        \renewcommand{\valorquestao}{\ValorQDisc\ pontos}
+    }%
+}%
+
+\begin{exercicioBanco}[\valorquestao]
+A figura a seguir mostra o corte lateral de um terreno onde será construída uma rampa reta \(\overline{AC}\), que servirá para o acesso de veículos à casa, que se encontra na parte mais alta do terreno. A distância de \(A\) a \(B\) é de 6 m, de \(B\) a \(C\) é de 10 m e o menor ângulo formado entre \(\overline{AB}\) e \(\overline{BC}\) é de \(120^{\circ}\).
+
+\medskip
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.3\textwidth]{../TII_Exercicio8_Fig.png}
+\end{figure}
+
+\smallskip
+
+Determine o valor do comprimento da rampa.
+
+% Define as alternativas
+\newcommand{\alternativas}{%
+    \begin{center}
+        \begin{tabularx}{\textwidth}{XXXXX}
+            (a) \(12\) m. &
+            (b) \(12,5\) m. &
+            (c) \(13\) m. &
+            (d) \(13,5\) m. &
+            (e) \(14\) m.
+        \end{tabularx}
+    \end{center}
+}
+
+% Define a resposta correta
+\newcommand{\resposta}{E}
+
+% Lógica condicional para exibição
+\ifdefstring{\atividade}{lista}{%
+    \alternativas
+    \vspace{0.5em}
+    
+    \noindent\textbf{Resposta:} letra \textbf{\resposta}.
+}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \alternativas
+    }{%
+        % modo = discursiva → não mostra alternativas
+    }
+}
+\end{exercicioBanco}
+

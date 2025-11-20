@@ -1,0 +1,59 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%       EXERCÍCIO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ifdefstring{\atividade}{prova}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \renewcommand{\valorquestao}{\ValorQObj\ ponto}
+    }{%
+        \renewcommand{\valorquestao}{\ValorQDisc\ pontos}
+    }%
+}%
+
+\begin{exercicioBanco}[\valorquestao]
+Analise a representação de um quadrado $PQSR$ inscrito em um triângulo $ABC$. 
+Sendo $BC = 24\,\text{cm}$ e a medida do comprimento da altura relativa a essa base igual a $16\,\text{cm}$, 
+calcule a medida do comprimento do lado desse quadrado.
+
+\medskip
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.3\textwidth]{../TI_Exercicio2_Fig.png}
+\end{figure}
+
+\smallskip
+
+% Define as alternativas
+\newcommand{\alternativas}{%
+    \begin{center}
+        \begin{tabularx}{\textwidth}{XXXXX}
+            (a) \(9,6\) cm. &
+            (b) \(6,5\) cm. &
+            (c) \(11\) cm. &
+            (d) \(25\) cm. &
+            (e) \(8,9\) cm.
+        \end{tabularx}
+    \end{center}
+}
+
+% Define a resposta correta
+\newcommand{\resposta}{A}
+
+% Lógica condicional para exibição
+\ifdefstring{\atividade}{lista}{%
+    \alternativas
+    \vspace{0.5em}
+    
+    \noindent\textbf{Resposta:} letra \textbf{\resposta}.
+}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \alternativas
+    }{%
+        % modo = discursiva → não mostra alternativas
+    }
+}
+\end{exercicioBanco}
+

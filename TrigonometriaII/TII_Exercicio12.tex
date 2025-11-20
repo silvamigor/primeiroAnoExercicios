@@ -1,0 +1,59 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%       EXERCÍCIO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ifdefstring{\atividade}{prova}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \renewcommand{\valorquestao}{\ValorQObj\ ponto}
+    }{%
+        \renewcommand{\valorquestao}{\ValorQDisc\ pontos}
+    }%
+}%
+
+\begin{exercicioBanco}[\valorquestao]
+Se \(f(x) = a + b\cdot\sen(x)\) tem como gráfico
+
+\medskip
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.3\textwidth]{../TII_Exercicio12_Fig.png}
+\end{figure}
+
+\smallskip
+
+Determine o valor de \(a\) e o valor de \(b\).
+
+% Define as alternativas
+\newcommand{\alternativas}{%
+    \begin{center}
+        \begin{tabularx}{\textwidth}{XXX}
+            (a) \(a = -2\) e \(b = 1\). &
+            (b) \(a = -1\) e \(b = 2\). &
+            (c) \(a = 1\) e \(b = -1\). \\[5pt]
+            (d) \(a = 1\) e \(b = -2\). &
+            (e) \(a = 1\) e \(b = 1\).
+        \end{tabularx}
+    \end{center}
+}
+
+% Define a resposta correta
+\newcommand{\resposta}{D}
+
+% Lógica condicional para exibição
+\ifdefstring{\atividade}{lista}{%
+    \alternativas
+    \vspace{0.5em}
+    
+    \noindent\textbf{Resposta:} letra \textbf{\resposta}.
+}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \alternativas
+    }{%
+        % modo = discursiva → não mostra alternativas
+    }
+}
+\end{exercicioBanco}
+

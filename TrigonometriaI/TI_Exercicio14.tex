@@ -1,0 +1,59 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%       EXERCÍCIO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ifdefstring{\atividade}{prova}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \renewcommand{\valorquestao}{\ValorQObj\ ponto}
+    }{%
+        \renewcommand{\valorquestao}{\ValorQDisc\ pontos}
+    }%
+}%
+
+\begin{exercicioBanco}[\valorquestao]
+Para dar sustentação a um poste telefônico, utilizou-se um outro poste com 8 m de comprimento, fixado ao solo a 4 m de distância do poste telefônico, inclinado sob um ângulo de \(60^\circ\), conforme a figura abaixo.
+
+\medskip
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.2\textwidth]{../TI_Exercicio14_Fig.png}
+\end{figure}
+
+\smallskip
+
+Considerando-se que foram utilizados 10 m de cabo para ligar os dois postes e usando a aproximação \(\sqrt{3} \approx 1,73\), determine a altura do poste telefônico em relação ao solo.
+
+% Define as alternativas
+\newcommand{\alternativas}{%
+    \begin{center}
+        \begin{tabularx}{\textwidth}{XXXXX}
+            (a) \(2,25\) m. &
+            (b) \(6,75\) m. &
+            (c) \(10,33\) m. &
+            (d) \(12,92\) m. &
+            (e) \(15,87\) m.
+        \end{tabularx}
+    \end{center}
+}
+
+% Define a resposta correta
+\newcommand{\resposta}{D}
+
+% Lógica condicional para exibição
+\ifdefstring{\atividade}{lista}{%
+    \alternativas
+    \vspace{0.5em}
+    
+    \noindent\textbf{Resposta:} letra \textbf{\resposta}.
+}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \alternativas
+    }{%
+        % modo = discursiva → não mostra alternativas
+    }
+}
+\end{exercicioBanco}
+

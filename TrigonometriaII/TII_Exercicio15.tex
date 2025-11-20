@@ -1,0 +1,48 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%       EXERCÍCIO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ifdefstring{\atividade}{prova}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \renewcommand{\valorquestao}{\ValorQObj\ ponto}
+    }{%
+        \renewcommand{\valorquestao}{\ValorQDisc\ pontos}
+    }%
+}%
+
+\begin{exercicioBanco}[\valorquestao]
+Em uma determinada região litorânea, a maré oscila segundo a função \(h(t) = 3 - 2\sen\left(\dfrac{\pi t}{12}\right)\), sendo h a altura em metros, que a maré atinge no tempo t em horas, medido a partir de 6 h da manhã. Uma embarcação, que se encontra encalhada às 11 h da manhã, precisa de uma profundidade mínima de 2 metros para navegar. Assinale a alternativa que apresenta quantas horas os tripulantes dessa embarcação ainda terão que esperar para prosseguirem viagem.
+
+% Define as alternativas
+\newcommand{\alternativas}{%
+    \begin{center}
+        \begin{tabularx}{\textwidth}{XXXXX}
+            (a) 4 h. &
+            (b) 5 h. &
+            (c) 6 h. &
+            (d) 7 h. &
+            (e) 8 h.
+        \end{tabularx}
+    \end{center}
+}
+
+% Define a resposta correta
+\newcommand{\resposta}{B}
+
+% Lógica condicional para exibição
+\ifdefstring{\atividade}{lista}{%
+    \alternativas
+    \vspace{0.5em}
+    
+    \noindent\textbf{Resposta:} letra \textbf{\resposta}.
+}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \alternativas
+    }{%
+        % modo = discursiva → não mostra alternativas
+    }
+}
+\end{exercicioBanco}
+

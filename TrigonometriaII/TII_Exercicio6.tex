@@ -1,0 +1,58 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%       EXERCÍCIO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ifdefstring{\atividade}{prova}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \renewcommand{\valorquestao}{\ValorQObj\ ponto}
+    }{%
+        \renewcommand{\valorquestao}{\ValorQDisc\ pontos}
+    }%
+}%
+
+\begin{exercicioBanco}[\valorquestao]
+Considere as afirmações a seguir:
+%
+\begin{enumerate}[I.]
+    \item \(\sen^{2}(144^{\circ}) + \cos^{2}(144^{\circ}) = 1\).
+    %
+    \item Para todo \(x \in \bbR\), \(\tg(x) > \sen(x)\).
+    %
+    \item Para todo \(x \in \bbR\), \(0 \le \cos(x) \le 1\).
+\end{enumerate}
+%
+Qual(quais) está(estão) correta(s)?
+
+% Define as alternativas
+\newcommand{\alternativas}{%
+    \begin{center}
+        \begin{tabularx}{\textwidth}{XXXXX}
+            (a) Apenas I. &
+            (b) Apenas II. &
+            (c) Apenas III. &
+            (d) Apenas I e III. &
+            (e) I, II e III.
+        \end{tabularx}
+    \end{center}
+}
+
+% Define a resposta correta
+\newcommand{\resposta}{A}
+
+% Lógica condicional para exibição
+\ifdefstring{\atividade}{lista}{%
+    \alternativas
+    \vspace{0.5em}
+    
+    \noindent\textbf{Resposta:} letra \textbf{\resposta}.
+}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \alternativas
+    }{%
+        % modo = discursiva → não mostra alternativas
+    }
+}
+\end{exercicioBanco}
+

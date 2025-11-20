@@ -1,0 +1,61 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%       EXERCÍCIO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ifdefstring{\atividade}{prova}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \renewcommand{\valorquestao}{\ValorQObj\ ponto}
+    }{%
+        \renewcommand{\valorquestao}{\ValorQDisc\ pontos}
+    }%
+}%
+
+\begin{exercicioBanco}[\valorquestao]
+A medida da altura de uma árvore é $10\,\text{m}$, 
+a medida da distância entre ela e o observador é $50\,\text{m}$ 
+e a medida da distância entre a árvore e uma torre é $70\,\text{m}$. 
+Considerando que o olho do observador, o topo da árvore e o topo da torre estão alinhados, 
+qual é a medida da altura da torre?
+
+\medskip
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{../TI_Exercicio3_Fig.png}
+\end{figure}
+
+\smallskip
+
+% Define as alternativas
+\newcommand{\alternativas}{%
+    \begin{center}
+        \begin{tabularx}{\textwidth}{XXXXX}
+            (a) \(14\) m. &
+            (b) \(24\) m. &
+            (c) \(20\) m. &
+            (d) \(12\) m. &
+            (e) \(30\) m.
+        \end{tabularx}
+    \end{center}
+}
+
+% Define a resposta correta
+\newcommand{\resposta}{B}
+
+% Lógica condicional para exibição
+\ifdefstring{\atividade}{lista}{%
+    \alternativas
+    \vspace{0.5em}
+    
+    \noindent\textbf{Resposta:} letra \textbf{\resposta}.
+}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \alternativas
+    }{%
+        % modo = discursiva → não mostra alternativas
+    }
+}
+\end{exercicioBanco}
+

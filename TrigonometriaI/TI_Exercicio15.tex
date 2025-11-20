@@ -1,0 +1,59 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%       EXERCÍCIO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ifdefstring{\atividade}{prova}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \renewcommand{\valorquestao}{\ValorQObj\ ponto}
+    }{%
+        \renewcommand{\valorquestao}{\ValorQDisc\ pontos}
+    }%
+}%
+
+\begin{exercicioBanco}[\valorquestao]
+Um passageiro em um avião avista duas cidades, A e B, sob ângulos de \(15^\circ\) e \(30^\circ\), respectivamente, conforme a figura a seguir
+
+\medskip
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{../TI_Exercicio15_Fig.png}
+\end{figure}
+
+\smallskip
+
+Se o avião está a uma altitude de 3 km, a distância entre as cidades A e B é:
+
+% Define as alternativas
+\newcommand{\alternativas}{%
+    \begin{center}
+        \begin{tabularx}{\textwidth}{XXXXX}
+            (a) \(7\) km. &
+            (b) \(5,5\) km. &
+            (c) \(5\) km. &
+            (d) \(6,5\) km. &
+            (e) \(6\) km.
+        \end{tabularx}
+    \end{center}
+}
+
+% Define a resposta correta
+\newcommand{\resposta}{E}
+
+% Lógica condicional para exibição
+\ifdefstring{\atividade}{lista}{%
+    \alternativas
+    \vspace{0.5em}
+    
+    \noindent\textbf{Resposta:} letra \textbf{\resposta}.
+}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \alternativas
+    }{%
+        % modo = discursiva → não mostra alternativas
+    }
+}
+\end{exercicioBanco}
+

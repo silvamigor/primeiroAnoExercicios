@@ -1,0 +1,57 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%       EXERCÍCIO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ifdefstring{\atividade}{prova}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \renewcommand{\valorquestao}{\ValorQObj\ ponto}
+    }{%
+        \renewcommand{\valorquestao}{\ValorQDisc\ pontos}
+    }%
+}%
+
+\begin{exercicioBanco}[\valorquestao]
+Determine o perímetro do \(\triangle ABC\) abaixo, sabendo que \(AB = 7\sqrt{2}\).
+
+\medskip
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{../TI_Exercicio11_Fig.png}
+\end{figure}
+
+\smallskip
+
+% Define as alternativas
+\newcommand{\alternativas}{%
+    \begin{center}
+        \begin{tabularx}{\textwidth}{XXXXX}
+            (a) \(14\sqrt{2} + 3\sqrt{3}\). &
+            (b) \(14\sqrt{6} + 3\). &
+            (c) \(21 + \sqrt{2} + \sqrt{3}\). &
+            (d) \(24 + \sqrt{6}\). &
+            (e) \(7(3 + \sqrt{2} + \sqrt{3})\).
+        \end{tabularx}
+    \end{center}
+}
+
+% Define a resposta correta
+\newcommand{\resposta}{E}
+
+% Lógica condicional para exibição
+\ifdefstring{\atividade}{lista}{%
+    \alternativas
+    \vspace{0.5em}
+    
+    \noindent\textbf{Resposta:} letra \textbf{\resposta}.
+}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \alternativas
+    }{%
+        % modo = discursiva → não mostra alternativas
+    }
+}
+\end{exercicioBanco}
+

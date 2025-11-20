@@ -1,0 +1,61 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%       EXERCÍCIO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ifdefstring{\atividade}{prova}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \renewcommand{\valorquestao}{\ValorQObj\ ponto}
+    }{%
+        \renewcommand{\valorquestao}{\ValorQDisc\ pontos}
+    }%
+}%
+
+\begin{exercicioBanco}[\valorquestao]
+A partir de um ponto, observa-se o topo de um prédio sob um ângulo de $30^\circ$. 
+Caminhando $24\,\text{m}$ em direção ao prédio, atinge-se outro ponto, $C$, 
+de onde se vê o topo do prédio segundo um ângulo de $60^\circ$. 
+
+\medskip
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{../TI_Exercicio10_Fig.png}
+\end{figure}
+
+\smallskip
+
+Desprezando a altura do observador, calcule, em metros, a altura do prédio.
+
+% Define as alternativas
+\newcommand{\alternativas}{%
+    \begin{center}
+        \begin{tabularx}{\textwidth}{XXXXX}
+            (a) \(6\sqrt{2}\). &
+            (b) \(\dfrac{3\sqrt{3}}{2}\). &
+            (c) \(12\sqrt{3}\). &
+            (d) \(\sqrt{3} + \sqrt{2}\). &
+            (e) \(\dfrac{\sqrt{6}}{2}\).
+        \end{tabularx}
+    \end{center}
+}
+
+% Define a resposta correta
+\newcommand{\resposta}{C}
+
+% Lógica condicional para exibição
+\ifdefstring{\atividade}{lista}{%
+    \alternativas
+    \vspace{0.5em}
+    
+    \noindent\textbf{Resposta:} letra \textbf{\resposta}.
+}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \alternativas
+    }{%
+        % modo = discursiva → não mostra alternativas
+    }
+}
+\end{exercicioBanco}
+

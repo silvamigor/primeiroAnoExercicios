@@ -1,0 +1,53 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%       EXERCÍCIO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ifdefstring{\atividade}{prova}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \renewcommand{\valorquestao}{\ValorQObj\ ponto}
+    }{%
+        \renewcommand{\valorquestao}{\ValorQDisc\ pontos}
+    }%
+}%
+
+\begin{exercicioBanco}[\valorquestao]
+Um navio, navegando em linha reta, passa sucessivamente pelos pontos \( A \), \( B \) e \( C \).
+O comandante, quando o navio está em \( A \), observa um farol \( F \) e determina que o ângulo 
+\(F\widehat{A}C\) mede \(30^\circ\). Após navegar \(6\,\text{km}\) até o ponto \(B\), ele verifica que o ângulo 
+\(F\widehat{B}C\) mede \(90^\circ\). Calcule a distância, em quilômetros, que separa o farol \(F\) do navio 
+quando este se encontra no ponto \(C\), situado a \(2\,\text{km}\) do ponto \(B\).
+
+
+% Define as alternativas
+\newcommand{\alternativas}{%
+    \begin{center}
+        \begin{tabularx}{\textwidth}{XXXXX}
+            (a) \(5\). &
+            (b) \(3\). &
+            (c) \(7\). &
+            (d) \(12\). &
+            (e) \(4\).
+        \end{tabularx}
+    \end{center}
+}
+
+% Define a resposta correta
+\newcommand{\resposta}{E}
+
+% Lógica condicional para exibição
+\ifdefstring{\atividade}{lista}{%
+    \alternativas
+    \vspace{0.5em}
+    
+    \noindent\textbf{Resposta:} letra \textbf{\resposta}.
+}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \alternativas
+    }{%
+        % modo = discursiva → não mostra alternativas
+    }
+}
+\end{exercicioBanco}
+

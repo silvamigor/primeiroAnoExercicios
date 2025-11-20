@@ -1,0 +1,76 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%       EXERCÍCIO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ifdefstring{\atividade}{prova}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \renewcommand{\valorquestao}{\ValorQObj\ ponto}
+    }{%
+        \renewcommand{\valorquestao}{\ValorQDisc\ pontos}
+    }%
+}%
+
+\begin{exercicioBanco}[\valorquestao]
+A famosa Torre de Pisa, localizada na Itália, assim como muitos outros prédios, por motivos adversos, sofrem inclinações durante ou após suas construções. 
+
+Um prédio, quando construído, dispunha-se verticalmente e tinha 60 metros de altura. Ele sofreu uma inclinação de um ângulo $\alpha$, e a projeção ortogonal de sua fachada lateral sobre o solo tem largura medindo 1,80 metro, conforme mostra a figura.
+
+O valor do ângulo de inclinação pode ser determinado fazendo-se o uso de uma tabela como a apresentada.
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{0.4\textwidth}
+\centering
+\begin{tabular}{|>{\centering\arraybackslash}m{3cm}|>{\centering\arraybackslash}m{1cm}|>{\centering\arraybackslash}m{2cm}|}
+\hline
+\textbf{Ângulo} $\boldsymbol{\alpha}$ \textbf{(grau)}& \textbf{Seno} \\ \hline
+0,0 & 0,0 \\ \hline
+1,0 & 0,017 \\ \hline
+1,5 & 0,026 \\ \hline
+1,8 & 0,031 \\ \hline
+2,0 & 0,034 \\ \hline
+3,0 & 0,052 \\ \hline
+\end{tabular}
+\end{minipage}%
+\hfill
+\begin{minipage}{0.4\textwidth}
+\centering
+\includegraphics[width=0.5\textwidth]{../TI_Exercicio27_Fig.png}
+\end{minipage}
+\end{figure}
+
+Considerando os dados apresentados e a tabela de senos fornecida, determine uma estimativa para o ângulo \(\alpha\).
+
+% Define as alternativas
+\newcommand{\alternativas}{%
+    \begin{center}
+        \begin{tabularx}{\textwidth}{XXXXX}
+            (a) \(0 \le \alpha \le 1,0\). &
+            (b) \(1,0 \le \alpha \le 1,5\). &
+            (c) \(1,5 \le \alpha \le 1,8\). &
+            (d) \(1,8 \le \alpha \le 2,0\). &
+            (e) \(2,0 \le \alpha \le 3,0\).
+        \end{tabularx}
+    \end{center}
+}
+
+% Define a resposta correta
+\newcommand{\resposta}{C}
+
+% Lógica condicional para exibição
+\ifdefstring{\atividade}{lista}{%
+    \alternativas
+    \vspace{0.5em}
+    
+    \noindent\textbf{Resposta:} letra \textbf{\resposta}.
+}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \alternativas
+    }{%
+        % modo = discursiva → não mostra alternativas
+    }
+}
+\end{exercicioBanco}
+

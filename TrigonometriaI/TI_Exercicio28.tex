@@ -1,0 +1,57 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%       EXERCÍCIO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ifdefstring{\atividade}{prova}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \renewcommand{\valorquestao}{\ValorQObj\ ponto}
+    }{%
+        \renewcommand{\valorquestao}{\ValorQDisc\ pontos}
+    }%
+}%
+
+\begin{exercicioBanco}[\valorquestao]
+Um empreendedor está desenvolvendo um sistema para auxiliar o julgamento de lances duvidosos em partidas de futebol. Seu projeto consiste de um chip instalado na bola e um sensor posicionado em um dos cantos do campo (ponto \(P\)). O sensor detecta a distância \(r\) entre os pontos \(P\) e \(B\) (bola) e a medida \(\alpha\) do ângulo \(B\widehat{P}Q\). Em seguida, transforma essas informações nas distâncias \(x\) e \(y\) indicadas na figura. Usando relações trigonométricas, deduza expressões para \(x\) e \(y\) em função de \(r\) e \(\alpha\).
+
+\medskip
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{../TI_Exercicio28_Fig.png}
+\end{figure}
+
+\smallskip
+
+% Define as alternativas
+\newcommand{\alternativas}{%
+    \begin{center}
+        \begin{tabularx}{\textwidth}{XXX}
+            (a) \(x = \frac{1}{r}\sen(\alpha)\) e \(y = \frac{1}{r}\cos(\alpha)\). &
+            (b) \(x = r^{2}\cos(\alpha)\) e \(y = r^{2}\sen(\alpha)\). &
+            (c) \(x = r\sen(2\alpha)\) e \(y = r\cos(2\alpha)\). \\[5pt]
+            (d) \(x = r\cos(\alpha)\) e \(y = r\sen(\alpha)\). &
+            \multicolumn{2}{l}{(e) \(x = \frac{1}{r}\sen(2\alpha)\) e \(y = \frac{1}{r}\cos(2\alpha)\).}
+        \end{tabularx}
+    \end{center}
+}
+
+% Define a resposta correta
+\newcommand{\resposta}{D}
+
+% Lógica condicional para exibição
+\ifdefstring{\atividade}{lista}{%
+    \alternativas
+    \vspace{0.5em}
+    
+    \noindent\textbf{Resposta:} letra \textbf{\resposta}.
+}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \alternativas
+    }{%
+        % modo = discursiva → não mostra alternativas
+    }
+}
+\end{exercicioBanco}
+

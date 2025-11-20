@@ -1,0 +1,106 @@
+\documentclass[a4paper,12pt]{article}
+
+\input{../../Preambulo.tex}
+\newcommand{\assunto}{FUNÇÕES LOGARÍTMICAS}
+\newcommand{\atividade}{lista} % prova ou lista
+\newcommand{\tipo}{individual} %dupla ou individual
+\newcommand{\ValorProva}{2}
+\newcommand{\calculadora}{nao}
+\input{../../Variaveis.tex}
+\pagecolor{white}
+
+\hypersetup{
+    pdfauthor={\professor},
+    pdftitle={\titulo -- \assunto},
+}
+
+\title{\titulo -- \assunto}
+\author{\professor}
+\date{\data}
+
+%************* INÍCIO DO DOCUMENTO *************
+\begin{document}
+    
+    \begin{center}
+        SERVIÇO PÚBLICO FEDERAL -- MINISTÉRIO DA EDUCAÇÃO \\
+        CENTRO FEDERAL DE EDUCAÇÃO TECNOLÓGICA DE MINAS GERAIS \\
+        CAMPUS CONTAGEM \\
+        ATIVIDADE AVALIATIVA DE MATEMÁTICA -- \bimestre.\textordmasculine\ BIMESTRE DE \ano
+    \end{center}
+    
+    \vspace{0.3cm}
+    
+    \noindent\textbf{ASSUNTO}: \assunto \hfill \textbf{TURMA}: \turma
+    
+    \begin{center}
+        \ifdefstring{\calculadora}{nao}{%
+            \textbf{NÃO É} PERMITIDO O USO DE CALCULADORA
+        }{%
+            \textbf{É} PERMITIDO O USO DE CALCULADORA
+        }
+    \end{center}
+    
+    \begin{tcolorbox}[width=\linewidth,colback=white]
+        \textbf{PROFESSOR}: \professor \hfill
+        \textbf{DATA}: \dataTexto \hfill
+        \textbf{VALOR}: \ValorProva\ pontos
+        \vspace{5pt}
+        
+        \ifdefstring{\tipo}{dupla}{%
+            \begin{minipage}[t]{0.75\linewidth}
+                \textbf{ALUNOS (AS)}: \makebox[0.85\linewidth]{\hrulefill} \\[5pt]
+                \makebox[1.05\linewidth]{\hspace{78pt}\hrulefill}
+            \end{minipage}%
+            \hfill
+            \begin{minipage}[t]{0.15\linewidth}
+                \vspace*{\fill}
+                \begin{tcolorbox}[width=0.8\linewidth, height=20pt, sharp corners, boxrule=0.5pt, colback=white, colframe=black]
+                    \centering
+                    % Espaço para a nota
+                    \vspace*{\fill}
+                \end{tcolorbox}
+            \end{minipage}
+        }{%
+            \begin{minipage}[t]{0.75\linewidth}
+                \textbf{ALUNO (A)}: \makebox[0.85\linewidth]{\hrulefill}
+            \end{minipage}%
+            \hfill
+            \begin{minipage}[t]{0.15\linewidth}
+                \begin{tcolorbox}[width=0.8\linewidth, height=20pt, sharp corners, boxrule=0.5pt, colback=white, colframe=black]
+                    \centering
+                    % Espaço para a nota
+                    \vspace*{\fill}
+                \end{tcolorbox}
+            \end{minipage}
+        }
+    \end{tcolorbox}
+    
+    \noindent\textbf{DURAÇÃO}: máximo de 100 minutos.
+    
+    \vspace{15pt}
+    Resolva as questões a seguir, podendo consultar cadernos e livros, mas sem o uso de celular ou aparelhos eletrônicos semelhantes.
+    \vspace{15pt}
+    
+    \noindent\rule{\linewidth}{1pt}  % linha horizontal fina
+    \phantomsection
+    \addcontentsline{toc}{section}{Exercício 1}
+    \input{../FL_Exercicio5}
+    \noindent\rule{\linewidth}{1pt}  % linha horizontal fina
+    
+    \phantomsection
+    \addcontentsline{toc}{section}{Exercício 2}
+    \input{../FL_Exercicio6}
+    \noindent\rule{\linewidth}{1pt}  % linha horizontal fina
+    
+    \phantomsection
+    \addcontentsline{toc}{section}{Exercício 3}
+    \input{../FL_Exercicio15}
+    \noindent\rule{\linewidth}{1pt}  % linha horizontal fina
+    
+    \phantomsection
+    \addcontentsline{toc}{section}{Exercício 4}
+    \input{../FL_Exercicio18}
+    \noindent\rule{\linewidth}{1pt}  % linha horizontal fina
+
+\end{document}
+%*************** FINAL DO DOCUMENTO ***************

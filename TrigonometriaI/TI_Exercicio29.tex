@@ -1,0 +1,58 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%       EXERCÍCIO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ifdefstring{\atividade}{prova}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \renewcommand{\valorquestao}{\ValorQObj\ ponto}
+    }{%
+        \renewcommand{\valorquestao}{\ValorQDisc\ pontos}
+    }%
+}%
+
+\begin{exercicioBanco}[\valorquestao]
+O teodolito é um instrumento de medida de ângulos bastante útil na topografia. Com ele, é possível determinar distâncias que não poderiam ser medidas diretamente. Para calcular a altura de um morro em relação a uma região plana no seu entorno, o topógrafo pode utilizar esse instrumento adotando o seguinte procedimento: situa o teodolito no ponto \(A\) e, mirando o ponto \(T\) no topo do morro, mede o ângulo de 30\(^{\circ}\) com a horizontal; desloca o teodolito 160 metros em direção ao morro, colocando-o agora no ponto \(B\), do qual, novamente mirando o ponto T, mede o ângulo de 60\(^{\circ}\) com a horizontal. Se a altura do teodolito é de 1,5 metros, determine a altura do morro com relação à região plana à qual pertencem \(A\) e \(B\).
+
+
+\medskip
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.3\textwidth]{../TI_Exercicio29_Fig.png}
+\end{figure}
+
+\smallskip
+
+% Define as alternativas
+\newcommand{\alternativas}{%
+    \begin{center}
+        \begin{tabularx}{\textwidth}{XXX}
+            (a) \(80\sqrt{3} + 1,5\) m. &
+            (b) \(80\sqrt{3} - 1,5\) m. &
+            (c) \(\dfrac{160\sqrt{3}}{3} + 1,5\) m. \\[5pt]
+            (d) \(\dfrac{160\sqrt{3}}{3} - 1,5\) m. &
+            (e) \(160\sqrt{3}\) m.
+        \end{tabularx}
+    \end{center}
+}
+
+% Define a resposta correta
+\newcommand{\resposta}{A}
+
+% Lógica condicional para exibição
+\ifdefstring{\atividade}{lista}{%
+    \alternativas
+    \vspace{0.5em}
+    
+    \noindent\textbf{Resposta:} letra \textbf{\resposta}.
+}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \alternativas
+    }{%
+        % modo = discursiva → não mostra alternativas
+    }
+}
+\end{exercicioBanco}
+
