@@ -13,34 +13,29 @@
 }%
 
 \begin{exercicioBanco}[\valorquestao]
-Se \(f(x) = a + b\cdot\sen(x)\) tem como gráfico
-
-\medskip
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.3\textwidth]{../TII_Exercicio12_Fig.png}
-\end{figure}
-
-\smallskip
-
-Determine o valor de \(a\) e o valor de \(b\).
+Admitindo-se que o peso de determinada pessoa, ao longo de um ano, possa ser modelado pela função
+%
+\[
+    P(t) = 70 - 4\sen\left(\dfrac{(t+3)\pi}{6}\right),
+\]
+%
+em que \(t = 1, \dots, 12\) corresponde aos meses de janeiro a dezembro, determine o peso dessa pessoa em agosto.
 
 % Define as alternativas
 \newcommand{\alternativas}{%
     \begin{center}
-        \begin{tabularx}{\textwidth}{XXX}
-            (a) \(a = -2\) e \(b = 1\). &
-            (b) \(a = -1\) e \(b = 2\). &
-            (c) \(a = 1\) e \(b = -1\). \\[5pt]
-            (d) \(a = 1\) e \(b = -2\). &
-            (e) \(a = 1\) e \(b = 1\).
+        \begin{tabularx}{\textwidth}{XXXXX}
+            (a) \(70\). &
+            (b) \(74\). &
+            (c) \(72\). &
+            (d) \(70 + 2\sqrt{3}\). &
+            (e) \(70 - 2\sqrt{3}\).
         \end{tabularx}
     \end{center}
 }
 
 % Define a resposta correta
-\newcommand{\resposta}{D}
+\newcommand{\resposta}{C}
 
 % Lógica condicional para exibição
 \ifdefstring{\atividade}{lista}{%

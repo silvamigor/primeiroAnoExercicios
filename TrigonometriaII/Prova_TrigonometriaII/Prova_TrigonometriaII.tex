@@ -9,7 +9,7 @@
 \edef\NumTotalQuestoes{\pgfmathresult}
 \newcommand{\questaoDiscursiva}{Exercício \NumTotalQuestoes}
 \newcommand{\ValorQObj}{0.6}
-\newcommand{\ValorQDisc}{2}
+\newcommand{\ValorQDisc}{3}
 \pgfmathparse{int(\NumQObj * \ValorQObj + \NumQDisc * \ValorQDisc)}
 \edef\ValorProva{\pgfmathresult}
 \newcommand{\tipo}{dupla} % dupla ou individual
@@ -24,6 +24,10 @@
 \title{\titulo \-- \assunto \-- \turma \-- \numProva}
 \author{\professor}
 \date{\data}
+
+\graphicspath{
+    {../../TrigonometriaII/}
+}
 
 %************* INÍCIO DO DOCUMENTO *************
 \begin{document}
@@ -60,7 +64,7 @@
     
     \phantomsection
     \addcontentsline{toc}{section}{Exercício 1}
-    \input{../TII_Exercicio1}
+    \input{../TII_Exercicio7}
     \vspace{15pt}
     
     \phantomsection
@@ -70,17 +74,17 @@
     
     \phantomsection
     \addcontentsline{toc}{section}{Exercício 3}
-    \input{../TII_Exercicio3}
+    \input{../TII_Exercicio6}
     \vspace{15pt}
     
     \phantomsection
     \addcontentsline{toc}{section}{Exercício 4}
-    \input{../TII_Exercicio4}
+    \input{../TII_Exercicio12}
     \vspace{15pt}
     
     \phantomsection
     \addcontentsline{toc}{section}{Exercício 5}
-    \input{../TII_Exercicio5}
+    \input{../TII_Exercicio10}
     \vspace{15pt}
     
     %
@@ -93,7 +97,7 @@
     \renewcommand{\modo}{discursivo} % objetivo ou discursivo
     \phantomsection
     \addcontentsline{toc}{section}{Exercício 6}
-    \input{../TII_Exercicio6}
+    \input{../TII_Exercicio14}
     \vspace{10pt}
     \newpage
     \phantomsection

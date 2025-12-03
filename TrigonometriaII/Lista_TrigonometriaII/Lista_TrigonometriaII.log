@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.12.14)  20 NOV 2025 18:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.12.14)  3 DEC 2025 10:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1555,53 +1555,53 @@ File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 (./Lista_TrigonometriaII.aux)
 \openout1 = `Lista_TrigonometriaII.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 18.
-LaTeX Font Info:    Trying to load font information for MDA+cmr on input line 1
-8.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 22.
+LaTeX Font Info:    Trying to load font information for MDA+cmr on input line 2
+2.
 
 (/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdacmr.fd
 File: mdacmr.fd 
 )
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for MDB/cmr/m/n on input line 18.
-LaTeX Font Info:    Trying to load font information for MDB+cmr on input line 1
-8.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for MDB/cmr/m/n on input line 22.
+LaTeX Font Info:    Trying to load font information for MDB+cmr on input line 2
+2.
 
 (/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdbcmr.fd
 File: mdbcmr.fd 
 )
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Info: Redefining \microtypecontext on input line 18.
-Package microtype Info: Applying patch `item' on input line 18.
-Package microtype Info: Applying patch `toc' on input line 18.
-Package microtype Info: Applying patch `eqnum' on input line 18.
-Package microtype Info: Applying patch `footnote' on input line 18.
-Package microtype Info: Applying patch `verbatim' on input line 18.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Info: Redefining \microtypecontext on input line 22.
+Package microtype Info: Applying patch `item' on input line 22.
+Package microtype Info: Applying patch `toc' on input line 22.
+Package microtype Info: Applying patch `eqnum' on input line 22.
+Package microtype Info: Applying patch `footnote' on input line 22.
+Package microtype Info: Applying patch `verbatim' on input line 22.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 18.
+LaTeX Info: Redefining \showhyphens on input line 22.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -1616,11 +1616,11 @@ File: translations-basic-dictionary-brazil.trsl (brazil translation file `trans
 lations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `brazil'. on input line 18.
+or `brazil'. on input line 22.
 
 
 Package mathdesign/mdbch Warning: Package 'mathrsfs' shouldn't be used in conjo
-nction with package mdbch, on input line 18.
+nction with package mdbch, on input line 22.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1699,20 +1699,20 @@ Package caption Info: End \AtBeginDocument code.
 Package pgfplots notification 'compat/show suggested version=true': document ha
 s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 
-Package hyperref Info: Link coloring OFF on input line 18.
+Package hyperref Info: Link coloring OFF on input line 22.
 (./Lista_TrigonometriaII.out) (./Lista_TrigonometriaII.out)
 \@outlinefile=\write4
 \openout4 = `Lista_TrigonometriaII.out'.
 
 \c@lstlisting=\count418
 LaTeX Font Info:    Trying to load font information for TS1+mdbch on input line
- 19.
+ 23.
 
 (/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdbch/ts1mdbch.fd
 File: ts1mdbch.fd 2013/08/29 Fontinst v1.933 font definitions for TS1/mdbch.
 )
 LaTeX Font Info:    Font shape `TS1/mdbch/m/n' will be
-(Font)              scaled to size 11.52008pt on input line 19.
+(Font)              scaled to size 11.52008pt on input line 23.
 Package microtype Info: Character `texttwelveudash ' is missing
 (microtype)             in font `TS1/mdbch/m/n/12'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -1735,152 +1735,176 @@ Package microtype Info: Character `textcelsius ' is missing
 (microtype)             in font `TS1/mdbch/m/n/12'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Trying to load font information for OT1+mdbch on input line
- 19.
+ 23.
 
 (/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdbch/ot1mdbch.fd
 File: ot1mdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OT1/mdbch.
 )
 LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 11.52008pt on input line 19.
+(Font)              scaled to size 11.52008pt on input line 23.
 LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 7.68005pt on input line 19.
+(Font)              scaled to size 7.68005pt on input line 23.
 LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 5.76004pt on input line 19.
+(Font)              scaled to size 5.76004pt on input line 23.
 LaTeX Font Info:    Trying to load font information for OML+mdbch on input line
- 19.
+ 23.
 
 (/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdbch/omlmdbch.fd
 File: omlmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OML/mdbch.
 )
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 11.52008pt on input line 19.
+(Font)              scaled to size 11.52008pt on input line 23.
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 7.68005pt on input line 19.
+(Font)              scaled to size 7.68005pt on input line 23.
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 5.76004pt on input line 19.
+(Font)              scaled to size 5.76004pt on input line 23.
 LaTeX Font Info:    Trying to load font information for OMS+mdbch on input line
- 19.
+ 23.
 
 (/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdbch/omsmdbch.fd
 File: omsmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OMS/mdbch.
 )
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 11.52008pt on input line 19.
+(Font)              scaled to size 11.52008pt on input line 23.
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 7.68005pt on input line 19.
+(Font)              scaled to size 7.68005pt on input line 23.
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 5.76004pt on input line 19.
+(Font)              scaled to size 5.76004pt on input line 23.
 LaTeX Font Info:    Trying to load font information for OMX+mdbch on input line
- 19.
+ 23.
 
 (/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdbch/omxmdbch.fd
 File: omxmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OMX/mdbch.
 )
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 11.52008pt on input line 19.
+(Font)              scaled to size 11.52008pt on input line 23.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 7.68005pt on input line 19.
+(Font)              scaled to size 7.68005pt on input line 23.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 5.76004pt on input line 19.
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 19
+(Font)              scaled to size 5.76004pt on input line 23.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 23
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 11.52008pt on input line 19.
+(Font)              scaled to size 11.52008pt on input line 23.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 7.68005pt on input line 19.
+(Font)              scaled to size 7.68005pt on input line 23.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 5.76004pt on input line 19.
+(Font)              scaled to size 5.76004pt on input line 23.
 LaTeX Font Info:    Trying to load font information for MDA+mdbch on input line
- 19.
+ 23.
 
 (/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdbch/mdamdbch.fd
 File: mdamdbch.fd 2013/08/29 Fontinst v1.933 font definitions for MDA/mdbch.
 )
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 11.52008pt on input line 19.
+(Font)              scaled to size 11.52008pt on input line 23.
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 7.68005pt on input line 19.
+(Font)              scaled to size 7.68005pt on input line 23.
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 5.76004pt on input line 19.
+(Font)              scaled to size 5.76004pt on input line 23.
 LaTeX Font Info:    Trying to load font information for MDB+mdbch on input line
- 19.
+ 23.
 
 (/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdbch/mdbmdbch.fd
 File: mdbmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for MDB/mdbch.
 )
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 11.52008pt on input line 19.
+(Font)              scaled to size 11.52008pt on input line 23.
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 7.68005pt on input line 19.
+(Font)              scaled to size 7.68005pt on input line 23.
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 5.76004pt on input line 19.
+(Font)              scaled to size 5.76004pt on input line 23.
 LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
-(Font)              scaled to size 11.52008pt on input line 19.
+(Font)              scaled to size 11.52008pt on input line 23.
 
-(../TII_Exercicio1.tex) (../TII_Exercicio2.tex) (../TII_Exercicio3.tex)
-(../TII_Exercicio4.tex) (../TII_Exercicio5.tex) (../TII_Exercicio6.tex [1
+(../TII_Exercicio1.tex) (../TII_Exercicio2_1.tex) (../TII_Exercicio2_2.tex)
+(../TII_Exercicio3.tex) (../TII_Exercicio4.tex) (../TII_Exercicio5.tex [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-di
-st/fonts/enc/dvips/ly1/texnansi.enc}]) (../TII_Exercicio7.tex
-<../TII_Exercicio7_Fig.png, id=126, 376.40625pt x 164.615pt>
-File: ../TII_Exercicio7_Fig.png Graphic file (type png)
-<use ../TII_Exercicio7_Fig.png>
-Package pdftex.def Info: ../TII_Exercicio7_Fig.png  used on input line 22.
+st/fonts/enc/dvips/ly1/texnansi.enc}]) (../TII_Exercicio6.tex) (../TII_Exercici
+o7.tex
+<../../TrigonometriaII/TII_Exercicio7_Fig.png, id=145, 376.40625pt x 164.615pt>
+
+File: ../../TrigonometriaII/TII_Exercicio7_Fig.png Graphic file (type png)
+<use ../../TrigonometriaII/TII_Exercicio7_Fig.png>
+Package pdftex.def Info: ../../TrigonometriaII/TII_Exercicio7_Fig.png  used on 
+input line 22.
 (pdftex.def)             Requested size: 162.18236pt x 70.92874pt.
 ) (../TII_Exercicio8.tex
-<../TII_Exercicio8_Fig.png, id=128, 435.6275pt x 164.615pt>
-File: ../TII_Exercicio8_Fig.png Graphic file (type png)
-<use ../TII_Exercicio8_Fig.png>
-Package pdftex.def Info: ../TII_Exercicio8_Fig.png  used on input line 22.
+<../../TrigonometriaII/TII_Exercicio8_Fig.png, id=147, 435.6275pt x 164.615pt>
+File: ../../TrigonometriaII/TII_Exercicio8_Fig.png Graphic file (type png)
+<use ../../TrigonometriaII/TII_Exercicio8_Fig.png>
+Package pdftex.def Info: ../../TrigonometriaII/TII_Exercicio8_Fig.png  used on 
+input line 22.
 (pdftex.def)             Requested size: 162.18236pt x 61.28336pt.
-) (../TII_Exercicio9.tex
-<../TII_Exercicio9_Fig.png, id=129, 187.70125pt x 194.7275pt>
-File: ../TII_Exercicio9_Fig.png Graphic file (type png)
-<use ../TII_Exercicio9_Fig.png>
-Package pdftex.def Info: ../TII_Exercicio9_Fig.png  used on input line 22.
+) (../TII_Exercicio9.tex [2 <../../TrigonometriaII/TII_Exercicio7_Fig.png> <../
+../TrigonometriaII/TII_Exercicio8_Fig.png>]
+<../../TrigonometriaII/TII_Exercicio9_Fig.png, id=163, 187.70125pt x 194.7275pt
+>
+File: ../../TrigonometriaII/TII_Exercicio9_Fig.png Graphic file (type png)
+<use ../../TrigonometriaII/TII_Exercicio9_Fig.png>
+Package pdftex.def Info: ../../TrigonometriaII/TII_Exercicio9_Fig.png  used on 
+input line 22.
 (pdftex.def)             Requested size: 81.08705pt x 84.12338pt.
- [2 <../TII_Exercicio7_Fig.png> <../TII_Exercicio8_Fig.png> <../TII_Exercicio9_
-Fig.png>]) (../TII_Exercicio10.tex)
-(../TII_Exercicio11.tex) (../TII_Exercicio12.tex
-<../TII_Exercicio12_Fig.png, id=146, 353.32pt x 251.94125pt>
-File: ../TII_Exercicio12_Fig.png Graphic file (type png)
-<use ../TII_Exercicio12_Fig.png>
-Package pdftex.def Info: ../TII_Exercicio12_Fig.png  used on input line 22.
-(pdftex.def)             Requested size: 162.18236pt x 115.64833pt.
-) (../TII_Exercicio13.tex
-[3 <../TII_Exercicio12_Fig.png>]) (../TII_Exercicio14.tex
-<../TII_Exercicio14A_Fig.png, id=157, 355.3275pt x 393.47pt>
-File: ../TII_Exercicio14A_Fig.png Graphic file (type png)
-<use ../TII_Exercicio14A_Fig.png>
-Package pdftex.def Info: ../TII_Exercicio14A_Fig.png  used on input line 22.
-(pdftex.def)             Requested size: 108.11882pt x 119.72298pt.
-<../TII_Exercicio14B_Fig.png, id=158, 466.74374pt x 297.11pt>
-File: ../TII_Exercicio14B_Fig.png Graphic file (type png)
-<use ../TII_Exercicio14B_Fig.png>
-Package pdftex.def Info: ../TII_Exercicio14B_Fig.png  used on input line 33.
-(pdftex.def)             Requested size: 216.23764pt x 137.64696pt.
 )
-(../TII_Exercicio15.tex [4 <../TII_Exercicio14A_Fig.png> <../TII_Exercicio14B_F
-ig.png>]) [5] (./Lista_TrigonometriaII.aux)
+(../TII_Exercicio10.tex
+<../../TrigonometriaII/TII_Exercicio10_Fig.png, id=164, 294.09875pt x 278.03876
+pt>
+File: ../../TrigonometriaII/TII_Exercicio10_Fig.png Graphic file (type png)
+<use ../../TrigonometriaII/TII_Exercicio10_Fig.png>
+Package pdftex.def Info: ../../TrigonometriaII/TII_Exercicio10_Fig.png  used on
+ input line 22.
+(pdftex.def)             Requested size: 108.11882pt x 102.21513pt.
+) (../TII_Exercicio11_1.tex) (../TII_Exercicio11_2.tex)
+(../TII_Exercicio12.tex [3 <../../TrigonometriaII/TII_Exercicio9_Fig.png> <../.
+./TrigonometriaII/TII_Exercicio10_Fig.png>]) (../TII_Exercicio13.tex)
+(../TII_Exercicio14.tex
+<../../TrigonometriaII/TII_Exercicio14_Fig.png, id=178, 353.32pt x 251.94125pt>
+
+File: ../../TrigonometriaII/TII_Exercicio14_Fig.png Graphic file (type png)
+<use ../../TrigonometriaII/TII_Exercicio14_Fig.png>
+Package pdftex.def Info: ../../TrigonometriaII/TII_Exercicio14_Fig.png  used on
+ input line 22.
+(pdftex.def)             Requested size: 162.18236pt x 115.64833pt.
+) (../TII_Exercicio15.tex) (../TII_Exercicio16.tex
+[4 <../../TrigonometriaII/TII_Exercicio14_Fig.png>]) (../TII_Exercicio17.tex
+<../../TrigonometriaII/TII_Exercicio17A_Fig.png, id=189, 355.3275pt x 393.47pt>
+
+File: ../../TrigonometriaII/TII_Exercicio17A_Fig.png Graphic file (type png)
+<use ../../TrigonometriaII/TII_Exercicio17A_Fig.png>
+Package pdftex.def Info: ../../TrigonometriaII/TII_Exercicio17A_Fig.png  used o
+n input line 22.
+(pdftex.def)             Requested size: 108.11882pt x 119.72298pt.
+<../../TrigonometriaII/TII_Exercicio17B_Fig.png, id=190, 466.74374pt x 297.11pt
+>
+File: ../../TrigonometriaII/TII_Exercicio17B_Fig.png Graphic file (type png)
+<use ../../TrigonometriaII/TII_Exercicio17B_Fig.png>
+Package pdftex.def Info: ../../TrigonometriaII/TII_Exercicio17B_Fig.png  used o
+n input line 33.
+(pdftex.def)             Requested size: 216.23764pt x 137.64696pt.
+
+[5 <../../TrigonometriaII/TII_Exercicio17A_Fig.png> <../../TrigonometriaII/TII_
+Exercicio17B_Fig.png>]) (../TII_Exercicio18.tex) [6]
+(./Lista_TrigonometriaII.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
 Package rerunfilecheck Info: File `Lista_TrigonometriaII.out' has not changed.
-(rerunfilecheck)             Checksum: 8BC4FE157AB5BAE63A4AD577C4467D5C;1618.
+(rerunfilecheck)             Checksum: 7F97B523D482F093F82EB168E68F5933;2178.
  ) 
 Here is how much of TeX's memory you used:
- 52307 strings out of 474222
- 1218091 string characters out of 5748732
- 1958975 words of memory out of 5000000
- 73498 multiletter control sequences out of 15000+600000
- 584224 words of font info for 164 fonts, out of 8000000 for 9000
+ 52401 strings out of 474222
+ 1221151 string characters out of 5748732
+ 1959975 words of memory out of 5000000
+ 73551 multiletter control sequences out of 15000+600000
+ 585034 words of font info for 175 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 86i,12n,120p,1210b,1205s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 86i,13n,120p,1210b,1129s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></usr/
 share/texlive/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/bitstrea/charter/bchri8a.pfb></usr/share/texlive/t
@@ -1890,10 +1914,10 @@ texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr7v.pfb></usr/share/texlive
 e/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr8t.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chri7m.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chrma.pfb>
-Output written on Lista_TrigonometriaII.pdf (5 pages, 233142 bytes).
+Output written on Lista_TrigonometriaII.pdf (6 pages, 245922 bytes).
 PDF statistics:
- 226 PDF objects out of 1000 (max. 8388607)
- 163 compressed objects within 2 object streams
- 48 named destinations out of 1000 (max. 500000)
- 28979 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 260 PDF objects out of 1000 (max. 8388607)
+ 194 compressed objects within 2 object streams
+ 60 named destinations out of 1000 (max. 500000)
+ 29024 words of extra memory for PDF output out of 29859 (max. 10000000)
 
