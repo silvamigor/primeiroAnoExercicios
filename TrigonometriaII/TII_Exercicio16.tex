@@ -1,0 +1,62 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%       EXERCÍCIO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ifdefstring{\atividade}{prova}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \renewcommand{\valorquestao}{\ValorQObj\ ponto}
+    }{%
+        \renewcommand{\valorquestao}{\ValorQDisc\ pontos}
+    }%
+}%
+
+\begin{exercicioBanco}[\valorquestao]
+Um cientista, em seus estudos para modelar a pressão arterial de uma pessoa, utiliza uma função do tipo
+\[
+P(t) = A + B\cos(kt),
+\]
+em que $A$, $B$ e $k$ são constantes reais positivas e $t$ representa a variável tempo, medida em segundos.
+Considere que um batimento cardíaco representa o intervalo de tempo entre duas sucessivas pressões máximas.
+
+Ao analisar um caso específico, o cientista obteve os seguintes dados:
+\begin{itemize}
+    \item pressão mínima: $78$;
+    \item pressão máxima: $120$;
+    \item número de batimentos cardíacos por minuto: $90$.
+\end{itemize}
+
+Determine a função $P(t)$ obtida por este cientista, ao analisar o caso específico.
+
+% Define as alternativas
+\newcommand{\alternativas}{%
+    \begin{center}
+        \begin{tabularx}{\textwidth}{XXX}
+            (a) \(P(t) = 99 + 21\cdot\cos(3\pi t)\). &
+            (b) \(P(t) = 78 + 42\cdot\cos(3\pi t)\). &
+            (c) \(P(t) = 99 + 21\cdot\cos(2\pi t)\). \\[5pt]
+            (d) \(P(t) = 99 + 21\cdot\cos(t)\). &
+            (e) \(P(t) = 78 + 42\cdot\cos(t)\).
+        \end{tabularx}
+    \end{center}
+}
+
+% Define a resposta correta
+\newcommand{\resposta}{A}
+
+% Lógica condicional para exibição
+\ifdefstring{\atividade}{lista}{%
+    \alternativas
+    \vspace{0.5em}
+    
+    \noindent\textbf{Resposta:} letra \textbf{\resposta}.
+}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \alternativas
+    }{%
+        % modo = discursiva → não mostra alternativas
+    }
+}
+\end{exercicioBanco}
+
