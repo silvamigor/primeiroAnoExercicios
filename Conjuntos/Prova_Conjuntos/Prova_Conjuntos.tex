@@ -8,9 +8,9 @@
 \pgfmathparse{int(\NumQObj + \NumQDisc)}
 \edef\NumTotalQuestoes{\pgfmathresult}
 \newcommand{\questaoDiscursiva}{Exercício \NumTotalQuestoes}
-\newcommand{\ValorQObj}{1}
-\newcommand{\ValorQDisc}{2}
-\pgfmathparse{int(\NumQObj * \ValorQObj + \NumQDisc * \ValorQDisc)}
+\newcommand{\ValorQObj}{0.4}
+\newcommand{\ValorQDisc}{3}
+\pgfmathparse{int(round(\NumQObj * \ValorQObj + \NumQDisc * \ValorQDisc))}
 \edef\ValorProva{\pgfmathresult}
 \newcommand{\tipo}{dupla} % dupla ou individual
 \newcommand{\calculadora}{nao} % sim ou nao
@@ -18,10 +18,10 @@
 
 \hypersetup{
     pdfauthor={\professor},
-    pdftitle={\titulo -- \assunto},
+    pdftitle={\titulo \-- \assunto \-- \turma \-- \numProva},
 }
 
-\title{\titulo -- \assunto}
+\title{\titulo \-- \assunto \-- \turma \-- \numProva}
 \author{\professor}
 \date{\data}
 
@@ -47,7 +47,7 @@
     \pagenumbering{arabic}
     %
         
-    \subtitulo
+    \subtitulopr
         
     %
     \begin{center}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.12.14)  23 NOV 2025 12:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.12.14)  18 DEC 2025 17:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1748,9 +1748,9 @@ Overfull \hbox (5.26901pt too wide) in paragraph at lines 40--41
  []
 
 LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
-(Font)              scaled to size 10.51207pt on input line 60.
+(Font)              scaled to size 10.51207pt on input line 62.
 LaTeX Font Info:    Font shape `TS1/mdbch/m/n' will be
-(Font)              scaled to size 10.51207pt on input line 61.
+(Font)              scaled to size 10.51207pt on input line 63.
 Package microtype Info: Character `texttwelveudash ' is missing
 (microtype)             in font `TS1/mdbch/m/n/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -1773,228 +1773,173 @@ Package microtype Info: Character `textcelsius ' is missing
 (microtype)             in font `TS1/mdbch/m/n/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
-(Font)              scaled to size 10.51207pt on input line 61.
+(Font)              scaled to size 10.51207pt on input line 63.
 LaTeX Font Info:    Trying to load font information for OT1+mdbch on input line
- 90.
+ 92.
 (/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdbch/ot1mdbch.fd
 File: ot1mdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OT1/mdbch.
 )
 LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 11.52008pt on input line 90.
+(Font)              scaled to size 11.52008pt on input line 92.
 LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 7.68005pt on input line 90.
+(Font)              scaled to size 7.68005pt on input line 92.
 LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 5.76004pt on input line 90.
+(Font)              scaled to size 5.76004pt on input line 92.
 LaTeX Font Info:    Trying to load font information for OML+mdbch on input line
- 90.
+ 92.
 
 (/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdbch/omlmdbch.fd
 File: omlmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OML/mdbch.
 )
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 11.52008pt on input line 90.
+(Font)              scaled to size 11.52008pt on input line 92.
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 7.68005pt on input line 90.
+(Font)              scaled to size 7.68005pt on input line 92.
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 5.76004pt on input line 90.
+(Font)              scaled to size 5.76004pt on input line 92.
 LaTeX Font Info:    Trying to load font information for OMS+mdbch on input line
- 90.
+ 92.
 
 (/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdbch/omsmdbch.fd
 File: omsmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OMS/mdbch.
 )
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 11.52008pt on input line 90.
+(Font)              scaled to size 11.52008pt on input line 92.
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 7.68005pt on input line 90.
+(Font)              scaled to size 7.68005pt on input line 92.
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 5.76004pt on input line 90.
+(Font)              scaled to size 5.76004pt on input line 92.
 LaTeX Font Info:    Trying to load font information for OMX+mdbch on input line
- 90.
+ 92.
 
 (/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdbch/omxmdbch.fd
 File: omxmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OMX/mdbch.
 )
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 11.52008pt on input line 90.
+(Font)              scaled to size 11.52008pt on input line 92.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 7.68005pt on input line 90.
+(Font)              scaled to size 7.68005pt on input line 92.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 5.76004pt on input line 90.
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 90
+(Font)              scaled to size 5.76004pt on input line 92.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 92
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 11.52008pt on input line 90.
+(Font)              scaled to size 11.52008pt on input line 92.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 7.68005pt on input line 90.
+(Font)              scaled to size 7.68005pt on input line 92.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 5.76004pt on input line 90.
+(Font)              scaled to size 5.76004pt on input line 92.
 LaTeX Font Info:    Trying to load font information for MDA+mdbch on input line
- 90.
+ 92.
 
 (/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdbch/mdamdbch.fd
 File: mdamdbch.fd 2013/08/29 Fontinst v1.933 font definitions for MDA/mdbch.
 )
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 11.52008pt on input line 90.
+(Font)              scaled to size 11.52008pt on input line 92.
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 7.68005pt on input line 90.
+(Font)              scaled to size 7.68005pt on input line 92.
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 5.76004pt on input line 90.
+(Font)              scaled to size 5.76004pt on input line 92.
 LaTeX Font Info:    Trying to load font information for MDB+mdbch on input line
- 90.
+ 92.
 
 (/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdbch/mdbmdbch.fd
 File: mdbmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for MDB/mdbch.
 )
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 11.52008pt on input line 90.
+(Font)              scaled to size 11.52008pt on input line 92.
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 7.68005pt on input line 90.
+(Font)              scaled to size 7.68005pt on input line 92.
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 5.76004pt on input line 90.
+(Font)              scaled to size 5.76004pt on input line 92.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-di
 st/fonts/enc/dvips/ly1/texnansi.enc} <../Logo_Cefet.png>]) [2]
-(../FuncoesExponenciais/FE_Exercicio6.tex)
-(../FuncoesExponenciais/FE_Exercicio17.tex
+(../FuncoesExponenciais/FE_Exercicio2.tex)
+(../FuncoesExponenciais/FE_Exercicio13.tex
 LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 10.51207pt on input line 26.
+(Font)              scaled to size 10.51207pt on input line 30.
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 10.51207pt on input line 26.
+(Font)              scaled to size 10.51207pt on input line 30.
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 10.51207pt on input line 26.
+(Font)              scaled to size 10.51207pt on input line 30.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 10.51207pt on input line 26.
+(Font)              scaled to size 10.51207pt on input line 30.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 10.51207pt on input line 26.
+(Font)              scaled to size 10.51207pt on input line 30.
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 10.51207pt on input line 26.
+(Font)              scaled to size 10.51207pt on input line 30.
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 10.51207pt on input line 26.
+(Font)              scaled to size 10.51207pt on input line 30.
 )
-(../FuncoesExponenciais/FE_Exercicio20.tex)
-(../FuncoesLogaritmicas/FL_Exercicio8.tex) [1]
-(../FuncoesLogaritmicas/FL_Exercicio14.tex)
-(../FuncoesLogaritmicas/FL_Exercicio18.tex)
-(../TrigonometriaI/TI_Exercicio27.tex
-LaTeX Font Info:    Font shape `OT1/mdbch/b/n' will be
-(Font)              scaled to size 11.52008pt on input line 28.
-LaTeX Font Info:    Font shape `OT1/mdbch/b/n' will be
-(Font)              scaled to size 7.68005pt on input line 28.
-LaTeX Font Info:    Font shape `OT1/mdbch/b/n' will be
-(Font)              scaled to size 5.76004pt on input line 28.
-LaTeX Font Info:    Font shape `OML/mdbch/b/it' will be
-(Font)              scaled to size 11.52008pt on input line 28.
-LaTeX Font Info:    Font shape `OML/mdbch/b/it' will be
-(Font)              scaled to size 7.68005pt on input line 28.
-LaTeX Font Info:    Font shape `OML/mdbch/b/it' will be
-(Font)              scaled to size 5.76004pt on input line 28.
-LaTeX Font Info:    Font shape `OMS/mdbch/b/n' will be
-(Font)              scaled to size 11.52008pt on input line 28.
-LaTeX Font Info:    Font shape `OMS/mdbch/b/n' will be
-(Font)              scaled to size 7.68005pt on input line 28.
-LaTeX Font Info:    Font shape `OMS/mdbch/b/n' will be
-(Font)              scaled to size 5.76004pt on input line 28.
-LaTeX Font Info:    Font shape `OMX/mdbch/b/n' will be
-(Font)              scaled to size 11.52008pt on input line 28.
-LaTeX Font Info:    Font shape `OMX/mdbch/b/n' will be
-(Font)              scaled to size 7.68005pt on input line 28.
-LaTeX Font Info:    Font shape `OMX/mdbch/b/n' will be
-(Font)              scaled to size 5.76004pt on input line 28.
-LaTeX Font Info:    Font shape `OML/mdbch/b/n' will be
-(Font)              scaled to size 11.52008pt on input line 28.
-LaTeX Font Info:    Font shape `OML/mdbch/b/n' will be
-(Font)              scaled to size 7.68005pt on input line 28.
-LaTeX Font Info:    Font shape `OML/mdbch/b/n' will be
-(Font)              scaled to size 5.76004pt on input line 28.
-LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
-(Font)              scaled to size 11.52008pt on input line 28.
-LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
-(Font)              scaled to size 7.68005pt on input line 28.
-LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
-(Font)              scaled to size 5.76004pt on input line 28.
-LaTeX Font Info:    Font shape `MDB/mdbch/b/n' will be
-(Font)              scaled to size 11.52008pt on input line 28.
-LaTeX Font Info:    Font shape `MDB/mdbch/b/n' will be
-(Font)              scaled to size 7.68005pt on input line 28.
-LaTeX Font Info:    Font shape `MDB/mdbch/b/n' will be
-(Font)              scaled to size 5.76004pt on input line 28.
-<../TrigonometriaI/TI_Exercicio27_Fig.png, id=127, 220.825pt x 320.19624pt>
-File: ../TrigonometriaI/TI_Exercicio27_Fig.png Graphic file (type png)
-<use ../TrigonometriaI/TI_Exercicio27_Fig.png>
-Package pdftex.def Info: ../TrigonometriaI/TI_Exercicio27_Fig.png  used on inpu
-t line 40.
-(pdftex.def)             Requested size: 108.11882pt x 156.7705pt.
- [2 <../TrigonometriaI/TI_Exercicio27_Fig.png>]) (../TrigonometriaI/TI_Exercici
-o28.tex
-<../TrigonometriaI/TI_Exercicio28_Fig.png, id=139, 463.7325pt x 294.09875pt>
-File: ../TrigonometriaI/TI_Exercicio28_Fig.png Graphic file (type png)
-<use ../TrigonometriaI/TI_Exercicio28_Fig.png>
-Package pdftex.def Info: ../TrigonometriaI/TI_Exercicio28_Fig.png  used on inpu
+(../FuncoesExponenciais/FE_Exercicio19.tex)
+(../FuncoesLogaritmicas/FL_Exercicio3.tex)
+(../FuncoesLogaritmicas/FL_Exercicio15.tex)
+(../FuncoesLogaritmicas/FL_Exercicio20.tex [1])
+(../TrigonometriaI/TI_Exercicio10.tex
+LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
+(Font)              scaled to size 7.68005pt on input line 17.
+LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
+(Font)              scaled to size 5.76004pt on input line 17.
+<../TrigonometriaI/TI_Exercicio10_Fig.png, id=128, 721.69624pt x 388.45125pt>
+File: ../TrigonometriaI/TI_Exercicio10_Fig.png Graphic file (type png)
+<use ../TrigonometriaI/TI_Exercicio10_Fig.png>
+Package pdftex.def Info: ../TrigonometriaI/TI_Exercicio10_Fig.png  used on inpu
+t line 24.
+(pdftex.def)             Requested size: 216.23764pt x 116.38808pt.
+) (../TrigonometriaI/TI_Exercicio13.tex)
+(../TrigonometriaI/TI_Exercicio24.tex
+<../TrigonometriaI/TI_Exercicio24_Fig.png, id=129, 197.73875pt x 208.78pt>
+File: ../TrigonometriaI/TI_Exercicio24_Fig.png Graphic file (type png)
+<use ../TrigonometriaI/TI_Exercicio24_Fig.png>
+Package pdftex.def Info: ../TrigonometriaI/TI_Exercicio24_Fig.png  used on inpu
 t line 22.
-(pdftex.def)             Requested size: 216.23764pt x 137.14043pt.
+(pdftex.def)             Requested size: 81.08705pt x 85.61627pt.
+) (../TrigonometriaII/TII_Exercicio1.tex
+[2 <../TrigonometriaI/TI_Exercicio10_Fig.png> <../TrigonometriaI/TI_Exercicio24
+_Fig.png>]) (../TrigonometriaII/TII_Exercicio7.tex
+<../TrigonometriaII/TII_Exercicio7_Fig.png, id=142, 376.40625pt x 164.615pt>
+File: ../TrigonometriaII/TII_Exercicio7_Fig.png Graphic file (type png)
+<use ../TrigonometriaII/TII_Exercicio7_Fig.png>
+Package pdftex.def Info: ../TrigonometriaII/TII_Exercicio7_Fig.png  used on inp
+ut line 22.
+(pdftex.def)             Requested size: 162.18236pt x 70.92874pt.
 )
-(../TrigonometriaI/TI_Exercicio29.tex
-<../TrigonometriaI/TI_Exercicio29_Fig.png, id=140, 500.87125pt x 456.70625pt>
-File: ../TrigonometriaI/TI_Exercicio29_Fig.png Graphic file (type png)
-<use ../TrigonometriaI/TI_Exercicio29_Fig.png>
-Package pdftex.def Info: ../TrigonometriaI/TI_Exercicio29_Fig.png  used on inpu
-t line 23.
-(pdftex.def)             Requested size: 162.18236pt x 147.8842pt.
-) (../TrigonometriaII/TII_Exercicio6.tex
-[3 <../TrigonometriaI/TI_Exercicio28_Fig.png> <../TrigonometriaI/TI_Exercicio29
-_Fig.png>]) (../TrigonometriaII/TII_Exercicio13.tex)
-(../TrigonometriaII/TII_Exercicio14.tex
-<../TrigonometriaII/TII_Exercicio14A_Fig.png, id=151, 355.3275pt x 393.47pt>
-File: ../TrigonometriaII/TII_Exercicio14A_Fig.png Graphic file (type png)
-<use ../TrigonometriaII/TII_Exercicio14A_Fig.png>
-Package pdftex.def Info: ../TrigonometriaII/TII_Exercicio14A_Fig.png  used on i
-nput line 22.
-(pdftex.def)             Requested size: 108.11882pt x 119.72298pt.
-<../TrigonometriaII/TII_Exercicio14B_Fig.png, id=152, 466.74374pt x 297.11pt>
-File: ../TrigonometriaII/TII_Exercicio14B_Fig.png Graphic file (type png)
-<use ../TrigonometriaII/TII_Exercicio14B_Fig.png>
-Package pdftex.def Info: ../TrigonometriaII/TII_Exercicio14B_Fig.png  used on i
-nput line 33.
-(pdftex.def)             Requested size: 216.23764pt x 137.64696pt.
- [4 <../TrigonometriaII/TII_Exercicio14A_Fig.png>]) [5 <../TrigonometriaII/TII_
-Exercicio14B_Fig.png>] [6]
-(../Rascunho.tex) [7] (./AvaliacaoSomativa.aux)
+(../TrigonometriaII/TII_Exercicio16.tex) [3 <../TrigonometriaII/TII_Exercicio7_
+Fig.png>] [4] (../Rascunho.tex) [5] (./AvaliacaoSomativa.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
 Package rerunfilecheck Info: File `AvaliacaoSomativa.out' has not changed.
-(rerunfilecheck)             Checksum: A62CFDBA5F6C2B028269AFC3A39A75F0;1434.
+(rerunfilecheck)             Checksum: 2841A33539F0FAE4357313FACED83EE5;1434.
  ) 
 Here is how much of TeX's memory you used:
- 53083 strings out of 474222
- 1234969 string characters out of 5748732
+ 52835 strings out of 474222
+ 1229717 string characters out of 5748732
  1963975 words of memory out of 5000000
- 74159 multiletter control sequences out of 15000+600000
- 609189 words of font info for 270 fonts, out of 8000000 for 9000
+ 73946 multiletter control sequences out of 15000+600000
+ 601683 words of font info for 233 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 86i,20n,120p,1206b,1170s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 86i,14n,120p,1206b,1075s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></usr/
 share/texlive/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/bitstrea/charter/bchri8a.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/mathdesign/mdbch/md-chbi7m.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr7t.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr7v.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr7y.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr8t.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chri7m.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chrma.pfb>
-Output written on AvaliacaoSomativa.pdf (9 pages, 218411 bytes).
+exmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr7t.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr7v.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr7y.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr8t.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chri7m.pfb>
+Output written on AvaliacaoSomativa.pdf (7 pages, 301087 bytes).
 PDF statistics:
- 238 PDF objects out of 1000 (max. 8388607)
- 169 compressed objects within 2 object streams
- 44 named destinations out of 1000 (max. 500000)
- 55595 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 210 PDF objects out of 1000 (max. 8388607)
+ 151 compressed objects within 2 object streams
+ 37 named destinations out of 1000 (max. 500000)
+ 57633 words of extra memory for PDF output out of 61914 (max. 10000000)
 

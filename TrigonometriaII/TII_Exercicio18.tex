@@ -13,23 +13,45 @@
 }%
 
 \begin{exercicioBanco}[\valorquestao]
-Em uma determinada região litorânea, a maré oscila segundo a função \(h(t) = 3 - 2\sen\left(\dfrac{\pi t}{12}\right)\), sendo h a altura em metros, que a maré atinge no tempo t em horas, medido a partir de 6 h da manhã. Uma embarcação, que se encontra encalhada às 11 h da manhã, precisa de uma profundidade mínima de 2 metros para navegar. Quantas horas os tripulantes dessa embarcação ainda terão que esperar para prosseguirem viagem?
+Em 2014 foi inaugurada a maior roda-gigante do mundo, a High Roller, situada em Las Vegas. A figura representa um esboço dessa roda-gigante, no qual o ponto $A$ representa uma de suas cadeiras:
+
+\medskip
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.2\textwidth]{TII_Exercicio18A_Fig.png}
+\end{figure}
+
+\smallskip
+
+A partir da posição indicada, em que o segmento $OA$ se encontra paralelo ao plano do solo, rotaciona-se a High Roller no sentido anti-horário, em torno do ponto $O$. Sejam $t$ o ângulo determinado pelo segmento $OA$ em relação à sua posição inicial, e $f$ a função que descreve a altura do ponto $A$, em relação ao solo, em função de $t$. Após duas voltas completas, $f$ tem o seguinte gráfico:
+
+\medskip
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{TII_Exercicio18B_Fig.png}
+\end{figure}
+
+\smallskip
+
+Determine a expressão da função \(f\).
 
 % Define as alternativas
 \newcommand{\alternativas}{%
     \begin{center}
-        \begin{tabularx}{\textwidth}{XXXXX}
-            (a) 4 h. &
-            (b) 5 h. &
-            (c) 6 h. &
-            (d) 7 h. &
-            (e) 8 h.
+        \begin{tabularx}{\textwidth}{XXX}
+            (a) \(f(t) = 80\sen(t) + 88\). &
+            (b) \(f(t) = 80\cos(t) + 88\). &
+            (c) \(f(t) = 88\cos(t) + 168\). \\[5pt]
+            (d) \(f(t) = 168\sen(t) + 88\cos(t)\). &
+            (e) \(f(t) = 88\sen(t) + 168\cos(t)\).
         \end{tabularx}
     \end{center}
 }
 
 % Define a resposta correta
-\newcommand{\resposta}{B}
+\newcommand{\resposta}{A}
 
 % Lógica condicional para exibição
 \ifdefstring{\atividade}{lista}{%

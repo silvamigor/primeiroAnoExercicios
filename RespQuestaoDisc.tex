@@ -16,11 +16,50 @@
       normal lines/.style={gray, very thin},
       every node/.append style={black, align=center, opacity=1}
     ]
-    \foreach \y in {0.71,1.41,...,25.56}
-      \draw[normal lines] (0,\y) -- (8.5in,\y);
-    \draw[normal lines] (1.25in,0) -- (1.25in,11in);
-    \node (t) [font=\large, anchor=south, yshift=10pt] at ($(0,25.56)!1/2!(8.5in,25.56)$) {Resposta da Questão Discursiva};
-    \node (d) [font=\large, anchor=south west, xshift=1.3em] at (0,24.65) {\textbf{\questaoDiscursiva}};
+    \foreach \y in {5.7,6.4,...,27.4}
+        \draw[normal lines] (0,\y cm) -- (21cm,\y cm);
+    \draw[draw=none] (3cm,0cm) -- (3cm,5.6cm);
+    \draw[normal lines] (3 cm, 5.6 cm) -- (3 cm, 29 cm);
+    \node (t) [font=\large, anchor=south, yshift=10pt] at ($(0,27.4)!1/2!(21cm,27.4)$) {Resposta da Questão Discursiva};
+    \node (d) [font=\large, anchor=south west, xshift=8pt] at (0,26.85 cm) {\textbf{\questaoDiscursiva}};
     \end{tikzpicture}
   }
 }
+
+%
+\vfill
+\noindent
+\begin{center}
+    \textit{A tabela a seguir será preenchida pelo professor para fins de avaliação. Não escreva neste espaço.}
+\end{center}
+\vspace{3pt}
+\begin{center}
+    \begin{tabular}{C{150pt}|C{60pt}|C{60pt}|C{60pt}|C{60pt}|C{60pt}|}
+        \cline{2-6}
+        & \multicolumn{1}{c|}{\makecell{Muito bom\\100\%}}
+        & \makecell{Bom\\75\%}
+        & \makecell{Regular\\50\%}
+        & \makecell{Ruim\\25\%} 
+        & \makecell{Muito ruim\\0\%} \\
+        
+        \hline
+            
+        \multicolumn{1}{|c|}{\makecell{Aplicação da Matemática \\ 50\%}}
+        & 
+        & 
+        & 
+        & 
+        &  \\
+
+        \hline
+
+        \multicolumn{1}{|c|}{\makecell{Organização e argumentação \\ 50\%}}
+        & 
+        & 
+        & 
+        & 
+        &  \\
+
+        \hline
+    \end{tabular}
+\end{center}

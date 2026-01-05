@@ -13,37 +13,29 @@
 }%
 
 \begin{exercicioBanco}[\valorquestao]
-Um cientista, em seus estudos para modelar a pressão arterial de uma pessoa, utiliza uma função do tipo
+A tensão em um circuito é dada, em volts, pela função
+%
 \[
-P(t) = A + B\cos(kt),
+    T(t) = 120\sen\left(100\pi t + \dfrac{\pi}{6}\right),
 \]
-em que $A$, $B$ e $k$ são constantes reais positivas e $t$ representa a variável tempo, medida em segundos.
-Considere que um batimento cardíaco representa o intervalo de tempo entre duas sucessivas pressões máximas.
-
-Ao analisar um caso específico, o cientista obteve os seguintes dados:
-\begin{itemize}
-    \item pressão mínima: $78$;
-    \item pressão máxima: $120$;
-    \item número de batimentos cardíacos por minuto: $90$.
-\end{itemize}
-
-Determine a função $P(t)$ obtida por este cientista, ao analisar o caso específico.
+%
+onde \(t\) é o tempo em segundos. Determine a tensão no instante \(t = 0,01\) s.
 
 % Define as alternativas
 \newcommand{\alternativas}{%
     \begin{center}
-        \begin{tabularx}{\textwidth}{XXX}
-            (a) \(P(t) = 99 + 21\cdot\cos(3\pi t)\). &
-            (b) \(P(t) = 78 + 42\cdot\cos(3\pi t)\). &
-            (c) \(P(t) = 99 + 21\cdot\cos(2\pi t)\). \\[5pt]
-            (d) \(P(t) = 99 + 21\cdot\cos(t)\). &
-            (e) \(P(t) = 78 + 42\cdot\cos(t)\).
+        \begin{tabularx}{\textwidth}{XXXXX}
+            (a) \(60\) V. &
+            (b) \(-60\) V. &
+            (c) \(60\sqrt{3}\) V. &
+            (d) \(-60\sqrt{3}\) V. &
+            (e) \(60\sqrt{2}\) V.
         \end{tabularx}
     \end{center}
 }
 
 % Define a resposta correta
-\newcommand{\resposta}{A}
+\newcommand{\resposta}{B}
 
 % Lógica condicional para exibição
 \ifdefstring{\atividade}{lista}{%

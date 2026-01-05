@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.12.14)  3 DEC 2025 10:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.12.14)  3 DEC 2025 11:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1827,7 +1827,7 @@ LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-di
 st/fonts/enc/dvips/ly1/texnansi.enc}]) (../TII_Exercicio6.tex) (../TII_Exercici
 o7.tex
-<../../TrigonometriaII/TII_Exercicio7_Fig.png, id=145, 376.40625pt x 164.615pt>
+<../../TrigonometriaII/TII_Exercicio7_Fig.png, id=149, 376.40625pt x 164.615pt>
 
 File: ../../TrigonometriaII/TII_Exercicio7_Fig.png Graphic file (type png)
 <use ../../TrigonometriaII/TII_Exercicio7_Fig.png>
@@ -1835,7 +1835,7 @@ Package pdftex.def Info: ../../TrigonometriaII/TII_Exercicio7_Fig.png  used on
 input line 22.
 (pdftex.def)             Requested size: 162.18236pt x 70.92874pt.
 ) (../TII_Exercicio8.tex
-<../../TrigonometriaII/TII_Exercicio8_Fig.png, id=147, 435.6275pt x 164.615pt>
+<../../TrigonometriaII/TII_Exercicio8_Fig.png, id=151, 435.6275pt x 164.615pt>
 File: ../../TrigonometriaII/TII_Exercicio8_Fig.png Graphic file (type png)
 <use ../../TrigonometriaII/TII_Exercicio8_Fig.png>
 Package pdftex.def Info: ../../TrigonometriaII/TII_Exercicio8_Fig.png  used on 
@@ -1843,7 +1843,7 @@ input line 22.
 (pdftex.def)             Requested size: 162.18236pt x 61.28336pt.
 ) (../TII_Exercicio9.tex [2 <../../TrigonometriaII/TII_Exercicio7_Fig.png> <../
 ../TrigonometriaII/TII_Exercicio8_Fig.png>]
-<../../TrigonometriaII/TII_Exercicio9_Fig.png, id=163, 187.70125pt x 194.7275pt
+<../../TrigonometriaII/TII_Exercicio9_Fig.png, id=167, 187.70125pt x 194.7275pt
 >
 File: ../../TrigonometriaII/TII_Exercicio9_Fig.png Graphic file (type png)
 <use ../../TrigonometriaII/TII_Exercicio9_Fig.png>
@@ -1852,7 +1852,7 @@ input line 22.
 (pdftex.def)             Requested size: 81.08705pt x 84.12338pt.
 )
 (../TII_Exercicio10.tex
-<../../TrigonometriaII/TII_Exercicio10_Fig.png, id=164, 294.09875pt x 278.03876
+<../../TrigonometriaII/TII_Exercicio10_Fig.png, id=168, 294.09875pt x 278.03876
 pt>
 File: ../../TrigonometriaII/TII_Exercicio10_Fig.png Graphic file (type png)
 <use ../../TrigonometriaII/TII_Exercicio10_Fig.png>
@@ -1862,49 +1862,49 @@ Package pdftex.def Info: ../../TrigonometriaII/TII_Exercicio10_Fig.png  used on
 ) (../TII_Exercicio11_1.tex) (../TII_Exercicio11_2.tex)
 (../TII_Exercicio12.tex [3 <../../TrigonometriaII/TII_Exercicio9_Fig.png> <../.
 ./TrigonometriaII/TII_Exercicio10_Fig.png>]) (../TII_Exercicio13.tex)
-(../TII_Exercicio14.tex
-<../../TrigonometriaII/TII_Exercicio14_Fig.png, id=178, 353.32pt x 251.94125pt>
+(../TII_Exercicio14.tex) (../TII_Exercicio15.tex
+<../../TrigonometriaII/TII_Exercicio15_Fig.png, id=182, 353.32pt x 251.94125pt>
 
-File: ../../TrigonometriaII/TII_Exercicio14_Fig.png Graphic file (type png)
-<use ../../TrigonometriaII/TII_Exercicio14_Fig.png>
-Package pdftex.def Info: ../../TrigonometriaII/TII_Exercicio14_Fig.png  used on
+File: ../../TrigonometriaII/TII_Exercicio15_Fig.png Graphic file (type png)
+<use ../../TrigonometriaII/TII_Exercicio15_Fig.png>
+Package pdftex.def Info: ../../TrigonometriaII/TII_Exercicio15_Fig.png  used on
  input line 22.
 (pdftex.def)             Requested size: 162.18236pt x 115.64833pt.
-) (../TII_Exercicio15.tex) (../TII_Exercicio16.tex
-[4 <../../TrigonometriaII/TII_Exercicio14_Fig.png>]) (../TII_Exercicio17.tex
-<../../TrigonometriaII/TII_Exercicio17A_Fig.png, id=189, 355.3275pt x 393.47pt>
+) (../TII_Exercicio16.tex
+[4 <../../TrigonometriaII/TII_Exercicio15_Fig.png>]) (../TII_Exercicio17.tex)
+(../TII_Exercicio18.tex
+<../../TrigonometriaII/TII_Exercicio18A_Fig.png, id=194, 355.3275pt x 393.47pt>
 
-File: ../../TrigonometriaII/TII_Exercicio17A_Fig.png Graphic file (type png)
-<use ../../TrigonometriaII/TII_Exercicio17A_Fig.png>
-Package pdftex.def Info: ../../TrigonometriaII/TII_Exercicio17A_Fig.png  used o
+File: ../../TrigonometriaII/TII_Exercicio18A_Fig.png Graphic file (type png)
+<use ../../TrigonometriaII/TII_Exercicio18A_Fig.png>
+Package pdftex.def Info: ../../TrigonometriaII/TII_Exercicio18A_Fig.png  used o
 n input line 22.
 (pdftex.def)             Requested size: 108.11882pt x 119.72298pt.
-<../../TrigonometriaII/TII_Exercicio17B_Fig.png, id=190, 466.74374pt x 297.11pt
+<../../TrigonometriaII/TII_Exercicio18B_Fig.png, id=195, 466.74374pt x 297.11pt
 >
-File: ../../TrigonometriaII/TII_Exercicio17B_Fig.png Graphic file (type png)
-<use ../../TrigonometriaII/TII_Exercicio17B_Fig.png>
-Package pdftex.def Info: ../../TrigonometriaII/TII_Exercicio17B_Fig.png  used o
+File: ../../TrigonometriaII/TII_Exercicio18B_Fig.png Graphic file (type png)
+<use ../../TrigonometriaII/TII_Exercicio18B_Fig.png>
+Package pdftex.def Info: ../../TrigonometriaII/TII_Exercicio18B_Fig.png  used o
 n input line 33.
 (pdftex.def)             Requested size: 216.23764pt x 137.64696pt.
-
-[5 <../../TrigonometriaII/TII_Exercicio17A_Fig.png> <../../TrigonometriaII/TII_
-Exercicio17B_Fig.png>]) (../TII_Exercicio18.tex) [6]
+ [5 <../../TrigonometriaII/TII_Exercicio18A_Fig.png>])
+(../TII_Exercicio19.tex) [6 <../../TrigonometriaII/TII_Exercicio18B_Fig.png>]
 (./Lista_TrigonometriaII.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
 Package rerunfilecheck Info: File `Lista_TrigonometriaII.out' has not changed.
-(rerunfilecheck)             Checksum: 7F97B523D482F093F82EB168E68F5933;2178.
+(rerunfilecheck)             Checksum: 1ADA6ACFBDB7B05F06F65C768658AFC9;2290.
  ) 
 Here is how much of TeX's memory you used:
- 52401 strings out of 474222
- 1221151 string characters out of 5748732
+ 52412 strings out of 474222
+ 1221396 string characters out of 5748732
  1959975 words of memory out of 5000000
- 73551 multiletter control sequences out of 15000+600000
+ 73557 multiletter control sequences out of 15000+600000
  585034 words of font info for 175 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 86i,13n,120p,1210b,1129s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 86i,13n,120p,1210b,1108s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></usr/
 share/texlive/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/bitstrea/charter/bchri8a.pfb></usr/share/texlive/t
@@ -1914,10 +1914,10 @@ texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr7v.pfb></usr/share/texlive
 e/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr8t.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chri7m.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chrma.pfb>
-Output written on Lista_TrigonometriaII.pdf (6 pages, 245922 bytes).
+Output written on Lista_TrigonometriaII.pdf (6 pages, 246782 bytes).
 PDF statistics:
- 260 PDF objects out of 1000 (max. 8388607)
- 194 compressed objects within 2 object streams
- 60 named destinations out of 1000 (max. 500000)
- 29024 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 266 PDF objects out of 1000 (max. 8388607)
+ 200 compressed objects within 2 object streams
+ 62 named destinations out of 1000 (max. 500000)
+ 29032 words of extra memory for PDF output out of 29859 (max. 10000000)
 

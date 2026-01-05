@@ -13,29 +13,34 @@
 }%
 
 \begin{exercicioBanco}[\valorquestao]
-A tensão em um circuito é dada, em volts, pela função
-%
-\[
-    T(t) = 120\sen\left(100\pi t + \dfrac{\pi}{6}\right),
-\]
-%
-onde \(t\) é o tempo em segundos. Determine a tensão no instante \(t = 0,01\) s.
+Se \(f(x) = a + b\cdot\sen(x)\) tem como gráfico
+
+\medskip
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.3\textwidth]{TII_Exercicio15_Fig.png}
+\end{figure}
+
+\smallskip
+
+Determine o valor de \(a\) e o valor de \(b\).
 
 % Define as alternativas
 \newcommand{\alternativas}{%
     \begin{center}
-        \begin{tabularx}{\textwidth}{XXXXX}
-            (a) \(60\) V. &
-            (b) \(-60\) V. &
-            (c) \(60\sqrt{3}\) V. &
-            (d) \(-60\sqrt{3}\) V. &
-            (e) \(60\sqrt{2}\) V.
+        \begin{tabularx}{\textwidth}{XXX}
+            (a) \(a = -2\) e \(b = 1\). &
+            (b) \(a = -1\) e \(b = 2\). &
+            (c) \(a = 1\) e \(b = -1\). \\[5pt]
+            (d) \(a = 1\) e \(b = -2\). &
+            (e) \(a = 1\) e \(b = 1\).
         \end{tabularx}
     \end{center}
 }
 
 % Define a resposta correta
-\newcommand{\resposta}{B}
+\newcommand{\resposta}{D}
 
 % Lógica condicional para exibição
 \ifdefstring{\atividade}{lista}{%

@@ -13,23 +13,29 @@
 }%
 
 \begin{exercicioBanco}[\valorquestao]
-Sejam as funções \(f(x) = 2\sen(x)\) e \(g(x) = \sen(2x)\). A respeito delas, assinale a alternativa correta.
+Considere que o volume de ar nos pulmões de um ser humano adulto, em litro, é descritos pela função
 %
+\[
+    V(t) = a + b\sen(ct),
+\]
+%
+onde \(t\) é o tempo em segundos. Sabendo-se que o volume máximo de ar é 4 litros, o mínimo é 2 litros e que o período de \(V(t)\) é igual a 6. Admitindo que \(b, c > 0\), determine \(a\), \(b\) e \(c\).
+
 % Define as alternativas
 \newcommand{\alternativas}{%
     \begin{center}
-        \begin{tabularx}{\textwidth}{X}
-            (a) O período de \(f(x)\) é o dobro do período de \(g(x)\). \\[5pt]
-            (b) As funções \(f(x)\) e \(g(x)\) possuem os mesmos zeros. \\[5pt]
-            (c) O máximo de \(f(x)\) é igual ao máximo de \(g(x)\). \\[5pt]
-            (d) O máximo de \(g(x)\) é o dobro do máximo de \(f(x)\). \\[5pt]
-            (e) O período de \(g(x)\) é o dobro do período de \(f(x)\).
+        \begin{tabularx}{\textwidth}{XXX}
+            (a) \(a = 2\), \(b = 2\) e \(c = 6\). &
+            (b) \(a = 1\), \(b = 3\) e \(c = \frac{\pi}{6}\). &
+            (c) \(a = 3\), \(b = 1\) e \(c = \frac{\pi}{3}\). \\[5pt]
+            (d) \(a = 3\), \(b = 1\) e \(c = 6\). &
+            (e) \(a = 2\), \(b = 3\) e \(c = \pi\).
         \end{tabularx}
     \end{center}
 }
 
 % Define a resposta correta
-\newcommand{\resposta}{A}
+\newcommand{\resposta}{C}
 
 % Lógica condicional para exibição
 \ifdefstring{\atividade}{lista}{%
