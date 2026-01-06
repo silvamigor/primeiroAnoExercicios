@@ -9,83 +9,61 @@
 \newcommand{\dataTexto}{\dia\ de \mesTexto\ de \ano}
 \newcommand{\dataNun}{\dia/\mesNum/\ano}
 
-\ifdefstring{\atividade}{prova}{
-    \newcommand{\titulo}{Avaliação de Matemática}
-}{
-    \newcommand{\titulo}{Lista de exercícios de Matemática}
+\newcommand{\titulo}{%
+  \ifdefstring{\atividade}{prova}{Avaliação de Matemática}{%
+  \ifdefstring{\atividade}{lista}{Lista de exercícios de Matemática}{%
+  \ifdefstring{\atividade}{as}{Avaliação Somativa}{%
+  \ifdefstring{\atividade}{ad}{Avaliação Diagnóstica}{%
+  Atividade de Matemática}}}}%
 }
 
-\newcommand{\subtitulolis}{
-    %
+\newcommand{\emtipo}{%
+  \ifdefstring{\tipo}{individual}{\tipo}{em \tipo}%
+}
+
+\newcommand{\subtitulobase}[3]{%
+    % #1 = título da 1ª coluna
+    % #2 = conteúdo da 1ª coluna
+    % #3 = mostra número da prova? (vazio ou algo)
+    
     \begin{center}
-        CEFET -- Contagem \\[3pt]
-        \titulo \ -- \bimestre.\textordmasculine\ Bimestre de \ano \\[3pt]
+        CEFET-MG -- Campus Contagem \\[3pt]
+        \titulo\ -- \bimestre.\textordmasculine\ Bimestre de \ano \\[3pt]
         \professor
     \end{center}
-    %
+    
     \begin{center}
         \vspace{15pt}
         \begin{tabular}{|C{210pt}|C{70pt}|C{210pt}|}
             \hline
-            \textbf{ASSUNTO} &
+            \textbf{#1} &
             \textbf{DATA} &
             \textbf{TURMA} \\
             \hline
-            \assunto & \dataNun & \turma \\
+            #2 & \dataNun & \turma \\
             \hline
         \end{tabular}
     \end{center}
-    %
+    
+    #3
+    
     \vspace{15pt}
 }
 
-\newcommand{\subtitulopr}{
-    %
-    \begin{center}
-        CEFET -- Contagem \\[3pt]
-        \titulo \ -- \bimestre.\textordmasculine\ Bimestre de \ano \\[3pt]
-        \professor
-    \end{center}
-    %
-    \begin{center}
-        \vspace{15pt}
-        \begin{tabular}{|C{210pt}|C{70pt}|C{210pt}|}
-            \hline
-            \textbf{ASSUNTO} &
-            \textbf{DATA} &
-            \textbf{TURMA} \\
-            \hline
-            \assunto & \dataNun & \turma \\
-            \hline
-        \end{tabular}
-    \end{center}
-    \boxed{\numProva}
-    %
-    \vspace{15pt}
+\newcommand{\subtitulolis}{%
+  \subtitulobase{ASSUNTO}{\assunto}{}%
 }
 
-\newcommand{\subtituloas}{
-    %
-    \begin{center}
-        CEFET -- Contagem \\[3pt]
-        Avaliação somativa \ -- \bimestre.\textordmasculine\ Bimestre de \ano \\[3pt]
-        \professor
-    \end{center}
-    %
-    \begin{center}
-        \vspace{15pt}
-        \begin{tabular}{|C{210pt}|C{70pt}|C{210pt}|}
-            \hline
-            \textbf{DISCIPLINA} &
-            \textbf{DATA} &
-            \textbf{TURMA} \\
-            \hline
-            MATEMÁTICA & \dataNun & \turma \\
-            \hline
-        \end{tabular}
-    \end{center}
-    %
-    \vspace{15pt}
+\newcommand{\subtitulopr}{%
+  \subtitulobase{ASSUNTO}{\assunto}{\boxed{\numProva}}%
+}
+
+\newcommand{\subtituloas}{%
+  \subtitulobase{DISCIPLINA}{MATEMÁTICA}{}%
+}
+
+\newcommand{\subtituload}{%
+  \subtitulobase{DISCIPLINA}{MATEMÁTICA}{}%
 }
 
 \newcommand{\valorquestao}{}

@@ -1,0 +1,122 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%       CAPA
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\edef\pathCapa{\currfiledir}
+
+\begin{titlepage}
+    \begin{center}
+        \includegraphics[width=4cm]{\pathCapa Logo_Cefet.png}
+    \end{center}
+
+    \begin{center}
+        SERVIÇO PÚBLICO FEDERAL -- MINISTÉRIO DA EDUCAÇÃO \\
+        CENTRO FEDERAL DE EDUCAÇÃO TECNOLÓGICA DE MINAS GERAIS \\
+        CAMPUS CONTAGEM \\
+        AVALIAÇÃO DE MATEMÁTICA -- \bimestre.\textordmasculine\ BIMESTRE DE \ano
+    \end{center}
+    
+    \vspace{0.3cm}
+    
+    \noindent\textbf{ASSUNTO}: \assunto \hfill \textbf{TURMA}: \turma
+    
+    \begin{center}
+        \ifdefstring{\calculadora}{nao}{%
+            \textbf{NÃO É} PERMITIDO O USO DE CALCULADORA
+        }{%
+            \textbf{É} PERMITIDO O USO DE CALCULADORA
+        }
+    \end{center}
+    
+    \begin{tcolorbox}[width=\linewidth,colback=white]
+        \textbf{PROFESSOR}: \professor \hfill
+        \textbf{DATA}: \dataTexto \hfill
+        \textbf{VALOR}: \ValorProva\ pontos
+        \vspace{5pt}
+        
+        \ifdefstring{\tipo}{dupla}{%
+            \begin{minipage}[t]{0.75\linewidth}
+                \textbf{ALUNOS (AS)}: \makebox[0.85\linewidth]{\hrulefill} \\[5pt]
+                \makebox[1.05\linewidth]{\hspace{78pt}\hrulefill}
+            \end{minipage}%
+            \hfill
+            \begin{minipage}[t]{0.15\linewidth}
+                \vspace*{\fill}
+                \begin{tcolorbox}[width=0.8\linewidth, height=20pt, sharp corners, boxrule=0.5pt, colback=white, colframe=black]
+                    \centering
+                    % Espaço para a nota
+                    \vspace*{\fill}
+                \end{tcolorbox}
+            \end{minipage}
+        }{%
+            \begin{minipage}[t]{0.75\linewidth}
+                \textbf{ALUNO (A)}: \makebox[0.85\linewidth]{\hrulefill}
+            \end{minipage}%
+            \hfill
+            \begin{minipage}[t]{0.15\linewidth}
+                \begin{tcolorbox}[width=0.8\linewidth, height=20pt, sharp corners, boxrule=0.5pt, colback=white, colframe=black]
+                    \centering
+                    % Espaço para a nota
+                    \vspace*{\fill}
+                \end{tcolorbox}
+            \end{minipage}
+        }
+    \end{tcolorbox}
+    
+    \noindent\textbf{DURAÇÃO}: máximo de 100 minutos. \hfill \boxed{\numProva}
+    
+    \begin{center}
+        INSTRUÇÕES
+    \end{center}
+    
+    \begin{itemize}[left=0pt, topsep=2pt, itemsep=2pt, parsep=0pt]
+    \small
+        \item Esta prova é composta por \textbf{\NumTotalQuestoes\ questões}, sendo \NumQObj\ objetivas e \NumQDisc\ discursiva.
+        %
+        \item Cada questão objetiva vale \ValorQObj\ ponto, e a questão discursiva vale \ValorQDisc\ pontos.
+        %
+        \item As respostas das questões objetivas devem ser marcadas no gabarito com caneta azul ou preta. Questões marcadas a lápis ou com rasura receberão nota zero.
+        %
+        \item Não é necessário justificativa nas questões objetivas; apenas a alternativa correta será considerada.
+        %
+        \item Na questão discursiva, é necessário explicar adequadamente seu raciocínio, pois a argumentação também será avaliada.
+        %
+        \item A questão discursiva deve ser respondida no verso desta folha. Somente esta folha será avaliada.
+        %
+        \item A folha com os enunciados e a folha de rascunho não precisam ser entregues.
+        %
+        \item A prova é \emtipo\ e sem consulta. Alunos que copiarem respostas de colegas ou utilizarem meios indevidos para obter vantagem, como o uso de celulares, terão sua prova anulada, sem direito à segunda chamada.
+        %
+        \item Compreender o enunciado e os termos de cada questão faz parte da avaliação.
+    \end{itemize}
+    
+    \noindent\rule{\linewidth}{1pt}  % linha horizontal fina
+    
+    \begin{center}
+        \textbf{GABARITO}
+    \end{center}
+    
+    \renewcommand{\arraystretch}{1.1} % espaçamento vertical
+    \setlength{\tabcolsep}{10pt}
+    
+    \begin{center}
+        \begin{tabular}{|*{5}{>{\centering\arraybackslash}p{0.7cm}|}}
+            \hline
+            \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} \\
+            \hline
+            \hline
+            A & A & A & A & A \\
+            \hline
+            B & B & B & B & B \\
+            \hline
+            C & C & C & C & C \\
+            \hline
+            D & D & D & D & D \\
+            \hline
+            E & E & E & E & E \\
+            \hline
+        \end{tabular}
+    \end{center}
+\end{titlepage}

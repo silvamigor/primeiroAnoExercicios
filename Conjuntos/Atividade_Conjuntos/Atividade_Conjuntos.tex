@@ -2,17 +2,12 @@
 
 \input{../../Preambulo.tex}
 \newcommand{\assunto}{CONJUNTOS}
-\newcommand{\atividade}{prova} % prova ou lista ou as ou ad ou atividade
+\newcommand{\atividade}{atividade} % prova ou lista ou as ou ad ou atividade
 \newcommand{\NumQObj}{5}
-\newcommand{\NumQDisc}{1}
-\pgfmathparse{int(\NumQObj + \NumQDisc)}
-\edef\NumTotalQuestoes{\pgfmathresult}
-\newcommand{\questaoDiscursiva}{Exercício \NumTotalQuestoes}
 \newcommand{\ValorQObj}{0.4}
-\newcommand{\ValorQDisc}{2}
-\pgfmathparse{int(round(\NumQObj * \ValorQObj + \NumQDisc * \ValorQDisc))}
+\pgfmathparse{int(round(\NumQObj * \ValorQObj))}
 \edef\ValorProva{\pgfmathresult}
-\newcommand{\tipo}{individual} % dupla ou individual
+\newcommand{\tipo}{dupla} % dupla ou individual
 \newcommand{\calculadora}{nao} % sim ou nao
 \input{../../Variaveis.tex}
 
@@ -33,27 +28,14 @@
         
     \phantomsection
     \addcontentsline{toc}{section}{Capa}
-    \input{../../PR_Capa}
+    \input{../../AT_Capa}
     \newpage
-        
-    \phantomsection
-    \addcontentsline{toc}{section}{Resposta para a questão discursiva}
-    \input{../../RespQuestaoDisc}
-    \addtocounter{page}{1}
-    \newpage
-    %
         
     \NoBgThispage
     \pagenumbering{arabic}
     %
         
     \subtitulopr
-        
-    %
-    \begin{center}
-        QUESTÕES OBJETIVAS
-    \end{center}
-    %
     
     \vspace{15pt}
     \newcommand{\modo}{objetivo} % objetivo ou discursivo
@@ -83,18 +65,6 @@
     \input{../C_Exercicio5}
     \vspace{15pt}
     
-    %
-    \begin{center}
-        QUESTÃO DISCURSIVA 
-    \end{center}
-    %
-    \vspace{15pt}
-    
-    \renewcommand{\modo}{discursivo} % objetivo ou discursivo
-    \phantomsection
-    \addcontentsline{toc}{section}{Exercício 6}
-    \input{../C_Exercicio6}
-    \vspace{10pt}
     \newpage
     \phantomsection
     \addcontentsline{toc}{section}{Rascunho}
