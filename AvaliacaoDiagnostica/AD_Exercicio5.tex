@@ -13,23 +13,29 @@
 }%
 
 \begin{exercicioBanco}[\valorquestao]
-TEXTO DA QUESTÃO.
+Uma sequência é definida pela fórmula
+%
+\[
+    a_{n} = 2n + 1.
+\]
+%
+Qual é o vaor de \(a_{10}\)?
 
 % Define as alternativas
 \newcommand{\alternativas}{%
     \begin{center}
         \begin{tabularx}{\textwidth}{XXXXX}
-            (a) Alternativa A. &
-            (b) Alternativa B. &
-            (c) Alternativa C. &
-            (d) Alternativa D. &
-            (e) Alternativa E.
+            (a) \(19\). &
+            (b) \(20\). &
+            (c) \(21\). &
+            (d) \(22\). &
+            (e) \(2,10 + 1\).
         \end{tabularx}
     \end{center}
 }
 
 % Define a resposta correta
-\newcommand{\resposta}{X}
+\newcommand{\resposta}{C}
 
 % Lógica condicional para exibição
 \ifdefstring{\atividade}{lista}{%

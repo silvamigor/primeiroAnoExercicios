@@ -1,0 +1,79 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%       EXERCÍCIO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ifdefstring{\atividade}{prova}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \renewcommand{\valorquestao}{\ValorQObj\ ponto}
+    }{%
+        \renewcommand{\valorquestao}{\ValorQDisc\ pontos}
+    }%
+}%
+
+\begin{exercicioBanco}[\valorquestao]
+O ponto \(P\) está representado no plano cartesiano a seguir.
+%
+
+\medskip
+
+%
+\begin{center}
+    \begin{tikzpicture}[scale=0.5]
+        % Eixos
+        \draw[->] (-1,0) -- (5,0) node[right] {\(x\)};
+        \draw[->] (0,-1) -- (0,5) node[above] {\(y\)};
+
+        % Marcas nos eixos
+        \foreach \x in {1,2,3,4}
+            \draw (\x,0.1) -- (\x,-0.1) node[below] {\x};
+
+        \foreach \y in {1,2,3,4}
+            \draw (0.1,\y) -- (-0.1,\y) node[left] {\y};
+        
+        % Linhas tracejadas
+        \draw[dashed] (3,0) -- (3,2) -- (0,2);
+        
+        % Ponto
+        \fill (3,2) circle (2pt);
+        \node[above right] at (3,2) {\(P\)};
+    \end{tikzpicture}
+\end{center}
+%
+
+\medskip
+
+Quais são as coordenadas do ponto \(P\)?
+
+% Define as alternativas
+\newcommand{\alternativas}{%
+    \begin{center}
+        \begin{tabularx}{\textwidth}{XXXXX}
+            (a) \((2,3)\). &
+            (b) \((-3,2)\). &
+            (c) \((3,-2)\). &
+            (d) \((3,2)\). &
+            (e) \((-2,3)\).
+        \end{tabularx}
+    \end{center}
+}
+
+% Define a resposta correta
+\newcommand{\resposta}{D}
+
+% Lógica condicional para exibição
+\ifdefstring{\atividade}{lista}{%
+    \alternativas
+    \vspace{0.5em}
+    
+    \noindent\textbf{Resposta:} letra \textbf{\resposta}.
+}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \alternativas
+    }{%
+        % modo = discursiva → não mostra alternativas
+    }
+}
+\end{exercicioBanco}
+

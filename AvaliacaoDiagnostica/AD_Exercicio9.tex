@@ -1,0 +1,98 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%       EXERCÍCIO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ifdefstring{\atividade}{prova}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \renewcommand{\valorquestao}{\ValorQObj\ ponto}
+    }{%
+        \renewcommand{\valorquestao}{\ValorQDisc\ pontos}
+    }%
+}%
+
+\begin{exercicioBanco}[\valorquestao]
+Na figura abaixo, os segmentos \(\overline{AB}\) e \(\overline{MC}\) são paralelos. Determine a medida de \(MC\) em metros.
+
+\medskip
+
+%
+\begin{center}
+    \begin{tikzpicture}[scale=0.5]
+
+        % Pontos no solo
+        \coordinate (O) at (0,0);
+        \coordinate (A) at (5,0);
+        \coordinate (M) at (12,0);
+
+        % Pontos superiores
+        \coordinate (B) at (5,1.2);
+        \coordinate (C) at (12,3);
+
+        % Solo
+        \draw[thick] (O) -- (M);
+
+        % Verticais
+        \draw (A) -- (B);
+        \draw (M) -- (C);
+
+        % Linha de visada
+        \draw[dashed] (O) -- (C);
+
+        % Pontos
+        \fill (O) circle (0.1);
+        \fill (A) circle (0.1);
+        \fill (M) circle (0.1);
+
+        % Rótulos dos pontos
+        \node[below] at (O) {$O$};
+        \node[below] at (A) {$A$};
+        \node[below] at (M) {$M$};
+        \node[above] at (B) {$B$};
+        \node[above] at (C) {$C$};
+
+        % Medidas horizontais
+        \node[below] at ($(O)!0.5!(A)$) {$50\,\text{m}$};
+        \node[below] at ($(A)!0.5!(M)$) {$70\,\text{m}$};
+
+        % Medida vertical
+        \node[right] at ($(A)!0.5!(B)$) {$10\,\text{m}$};
+
+    \end{tikzpicture}
+\end{center}
+%
+
+\medskip
+
+% Define as alternativas
+\newcommand{\alternativas}{%
+    \begin{center}
+        \begin{tabularx}{\textwidth}{XXXXX}
+            (a) \(20\). &
+            (b) \(22\). &
+            (c) \(24\). &
+            (d) \(30\). &
+            (e) \(60\).
+        \end{tabularx}
+    \end{center}
+}
+
+% Define a resposta correta
+\newcommand{\resposta}{C}
+
+% Lógica condicional para exibição
+\ifdefstring{\atividade}{lista}{%
+    \alternativas
+    \vspace{0.5em}
+    
+    \noindent\textbf{Resposta:} letra \textbf{\resposta}.
+}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \alternativas
+    }{%
+        % modo = discursiva → não mostra alternativas
+    }
+}
+\end{exercicioBanco}
+

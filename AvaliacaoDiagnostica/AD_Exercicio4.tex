@@ -13,23 +13,28 @@
 }%
 
 \begin{exercicioBanco}[\valorquestao]
-TEXTO DA QUESTÃO.
+Resolva a equação a seguir e marque a alternativa correta.
+%
+\[
+    2x + 3 = -3x + 5.
+\]
+%
 
 % Define as alternativas
 \newcommand{\alternativas}{%
     \begin{center}
         \begin{tabularx}{\textwidth}{XXXXX}
-            (a) Alternativa A. &
-            (b) Alternativa B. &
-            (c) Alternativa C. &
-            (d) Alternativa D. &
-            (e) Alternativa E.
+            (a) \(-\dfrac{2}{5}\). &
+            (b) \(\dfrac{5}{2}\). &
+            (c) \(\dfrac{2}{3}\). &
+            (d) \(\dfrac{2}{5}\). &
+            (e) \(-\dfrac{5}{2}\).
         \end{tabularx}
     \end{center}
 }
 
 % Define a resposta correta
-\newcommand{\resposta}{X}
+\newcommand{\resposta}{D}
 
 % Lógica condicional para exibição
 \ifdefstring{\atividade}{lista}{%

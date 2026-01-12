@@ -1,0 +1,87 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%       EXERCÍCIO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ifdefstring{\atividade}{prova}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \renewcommand{\valorquestao}{\ValorQObj\ ponto}
+    }{%
+        \renewcommand{\valorquestao}{\ValorQDisc\ pontos}
+    }%
+}%
+
+\begin{exercicioBanco}[\valorquestao]
+Na figura abaixo, os segmentos \(\overline{AB}\) e \(\overline{DE}\) são paralelos e os segmentos \(\overline{AE}\) e \(\overline{BD}\) se cruzam no ponto \(C\). Sabendo que \(DC = 3\) cm, \(AC = 4\) cm, \(CE = 6\) cm e \(BC = x\) cm. Determine o valor de \(x\).
+%
+
+\medskip
+
+%
+\begin{center}
+    \begin{tikzpicture}[scale=0.8]
+
+        % Pontos
+        \coordinate (A) at (0,4);
+        \coordinate (B) at (4,4);
+        \coordinate (C) at (2,2.2);
+        \coordinate (D) at (0,0);
+        \coordinate (E) at (5,0);
+
+        % Segmentos
+        \draw (A) -- (B);
+        \draw (A) -- (E);
+        \draw (B) -- (D);
+        \draw (D) -- (E);
+
+        % Rótulos dos pontos
+        \node[above left]  at (A) {A};
+        \node[above right] at (B) {B};
+        \node[left]        at (C) {C};
+        \node[below left]  at (D) {D};
+        \node[below right] at (E) {E};
+
+        % Medidas
+        \node[left, yshift=-5pt]  at ($(A)!0.5!(C)$) {4};
+        \node[right, xshift=-1pt, yshift=-5pt] at ($(B)!0.5!(C)$) {$x$};
+        \node[right, xshift=-5pt, yshift=10pt] at ($(C)!0.6!(E)$) {6};
+        \node[left, xshift=5pt, yshift=10pt] at ($(C)!0.6!(D)$) {3};
+
+    \end{tikzpicture}
+\end{center}
+%
+
+\medskip
+
+% Define as alternativas
+\newcommand{\alternativas}{%
+    \begin{center}
+        \begin{tabularx}{\textwidth}{XXXXX}
+            (a) \(2,5\). &
+            (b) \(3\). &
+            (c) \(4\). &
+            (d) \(1,5\). &
+            (e) \(2\).
+        \end{tabularx}
+    \end{center}
+}
+
+% Define a resposta correta
+\newcommand{\resposta}{E}
+
+% Lógica condicional para exibição
+\ifdefstring{\atividade}{lista}{%
+    \alternativas
+    \vspace{0.5em}
+    
+    \noindent\textbf{Resposta:} letra \textbf{\resposta}.
+}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \alternativas
+    }{%
+        % modo = discursiva → não mostra alternativas
+    }
+}
+\end{exercicioBanco}
+

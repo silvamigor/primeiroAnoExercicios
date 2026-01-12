@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.12.14)  6 JAN 2026 14:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.12.14)  12 JAN 2026 15:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1150,7 +1150,184 @@ File: pgflibraryarrows.meta.code.tex 2023-01-15 v3.1.10 (3.1.10)
 zlibrarycalc.code.tex
 File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/background/background.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-euclide.sty
+2024/02/04 5.06c tkz-euclide.sty
+Package: tkz-euclide  2024/02/04 5.06c for pure Euclidean Geometry 
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryangles.code.tex
+File: tikzlibraryangles.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarybackgrounds.code.tex
+File: tikzlibrarybackgrounds.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@layerbox@background=\box136
+\pgf@layerboxsaved@background=\box137
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.markings.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
+decorations.markings.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.text.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
+decorations.text.code.tex
+\pgf@lib@dec@text@box=\box138
+)
+\tikz@lib@dec@te@box=\box139
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryintersections.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryintersection
+s.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex
+)
+\pgf@intersect@solutions=\count368
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarymath.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryfpu.code.tex)
+\tikz@math@for@depth=\count369
+\tikz@math@dimen=\dimen371
+\tikz@math@toks=\toks58
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryplotmarks.code.tex
+File: tikzlibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.co
+de.tex
+File: pgflibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryquotes.code.tex
+File: tikzlibraryquotes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.misc.code.tex
+File: tikzlibraryshapes.misc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.misc.code.tex
+File: pgflibraryshapes.misc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarythrough.code.tex
+File: tikzlibrarythrough.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xfp/xfp.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2024-01-22 L3 programming layer (loader) 
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count370
+\l__pdf_internal_box=\box140
+))
+Package: xfp 2023-10-10 L3 Floating point unit
+)
+(/usr/share/texlive/texmf-dist/tex/latex/xpatch/xpatch.sty
+Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2023-10-10 L3 Experimental document command parser
+))
+\tkzRadius=\dimen372
+\tkzLength=\dimen373
+\tkz@radi=\dimen374
+\tkz@ax=\dimen375
+\tkz@ay=\dimen376
+\tkz@bx=\dimen377
+\tkz@by=\dimen378
+\tkz@cx=\dimen379
+\tkz@cy=\dimen380
+\tkz@dx=\dimen381
+\tkz@dy=\dimen382
+\tkz@cntmk=\count371
+
+Local configuration file tkz-euclide.cfg found and used
+(/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-euclide.cfg
+2024/02/04 5.06c tkz-euclide.cfg
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-tools-eu-base.tex
+2024/02/04 5.06c tkz-tools-eu-base.tex
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-tools-eu-utilities.tex
+2024/02/04 5.06c tkz-tools-eu-utilities.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-tools-eu-BB.tex
+2024/02/04 5.06c tkz-obj-eu-BB.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-grids.tex
+2024/02/04 5.06c tkz-obj-eu-grids.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-lib-eu-marks.tex
+2024/02/04 5.06c tkz-lib-eu-marks.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-tools-eu-text.tex
+2024/02/04 5.06c tkz-tools-eu-text.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-lib-eu-shape.tex
+2024/02/04 5.06c tkz-lib-eu-shape.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-axesmin.tex
+2024/02/04 5.06c tkz-obj-eu-axesmin
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-tools-eu-colors.tex
+2024/02/04 5.06c tkz-tools-eu-colors
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-points.tex
+2024/02/04 5.06c tkz-obj-eu-points.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-points.tex
+2024/02/04 5.06c tkz-draw-eu-points.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-points.tex
+2024/02/04 5.06c tkz-obj-eu-points.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-points-by.tex
+2024/02/04 5.06c tkz-tools-eu-points-by.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-tools-eu-math.tex
+2024/02/04 5.06c tkz-tools-eu-math.tex
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-tools-eu-intersections
+.tex
+2024/02/04 5.06c tkz-tools-eu-intersections.tex
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-points-with.tex
+2024/02/04 5.06c tkz-obj-eu-points-with.tex
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-points-spc.tex
+2024/02/04 5.06c tkz-obj-el-points.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-tools-eu-angles.tex
+2024/02/04 5.06c tkz-tools-eu-angles.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-circles.tex
+2024/02/04 5.06c tkz-obj-eu-circles.tex
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-circles-by.tex
+2024/02/04 5.06c tkz-obj-eu-circles.tex
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-points-rnd.tex
+2024/02/04 5.06c tkz-obj-eu-points-rnd.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-lines.tex
+2024/02/04 5.06c tkz-obj-eu-lines.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-polygons.tex
+2024/02/04 5.06c tkz-obj-eu-polygons.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-triangles.tex
+2024/02/04 5.06c tkz-obj-eu-triangles.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-lines.tex
+2024/02/04 5.06c tkz-obj-eu-draw-lines.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-circles.tex
+2024/02/04 5.06c tkz-obj-eu-draw-circles.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-ellipses.tex
+2024/02/04 5.06c tkz-obj-eu-draw-ellipses.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-polygons.tex
+2024/02/04 5.06c tkz-obj-eu-polygons.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-angles.tex
+2024/02/04 5.06c tkz-tool-eu-angles.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-sectors.tex
+2024/02/04 5.06c tkz-obj-eu-sectors.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-compass.tex
+2024/02/04 5.06c tkz-obj-eu-compass.tex
+) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-show.tex
+2024/02/04 5.06c tkz-obj-eu-show.tex
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-protractor.tex
+2024/02/04 5.06c tkz-obj-eu-protractor.tex
+)) (/usr/share/texlive/texmf-dist/tex/latex/background/background.sty
 Package: background 2014/03/04 v2.1 background material
 
 (/usr/share/texlive/texmf-dist/tex/latex/everypage/everypage.sty
@@ -1173,9 +1350,9 @@ Package everypage Warning: You appear to be running a version of LaTeX
 
 ) (/usr/share/texlive/texmf-dist/tex/latex/tools/afterpage.sty
 Package: afterpage 2023/07/04 v1.08 After-Page Package (DPC)
-\AP@output=\toks58
-\AP@partial=\box136
-\AP@footins=\box137
+\AP@output=\toks59
+\AP@partial=\box141
+\AP@footins=\box142
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/pgfplots/pgfplots.sty
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
@@ -1183,12 +1360,12 @@ Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
-\t@pgfplots@toka=\toks59
-\t@pgfplots@tokb=\toks60
-\t@pgfplots@tokc=\toks61
-\pgfplots@tmpa=\dimen371
-\c@pgfplots@coordindex=\count368
-\c@pgfplots@scanlineindex=\count369
+\t@pgfplots@toka=\toks60
+\t@pgfplots@tokb=\toks61
+\t@pgfplots@tokc=\toks62
+\pgfplots@tmpa=\dimen383
+\c@pgfplots@coordindex=\count372
+\c@pgfplots@scanlineindex=\count373
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code
 .tex))
@@ -1196,12 +1373,10 @@ Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
 ex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
 gfsupp_loader.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex
-)
 Package pgfplots: loading complementary utilities for your pgf version...
-\t@pgf@toka=\toks62
-\t@pgf@tokb=\toks63
-\t@pgf@tokc=\toks64
+\t@pgf@toka=\toks63
+\t@pgf@tokb=\toks64
+\t@pgf@tokc=\toks65
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
 gfsupp_pgfutil-common-lists.tex))
@@ -1212,14 +1387,14 @@ tructure.code.tex)
 tructureext.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray
 .code.tex
-\c@pgfplotsarray@tmp=\count370
+\c@pgfplotsarray@tmp=\count374
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatri
 x.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshare
 d.code.tex
-\c@pgfplotstable@counta=\count371
-\t@pgfplotstable@a=\toks65
+\c@pgfplotstable@counta=\count375
+\t@pgfplotstable@a=\toks66
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque
 .code.tex)
@@ -1231,7 +1406,7 @@ de.tex))
 .tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.sur
 fshading.code.tex
-\c@pgfplotslibrarysurf@no=\count372
+\c@pgfplotslibrarysurf@no=\count376
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surf
 shading.pgfsys-pdftex.def)))
@@ -1256,22 +1431,15 @@ e.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.co
 ntourlua.code.tex)
-\pgfplots@numplots=\count373
-\pgfplots@xmin@reg=\dimen372
-\pgfplots@xmax@reg=\dimen373
-\pgfplots@ymin@reg=\dimen374
-\pgfplots@ymax@reg=\dimen375
-\pgfplots@zmin@reg=\dimen376
-\pgfplots@zmax@reg=\dimen377
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibraryplotmarks.code.tex
-File: tikzlibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.co
-de.tex
-File: pgflibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
-))) (/usr/share/texlive/texmf-dist/tex/latex/currfile/currfile.sty
+\pgfplots@numplots=\count377
+\pgfplots@xmin@reg=\dimen384
+\pgfplots@xmax@reg=\dimen385
+\pgfplots@ymin@reg=\dimen386
+\pgfplots@ymax@reg=\dimen387
+\pgfplots@zmin@reg=\dimen388
+\pgfplots@zmax@reg=\dimen389
+))
+(/usr/share/texlive/texmf-dist/tex/latex/currfile/currfile.sty
 Package: currfile 2022/10/10 v0.8 Provides the file path elements of the curren
 t input file
 
@@ -1281,7 +1449,7 @@ Package: filehook 2022/10/25 v0.8b Hooks for input files
 (/usr/share/texlive/texmf-dist/tex/latex/filehook/filehook-2020.sty
 Package: filehook-2020 2022/10/25 v0.8b Hooks for input files
 ))
-\c@currfiledepth=\count374
+\c@currfiledepth=\count378
 )
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2024-01-20 v7.01h Hypertext links for LaTeX
@@ -1307,11 +1475,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count375
+\c@section@level=\count379
 )
-\@linkdim=\dimen378
-\Hy@linkcounter=\count376
-\Hy@pagecounter=\count377
+\@linkdim=\dimen390
+\Hy@linkcounter=\count380
+\Hy@pagecounter=\count381
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2024-01-20 v7.01h Hyperref: PDFDocEncoding definition (HO)
@@ -1321,7 +1489,7 @@ Now handling font encoding PD1 ...
 (/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count378
+\Hy@SavedSpaceFactor=\count382
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2024-01-20 v7.01h Hyperref: PDF Unicode definition (HO)
@@ -1335,14 +1503,14 @@ Package hyperref Info: Plain pages OFF on input line 4194.
 Package hyperref Info: Backreferencing OFF on input line 4199.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4446.
-\c@Hy@tempcnt=\count379
+\c@Hy@tempcnt=\count383
 
 (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4784.
-\XeTeXLinkMargin=\dimen379
+\XeTeXLinkMargin=\dimen391
 
 (/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -1351,9 +1519,9 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count380
-\Field@Width=\dimen380
-\Fld@charsize=\dimen381
+\Fld@menulength=\count384
+\Field@Width=\dimen392
+\Fld@charsize=\dimen393
 Package hyperref Info: Hyper figures OFF on input line 6063.
 Package hyperref Info: Link nesting OFF on input line 6068.
 Package hyperref Info: Hyper index ON on input line 6071.
@@ -1366,9 +1534,9 @@ Package hyperref Info: PDF/A mode OFF on input line 6093.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count381
-\c@Item=\count382
-\c@Hfootnote=\count383
+\Hy@abspage=\count385
+\c@Item=\count386
+\c@Hfootnote=\count387
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
@@ -1380,8 +1548,8 @@ Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
 )
-\Fld@listcount=\count384
-\c@bookmark@seq@number=\count385
+\Fld@listcount=\count388
+\c@bookmark@seq@number=\count389
 
 (/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
@@ -1399,8 +1567,8 @@ Package: tcolorbox 2024/01/10 version 6.2.0 text color boxes
 
 (/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2023-11-06 v1.5v LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks66
-\verbatim@line=\toks67
+\every@verbatim=\toks67
+\verbatim@line=\toks68
 \verbatim@in@stream=\read4
 )
 (/usr/share/texlive/texmf-dist/tex/latex/environ/environ.sty
@@ -1409,26 +1577,26 @@ Package: environ 2014/05/04 v0.3 A new way to define environments
 (/usr/share/texlive/texmf-dist/tex/latex/trimspaces/trimspaces.sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 ))
-\tcb@titlebox=\box138
-\tcb@upperbox=\box139
-\tcb@lowerbox=\box140
-\tcb@phantombox=\box141
-\c@tcbbreakpart=\count386
-\c@tcblayer=\count387
-\c@tcolorbox@number=\count388
-\l__tcobox_tmpa_box=\box142
-\l__tcobox_tmpa_dim=\dimen382
-\tcb@temp=\box143
-\tcb@temp=\box144
-\tcb@temp=\box145
-\tcb@temp=\box146
+\tcb@titlebox=\box143
+\tcb@upperbox=\box144
+\tcb@lowerbox=\box145
+\tcb@phantombox=\box146
+\c@tcbbreakpart=\count390
+\c@tcblayer=\count391
+\c@tcolorbox@number=\count392
+\l__tcobox_tmpa_box=\box147
+\l__tcobox_tmpa_dim=\dimen394
+\tcb@temp=\box148
+\tcb@temp=\box149
+\tcb@temp=\box150
+\tcb@temp=\box151
 
 (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbraster.code.tex
 Library (tcolorbox): 'tcbraster.code.tex' version '6.2.0'
-\c@tcbrastercolumn=\count389
-\c@tcbrasterrow=\count390
-\c@tcbrasternum=\count391
-\c@tcbraster=\count392
+\c@tcbrastercolumn=\count393
+\c@tcbrasterrow=\count394
+\c@tcbrasternum=\count395
+\c@tcbraster=\count396
 ) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
 Library (tcolorbox): 'tcbskins.code.tex' version '6.2.0'
 (/usr/share/texlive/texmf-dist/tex/latex/tikzfill/tikzfill.image.sty
@@ -1440,7 +1608,7 @@ Package: tikzfill-common 2023/08/08 v1.0.1 Auxiliary code for tikzfill
 (/usr/share/texlive/texmf-dist/tex/latex/tikzfill/tikzlibraryfill.image.code.te
 x
 File: tikzlibraryfill.image.code.tex 2023/08/08 v1.0.1 Image filling library
-\l__tikzfill_img_box=\box147
+\l__tikzfill_img_box=\box152
 )) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
 Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.2.0'
 )) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbbreakable.code.tex
@@ -1449,9 +1617,9 @@ Library (tcolorbox): 'tcbbreakable.code.tex' version '6.2.0'
 Package: pdfcol 2022-09-21 v1.7 Handle new color stacks for pdfTeX (HO)
 )
 Package pdfcol Info: New color stack `tcb@breakable' = 1 on input line 23.
-\tcb@testbox=\box148
-\tcb@totalupperbox=\box149
-\tcb@totallowerbox=\box150
+\tcb@testbox=\box153
+\tcb@totalupperbox=\box154
+\tcb@totallowerbox=\box155
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbhooks.code.tex
 Library (tcolorbox): 'tcbhooks.code.tex' version '6.2.0'
@@ -1459,33 +1627,33 @@ Library (tcolorbox): 'tcbhooks.code.tex' version '6.2.0'
 Library (tcolorbox): 'tcbtheorems.code.tex' version '6.2.0'
 ) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbfitting.code.tex
 Library (tcolorbox): 'tcbfitting.code.tex' version '6.2.0'
-\tcbfitdim=\dimen383
-\tcb@lowerfitdim=\dimen384
-\tcb@upperfitdim=\dimen385
-\tcb@cur@hbadness=\count393
+\tcbfitdim=\dimen395
+\tcb@lowerfitdim=\dimen396
+\tcb@upperfitdim=\dimen397
+\tcb@cur@hbadness=\count397
 ) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcblistingsutf8.code.tex
 Library (tcolorbox): 'tcblistingsutf8.code.tex' version '6.2.0'
 (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcblistings.code.tex
 Library (tcolorbox): 'tcblistings.code.tex' version '6.2.0'
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count394
-\lst@gtempboxa=\box151
-\lst@token=\toks68
-\lst@length=\count395
-\lst@currlwidth=\dimen386
-\lst@column=\count396
-\lst@pos=\count397
-\lst@lostspace=\dimen387
-\lst@width=\dimen388
-\lst@newlines=\count398
-\lst@lineno=\count399
-\lst@maxwidth=\dimen389
+\lst@mode=\count398
+\lst@gtempboxa=\box156
+\lst@token=\toks69
+\lst@length=\count399
+\lst@currlwidth=\dimen398
+\lst@column=\count400
+\lst@pos=\count401
+\lst@lostspace=\dimen399
+\lst@width=\dimen400
+\lst@newlines=\count402
+\lst@lineno=\count403
+\lst@maxwidth=\dimen401
 
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
-\c@lstnumber=\count400
-\lst@skipnumbers=\count401
-\lst@framebox=\box152
+\c@lstnumber=\count404
+\lst@skipnumbers=\count405
+\lst@framebox=\box157
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2023/02/27 1.9 listings configuration
@@ -1497,7 +1665,7 @@ Library (tcolorbox): 'tcblistingscore.code.tex' version '6.2.0'
 (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbprocessing.code.tex
 Library (tcolorbox): 'tcbprocessing.code.tex' version '6.2.0'
 )
-\c@tcblisting=\count402
+\c@tcblisting=\count406
 )) (/usr/share/texlive/texmf-dist/tex/latex/listingsutf8/listingsutf8.sty
 Package: listingsutf8 2019-12-10 v1.5 Allow UTF-8 in listings input (HO)
 
@@ -1524,8 +1692,8 @@ Library (tcolorbox): 'tcbposter.code.tex' version '6.2.0'
 )) (/usr/share/texlive/texmf-dist/tex/latex/algorithms/algorithm.sty
 Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
 nment
-\@float@every@algorithm=\toks69
-\c@algorithm=\count403
+\@float@every@algorithm=\toks70
+\c@algorithm=\count407
 )
 (/usr/share/texlive/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
 Package: algpseudocode 
@@ -1534,25 +1702,19 @@ Package: algpseudocode
 Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
 
 Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
-\c@ALG@line=\count404
-\c@ALG@rem=\count405
-\c@ALG@nested=\count406
+\c@ALG@line=\count408
+\c@ALG@rem=\count409
+\c@ALG@nested=\count410
 \ALG@tlm=\skip85
 \ALG@thistlm=\skip86
-\c@ALG@Lnr=\count407
-\c@ALG@blocknr=\count408
-\c@ALG@storecount=\count409
-\c@ALG@tmpcounter=\count410
+\c@ALG@Lnr=\count411
+\c@ALG@blocknr=\count412
+\c@ALG@storecount=\count413
+\c@ALG@tmpcounter=\count414
 \ALG@tmplength=\skip87
 )
 Document Style - pseudocode environments for use with the `algorithmicx' style
-)) (../../Variaveis.tex)
-(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count411
-\l__pdf_internal_box=\box153
-)
-(./AvaliacaoDiagnostica.aux)
+)) (../../Variaveis.tex) (./AvaliacaoDiagnostica.aux)
 \openout1 = `AvaliacaoDiagnostica.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
@@ -1624,17 +1786,17 @@ nction with package mdbch, on input line 19.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count412
-\scratchdimen=\dimen390
-\scratchbox=\box154
-\nofMPsegments=\count413
-\nofMParguments=\count414
-\everyMPshowfont=\toks70
-\MPscratchCnt=\count415
-\MPscratchDim=\dimen391
-\MPnumerator=\count416
-\makeMPintoPDFobject=\count417
-\everyMPtoPDFconversion=\toks71
+\scratchcounter=\count415
+\scratchdimen=\dimen402
+\scratchbox=\box158
+\nofMPsegments=\count416
+\nofMParguments=\count417
+\everyMPshowfont=\toks71
+\MPscratchCnt=\count418
+\MPscratchDim=\dimen403
+\MPnumerator=\count419
+\makeMPintoPDFobject=\count420
+\everyMPtoPDFconversion=\toks72
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 
@@ -1704,9 +1866,9 @@ Package hyperref Info: Link coloring OFF on input line 19.
 \@outlinefile=\write4
 \openout4 = `AvaliacaoDiagnostica.out'.
 
-\c@lstlisting=\count418
+\c@lstlisting=\count421
  (../../AD_Capa.tex
-<../../Logo_Cefet.png, id=71, 651.1527pt x 493.3632pt>
+<../../Logo_Cefet.png, id=99, 651.1527pt x 493.3632pt>
 File: ../../Logo_Cefet.png Graphic file (type png)
 <use ../../Logo_Cefet.png>
 Package pdftex.def Info: ../../Logo_Cefet.png  used on input line 11.
@@ -1858,30 +2020,41 @@ LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-di
 st/fonts/enc/dvips/ly1/texnansi.enc} <../../Logo_Cefet.png>]) [2]
 (../AD_Exercicio1.tex) (../AD_Exercicio2.tex) (../AD_Exercicio3.tex)
-(../AD_Exercicio4.tex) (../AD_Exercicio5.tex) [1] [2] (../../Rascunho.tex)
-[3] (./AvaliacaoDiagnostica.aux)
+(../AD_Exercicio4.tex) (../AD_Exercicio5.tex) (../AD_Exercicio6.tex)
+(../AD_Exercicio7.tex) [1] (../AD_Exercicio8.tex) (../AD_Exercicio9.tex
+LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
+(Font)              scaled to size 7.68005pt on input line 56.
+LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
+(Font)              scaled to size 5.76004pt on input line 56.
+)
+(../AD_Exercicio10.tex) (../AD_Exercicio11.tex) [2] (../AD_Exercicio12.tex)
+[3] [4] (../../Rascunho.tex) [5] (./AvaliacaoDiagnostica.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
-L3 programming layer <2024-01-22>
+L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `AvaliacaoDiagnostica.out' has not changed.
-(rerunfilecheck)             Checksum: 9B83A995DCF7C70B3DEF5BDBBF959F55;673.
+(rerunfilecheck)             Checksum: 3E40E1DFAC1F1BB13B901D2EEF7E79BC;1433.
  ) 
 Here is how much of TeX's memory you used:
- 52150 strings out of 474222
- 1214681 string characters out of 5748732
+ 55784 strings out of 474222
+ 1306360 string characters out of 5748732
  1962975 words of memory out of 5000000
- 73431 multiletter control sequences out of 15000+600000
- 584782 words of font info for 131 fonts, out of 8000000 for 9000
+ 76779 multiletter control sequences out of 15000+600000
+ 595713 words of font info for 195 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 86i,12n,120p,1209b,974s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 86i,12n,120p,1286b,974s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></usr/
 share/texlive/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr8t.pfb>
-Output written on AvaliacaoDiagnostica.pdf (5 pages, 121597 bytes).
+xlive/texmf-dist/fonts/type1/bitstrea/charter/bchri8a.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr7t.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr7y.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr8t.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chri7m.pfb>
+Output written on AvaliacaoDiagnostica.pdf (7 pages, 148827 bytes).
 PDF statistics:
- 124 PDF objects out of 1000 (max. 8388607)
- 84 compressed objects within 1 object stream
- 18 named destinations out of 1000 (max. 500000)
- 39130 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 193 PDF objects out of 1000 (max. 8388607)
+ 142 compressed objects within 2 object streams
+ 34 named destinations out of 1000 (max. 500000)
+ 49426 words of extra memory for PDF output out of 51595 (max. 10000000)
 

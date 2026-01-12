@@ -13,23 +13,23 @@
 }%
 
 \begin{exercicioBanco}[\valorquestao]
-TEXTO DA QUESTÃO.
+Sobre o número \(\pi\), assinale a alternativa correta.
 
 % Define as alternativas
 \newcommand{\alternativas}{%
     \begin{center}
-        \begin{tabularx}{\textwidth}{XXXXX}
-            (a) Alternativa A. &
-            (b) Alternativa B. &
-            (c) Alternativa C. &
-            (d) Alternativa D. &
-            (e) Alternativa E.
+        \begin{tabularx}{\textwidth}{XX}
+            (a) Pode ser escrito como fração de dois inteiros. &
+            (b) Possui representação decimal finita. \\[5pt]
+            (c) É um número inteiro positivo. &
+            (d) É maior que 4. \\[5pt]
+            \multicolumn{2}{l}{(e) Possui representação decimal infinita e não periódica.}
         \end{tabularx}
     \end{center}
 }
 
 % Define a resposta correta
-\newcommand{\resposta}{X}
+\newcommand{\resposta}{E}
 
 % Lógica condicional para exibição
 \ifdefstring{\atividade}{lista}{%
