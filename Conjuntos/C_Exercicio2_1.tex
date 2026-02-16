@@ -13,29 +13,23 @@
 }%
 
 \begin{exercicioBanco}[\valorquestao]
-Uma sequência é definida pela fórmula
-%
-\[
-    a_{n} = 2n + 1.
-\]
-%
-Qual é o valor de \(a_{10}\)?
+Dado o conjunto \(A = \{\{1\}, 2, 3\}\), assinale a alternativa correta.
 
 % Define as alternativas
 \newcommand{\alternativas}{%
     \begin{center}
         \begin{tabularx}{\textwidth}{XXXXX}
-            (a) \(19\). &
-            (b) \(20\). &
-            (c) \(21\). &
-            (d) \(22\). &
-            (e) \(2,10 + 1\).
+            (a) \(1 \in A\). &
+            (b) \(1 \subseteq A\). &
+            (c) \(\{1\} \subseteq A\). &
+            (d) \(\{1\} \in A\). &
+            (e) \(\varnothing \in A\).
         \end{tabularx}
     \end{center}
 }
 
 % Define a resposta correta
-\newcommand{\resposta}{C}
+\newcommand{\resposta}{D}
 
 % Lógica condicional para exibição
 \ifdefstring{\atividade}{lista}{%

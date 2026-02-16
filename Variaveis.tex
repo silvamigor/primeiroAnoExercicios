@@ -3,19 +3,27 @@
 \newcommand{\professor}{Igor Martins Silva}
 \newcommand{\bimestre}{1}
 \newcommand{\ano}{2026}
-\newcommand{\mesTexto}{fevereiro}
-\newcommand{\mesNum}{02}
-\newcommand{\dia}{19}
+\newcommand{\mesTexto}{março}
+\newcommand{\mesNum}{03}
+\newcommand{\dia}{24}
 \newcommand{\dataTexto}{\dia\ de \mesTexto\ de \ano}
 \newcommand{\dataNun}{\dia/\mesNum/\ano}
 
-\newcommand{\titulo}{%
-  \ifdefstring{\atividade}{prova}{Avaliação de Matemática}{%
-  \ifdefstring{\atividade}{lista}{Lista de exercícios de Matemática}{%
-  \ifdefstring{\atividade}{as}{Avaliação Somativa}{%
-  \ifdefstring{\atividade}{ad}{Avaliação Diagnóstica}{%
-  Atividade de Matemática}}}}%
-}
+\newcommand{\titulo}{}
+
+\ifdefstring{\atividade}{prova}
+  {\renewcommand{\titulo}{Avaliação de Matemática}}
+{
+\ifdefstring{\atividade}{lista}
+  {\renewcommand{\titulo}{Lista de exercícios de Matemática}}
+{
+\ifdefstring{\atividade}{as}
+  {\renewcommand{\titulo}{Avaliação Somativa}}
+{
+\ifdefstring{\atividade}{ad}
+  {\renewcommand{\titulo}{Avaliação Diagnóstica}}
+  {\renewcommand{\titulo}{Atividade de Matemática}}
+}}}
 
 \newcommand{\emtipo}{%
   \ifdefstring{\tipo}{individual}{\tipo}{em \tipo}%

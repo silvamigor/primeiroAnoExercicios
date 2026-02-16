@@ -13,23 +13,23 @@
 }%
 
 \begin{exercicioBanco}[\valorquestao]
-TEXTO DA QUESTÃO.
+Sejam \(A = \{x \in \bbR \mid -4 \le x \le 3\}\) e \(B = \{x \in \bbR \mid -2 \le x < 5\}\). Determine \(A\setminus B\).
 
 % Define as alternativas
 \newcommand{\alternativas}{%
     \begin{center}
-        \begin{tabularx}{\textwidth}{XXXXX}
-            (a) Alternativa A. &
-            (b) Alternativa B. &
-            (c) Alternativa C. &
-            (d) Alternativa D. &
-            (e) Alternativa E.
+        \begin{tabularx}{\textwidth}{XXX}
+            (a) \(\{x \in \bbR \mid 3 < x < 5\}\). &
+            (b) \(\{x \in \bbR \mid -4 \le x \le -2\}\). &
+            (c) \(\{x \in \bbR \mid -4 \le x < -2\}\). \\[5pt]
+            (d) \(\{x \in \bbR \mid 3 \le x \le 5\}\). &
+            (e) \(\{x \in \bbR \mid -2 \le x < 5\}\).
         \end{tabularx}
     \end{center}
 }
 
 % Define a resposta correta
-\newcommand{\resposta}{X}
+\newcommand{\resposta}{C}
 
 % Lógica condicional para exibição
 \ifdefstring{\atividade}{lista}{%

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.12.14)  12 JAN 2026 15:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.12.14)  23 JAN 2026 13:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2038,7 +2038,7 @@ Package rerunfilecheck Info: File `AvaliacaoDiagnostica.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  55784 strings out of 474222
- 1306360 string characters out of 5748732
+ 1306352 string characters out of 5748732
  1962975 words of memory out of 5000000
  76779 multiletter control sequences out of 15000+600000
  595713 words of font info for 195 fonts, out of 8000000 for 9000
@@ -2051,7 +2051,7 @@ exmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr7t.pfb></usr/share/texlive/
 texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr7y.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr8t.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chri7m.pfb>
-Output written on AvaliacaoDiagnostica.pdf (7 pages, 148827 bytes).
+Output written on AvaliacaoDiagnostica.pdf (7 pages, 148914 bytes).
 PDF statistics:
  193 PDF objects out of 1000 (max. 8388607)
  142 compressed objects within 2 object streams

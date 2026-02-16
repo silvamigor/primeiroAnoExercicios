@@ -13,29 +13,34 @@
 }%
 
 \begin{exercicioBanco}[\valorquestao]
-Uma sequência é definida pela fórmula
+Julgue as afirmações a seguir, classificando cada uma como verdadeira (V) ou falsa (F).
 %
-\[
-    a_{n} = 2n + 1.
-\]
+\begin{enumerate}[\(\bullet\)]
+    \item \(\{0,3,5\} \subseteq \{0,1,2,3,4\}\).
+    %
+    \item O conjunto \(\{x \mid x\) é vogal da palavra ``estacionamento''\(\}\) é igual ao conjunto \(\{a, e, i, o\}\).
+    %
+    \item \(\varnothing \in \bbN\).
+    %
+    \item \(\{\text{Lua}\} \subseteq \{x \mid x\) é satélite natural da Terra\(\}\).
+\end{enumerate}
 %
-Qual é o valor de \(a_{10}\)?
 
 % Define as alternativas
 \newcommand{\alternativas}{%
     \begin{center}
         \begin{tabularx}{\textwidth}{XXXXX}
-            (a) \(19\). &
-            (b) \(20\). &
-            (c) \(21\). &
-            (d) \(22\). &
-            (e) \(2,10 + 1\).
+            (a) (F, V, F, V). &
+            (b) (V, F, V, F). &
+            (c) (F, V, V, F). &
+            (d) (V, F, F, V). &
+            (e) (F, F, V, F).
         \end{tabularx}
     \end{center}
 }
 
 % Define a resposta correta
-\newcommand{\resposta}{C}
+\newcommand{\resposta}{A}
 
 % Lógica condicional para exibição
 \ifdefstring{\atividade}{lista}{%

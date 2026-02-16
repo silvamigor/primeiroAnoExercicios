@@ -13,23 +13,23 @@
 }%
 
 \begin{exercicioBanco}[\valorquestao]
-TEXTO DA QUESTÃO.
+Seja \(M(a)\) o conjunto dos múltiplos de \(a\) e \(D(a)\) o conjunto dos divisores de \(a\), com \(a \in \bbN = \{1, 2, 3, \ldots\}\). Liste os elementos do conjunto \(M(3) \cap D(30)\).
 
 % Define as alternativas
 \newcommand{\alternativas}{%
     \begin{center}
-        \begin{tabularx}{\textwidth}{XXXXX}
-            (a) Alternativa A. &
-            (b) Alternativa B. &
-            (c) Alternativa C. &
-            (d) Alternativa D. &
-            (e) Alternativa E.
+        \begin{tabularx}{\textwidth}{XXX}
+            (a) \(\{6,15,30\}\). &
+            (b) \(\{1,2,3,5,6,10,15,30\}\). &
+            (c) \(\{3,6,15,30\}\). \\[5pt]
+            (d) \(\{3,15\}\). &
+            (e) \(\{3,6,9,12,15,18,21,24,27,30\}\).
         \end{tabularx}
     \end{center}
 }
 
 % Define a resposta correta
-\newcommand{\resposta}{X}
+\newcommand{\resposta}{C}
 
 % Lógica condicional para exibição
 \ifdefstring{\atividade}{lista}{%

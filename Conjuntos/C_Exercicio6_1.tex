@@ -13,29 +13,38 @@
 }%
 
 \begin{exercicioBanco}[\valorquestao]
-Uma sequência é definida pela fórmula
+No universo $\bbN = \{1,2,3,\ldots\}$, sejam:
+%
+\begin{enumerate}[\(\bullet\)]
+    \begin{multicols}{2}
+        \item $A$ o conjunto dos números pares;
+        \item $B$ o conjunto dos números múltiplos de $3$;
+        \item $C$ o conjunto dos números múltiplos de $5$.
+    \end{multicols}
+\end{enumerate}
+%
+Determine os $3$ menores números que pertencem ao conjunto
 %
 \[
-    a_{n} = 2n + 1.
+    B\setminus(A \cup C).
 \]
 %
-Qual é o valor de \(a_{10}\)?
 
 % Define as alternativas
 \newcommand{\alternativas}{%
     \begin{center}
         \begin{tabularx}{\textwidth}{XXXXX}
-            (a) \(19\). &
-            (b) \(20\). &
-            (c) \(21\). &
-            (d) \(22\). &
-            (e) \(2,10 + 1\).
+            (a) \(3, 6, 9\). &
+            (b) \(3, 9, 21\). &
+            (c) \(3, 6, 15\). &
+            (d) \(6, 9, 12\). &
+            (e) \(6, 9, 15\).
         \end{tabularx}
     \end{center}
 }
 
 % Define a resposta correta
-\newcommand{\resposta}{C}
+\newcommand{\resposta}{B}
 
 % Lógica condicional para exibição
 \ifdefstring{\atividade}{lista}{%

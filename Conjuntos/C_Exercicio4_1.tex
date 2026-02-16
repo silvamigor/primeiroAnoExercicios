@@ -13,29 +13,35 @@
 }%
 
 \begin{exercicioBanco}[\valorquestao]
-Uma sequência é definida pela fórmula
+Em uma festa, $35$ pessoas discutiam sobre dois filmes, $A$ e $B$. 
+Sabe-se que:
 %
-\[
-    a_{n} = 2n + 1.
-\]
+\begin{enumerate}[\(\bullet\)]
+    \begin{multicols}{2}
+        \item $15$ pessoas assistiram ao filme $A$;
+        \item $8$ pessoas assistiram aos dois filmes;
+        \item $10$ pessoas não assistiram a nenhum dos dois filmes.
+    \end{multicols}
+\end{enumerate}
 %
-Qual é o valor de \(a_{10}\)?
+Sabendo que todas as $35$ pessoas opinaram, o número de pessoas que assistiram ao filme $B$ é:
+
 
 % Define as alternativas
 \newcommand{\alternativas}{%
     \begin{center}
         \begin{tabularx}{\textwidth}{XXXXX}
-            (a) \(19\). &
-            (b) \(20\). &
-            (c) \(21\). &
-            (d) \(22\). &
-            (e) \(2,10 + 1\).
+            (a) \(7\). &
+            (b) \(8\). &
+            (c) \(10\). &
+            (d) \(18\). &
+            (e) \(25\).
         \end{tabularx}
     \end{center}
 }
 
 % Define a resposta correta
-\newcommand{\resposta}{C}
+\newcommand{\resposta}{D}
 
 % Lógica condicional para exibição
 \ifdefstring{\atividade}{lista}{%

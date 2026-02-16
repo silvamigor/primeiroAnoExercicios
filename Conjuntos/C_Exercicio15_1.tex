@@ -13,29 +13,32 @@
 }%
 
 \begin{exercicioBanco}[\valorquestao]
-Uma sequência é definida pela fórmula
+Sejam \(A = \{0,1,2,3\}\) e \(B = \{x \in \bbZ \mid -6 \le x \le 6\}\). Considere a função
 %
 \[
-    a_{n} = 2n + 1.
+    \begin{array}{rcl}
+        f: \; A & \to & B \\
+        x & \mapsto & 2x.
+    \end{array}
 \]
 %
-Qual é o valor de \(a_{10}\)?
+Determine o conjunto imagem de \(f\).
 
 % Define as alternativas
 \newcommand{\alternativas}{%
     \begin{center}
-        \begin{tabularx}{\textwidth}{XXXXX}
-            (a) \(19\). &
-            (b) \(20\). &
-            (c) \(21\). &
-            (d) \(22\). &
-            (e) \(2,10 + 1\).
+        \begin{tabularx}{\textwidth}{XXX}
+            (a) \(B\). &
+            (b) \(\{0,2,4,6\}\). &
+            (c) \(A\). \\[5pt]
+            (d) \(\bbZ\). &
+            (e) \(\{x \in \bbZ \mid 0 \le x \le 6\}\).
         \end{tabularx}
     \end{center}
 }
 
 % Define a resposta correta
-\newcommand{\resposta}{C}
+\newcommand{\resposta}{B}
 
 % Lógica condicional para exibição
 \ifdefstring{\atividade}{lista}{%

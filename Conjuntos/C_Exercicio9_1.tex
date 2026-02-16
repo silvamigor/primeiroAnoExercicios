@@ -13,23 +13,23 @@
 }%
 
 \begin{exercicioBanco}[\valorquestao]
-TEXTO DA QUESTÃO.
+Assinale a afirmação verdadeira.
 
 % Define as alternativas
 \newcommand{\alternativas}{%
     \begin{center}
-        \begin{tabularx}{\textwidth}{XXXXX}
-            (a) Alternativa A. &
-            (b) Alternativa B. &
-            (c) Alternativa C. &
-            (d) Alternativa D. &
-            (e) Alternativa E.
+        \begin{tabularx}{\textwidth}{X}
+            (a) \((\sqrt{3}+1)(\sqrt{3}-1)\) é irracional e \(0,999\cdots\) é racional. \\[5pt]
+            (b) \((\sqrt{3}+1)(\sqrt{3}-1)\) é racional e \(0,999\cdots\) é racional. \\[5pt]
+            (c) \((\sqrt{3}+1)(\sqrt{3}-1)\) é racional e \(0,999\cdots\) é irracional. \\[5pt]
+            (d) \((\sqrt{3}+1)(\sqrt{3}-1)\) é irracional e \(0,999\cdots\) é irracional. \\[5pt]
+            (e) \((\sqrt{3}+1)(\sqrt{3}-1)\) e \(0,999\cdots\) não são reais.
         \end{tabularx}
     \end{center}
 }
 
 % Define a resposta correta
-\newcommand{\resposta}{X}
+\newcommand{\resposta}{B}
 
 % Lógica condicional para exibição
 \ifdefstring{\atividade}{lista}{%
