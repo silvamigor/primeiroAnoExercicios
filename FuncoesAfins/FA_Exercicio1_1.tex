@@ -13,23 +13,30 @@
 }%
 
 \begin{exercicioBanco}[\valorquestao]
-Seja \(M(a)\) o conjunto dos múltiplos positivos de \(a\) e \(D(a)\) o conjunto dos divisores positivos de \(a\), com \(a \in \bbN = \{1, 2, 3, \ldots\}\). Liste os elementos do conjunto \(M(3) \cap D(30)\).
+Determine quais das funções a seguir são funções afins.
+%
+\begin{center}
+    \begin{tabularx}{\textwidth}{XXXX}
+        (I) \(f(x) = 0\). & (II) \(f(x) = x^{2}\). & (III) \(f(x) = \pi x - \sqrt{2}\). & (IV) \(f(x) = 2^{x}\).  \\[10pt]
+        (V) \(f(x) = x\). & (VI) \(f(x) = -\dfrac{1}{2} - 2x\). & (VII) \(f(x) = \dfrac{1}{x}\). & (VIII) \(f(x) = \sqrt{x}\).
+    \end{tabularx}
+\end{center}
 
 % Define as alternativas
 \newcommand{\alternativas}{%
     \begin{center}
-        \begin{tabularx}{\textwidth}{XXX}
-            (a) \(\{6,15,30\}\). &
-            (b) \(\{1,2,3,5,6,10,15,30\}\). &
-            (c) \(\{3,6,15,30\}\). \\[5pt]
-            (d) \(\{3,15\}\). &
-            (e) \(\{3,6,9,12,15,18,21,24,27,30\}\).
+        \begin{tabularx}{\textwidth}{XXXXX}
+            (a) I, III, V, VI. &
+            (b) V, VI. &
+            (c) V, VI, VII. &
+            (d) Todas. &
+            (e) Todas, exceto IV.
         \end{tabularx}
     \end{center}
 }
 
 % Define a resposta correta
-\newcommand{\resposta}{C}
+\newcommand{\resposta}{A}
 
 % Lógica condicional para exibição
 \ifdefstring{\atividade}{lista}{%

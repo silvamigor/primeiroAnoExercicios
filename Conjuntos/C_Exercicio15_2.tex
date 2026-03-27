@@ -13,23 +13,32 @@
 }%
 
 \begin{exercicioBanco}[\valorquestao]
-TEXTO DA QUESTÃO.
+Sejam \(A = \{0,1,2,3,4\}\) e \(B = \{x \in \bbZ \mid -20 \le x \le 20\}\). Considere a função
+%
+\[
+    \begin{array}{rcl}
+        f: \; A & \to & B \\
+        x & \mapsto & 3x.
+    \end{array}
+\]
+%
+Determine o conjunto imagem de \(f\).
 
 % Define as alternativas
 \newcommand{\alternativas}{%
     \begin{center}
-        \begin{tabularx}{\textwidth}{XXXXX}
-            (a) Alternativa A. &
-            (b) Alternativa B. &
-            (c) Alternativa C. &
-            (d) Alternativa D. &
-            (e) Alternativa E.
+        \begin{tabularx}{\textwidth}{XXX}
+            (a) \(B\). &
+            (b) \(\{0,3,6,9,12\}\). &
+            (c) \(A\). \\[5pt]
+            (d) \(\bbZ\). &
+            (e) \(\{x \in \bbZ \mid 0 \le x \le 12\}\).
         \end{tabularx}
     \end{center}
 }
 
 % Define a resposta correta
-\newcommand{\resposta}{X}
+\newcommand{\resposta}{B}
 
 % Lógica condicional para exibição
 \ifdefstring{\atividade}{lista}{%

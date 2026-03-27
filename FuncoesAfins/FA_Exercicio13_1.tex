@@ -1,0 +1,73 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%       EXERCÍCIO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ifdefstring{\atividade}{prova}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \renewcommand{\valorquestao}{\ValorQObj\ ponto}
+    }{%
+        \renewcommand{\valorquestao}{\ValorQDisc\ pontos}
+    }%
+}%
+
+\begin{exercicioBanco}[\valorquestao]
+Uma cisterna de 6000 litros foi esvaziada em um período de 3h. Na primeira hora foi utilizada apenas uma bomba, mas nas duas horas seguintes, a fim de reduzir o tempo de esvaziamento, outra bomba foi ligada junto com a primeira. O gráfico, formado por dois segmentos de reta, mostra o volume de água presente na cisterna, em função do tempo
+
+%
+\begin{center}
+    \begin{tikzpicture}[scale=0.9]
+        % Eixos
+        \draw[->] (0,0) -- (3.5,0) node[below right] {\small{Tempo (horas)}};
+        \draw[->] (0,0) -- (0,3.5) node[above left] {\small{Volume (litros)}};
+              
+        % Pontos escolhidos
+        \draw[dashed] (1,0) -- (1,2.5) -- (0,2.5);
+             
+        % Marcando os pontos
+        \filldraw (0,3) circle (1pt) node[left] {\small\(6000\)};
+        \filldraw (1,2.5) circle (1pt) node[xshift=-41pt] {\small\(5000\)};
+        \filldraw (1,0) circle (1pt) node[below] {\small\(1\)};
+        \filldraw (3,0) circle (1pt) node[below] {\small\(3\)};
+        
+        \draw[thick, blue] (0,3) -- (1,2.5) -- (3,0);
+    \end{tikzpicture}
+\end{center}
+%
+
+%
+Encontre a vazão, em litro por hora, da bomba que foi ligada no início da segunda hora.
+%
+
+% Define as alternativas
+\newcommand{\alternativas}{%
+    \begin{center}
+        \begin{tabularx}{\textwidth}{XXXXX}
+            (a) \(500\). &
+            (b) \(1500\). &
+            (c) \(2000\). &
+            (d) \(2500\). &
+            (e) \(3000\).
+        \end{tabularx}
+    \end{center}
+}
+
+% Resposta correta
+\newcommand{\resposta}{B}
+
+% Lógica condicional para exibição
+\ifdefstring{\atividade}{lista}{%
+    \alternativas
+    \vspace{0.5em}
+    
+    \noindent\textbf{Resposta:} letra \textbf{\resposta}.
+}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \alternativas
+    }{%
+        % modo = discursiva → não mostra alternativas
+    }
+}
+\end{exercicioBanco}
+

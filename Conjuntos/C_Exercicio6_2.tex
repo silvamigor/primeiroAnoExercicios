@@ -13,23 +13,37 @@
 }%
 
 \begin{exercicioBanco}[\valorquestao]
-Seja \(M(a)\) o conjunto dos múltiplos positivos de \(a\) e \(D(a)\) o conjunto dos divisores positivos de \(a\), com \(a \in \bbN = \{1, 2, 3, \ldots\}\). Liste os elementos do conjunto \(M(3) \cap D(30)\).
+No universo \(\bbN = \{1,2,3,\ldots\}\), sejam:
+
+\begin{enumerate}[\(\bullet\)]
+    \begin{multicols}{2}
+        \item \(A\) o conjunto dos números múltiplos de \(4\);
+        \item \(B\) o conjunto dos números múltiplos de \(3\);
+        \item \(C\) o conjunto dos números múltiplos de \(6\).
+    \end{multicols}
+\end{enumerate}
+
+Determine os \(4\) menores números que pertencem ao conjunto
+
+\[
+    B\setminus(A \cup C).
+\]
 
 % Define as alternativas
 \newcommand{\alternativas}{%
     \begin{center}
-        \begin{tabularx}{\textwidth}{XXX}
-            (a) \(\{6,15,30\}\). &
-            (b) \(\{1,2,3,5,6,10,15,30\}\). &
-            (c) \(\{3,6,15,30\}\). \\[5pt]
-            (d) \(\{3,15\}\). &
-            (e) \(\{3,6,9,12,15,18,21,24,27,30\}\).
+        \begin{tabularx}{\textwidth}{XXXXX}
+            (a) \(3, 6, 9, 12\). &
+            (b) \(3, 9, 15, 21\). &
+            (c) \(3, 9, 18, 21\). &
+            (d) \(6, 9, 12, 15\). &
+            (e) \(3, 6, 15, 18\).
         \end{tabularx}
     \end{center}
 }
 
 % Define a resposta correta
-\newcommand{\resposta}{C}
+\newcommand{\resposta}{B}
 
 % Lógica condicional para exibição
 \ifdefstring{\atividade}{lista}{%

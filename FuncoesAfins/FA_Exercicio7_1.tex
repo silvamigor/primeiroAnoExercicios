@@ -1,0 +1,130 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%       EXERCÍCIO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ifdefstring{\atividade}{prova}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \renewcommand{\valorquestao}{\ValorQObj\ ponto}
+    }{%
+        \renewcommand{\valorquestao}{\ValorQDisc\ pontos}
+    }%
+}%
+
+\begin{exercicioBanco}[\valorquestao]
+Determine o gráfico da função afim \(f: \bbR \to \bbR\), dada por \(f(x) = 3x + 2\).
+
+% Define as alternativas
+\newcommand{\alternativas}{%
+\begin{center}
+    \begin{tabular}{C{20pt}C{140pt}C{20pt}C{140pt}C{20pt}C{140pt}}
+        (a) 
+        &
+        \begin{tikzpicture}[scale=0.5]
+            % Eixos
+            \draw[->] (-3.0,0) -- (3.0,0) node[right] {\(x\)};
+            \draw[->] (0,-3.0) -- (0,3.0) node[above] {\(y\)};
+
+            % Gráfico da função f(x) = |x+1| - 2
+            \draw[domain=-2.8:2.8, thick, blue] plot (\x, {\x});
+        \end{tikzpicture}
+        &
+        (b) 
+        &
+        \begin{tikzpicture}[scale=0.5]
+            % Eixos
+            \draw[->] (-3.0,0) -- (3.0,0) node[right] {\(x\)};
+            \draw[->] (0,-3.0) -- (0,3.0) node[above] {\(y\)};
+
+            % Gráfico da função
+            \draw[domain=-1.5:0.5, thick, blue] plot (\x, {3*(\x) + 2});
+
+            % Marcações da raiz
+            \node[above left] at (-0.67,0) {\small\(-\frac{2}{3}\)};
+            \node at (-0.67,0) {\small\(\bullet\)};
+
+            % Marcação do ponto b
+            \node[right] at (0,2) {\small\(2\)};
+            \node at (0,2) {\small\(\bullet\)};
+        \end{tikzpicture}
+        &
+        (c)
+        &
+        \begin{tikzpicture}[scale=0.5]
+            % Eixos
+            \draw[->] (-3.0,0) -- (3.0,0) node[right] {\(x\)};
+            \draw[->] (0,-3.0) -- (0,3.0) node[above] {\(y\)};
+
+            % Gráfico da função
+            \draw[domain=-0.5:1.5, thick, blue] plot (\x, {3*(\x) - 2});
+
+            % Marcações da raiz
+            \node[below right] at (0.67,0) {\small\(\frac{2}{3}\)};
+            \node at (0.67,0) {\small\(\bullet\)};
+
+            % Marcação do ponto b
+            \node[left] at (0,-2) {\small\(-2\)};
+            \node at (0,-2) {\small\(\bullet\)};
+        \end{tikzpicture}
+        \\
+        (d)
+        &
+        \begin{tikzpicture}[scale=0.5]
+            % Eixos
+            \draw[->] (-3.0,0) -- (3.0,0) node[right] {\(x\)};
+            \draw[->] (0,-3.0) -- (0,3.0) node[above] {\(y\)};
+
+            % Gráfico da função
+            \draw[domain=-2.7:1.5, thick, blue] plot (\x, {\x + 2});
+
+            % Marcações da raiz
+            \node[above left] at (-2,0) {\small\(-2\)};
+            \node at (-2,0) {\small\(\bullet\)};
+
+            % Marcação do ponto b
+            \node[right] at (0,2) {\small\(2\)};
+            \node at (0,2) {\small\(\bullet\)};
+        \end{tikzpicture}
+        &
+        (e) 
+        &
+        \begin{tikzpicture}[scale=0.5]
+            % Eixos
+            \draw[->] (-3.0,0) -- (3.0,0) node[right] {\(x\)};
+            \draw[->] (0,-3.0) -- (0,3.0) node[above] {\(y\)};
+
+            % Gráfico da função
+            \draw[domain=-0.5:1.5, thick, blue] plot (\x, {-3*(\x) + 2});
+
+            % Marcações da raiz
+            \node[above right] at (0.67,0) {\small\(\frac{2}{3}\)};
+            \node at (0.67,0) {\small\(\bullet\)};
+
+            % Marcação do ponto b
+            \node[left] at (0,2) {\small\(2\)};
+            \node at (0,2) {\small\(\bullet\)};
+        \end{tikzpicture}
+        &&
+    \end{tabular}
+\end{center}
+}
+
+% Define a resposta correta
+\newcommand{\resposta}{B}
+
+% Lógica condicional para exibição
+\ifdefstring{\atividade}{lista}{%
+    \alternativas
+    \vspace{0.5em}
+    
+    \noindent\textbf{Resposta:} letra \textbf{\resposta}.
+}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \alternativas
+    }{%
+        % modo = discursiva → não mostra alternativas
+    }
+}
+\end{exercicioBanco}
+

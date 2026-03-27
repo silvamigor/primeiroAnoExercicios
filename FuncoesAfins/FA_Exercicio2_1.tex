@@ -13,23 +13,33 @@
 }%
 
 \begin{exercicioBanco}[\valorquestao]
-Seja \(M(a)\) o conjunto dos múltiplos positivos de \(a\) e \(D(a)\) o conjunto dos divisores positivos de \(a\), com \(a \in \bbN = \{1, 2, 3, \ldots\}\). Liste os elementos do conjunto \(M(3) \cap D(30)\).
+Considere a função afim
+%
+\[
+    \begin{array}{rcl}
+        f: \, \bbR & \to & \bbR \\
+        x & \mapsto & \dfrac{1}{2}x + \dfrac{3}{4}.
+    \end{array}
+\]
+%
+Calcule \(f(x)\), para \(x \in \left\{-\dfrac{6}{4}, -1, 0, \dfrac{3}{5}\right\}\).
+%
 
 % Define as alternativas
 \newcommand{\alternativas}{%
     \begin{center}
         \begin{tabularx}{\textwidth}{XXX}
-            (a) \(\{6,15,30\}\). &
-            (b) \(\{1,2,3,5,6,10,15,30\}\). &
-            (c) \(\{3,6,15,30\}\). \\[5pt]
-            (d) \(\{3,15\}\). &
-            (e) \(\{3,6,9,12,15,18,21,24,27,30\}\).
+            (a) \(\left\{0, -\dfrac{1}{4}, \dfrac{3}{4}, \dfrac{21}{20}\right\}\). &
+            (b) \(\left\{0, \dfrac{1}{4}, \dfrac{3}{4}, \dfrac{21}{20}\right\}\). &
+            (c) \(\left\{\dfrac{3}{4}, \dfrac{1}{4}, \dfrac{3}{4}, \dfrac{21}{20}\right\}\). \\[15pt]
+            (d) \(\left\{0, \dfrac{1}{4}, \dfrac{1}{2}, \dfrac{21}{20}\right\}\). &
+            (e) \(\left\{0, \dfrac{1}{4}, \dfrac{3}{4}, \dfrac{3}{5}\right\}\).
         \end{tabularx}
     \end{center}
 }
 
-% Define a resposta correta
-\newcommand{\resposta}{C}
+% Resposta correta
+\newcommand{\resposta}{B}
 
 % Lógica condicional para exibição
 \ifdefstring{\atividade}{lista}{%

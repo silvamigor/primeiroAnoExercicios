@@ -1,12 +1,15 @@
 \documentclass[a4paper,12pt]{article}
 
 \input{../../Preambulo.tex}
-\newcommand{\assunto}{CONJUNTOS}
+\newcommand{\assunto}{CONJUNTOS E FUNÇÕES}
 \newcommand{\atividade}{atividade} % prova ou lista ou as ou ad ou atividade
-\newcommand{\NumQObj}{5}
-\newcommand{\ValorQObj}{0.4}
-\pgfmathparse{int(round(\NumQObj * \ValorQObj))}
-\edef\ValorProva{\pgfmathresult}
+\newcommand{\NumQObj}{6}
+\newcommand{\ValorProva}{2}
+\pgfmathparse{\ValorProva/\NumQObj}
+\edef\ValorQObj{\pgfmathresult}
+%\newcommand{\ValorQObj}{0.3}
+%\pgfmathparse{int(round(\NumQObj * \ValorQObj))}
+%\edef\ValorProva{\pgfmathresult}
 \newcommand{\tipo}{dupla} % dupla ou individual
 \newcommand{\calculadora}{nao} % sim ou nao
 \input{../../Variaveis.tex}
@@ -28,7 +31,11 @@
         
     \phantomsection
     \addcontentsline{toc}{section}{Capa}
-    \input{../../AT_Capa}
+    \input{../../AT_Capa_Gabarito}
+    \newpage
+    \null
+    \thispagestyle{empty}
+    \addtocounter{page}{1}
     \newpage
         
     \NoBgThispage
@@ -42,27 +49,34 @@
     
     \phantomsection
     \addcontentsline{toc}{section}{Exercício 1}
-    \input{../C_Exercicio1}
+    \input{../C_Exercicio4_2}
     \vspace{15pt}
     
     \phantomsection
     \addcontentsline{toc}{section}{Exercício 2}
-    \input{../C_Exercicio2}
+    \input{../C_Exercicio5_2}
     \vspace{15pt}
     
     \phantomsection
     \addcontentsline{toc}{section}{Exercício 3}
-    \input{../C_Exercicio3}
+    \input{../C_Exercicio8_2}
     \vspace{15pt}
     
     \phantomsection
     \addcontentsline{toc}{section}{Exercício 4}
-    \input{../C_Exercicio4}
+    \input{../C_Exercicio12_2}
     \vspace{15pt}
     
     \phantomsection
     \addcontentsline{toc}{section}{Exercício 5}
-    \input{../C_Exercicio5}
+    \input{../C_Exercicio13_2}
+    \vspace{15pt}
+    
+    \newpage 
+    
+    \phantomsection
+    \addcontentsline{toc}{section}{Exercício 6}
+    \input{../C_Exercicio16_2}
     \vspace{15pt}
     
     \newpage

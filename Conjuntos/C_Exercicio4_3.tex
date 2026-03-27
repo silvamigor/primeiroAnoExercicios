@@ -13,23 +13,34 @@
 }%
 
 \begin{exercicioBanco}[\valorquestao]
-Seja \(M(a)\) o conjunto dos múltiplos positivos de \(a\) e \(D(a)\) o conjunto dos divisores positivos de \(a\), com \(a \in \bbN = \{1, 2, 3, \ldots\}\). Liste os elementos do conjunto \(M(3) \cap D(30)\).
+Em uma turma, \(50\) estudantes responderam a uma pesquisa sobre duas redes sociais, \(A\) e \(B\).
+Sabe-se que:
+
+\begin{enumerate}[\(\bullet\)]
+    \begin{multicols}{2}
+        \item \(24\) estudantes utilizam a rede social \(A\);
+        \item \(10\) estudantes utilizam ambas as redes sociais;
+        \item \(16\) estudantes não utilizam nenhuma das duas redes.
+    \end{multicols}
+\end{enumerate}
+
+Sabendo que todos os \(50\) estudantes responderam à pesquisa, o número de estudantes que utilizam a rede social \(B\) é:
 
 % Define as alternativas
 \newcommand{\alternativas}{%
     \begin{center}
-        \begin{tabularx}{\textwidth}{XXX}
-            (a) \(\{6,15,30\}\). &
-            (b) \(\{1,2,3,5,6,10,15,30\}\). &
-            (c) \(\{3,6,15,30\}\). \\[5pt]
-            (d) \(\{3,15\}\). &
-            (e) \(\{3,6,9,12,15,18,21,24,27,30\}\).
+        \begin{tabularx}{\textwidth}{XXXXX}
+            (a) \(18\). &
+            (b) \(20\). &
+            (c) \(22\). &
+            (d) \(24\). &
+            (e) \(26\).
         \end{tabularx}
     \end{center}
 }
 
 % Define a resposta correta
-\newcommand{\resposta}{C}
+\newcommand{\resposta}{B}
 
 % Lógica condicional para exibição
 \ifdefstring{\atividade}{lista}{%

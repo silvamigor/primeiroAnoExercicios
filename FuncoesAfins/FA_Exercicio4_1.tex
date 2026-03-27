@@ -13,23 +13,32 @@
 }%
 
 \begin{exercicioBanco}[\valorquestao]
-Seja \(M(a)\) o conjunto dos múltiplos positivos de \(a\) e \(D(a)\) o conjunto dos divisores positivos de \(a\), com \(a \in \bbN = \{1, 2, 3, \ldots\}\). Liste os elementos do conjunto \(M(3) \cap D(30)\).
+Seja a função afim 
+%
+\[
+    \begin{array}{rcl}
+        f:\ \bbR & \to & \bbR \\
+        x & \mapsto & 2x.
+    \end{array}
+\]
+%
+Calcule o valor de \(f(2) + f(3) - f(1)\).
 
 % Define as alternativas
 \newcommand{\alternativas}{%
     \begin{center}
-        \begin{tabularx}{\textwidth}{XXX}
-            (a) \(\{6,15,30\}\). &
-            (b) \(\{1,2,3,5,6,10,15,30\}\). &
-            (c) \(\{3,6,15,30\}\). \\[5pt]
-            (d) \(\{3,15\}\). &
-            (e) \(\{3,6,9,12,15,18,21,24,27,30\}\).
+        \begin{tabularx}{\textwidth}{XXXXX}
+            (a) \(12\). &
+            (b) \(10\). &
+            (c) \(4\). &
+            (d) \(8\). &
+            (e) \(6\).
         \end{tabularx}
     \end{center}
 }
 
 % Define a resposta correta
-\newcommand{\resposta}{C}
+\newcommand{\resposta}{D}
 
 % Lógica condicional para exibição
 \ifdefstring{\atividade}{lista}{%

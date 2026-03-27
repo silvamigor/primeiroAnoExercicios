@@ -13,23 +13,34 @@
 }%
 
 \begin{exercicioBanco}[\valorquestao]
-Seja \(M(a)\) o conjunto dos múltiplos positivos de \(a\) e \(D(a)\) o conjunto dos divisores positivos de \(a\), com \(a \in \bbN = \{1, 2, 3, \ldots\}\). Liste os elementos do conjunto \(M(3) \cap D(30)\).
+Julgue as afirmações a seguir, classificando cada uma como verdadeira (V) ou falsa (F).
+
+\begin{enumerate}[\(\bullet\)]
+    \item \(\{2,4\} \subseteq \{1,2,3,4,5\}\).
+
+    \item O conjunto \(\{x \mid x\) é consoante da palavra ``banana''\(\}\) é igual ao conjunto \(\{b,n\}\).
+
+    \item \(5 \in \{x \in \bbN \mid x < 5\}\).
+
+    \item \(\{-2\} \subseteq \{x \in \bbN \mid x^2 = 4\}\).
+
+\end{enumerate}
 
 % Define as alternativas
 \newcommand{\alternativas}{%
     \begin{center}
-        \begin{tabularx}{\textwidth}{XXX}
-            (a) \(\{6,15,30\}\). &
-            (b) \(\{1,2,3,5,6,10,15,30\}\). &
-            (c) \(\{3,6,15,30\}\). \\[5pt]
-            (d) \(\{3,15\}\). &
-            (e) \(\{3,6,9,12,15,18,21,24,27,30\}\).
+        \begin{tabularx}{\textwidth}{XXXXX}
+            (a) (V, V, F, F). &
+            (b) (V, F, V, F). &
+            (c) (F, V, F, V). &
+            (d) (V, V, V, F). &
+            (e) (F, F, V, V).
         \end{tabularx}
     \end{center}
 }
 
 % Define a resposta correta
-\newcommand{\resposta}{C}
+\newcommand{\resposta}{A}
 
 % Lógica condicional para exibição
 \ifdefstring{\atividade}{lista}{%

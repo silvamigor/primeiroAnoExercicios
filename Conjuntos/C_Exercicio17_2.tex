@@ -13,23 +13,23 @@
 }%
 
 \begin{exercicioBanco}[\valorquestao]
-TEXTO DA QUESTÃO.
+Sejam os conjuntos \(A = \{0,2\}\) e \(B = \{-1,0,1,2\}\). Assinale a alternativa cuja relação define uma função de \(A\) para \(B\).
 
 % Define as alternativas
 \newcommand{\alternativas}{%
     \begin{center}
-        \begin{tabularx}{\textwidth}{XXXXX}
-            (a) Alternativa A. &
-            (b) Alternativa B. &
-            (c) Alternativa C. &
-            (d) Alternativa D. &
-            (e) Alternativa E.
+        \begin{tabularx}{\textwidth}{XXX}
+            (a) \(f(x) = x+2\). &
+            (b) \(f(x) = x^{2}-2x\). &
+            (c) \(f(x) = x^{2}-3\). \\[5pt]
+            (d) \(f(x) = x-2\). &
+            (e) \(f(x) = x+3\).
         \end{tabularx}
     \end{center}
 }
 
 % Define a resposta correta
-\newcommand{\resposta}{X}
+\newcommand{\resposta}{B}
 
 % Lógica condicional para exibição
 \ifdefstring{\atividade}{lista}{%

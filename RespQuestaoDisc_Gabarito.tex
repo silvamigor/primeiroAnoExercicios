@@ -26,6 +26,52 @@
   }
 }
 
+\begin{tikzpicture}[remember picture, overlay]
+\node[
+  anchor=north west,
+  xshift=3.2cm,
+  yshift=-1.9cm,
+  text width=17cm,
+  align=left
+] at (current page.north west)
+{
+    \cursive{
+        \setlength{\baselineskip}{0.7cm}
+        Sejam \(A\), \(B\) e \(C\) subconjuntos de \(\bbN = \{1,2,3,\ldots\}\), onde \(A\) é o conjunto dos múltiplos de \(4\), \(B\) dos múltiplos de \(3\) e \(C\) dos múltiplos de \(6\), ou seja,
+        %
+        \[
+            \begin{array}{l}
+                A = \{4, 8, 12, 16, 20, 24, 28, 32, \ldots\}, \\
+                B = \{3, 6, 9, 12, 15, 18, 21, 24, 27, \ldots\}, \\
+                C = \{6, 12, 18, 24, 30, 36, 40, \ldots\}.
+            \end{array}
+        \]
+        %
+        
+        \vspace{7pt}
+        Vamos determinar os \(4\) primeiros números pertencentes à \(B\setminus(A\cup C)\). Note que \(A \cup C\) é o conjunto de todos os múltiplos de \(4\) ou de \(6\). Logo,
+        
+        %
+        \[
+            A \cup C = \{4, 6, 8, 12,16, 18, 20, 24, 28, 32, \ldots\}.
+        \]
+        %
+        \vspace{-6pt}
+        
+        Assim, precisamos tirar de \(B\), os elementos que pertencem a \(A \cup C\), ou seja,
+        
+        %
+        \[
+            B\setminus(A \cup C) = \{3, \cancel{6}, 9, \cancel{12}, 15, \cancel{18}, 21, \cancel{24}, 27, \ldots\}.
+        \]
+        %
+        
+        \vspace{18pt}
+        Portanto, os primeiros elementos de \(B\setminus(A \cup C)\) são: \(3, 9, 15\) e \(21\).
+    }
+};
+\end{tikzpicture}
+
 %
 \vfill
 \noindent

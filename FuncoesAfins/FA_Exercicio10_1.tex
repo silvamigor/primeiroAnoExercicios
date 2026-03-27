@@ -13,23 +13,33 @@
 }%
 
 \begin{exercicioBanco}[\valorquestao]
-TEXTO DA QUESTÃO.
+Assinale verdadeira (V) ou falso (F) a cada uma das seguintes sentenças.
+%
+\begin{enumerate}[\(\bullet\)]
+    \item A função \(f(x) = 3,5 - 0,4x\) é decrescente.
+    %
+    \item O zero de \(f(x) = \dfrac{1}{2}x - 2\) é igual a \(2\).
+    %
+    \item A função \(f(x) = x - 1\) é negativa no intervalo \(]-\infty,1]\).
+    %
+    \item O coeficiente angular de \(f(x) = 1 - x\) é igual a \(1\).
+\end{enumerate}
 
 % Define as alternativas
 \newcommand{\alternativas}{%
     \begin{center}
         \begin{tabularx}{\textwidth}{XXXXX}
-            (a) Alternativa A. &
-            (b) Alternativa B. &
-            (c) Alternativa C. &
-            (d) Alternativa D. &
-            (e) Alternativa E.
+            (a) (V, F, V, V). &
+            (b) (V, V, F, F). &
+            (c) (V, F, V, F). &
+            (d) (F, V, F, F). &
+            (e) (F, V, F, V).
         \end{tabularx}
     \end{center}
 }
 
 % Define a resposta correta
-\newcommand{\resposta}{X}
+\newcommand{\resposta}{C}
 
 % Lógica condicional para exibição
 \ifdefstring{\atividade}{lista}{%

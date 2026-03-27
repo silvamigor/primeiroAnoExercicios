@@ -1,0 +1,52 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%       EXERCÍCIO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ifdefstring{\atividade}{prova}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \renewcommand{\valorquestao}{\ValorQObj\ ponto}
+    }{%
+        \renewcommand{\valorquestao}{\ValorQDisc\ pontos}
+    }%
+}%
+
+\begin{exercicioBanco}[\valorquestao]
+Para garantir a segurança de um grande evento público que terá início às 4h da tarde, um organizador precisa monitorar a quantidade de pessoas presentes em cada instante. Para cada 2.000 pessoas, faz-se necessária a presença de um policial. Além disso, estima-se uma densidade de quatro pessoas por metro quadrado de área de terreno ocupado.
+
+Às 10h da manhã, o organizador verifica que a área de terreno já ocupada equivale a um quadrado com lados medindo \(500\) m. Porém, nas horas seguintes, espera-se que o público aumente a uma taxa de \(120.000\) pessoas por hora até o início do evento, quando não será mais permitida a entrada de público.
+
+Responda quantos policiais serão necessários no início do evento para garantir a segurança?
+
+% Define as alternativas
+\newcommand{\alternativas}{%
+    \begin{center}
+        \begin{tabularx}{\textwidth}{XXXXX}
+            (a) \(720\). &
+            (b) \(780\). &
+            (c) \(800\). &
+            (d) \(820\). &
+            (e) \(860\).
+        \end{tabularx}
+    \end{center}
+}
+
+% Resposta correta
+\newcommand{\resposta}{E}
+
+% Lógica condicional para exibição
+\ifdefstring{\atividade}{lista}{%
+    \alternativas
+    \vspace{0.5em}
+    
+    \noindent\textbf{Resposta:} letra \textbf{\resposta}.
+}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \alternativas
+    }{%
+        % modo = discursiva → não mostra alternativas
+    }
+}
+\end{exercicioBanco}
+
