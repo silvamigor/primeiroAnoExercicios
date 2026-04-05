@@ -1,0 +1,91 @@
+\documentclass[a4paper,12pt]{article}
+
+\input{../Preambulo.tex}
+\newcommand{\assunto}{CONJUNTOS E FUNÇÕES}
+\newcommand{\atividade}{prova} % prova ou lista
+\input{../Variaveis.tex}
+
+\hypersetup{
+    pdfauthor={\professor},
+    pdftitle={Estatística da prova \ -- \assunto \ -- \turma},
+}
+
+\title{Estatística da prova \ -- \assunto \ -- \turma}
+\author{\professor}
+\date{\data}
+
+
+%************* INÍCIO DO DOCUMENTO *************
+\begin{document}
+    \begin{center}
+        CEFET-MG -- Campus Contagem \\[3pt]
+        Estatística da prova\ -- \bimestre.\textordmasculine\ Bimestre de \ano \\[3pt]
+        \professor
+    \end{center}
+    
+    \begin{center}
+        \vspace{15pt}
+        \begin{tabular}{|C{210pt}|C{70pt}|C{210pt}|}
+            \hline
+            \textbf{ASSUNTO} &
+            \textbf{DATA} &
+            \textbf{TURMA} \\
+            \hline
+            \assunto & \dataNun & \turma \\
+            \hline
+        \end{tabular}
+    \end{center}
+    
+    \vspace{20pt}
+    
+    \begin{table}[H]
+        \centering
+        \renewcommand{\arraystretch}{1.1}
+        \caption{Estatística descritiva da prova.}
+        \begin{tabular}{C{40pt}C{110pt}C{110pt}C{50pt}C{50pt}C{30pt}C{50pt}}
+            \toprule
+            Total de alunos & Menor nota (número de alunos com essa nota) & Maior nota (número de alunos com essa nota) & Média da nota & Mediana & Moda & Desvio padrão \\
+            \midrule
+            34 & 0,3 (2) & 4 (7) & 2,53 & 2,5 & 4 & 1,07 \\
+            \bottomrule
+        \end{tabular}
+    \end{table}
+    
+    \begin{table}[H]
+        \centering
+        \renewcommand{\arraystretch}{1.1}
+        \caption{Frequência de erros em cada questão objetiva.}
+        \begin{tabular}{C{50pt}C{80pt}C{80pt}C{80pt}C{80pt}C{80pt}}
+            \toprule
+            Prova A & Questão 1 & Questão 2 & Questão 3 & Questão 4 & Questão 5 \\
+            \midrule
+            Prova B & Questão 3 & Questão 1 & Questão 2 & Questão 5 & Questão 4 \\
+            \midrule
+            & \(\dfrac{11}{34} \approx 32,35\%\) & \(\dfrac{14}{34} = 40\%\) & \(\dfrac{6}{34} \approx 17,65\%\) & \(\dfrac{7}{34} \approx 29,59\%\) & \(\dfrac{8}{34} \approx 23,53\%\) \\
+            \cmidrule[0.08em](l{2pt}r{0pt}){2-6}
+        \end{tabular}
+    \end{table}
+    
+    \begin{figure}[H]
+        \centering
+        \caption{Histograma e boxplot da nota.}
+        \begin{subfigure}[b]{0.55\textwidth}
+            \centering
+            \includesvg[width=\textwidth]{histograma_Notas}
+        \end{subfigure}
+        \hfill
+        \begin{subfigure}[b]{0.35\textwidth}
+            \centering
+            \includesvg[width=\textwidth]{boxplot_Notas}
+        \end{subfigure}
+        \label{H&B_Q1}
+    \end{figure}
+    
+    \begin{flushleft}
+        \textbf{INTERPRETAÇÃO}
+    \end{flushleft}
+    
+    A média de 2,53 corresponde a aproximadamente 63\% da pontuação máxima. O desvio padrão de 1,07 indica dispersão das notas, evidenciando diferenças de desempenho entre os alunos. A moda igual a 4 mostra que um grupo relevante atingiu a pontuação máxima. A questão 2 (prova A) apresentou o maior índice de erro, enquanto a questão 3 (prova A) apresentou o menor. Segundo o boxplot, 50\% dos alunos obtiveram notas entre 1,8 e 3,2. O histograma indica concentração de notas entre 2 e 3 e leve assimetria na distribuição.
+    
+\end{document}
+%*************** FINAL DO DOCUMENTO ***************
