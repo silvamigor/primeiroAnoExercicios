@@ -1,0 +1,60 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%       EXERCÍCIO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ifdefstring{\atividade}{prova}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \renewcommand{\valorquestao}{\ValorQObj\ ponto}
+    }{%
+        \renewcommand{\valorquestao}{\ValorQDisc\ pontos}
+    }%
+}%
+
+\begin{exercicioBanco}[\valorquestao]
+Uma empresa produz garrafas térmicas sob encomenda. O custo total de produção é composto por um custo fixo, mais um custo variável proporcional ao número de unidades produzidas. O custo total cresce de forma linear, e a tabela apresenta esse custo para algumas quantidades produzidas. 
+%
+\begin{center}
+    \begin{tabular}{|C{200pt}|C{50pt}|C{50pt}|}
+        \hline
+        Quantidade de garrafas & 10 & 30 \\
+        \hline
+        Custo total (R\$) & 500{,}00 & 1100{,}00 \\
+        \hline \hline
+    \end{tabular}
+\end{center}
+%
+Determine o custo total, em real, para a produção de 50 garrafas.
+
+% Define as alternativas
+\newcommand{\alternativas}{%
+    \begin{center}
+        \begin{tabularx}{\textwidth}{XXXXX}
+            (a) R\$ \(1500{,}00\). &
+            (b) R\$ \(1600{,}00\). &
+            (c) R\$ \(1900{,}00\). &
+            (d) R\$ \(1800{,}00\). &
+            (e) R\$ \(1700{,}00\).
+        \end{tabularx}
+    \end{center}
+}
+
+% Resposta correta
+\newcommand{\resposta}{E}
+
+% Lógica condicional para exibição
+\ifdefstring{\atividade}{lista}{%
+    \alternativas
+    \vspace{0.5em}
+    
+    \noindent\textbf{Resposta:} letra \textbf{\resposta}.
+}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \alternativas
+    }{%
+        % modo = discursiva → não mostra alternativas
+    }
+}
+\end{exercicioBanco}
+

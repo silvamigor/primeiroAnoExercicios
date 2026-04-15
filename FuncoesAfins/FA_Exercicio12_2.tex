@@ -1,0 +1,48 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%       EXERCÍCIO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ifdefstring{\atividade}{prova}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \renewcommand{\valorquestao}{\ValorQObj\ ponto}
+    }{%
+        \renewcommand{\valorquestao}{\ValorQDisc\ pontos}
+    }%
+}%
+
+\begin{exercicioBanco}[\valorquestao]
+O valor a ser pago por um serviço de entrega é dado pela função \(f(x) = 5{,}00 + 1{,}80x\), sendo \(x\) a distância percorrida em km. Determine o valor a ser pago por uma entrega de 12 km.
+
+% Define as alternativas
+\newcommand{\alternativas}{%
+    \begin{center}
+        \begin{tabularx}{\textwidth}{XXXXX}
+            (a) R\$ \(21{,}60\). &
+            (b) R\$ \(25{,}00\). &
+            (c) R\$ \(26{,}60\). &
+            (d) R\$ \(27{,}60\). &
+            (e) R\$ \(23{,}80\).
+        \end{tabularx}
+    \end{center}
+}
+
+% Resposta correta
+\newcommand{\resposta}{C}
+
+% Lógica condicional para exibição
+\ifdefstring{\atividade}{lista}{%
+    \alternativas
+    \vspace{0.5em}
+    
+    \noindent\textbf{Resposta:} letra \textbf{\resposta}.
+}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \alternativas
+    }{%
+        % modo = discursiva → não mostra alternativas
+    }
+}
+\end{exercicioBanco}
+

@@ -1,0 +1,48 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%       EXERCÍCIO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ifdefstring{\atividade}{prova}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \renewcommand{\valorquestao}{\ValorQObj\ ponto}
+    }{%
+        \renewcommand{\valorquestao}{\ValorQDisc\ pontos}
+    }%
+}%
+
+\begin{exercicioBanco}[\valorquestao]
+Ao longo de 8 anos, o valor de um equipamento eletrônico deprecia linearmente com o tempo, ou seja, o valor \(y\), em função do tempo \(x\), é dado por uma função afim \(y = ax + b\). Sabe-se que, daqui a 1 ano, o valor do equipamento será R\$ \(9000{,}00\), e daqui a 4 anos será R\$ \(6600{,}00\). Determine qual será o valor do equipamento daqui a 6 anos.
+
+% Define as alternativas
+\newcommand{\alternativas}{%
+    \begin{center}
+        \begin{tabularx}{\textwidth}{XXXXX}
+            (a) R\$ \(4800{,}00\). &
+            (b) R\$ \(5100{,}00\). &
+            (c) R\$ \(5400{,}00\). &
+            (d) R\$ \(5700{,}00\). &
+            (e) R\$ \(6000{,}00\).
+        \end{tabularx}
+    \end{center}
+}
+
+% Resposta correta
+\newcommand{\resposta}{C}
+
+% Lógica condicional para exibição
+\ifdefstring{\atividade}{lista}{%
+    \alternativas
+    \vspace{0.5em}
+    
+    \noindent\textbf{Resposta:} letra \textbf{\resposta}.
+}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \alternativas
+    }{%
+        % modo = discursiva → não mostra alternativas
+    }
+}
+\end{exercicioBanco}
+

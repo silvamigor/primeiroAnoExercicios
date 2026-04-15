@@ -1,0 +1,54 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%       EXERCÍCIO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ifdefstring{\atividade}{prova}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \renewcommand{\valorquestao}{\ValorQObj\ ponto}
+    }{%
+        \renewcommand{\valorquestao}{\ValorQDisc\ pontos}
+    }%
+}%
+
+\begin{exercicioBanco}[\valorquestao]
+Para organizar a logística de um grande depósito, um gerente precisa estimar a quantidade de supervisores necessários. Para cada 1.000 caixas armazenadas, é necessário um supervisor.
+
+Às 7h da manhã, o gerente observa que as caixas ocupam uma área em formato quadrado com lado de \(200\) m. Sabe-se que, em média, cada caixa ocupa \(2\ \text{m}^2\).
+
+Nas horas seguintes, o número de caixas aumenta a uma taxa de \(30.000\) caixas por hora até as 11h, quando o depósito será fechado para novas entradas.
+
+Determine quantos supervisores serão necessários nesse horário.
+
+% Define as alternativas
+\newcommand{\alternativas}{%
+    \begin{center}
+        \begin{tabularx}{\textwidth}{XXXXX}
+            (a) \(130\). &
+            (b) \(140\). &
+            (c) \(150\). &
+            (d) \(160\). &
+            (e) \(170\).
+        \end{tabularx}
+    \end{center}
+}
+
+% Resposta correta
+\newcommand{\resposta}{D}
+
+% Lógica condicional para exibição
+\ifdefstring{\atividade}{lista}{%
+    \alternativas
+    \vspace{0.5em}
+    
+    \noindent\textbf{Resposta:} letra \textbf{\resposta}.
+}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \alternativas
+    }{%
+        % modo = discursiva → não mostra alternativas
+    }
+}
+\end{exercicioBanco}
+

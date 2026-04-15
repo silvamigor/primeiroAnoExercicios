@@ -1,0 +1,57 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%       EXERCÍCIO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ifdefstring{\atividade}{prova}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \renewcommand{\valorquestao}{\ValorQObj\ ponto}
+    }{%
+        \renewcommand{\valorquestao}{\ValorQDisc\ pontos}
+    }%
+}%
+
+\begin{exercicioBanco}[\valorquestao]
+Seja a função afim 
+%
+\[
+    \begin{array}{rcl}
+        f:\ \bbR & \to & \bbR \\
+        x & \mapsto & -2x + 3.
+    \end{array}
+\]
+%
+Calcule o valor de \(\dfrac{1}{3}\cdot f(0) + 2\cdot f\left(\dfrac{3}{2}\right)\).
+
+% Define as alternativas
+\newcommand{\alternativas}{%
+    \begin{center}
+        \begin{tabularx}{\textwidth}{XXXXX}
+            (a) \(1\). &
+            (b) \(2\). &
+            (c) \(3\). &
+            (d) \(4\). &
+            (e) \(5\).
+        \end{tabularx}
+    \end{center}
+}
+
+% Define a resposta correta
+\newcommand{\resposta}{A}
+
+% Lógica condicional para exibição
+\ifdefstring{\atividade}{lista}{%
+    \alternativas
+    \vspace{0.5em}
+    
+    \noindent\textbf{Resposta:} letra \textbf{\resposta}.
+}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \alternativas
+    }{%
+        % modo = discursiva → não mostra alternativas
+    }
+}
+\end{exercicioBanco}
+

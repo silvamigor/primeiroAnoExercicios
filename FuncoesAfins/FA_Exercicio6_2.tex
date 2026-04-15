@@ -1,0 +1,72 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%       EXERCÍCIO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ifdefstring{\atividade}{prova}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \renewcommand{\valorquestao}{\ValorQObj\ ponto}
+    }{%
+        \renewcommand{\valorquestao}{\ValorQDisc\ pontos}
+    }%
+}%
+
+\begin{exercicioBanco}[\valorquestao]
+Considere a função afim cujo gráfico está desenhado abaixo.
+%
+
+%
+\begin{center}
+    \begin{tikzpicture}[scale=0.6]
+        % Eixos
+        \draw[->] (-2.5,0) -- (3,0) node[right] {\(x\)};
+        \draw[->] (0,-2) -- (0,3) node[above] {\(y\)};
+              
+        % Gráfico
+        \draw[domain=-0.5:2, smooth, variable=\x, red, thick] 
+        plot ({\x}, {2*\x - 1});
+              
+        % Pontos escolhidos
+        \draw[dashed] (0,0) -- (0,-1) -- (0,-1);
+        \draw[dashed] (1,0) -- (1,1) -- (0,1);
+             
+        % Marcando os pontos
+        \filldraw (0,-1) circle (1pt) node[left] {\small\((0,-1)\)};
+        \filldraw (1,1) circle (1pt) node[right] {\small\((1,1)\)};
+    \end{tikzpicture}
+\end{center}
+%
+Determine o zero dessa função.
+
+% Define as alternativas
+\newcommand{\alternativas}{%
+    \begin{center}
+        \begin{tabularx}{\textwidth}{XXXXX}
+            (a) \(-1\). &
+            (b) \(1\). &
+            (c) \(0\). &
+            (d) \(\dfrac{1}{2}\). &
+            (e) \(2\).
+        \end{tabularx}
+    \end{center}
+}
+
+% Define a resposta correta
+\newcommand{\resposta}{D}
+
+% Lógica condicional para exibição
+\ifdefstring{\atividade}{lista}{%
+    \alternativas
+    \vspace{0.5em}
+    
+    \noindent\textbf{Resposta:} letra \textbf{\resposta}.
+}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \alternativas
+    }{%
+        % modo = discursiva → não mostra alternativas
+    }
+}
+\end{exercicioBanco}
+

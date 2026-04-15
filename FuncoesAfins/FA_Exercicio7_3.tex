@@ -1,0 +1,128 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%       EXERCÍCIO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ifdefstring{\atividade}{prova}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \renewcommand{\valorquestao}{\ValorQObj\ ponto}
+    }{%
+        \renewcommand{\valorquestao}{\ValorQDisc\ pontos}
+    }%
+}%
+
+\begin{exercicioBanco}[\valorquestao]
+Determine o gráfico da função afim \(f: \bbR \to \bbR\), dada por \(f(x) = \dfrac{1}{2}x - 1\).
+
+% Define as alternativas
+\newcommand{\alternativas}{%
+\begin{center}
+    \begin{tabular}{C{20pt}C{140pt}C{20pt}C{140pt}C{20pt}C{140pt}}
+        (a) 
+        &
+        \begin{tikzpicture}[scale=0.5]
+            % Eixos
+            \draw[->] (-3.0,0) -- (3.0,0) node[right] {\(x\)};
+            \draw[->] (0,-3.0) -- (0,3.0) node[above] {\(y\)};
+
+            % Inclinação errada
+            \draw[domain=-2:2.5, thick, blue] plot (\x, {\x - 1});
+
+            \node[left] at (0,-1) {\small\(-1\)};
+            \node at (0,-1) {\small\(\bullet\)};
+            \node[above] at (1,0) {\small\(1\)};
+            \node at (1,0) {\small\(\bullet\)};
+        \end{tikzpicture}
+        &
+        (b) 
+        &
+        \begin{tikzpicture}[scale=0.5]
+            % Eixos
+            \draw[->] (-3.0,0) -- (3.0,0) node[right] {\(x\)};
+            \draw[->] (0,-3.0) -- (0,3.0) node[above] {\(y\)};
+
+            % Erro no sinal do termo independente
+            \draw[domain=-2.7:2, thick, blue] plot (\x, {0.5*(\x) + 1});
+
+            \node[above left] at (0,1) {\small\(1\)};
+            \node at (0,1) {\small\(\bullet\)};
+            \node[above] at (-2,0) {\small\(-2\)};
+            \node at (-2,0) {\small\(\bullet\)};
+        \end{tikzpicture}
+        &
+        (c)
+        &
+        \begin{tikzpicture}[scale=0.5]
+            % Eixos
+            \draw[->] (-3.0,0) -- (3.0,0) node[right] {\(x\)};
+            \draw[->] (0,-3.0) -- (0,3.0) node[above] {\(y\)};
+
+            % Gráfico correto
+            \draw[domain=-2:2.7, thick, blue] plot (\x, {0.5*(\x) - 1});
+
+            % Raiz
+            \node[above] at (2,0) {\small\(2\)};
+            \node at (2,0) {\small\(\bullet\)};
+
+            % Intercepto
+            \node[left] at (0,-1) {\small\(-1\)};
+            \node at (0,-1) {\small\(\bullet\)};
+            \node[above] at (2,0) {\small\(2\)};
+            \node at (2,0) {\small\(\bullet\)};
+        \end{tikzpicture}
+        \\
+        (d)
+        &
+        \begin{tikzpicture}[scale=0.5]
+            % Eixos
+            \draw[->] (-3.0,0) -- (3.0,0) node[right] {\(x\)};
+            \draw[->] (0,-3.0) -- (0,3.0) node[above] {\(y\)};
+
+            % Inclinação negativa (erro)
+            \draw[domain=-2.7:2, thick, blue] plot (\x, {-0.5*(\x) - 1});
+
+            \node[left] at (0,-1) {\small\(-1\)};
+            \node at (0,-1) {\small\(\bullet\)};
+            \node[above] at (-2,0) {\small\(-2\)};
+            \node at (-2,0) {\small\(\bullet\)};
+        \end{tikzpicture}
+        &
+        (e) 
+        &
+        \begin{tikzpicture}[scale=0.5]
+            % Eixos
+            \draw[->] (-3.0,0) -- (3.0,0) node[right] {\(x\)};
+            \draw[->] (0,-3.0) -- (0,3.0) node[above] {\(y\)};
+
+            % Erro na raiz
+            \draw[domain=-1.1:1.5, thick, blue] plot (\x, {2*\x - 1});
+
+            \node[left] at (0,-1) {\small\(-1\)};
+            \node at (0,-1) {\small\(\bullet\)};
+            \node[above right, xshift=5pt] at (.5,0) {\small\(\frac{1}{2}\)};
+            \node at (.5,0) {\small\(\bullet\)};
+        \end{tikzpicture}
+        &&
+    \end{tabular}
+\end{center}
+}
+
+% Define a resposta correta
+\newcommand{\resposta}{C}
+
+% Lógica condicional para exibição
+\ifdefstring{\atividade}{lista}{%
+    \alternativas
+    \vspace{0.5em}
+    
+    \noindent\textbf{Resposta:} letra \textbf{\resposta}.
+}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \alternativas
+    }{%
+        % modo = discursiva → não mostra alternativas
+    }
+}
+\end{exercicioBanco}
+

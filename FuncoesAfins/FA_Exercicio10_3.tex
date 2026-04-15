@@ -1,0 +1,58 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%       EXERCÍCIO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ifdefstring{\atividade}{prova}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \renewcommand{\valorquestao}{\ValorQObj\ ponto}
+    }{%
+        \renewcommand{\valorquestao}{\ValorQDisc\ pontos}
+    }%
+}%
+
+\begin{exercicioBanco}[\valorquestao]
+Assinale verdadeira (V) ou falso (F) a cada uma das seguintes sentenças.
+%
+\begin{enumerate}[\(\bullet\)]
+    \item A função \(f(x) = 5 - 3x\) é crescente.
+    %
+    \item O zero de \(f(x) = -x + 4\) é igual a \(4\).
+    %
+    \item A função \(f(x) = x + 2\) é negativa no intervalo \(]-\infty,-2[\).
+    %
+    \item O coeficiente angular de \(f(x) = 2x - 1\) é igual a \(-1\).
+\end{enumerate}
+
+% Define as alternativas
+\newcommand{\alternativas}{%
+    \begin{center}
+        \begin{tabularx}{\textwidth}{XXXXX}
+            (a) (F, V, V, V). &
+            (b) (F, V, F, F). &
+            (c) (V, V, V, F). &
+            (d) (F, F, V, F). &
+            (e) (F, V, V, F).
+        \end{tabularx}
+    \end{center}
+}
+
+% Define a resposta correta
+\newcommand{\resposta}{E}
+
+% Lógica condicional para exibição
+\ifdefstring{\atividade}{lista}{%
+    \alternativas
+    \vspace{0.5em}
+    
+    \noindent\textbf{Resposta:} letra \textbf{\resposta}.
+}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \alternativas
+    }{%
+        % modo = discursiva → não mostra alternativas
+    }
+}
+\end{exercicioBanco}
+

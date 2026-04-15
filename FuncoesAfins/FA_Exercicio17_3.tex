@@ -1,0 +1,48 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%       EXERCÍCIO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ifdefstring{\atividade}{prova}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \renewcommand{\valorquestao}{\ValorQObj\ ponto}
+    }{%
+        \renewcommand{\valorquestao}{\ValorQDisc\ pontos}
+    }%
+}%
+
+\begin{exercicioBanco}[\valorquestao]
+Durante um período de 12 anos, o valor de revenda de um veículo decresce linearmente com o tempo, isto é, o valor \(y\), em função do tempo \(x\), é dado por uma função afim \(y = ax + b\). Sabe-se que, daqui a 3 anos, o valor do veículo será R\$ \(18000{,}00\), e daqui a 9 anos será R\$ \(9000{,}00\). Determine qual será o valor do veículo daqui a 6 anos.
+
+% Define as alternativas
+\newcommand{\alternativas}{%
+    \begin{center}
+        \begin{tabularx}{\textwidth}{XXXXX}
+            (a) R\$ \(11000{,}00\). &
+            (b) R\$ \(12000{,}00\). &
+            (c) R\$ \(13000{,}00\). &
+            (d) R\$ \(14000{,}00\). &
+            (e) R\$ \(15000{,}00\).
+        \end{tabularx}
+    \end{center}
+}
+
+% Resposta correta
+\newcommand{\resposta}{C}
+
+% Lógica condicional para exibição
+\ifdefstring{\atividade}{lista}{%
+    \alternativas
+    \vspace{0.5em}
+    
+    \noindent\textbf{Resposta:} letra \textbf{\resposta}.
+}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \alternativas
+    }{%
+        % modo = discursiva → não mostra alternativas
+    }
+}
+\end{exercicioBanco}
+
