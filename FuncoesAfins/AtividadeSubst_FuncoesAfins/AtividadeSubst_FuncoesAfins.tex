@@ -1,0 +1,125 @@
+\documentclass[a4paper,12pt]{article}
+
+\input{../../Preambulo.tex}
+\newcommand{\assunto}{FUNÇÕES AFINS}
+\newcommand{\atividade}{atividade} % prova ou lista ou as ou ad ou atividade
+\newcommand{\NumQObj}{6}
+\newcommand{\ValorProva}{2}
+\pgfmathparse{\ValorProva/\NumQObj}
+\edef\ValorQObj{\pgfmathresult}
+%\newcommand{\ValorQObj}{0.3}
+%\pgfmathparse{int(round(\NumQObj * \ValorQObj))}
+%\edef\ValorProva{\pgfmathresult}
+\newcommand{\tipo}{dupla} % dupla ou individual
+\newcommand{\calculadora}{nao} % sim ou nao
+\input{../../Variaveis.tex}
+
+\hypersetup{
+    pdfauthor={\professor},
+    pdftitle={\titulo \-- \assunto \-- \turma \-- \numProva},
+}
+
+\title{\titulo \-- \assunto \-- \turma \-- \numProva}
+\author{\professor}
+\date{\data}
+
+%************* INÍCIO DO DOCUMENTO *************
+\begin{document}
+    \NoBgThispage
+    \pagenumbering{alph}
+    %
+        
+    \phantomsection
+    \addcontentsline{toc}{section}{Capa}
+    \input{../../AtS_Capa}
+    \newpage
+        
+    %\phantomsection
+    %\addcontentsline{toc}{section}{Resposta para a questão discursiva}
+    %\input{../../RespQuestaoDisc}
+    %\addtocounter{page}{1}
+    %\newpage
+    %
+        
+    \NoBgThispage
+    \pagenumbering{arabic}
+    %
+        
+    \begin{center}
+        CEFET-MG -- Campus Contagem \\[3pt]
+        \titulo\ -- \bimestre.\textordmasculine\ bimestre de \ano \\[3pt]
+        \professor
+    \end{center}
+    
+    \begin{center}
+        \vspace{15pt}
+        \begin{tabular}{|C{250pt}|C{250pt}|}
+            \hline
+            \textbf{ASSUNTO} &
+            \textbf{TURMA} \\
+            \hline
+            \assunto & \turma \\
+            \hline
+        \end{tabular}
+    \end{center}
+        
+    %
+    \begin{center}
+        QUESTÕES OBJETIVAS
+    \end{center}
+    %
+    
+    \vspace{15pt}
+    \newcommand{\modo}{objetivo} % objetivo ou discursivo
+    
+    \phantomsection
+    \addcontentsline{toc}{section}{Exercício 1}
+    \input{../FA_Exercicio4_3}
+    \vspace{15pt}
+    
+    \phantomsection
+    \addcontentsline{toc}{section}{Exercício 2}
+    \input{../FA_Exercicio7_2}
+    \vspace{15pt}
+    
+    \phantomsection
+    \addcontentsline{toc}{section}{Exercício 3}
+    \input{../FA_Exercicio9_1}
+    \vspace{15pt}
+    
+    \phantomsection
+    \addcontentsline{toc}{section}{Exercício 4}
+    \input{../FA_Exercicio10_2}
+    \vspace{15pt}
+    
+    \phantomsection
+    \addcontentsline{toc}{section}{Exercício 5}
+    \input{../FA_Exercicio14_2}
+    \vspace{15pt}
+    
+    \phantomsection
+    \addcontentsline{toc}{section}{Exercício 6}
+    \input{../FA_Exercicio20_1}
+    \vspace{15pt}
+    
+    %
+    %\begin{center}
+    %    QUESTÃO DISCURSIVA 
+    %\end{center}
+    %
+    %\vspace{15pt}
+    
+    %\renewcommand{\modo}{discursivo} % objetivo ou discursivo
+    %\phantomsection
+    %\addcontentsline{toc}{section}{Exercício 6}
+    %\input{../FA_Exercicio16_3}
+    %\vspace{10pt}
+    
+    %\newpage
+    
+    %\phantomsection
+    %\addcontentsline{toc}{section}{Rascunho}
+    %\input{../../Rascunho}
+    
+\end{document}
+%*************** FINAL DO DOCUMENTO ***************
