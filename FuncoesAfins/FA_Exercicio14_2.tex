@@ -1,0 +1,70 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%       EXERCÍCIO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ifdefstring{\atividade}{prova}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \renewcommand{\valorquestao}{\ValorQObj\ ponto}
+    }{%
+        \renewcommand{\valorquestao}{\ValorQDisc\ pontos}
+    }%
+}%
+
+\begin{exercicioBanco}[\valorquestao]
+Dois reservatórios de água, inicialmente com o mesmo volume de $20$ litros, começam a ser abastecidos. Os volumes de água, $V_{1}$ e $V_{2}$, em função do tempo $t$, em minutos, estão representados no plano cartesiano pelas retas com interseção no ponto $A = (0,20)$ e que passam, respectivamente, pelos pontos $B = (10, 50)$ e $C = (30, 35)$.
+
+\begin{center}
+    \begin{tikzpicture}[scale=0.5]
+        % Eixos
+        \draw[->] (0,0) -- (6,0) node[below right] {\small{$t$ (min)}};
+        \draw[->] (0,0) -- (0,6) node[above left] {\small{$V$ (L)}};
+        
+        % Funções
+        \draw[domain=0:1.5, smooth, variable=\x, blue, thick] plot ({\x}, {3*\x+2}) node[below right] {\small $V_{1}$};
+        \draw[domain=0:5, smooth, variable=\x, red, thick] plot ({\x}, {0.5*\x+2}) node[below right] {\small $V_{2}$};
+        
+        % Pontos
+        \filldraw (0,2) circle (2pt) node[left] {\small $A$};
+        \filldraw (1,5) circle (2pt) node[below right] {\small $B$};
+        \filldraw (3,3.5) circle (2pt) node[below right] {\small $C$};
+    \end{tikzpicture}
+\end{center}
+
+Sabe-se que, em determinado intervalo de tempo, o volume $V_{2}$ aumentou $5$ litros.
+
+Nesse mesmo intervalo de tempo, determine quanto aumentou o volume $V_{1}$, em litros.
+
+
+% Define as alternativas
+\newcommand{\alternativas}{%
+    \begin{center}
+        \begin{tabularx}{\textwidth}{XXXXX}
+            (a) \(10\). &
+            (b) \(15\). &
+            (c) \(20\). &
+            (d) \(25\). &
+            (e) \(30\).
+        \end{tabularx}
+    \end{center}
+}
+
+% Resposta correta
+\newcommand{\resposta}{E}
+
+% Lógica condicional para exibição
+\ifdefstring{\atividade}{lista}{%
+    \alternativas
+    \vspace{0.5em}
+    
+    \noindent\textbf{Resposta:} letra \textbf{\resposta}.
+}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \alternativas
+    }{%
+        % modo = discursiva → não mostra alternativas
+    }
+}
+\end{exercicioBanco}
+

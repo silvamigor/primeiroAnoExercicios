@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.12.14)  18 APR 2026 11:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.12.14)  28 APR 2026 18:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**Lista_FuncoesAfins.tex
-(./Lista_FuncoesAfins.tex
+**Atividade_FuncoesAfins.tex
+(./Atividade_FuncoesAfins.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -1758,56 +1758,56 @@ Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
 \ALG@tmplength=\skip89
 )
 Document Style - pseudocode environments for use with the `algorithmicx' style
-)) (../../Variaveis.tex) (./Lista_FuncoesAfins.aux)
-\openout1 = `Lista_FuncoesAfins.aux'.
+)) (../../Variaveis.tex) (./Atividade_FuncoesAfins.aux)
+\openout1 = `Atividade_FuncoesAfins.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 22.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 27.
 LaTeX Font Info:    Trying to load font information for MDA+cmr on input line 2
-2.
+7.
 
 (/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdacmr.fd
 File: mdacmr.fd 
 )
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for MDB/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for MDB/cmr/m/n on input line 27.
 LaTeX Font Info:    Trying to load font information for MDB+cmr on input line 2
-2.
+7.
 
 (/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdbcmr.fd
 File: mdbcmr.fd 
 )
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Info: Redefining \microtypecontext on input line 22.
-Package microtype Info: Applying patch `item' on input line 22.
-Package microtype Info: Applying patch `toc' on input line 22.
-Package microtype Info: Applying patch `eqnum' on input line 22.
-Package microtype Info: Applying patch `footnote' on input line 22.
-Package microtype Info: Applying patch `verbatim' on input line 22.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Info: Redefining \microtypecontext on input line 27.
+Package microtype Info: Applying patch `item' on input line 27.
+Package microtype Info: Applying patch `toc' on input line 27.
+Package microtype Info: Applying patch `eqnum' on input line 27.
+Package microtype Info: Applying patch `footnote' on input line 27.
+Package microtype Info: Applying patch `verbatim' on input line 27.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 22.
+LaTeX Info: Redefining \showhyphens on input line 27.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -1822,11 +1822,11 @@ File: translations-basic-dictionary-brazil.trsl (brazil translation file `trans
 lations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `brazil'. on input line 22.
+or `brazil'. on input line 27.
 
 
 Package mathdesign/mdbch Warning: Package 'mathrsfs' shouldn't be used in conjo
-nction with package mdbch, on input line 22.
+nction with package mdbch, on input line 27.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1905,20 +1905,27 @@ Package caption Info: End \AtBeginDocument code.
 Package pgfplots notification 'compat/show suggested version=true': document ha
 s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 
-Package hyperref Info: Link coloring OFF on input line 22.
-(./Lista_FuncoesAfins.out) (./Lista_FuncoesAfins.out)
+Package hyperref Info: Link coloring OFF on input line 27.
+(./Atividade_FuncoesAfins.out) (./Atividade_FuncoesAfins.out)
 \@outlinefile=\write4
-\openout4 = `Lista_FuncoesAfins.out'.
+\openout4 = `Atividade_FuncoesAfins.out'.
 
 \c@lstlisting=\count423
+
+(../../AT_Capa_Gabarito.tex
+<../../Logo_Cefet.png, id=71, 651.1527pt x 493.3632pt>
+File: ../../Logo_Cefet.png Graphic file (type png)
+<use ../../Logo_Cefet.png>
+Package pdftex.def Info: ../../Logo_Cefet.png  used on input line 11.
+(pdftex.def)             Requested size: 113.81102pt x 86.22693pt.
 LaTeX Font Info:    Trying to load font information for TS1+mdbch on input line
- 23.
+ 18.
 
 (/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdbch/ts1mdbch.fd
 File: ts1mdbch.fd 2013/08/29 Fontinst v1.933 font definitions for TS1/mdbch.
 )
 LaTeX Font Info:    Font shape `TS1/mdbch/m/n' will be
-(Font)              scaled to size 11.52008pt on input line 23.
+(Font)              scaled to size 11.52008pt on input line 18.
 Package microtype Info: Character `texttwelveudash ' is missing
 (microtype)             in font `TS1/mdbch/m/n/12'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -1940,146 +1947,176 @@ Package microtype Info: Character `texttildelow ' is missing
 Package microtype Info: Character `textcelsius ' is missing
 (microtype)             in font `TS1/mdbch/m/n/12'.
 (microtype)             Ignoring protrusion settings for this character.
-LaTeX Font Info:    Trying to load font information for OT1+mdbch on input line
- 23.
+LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
+(Font)              scaled to size 11.52008pt on input line 23.
 
+Overfull \hbox (18.09406pt too wide) in paragraph at lines 65--65
+[]\T1/mdbch/b/n/12 (-20) ALUNOS (AS)\T1/mdbch/m/n/12 (-20) : [] 
+ []
+
+
+Overfull \hbox (19.10007pt too wide) in paragraph at lines 65--65
+[] 
+ []
+
+LaTeX Font Info:    Trying to load font information for OT1+mdbch on input line
+ 68.
 (/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdbch/ot1mdbch.fd
 File: ot1mdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OT1/mdbch.
 )
 LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 11.52008pt on input line 23.
+(Font)              scaled to size 11.52008pt on input line 68.
 LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 7.68005pt on input line 23.
+(Font)              scaled to size 7.68005pt on input line 68.
 LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 5.76004pt on input line 23.
+(Font)              scaled to size 5.76004pt on input line 68.
 LaTeX Font Info:    Trying to load font information for OML+mdbch on input line
- 23.
+ 68.
 
 (/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdbch/omlmdbch.fd
 File: omlmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OML/mdbch.
 )
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 11.52008pt on input line 23.
+(Font)              scaled to size 11.52008pt on input line 68.
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 7.68005pt on input line 23.
+(Font)              scaled to size 7.68005pt on input line 68.
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 5.76004pt on input line 23.
+(Font)              scaled to size 5.76004pt on input line 68.
 LaTeX Font Info:    Trying to load font information for OMS+mdbch on input line
- 23.
+ 68.
 
 (/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdbch/omsmdbch.fd
 File: omsmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OMS/mdbch.
 )
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 11.52008pt on input line 23.
+(Font)              scaled to size 11.52008pt on input line 68.
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 7.68005pt on input line 23.
+(Font)              scaled to size 7.68005pt on input line 68.
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 5.76004pt on input line 23.
+(Font)              scaled to size 5.76004pt on input line 68.
 LaTeX Font Info:    Trying to load font information for OMX+mdbch on input line
- 23.
+ 68.
 
 (/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdbch/omxmdbch.fd
 File: omxmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OMX/mdbch.
 )
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 11.52008pt on input line 23.
+(Font)              scaled to size 11.52008pt on input line 68.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 7.68005pt on input line 23.
+(Font)              scaled to size 7.68005pt on input line 68.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 5.76004pt on input line 23.
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 23
+(Font)              scaled to size 5.76004pt on input line 68.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 68
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 11.52008pt on input line 23.
+(Font)              scaled to size 11.52008pt on input line 68.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 7.68005pt on input line 23.
+(Font)              scaled to size 7.68005pt on input line 68.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 5.76004pt on input line 23.
+(Font)              scaled to size 5.76004pt on input line 68.
 LaTeX Font Info:    Trying to load font information for MDA+mdbch on input line
- 23.
+ 68.
 
 (/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdbch/mdamdbch.fd
 File: mdamdbch.fd 2013/08/29 Fontinst v1.933 font definitions for MDA/mdbch.
 )
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 11.52008pt on input line 23.
+(Font)              scaled to size 11.52008pt on input line 68.
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 7.68005pt on input line 23.
+(Font)              scaled to size 7.68005pt on input line 68.
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 5.76004pt on input line 23.
+(Font)              scaled to size 5.76004pt on input line 68.
 LaTeX Font Info:    Trying to load font information for MDB+mdbch on input line
- 23.
+ 68.
 
 (/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdbch/mdbmdbch.fd
 File: mdbmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for MDB/mdbch.
 )
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 11.52008pt on input line 23.
+(Font)              scaled to size 11.52008pt on input line 68.
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 7.68005pt on input line 23.
+(Font)              scaled to size 7.68005pt on input line 68.
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 5.76004pt on input line 23.
+(Font)              scaled to size 5.76004pt on input line 68.
+LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
+(Font)              scaled to size 10.51207pt on input line 75.
+LaTeX Font Info:    Font shape `TS1/mdbch/m/n' will be
+(Font)              scaled to size 10.51207pt on input line 76.
+Package microtype Info: Character `texttwelveudash ' is missing
+(microtype)             in font `TS1/mdbch/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textthreequartersemdash ' is missing
+(microtype)             in font `TS1/mdbch/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textasteriskcentered ' is missing
+(microtype)             in font `TS1/mdbch/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textlbrackdbl ' is missing
+(microtype)             in font `TS1/mdbch/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textrbrackdbl ' is missing
+(microtype)             in font `TS1/mdbch/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `texttildelow ' is missing
+(microtype)             in font `TS1/mdbch/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textcelsius ' is missing
+(microtype)             in font `TS1/mdbch/m/n/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
-(Font)              scaled to size 11.52008pt on input line 23.
-
-(../FA_Exercicio1_1.tex) (../FA_Exercicio2_1.tex) (../FA_Exercicio3_1.tex)
-(../FA_Exercicio4_1.tex) (../FA_Exercicio5_1.tex [1
+(Font)              scaled to size 10.51207pt on input line 76.
+ [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-di
-st/fonts/enc/dvips/ly1/texnansi.enc}]) (../FA_Exercicio6_1.tex
-LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
-(Font)              scaled to size 10.51207pt on input line 35.
+st/fonts/enc/dvips/ly1/texnansi.enc} <../../Logo_Cefet.png>]) [2]
+(../FA_Exercicio2_2.tex) (../FA_Exercicio7_2.tex
 LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 10.51207pt on input line 35.
+(Font)              scaled to size 10.51207pt on input line 124.
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 10.51207pt on input line 35.
+(Font)              scaled to size 10.51207pt on input line 124.
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 10.51207pt on input line 35.
+(Font)              scaled to size 10.51207pt on input line 124.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 10.51207pt on input line 35.
+(Font)              scaled to size 10.51207pt on input line 124.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 10.51207pt on input line 35.
+(Font)              scaled to size 10.51207pt on input line 124.
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 10.51207pt on input line 35.
+(Font)              scaled to size 10.51207pt on input line 124.
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 10.51207pt on input line 35.
-) (../FA_Exercicio7_1.tex
-Overfull \hbox (11.39761pt too wide) in paragraph at lines 128--128
+(Font)              scaled to size 10.51207pt on input line 124.
+
+Overfull \hbox (11.39761pt too wide) in paragraph at lines 124--124
  [] 
  []
 
-) (../FA_Exercicio8_1.tex) (../FA_Exercicio9_1.tex [2])
-(../FA_Exercicio10_1.tex) (../FA_Exercicio11_1.tex) (../FA_Exercicio12_1.tex)
-(../FA_Exercicio13_1.tex [3]) (../FA_Exercicio14_1.tex
+) (../FA_Exercicio14_2.tex [1]) (../FA_Exercicio18_2.tex
 LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
-(Font)              scaled to size 7.68005pt on input line 16.
+(Font)              scaled to size 7.68005pt on input line 18.
 LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
-(Font)              scaled to size 5.76004pt on input line 16.
+(Font)              scaled to size 5.76004pt on input line 18.
 )
-(../FA_Exercicio15_1.tex) (../FA_Exercicio16_1.tex) (../FA_Exercicio17_1.tex
-[4]) (../FA_Exercicio18_1.tex) (../FA_Exercicio19_1.tex)
-(../FA_Exercicio20_1.tex [5]) (../FA_Exercicio21_1.tex) [6]
-(./Lista_FuncoesAfins.aux)
+(../FA_Exercicio20_1.tex) (../FA_Exercicio21_1.tex) [2]
+(./Atividade_FuncoesAfins.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
-Package rerunfilecheck Info: File `Lista_FuncoesAfins.out' has not changed.
-(rerunfilecheck)             Checksum: 6A7A3FD7FFD2A58E6B08C21052E23270;2289.
+Package rerunfilecheck Info: File `Atividade_FuncoesAfins.out' has not changed.
+
+(rerunfilecheck)             Checksum: C2644AE3BC0E1510DE07964170E34DFD;694.
  ) 
 Here is how much of TeX's memory you used:
- 57163 strings out of 474222
- 1336745 string characters out of 5748732
- 1963975 words of memory out of 5000000
- 78079 multiletter control sequences out of 15000+600000
- 597417 words of font info for 206 fonts, out of 8000000 for 9000
+ 56855 strings out of 474222
+ 1330557 string characters out of 5748732
+ 1959975 words of memory out of 5000000
+ 77863 multiletter control sequences out of 15000+600000
+ 598587 words of font info for 194 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,17n,120p,1284b,1081s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,17n,120p,1288b,1131s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></usr/
 share/texlive/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/bitstrea/charter/bchri8a.pfb></usr/share/texlive/t
@@ -2089,10 +2126,10 @@ texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr7v.pfb></usr/share/texlive
 e/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr8t.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chri7m.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chrma.pfb>
-Output written on Lista_FuncoesAfins.pdf (6 pages, 93202 bytes).
+Output written on Atividade_FuncoesAfins.pdf (4 pages, 155878 bytes).
 PDF statistics:
- 247 PDF objects out of 1000 (max. 8388607)
- 195 compressed objects within 2 object streams
- 59 named destinations out of 1000 (max. 500000)
- 43333 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 156 PDF objects out of 1000 (max. 8388607)
+ 104 compressed objects within 2 object streams
+ 21 named destinations out of 1000 (max. 500000)
+ 53466 words of extra memory for PDF output out of 61914 (max. 10000000)
 

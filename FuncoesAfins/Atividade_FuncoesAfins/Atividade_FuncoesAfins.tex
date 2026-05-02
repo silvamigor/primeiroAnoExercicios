@@ -2,17 +2,15 @@
 
 \input{../../Preambulo.tex}
 \newcommand{\assunto}{FUNÇÕES AFINS}
-\newcommand{\atividade}{prova} % prova ou lista ou as ou ad ou atividade
-\newcommand{\NumQObj}{5}
-\newcommand{\NumQDisc}{1}
-\pgfmathparse{int(\NumQObj + \NumQDisc)}
-\edef\NumTotalQuestoes{\pgfmathresult}
-\newcommand{\questaoDiscursiva}{Exercício \NumTotalQuestoes}
-\newcommand{\ValorQObj}{0.4}
-\newcommand{\ValorQDisc}{2}
-\pgfmathparse{int(round(\NumQObj * \ValorQObj + \NumQDisc * \ValorQDisc))}
-\edef\ValorProva{\pgfmathresult}
-\newcommand{\tipo}{individual} % dupla ou individual
+\newcommand{\atividade}{atividade} % prova ou lista ou as ou ad ou atividade
+\newcommand{\NumQObj}{6}
+\newcommand{\ValorProva}{2}
+\pgfmathparse{\ValorProva/\NumQObj}
+\edef\ValorQObj{\pgfmathresult}
+%\newcommand{\ValorQObj}{0.3}
+%\pgfmathparse{int(round(\NumQObj * \ValorQObj))}
+%\edef\ValorProva{\pgfmathresult}
+\newcommand{\tipo}{dupla} % dupla ou individual
 \newcommand{\calculadora}{nao} % sim ou nao
 \input{../../Variaveis.tex}
 
@@ -33,73 +31,53 @@
         
     \phantomsection
     \addcontentsline{toc}{section}{Capa}
-    \input{../../PR_Capa}
+    \input{../../AT_Capa_Gabarito}
     \newpage
-        
-    \phantomsection
-    \addcontentsline{toc}{section}{Resposta para a questão discursiva}
-    \input{../../RespQuestaoDisc}
+    \null
+    \thispagestyle{empty}
     \addtocounter{page}{1}
     \newpage
-    %
         
     \NoBgThispage
     \pagenumbering{arabic}
     %
         
     \subtitulopr
-        
-    %
-    \begin{center}
-        QUESTÕES OBJETIVAS
-    \end{center}
-    %
     
     \vspace{15pt}
     \newcommand{\modo}{objetivo} % objetivo ou discursivo
     
     \phantomsection
     \addcontentsline{toc}{section}{Exercício 1}
-    \input{../FA_Exercicio10_3}
+    \input{../FA_Exercicio2_2}
     \vspace{15pt}
     
     \phantomsection
     \addcontentsline{toc}{section}{Exercício 2}
-    \input{../FA_Exercicio6_3}
+    \input{../FA_Exercicio7_2}
     \vspace{15pt}
     
     \phantomsection
     \addcontentsline{toc}{section}{Exercício 3}
-    \input{../FA_Exercicio15_3}
+    \input{../FA_Exercicio14_2}
     \vspace{15pt}
     
     \phantomsection
     \addcontentsline{toc}{section}{Exercício 4}
-    \input{../FA_Exercicio12_3}
+    \input{../FA_Exercicio18_2}
     \vspace{15pt}
-    
-    \newpage 
     
     \phantomsection
     \addcontentsline{toc}{section}{Exercício 5}
-    \input{../FA_Exercicio17_3}
+    \input{../FA_Exercicio20_1}
     \vspace{15pt}
     
-    %
-    \begin{center}
-        QUESTÃO DISCURSIVA 
-    \end{center}
-    %
-    \vspace{15pt}
-    
-    \renewcommand{\modo}{discursivo} % objetivo ou discursivo
     \phantomsection
     \addcontentsline{toc}{section}{Exercício 6}
-    \input{../FA_Exercicio16_3}
-    \vspace{10pt}
+    \input{../FA_Exercicio21_1}
+    \vspace{15pt}
     
     %\newpage
-    
     %\phantomsection
     %\addcontentsline{toc}{section}{Rascunho}
     %\input{../../Rascunho}

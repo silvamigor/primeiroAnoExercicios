@@ -20,7 +20,8 @@
 \usepackage{commath}              % Notações como \abs{}, \norm{}, \eval{}
 \usepackage{pgfmath}             % Permite realizar cálculos matemáticos (somas, produtos, números aleatórios, etc.)
 \usepackage{siunitx}              % sistema de unidades
-\sisetup{group-separator = {\,}} % espaço fino
+\sisetup{group-separator = {\,}, group-minimum-digits = 4} % espaço fino
+\newcommand{\n}[1]{\num{#1}}
 \usepackage{cancel}
 
 % --------------------------------------------------------

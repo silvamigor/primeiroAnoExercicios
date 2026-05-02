@@ -13,23 +13,38 @@
 }%
 
 \begin{exercicioBanco}[\valorquestao]
-TEXTO DA QUESTÃO.
+Considere a função
+%
+\[
+    \begin{array}{rcl}
+        f: \; \bbR & \to & \bbR \\
+        x & \mapsto & \left\{
+            \begin{array}{cl}
+                2+x, & \text{ se }\; x \le -1, \\[2pt]
+                1, & \text{ se }\; -1 < x < 1, \\[2pt]
+                -2x+3, & \text{ se }\; x \ge 1,
+            \end{array}
+        \right.
+    \end{array}
+\] 
+%
+Calcule \(f(-1) - f(0) + f\left(\dfrac{3}{2}\right)\).
 
 % Define as alternativas
 \newcommand{\alternativas}{%
     \begin{center}
         \begin{tabularx}{\textwidth}{XXXXX}
-            (a) Alternativa A. &
-            (b) Alternativa B. &
-            (c) Alternativa C. &
-            (d) Alternativa D. &
-            (e) Alternativa E.
+            (a) \(-1\). &
+            (b) \(1\). &
+            (c) \(0\). &
+            (d) \(-2\). &
+            (e) \(2\).
         \end{tabularx}
     \end{center}
 }
 
 % Define a resposta correta
-\newcommand{\resposta}{X}
+\newcommand{\resposta}{C}
 
 % Lógica condicional para exibição
 \ifdefstring{\atividade}{lista}{%

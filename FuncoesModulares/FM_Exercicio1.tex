@@ -13,23 +13,37 @@
 }%
 
 \begin{exercicioBanco}[\valorquestao]
-TEXTO DA QUESTÃO.
+Considere a função
+%
+\[
+    \begin{array}{rcl}
+        f: \; \bbZ & \to & \bbZ \\
+        n & \mapsto & \left\{
+            \begin{array}{cl}
+                \dfrac{n}{2}, & \text{ se } n \text{ é par}, \\[10pt]
+                \dfrac{n+1}{2}, & \text{ se } n \text{ é ímpar}.
+            \end{array}
+        \right.
+    \end{array}
+\] 
+%
+Calcule \(f(1) + f(2)\).
 
 % Define as alternativas
 \newcommand{\alternativas}{%
     \begin{center}
         \begin{tabularx}{\textwidth}{XXXXX}
-            (a) Alternativa A. &
-            (b) Alternativa B. &
-            (c) Alternativa C. &
-            (d) Alternativa D. &
-            (e) Alternativa E.
+            (a) \(0\). &
+            (b) \(2\). &
+            (c) \(\dfrac{1}{2}\). &
+            (d) \(\dfrac{3}{2}\). &
+            (e) \(1\).
         \end{tabularx}
     \end{center}
 }
 
 % Define a resposta correta
-\newcommand{\resposta}{X}
+\newcommand{\resposta}{B}
 
 % Lógica condicional para exibição
 \ifdefstring{\atividade}{lista}{%
