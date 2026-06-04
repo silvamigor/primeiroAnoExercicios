@@ -1,1 +1,1 @@
-pdflatex --shell-escape EstatisticaProvas.tex 
+pdflatex --shell-escape Estatistica_Prova.tex 

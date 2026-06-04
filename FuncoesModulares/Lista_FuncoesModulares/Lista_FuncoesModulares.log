@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.12.14)  1 MAY 2026 10:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.12.14)  27 MAY 2026 17:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2027,55 +2027,57 @@ LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
 LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
 (Font)              scaled to size 11.52008pt on input line 23.
 
-(../FM_Exercicio1.tex
+(../FM_Exercicio1_1.tex
 LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
 (Font)              scaled to size 7.68005pt on input line 23.
 LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
 (Font)              scaled to size 5.76004pt on input line 23.
-) (../FM_Exercicio2.tex) (../FM_Exercicio3.tex)
-(../FM_Exercicio4.tex) (../FM_Exercicio5.tex
+) (../FM_Exercicio2_2.tex) (../FM_Exercicio3_4.tex)
+(../FM_Exercicio4_1.tex) (../FM_Exercicio5_3.tex
 LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
-(Font)              scaled to size 10.51207pt on input line 147.
+(Font)              scaled to size 10.51207pt on input line 158.
 LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 10.51207pt on input line 147.
+(Font)              scaled to size 10.51207pt on input line 158.
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 10.51207pt on input line 147.
+(Font)              scaled to size 10.51207pt on input line 158.
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 10.51207pt on input line 147.
+(Font)              scaled to size 10.51207pt on input line 158.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 10.51207pt on input line 147.
+(Font)              scaled to size 10.51207pt on input line 158.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 10.51207pt on input line 147.
+(Font)              scaled to size 10.51207pt on input line 158.
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 10.51207pt on input line 147.
+(Font)              scaled to size 10.51207pt on input line 158.
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 10.51207pt on input line 147.
+(Font)              scaled to size 10.51207pt on input line 158.
 
-Overfull \hbox (11.39761pt too wide) in paragraph at lines 147--147
+Overfull \hbox (11.39761pt too wide) in paragraph at lines 158--158
  [] 
  []
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-di
-st/fonts/enc/dvips/ly1/texnansi.enc}]) (../FM_Exercicio6.tex)
-(../FM_Exercicio7.tex) (../FM_Exercicio8.tex [2]) (../FM_Exercicio9.tex)
-(../FM_Exercicio10.tex) (../FM_Exercicio11.tex) (../FM_Exercicio12.tex)
-(../FM_Exercicio13.tex) [3] (./Lista_FuncoesModulares.aux)
+st/fonts/enc/dvips/ly1/texnansi.enc}]) (../FM_Exercicio6_1.tex)
+(../FM_Exercicio7_2.tex) (../FM_Exercicio8_3.tex [2]) (../FM_Exercicio9_2.tex)
+(../FM_Exercicio10_1.tex) (../FM_Exercicio11_2.tex) (../FM_Exercicio12_1.tex)
+(../FM_Exercicio13_3.tex) (../FM_Exercicio14_2.tex [3])
+(../FM_Exercicio15_3.tex) (../FM_Exercicio16_2.tex) (../FM_Exercicio17_1.tex)
+[4] (./Lista_FuncoesModulares.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `Lista_FuncoesModulares.out' has not changed.
 
-(rerunfilecheck)             Checksum: CC620DCA5AC6C58A454AA57A968037D2;1393.
+(rerunfilecheck)             Checksum: 5E0E8126225F1CC2D1B6D2A243E4682E;1841.
  ) 
 Here is how much of TeX's memory you used:
- 57013 strings out of 474222
- 1334113 string characters out of 5748732
- 1968975 words of memory out of 5000000
- 78048 multiletter control sequences out of 15000+600000
- 592762 words of font info for 156 fonts, out of 8000000 for 9000
+ 57093 strings out of 474222
+ 1335923 string characters out of 5748732
+ 1969975 words of memory out of 5000000
+ 78094 multiletter control sequences out of 15000+600000
+ 593255 words of font info for 161 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,17n,120p,1288b,1134s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></usr/
@@ -2087,10 +2089,10 @@ texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr7v.pfb></usr/share/texlive
 e/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr8t.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chri7m.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chrma.pfb>
-Output written on Lista_FuncoesModulares.pdf (3 pages, 76894 bytes).
+Output written on Lista_FuncoesModulares.pdf (4 pages, 81511 bytes).
 PDF statistics:
- 178 PDF objects out of 1000 (max. 8388607)
- 129 compressed objects within 2 object streams
- 30 named destinations out of 1000 (max. 500000)
- 41221 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 212 PDF objects out of 1000 (max. 8388607)
+ 162 compressed objects within 2 object streams
+ 44 named destinations out of 1000 (max. 500000)
+ 41253 words of extra memory for PDF output out of 42996 (max. 10000000)
 

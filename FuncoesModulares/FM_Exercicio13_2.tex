@@ -1,0 +1,55 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%       EXERCÍCIO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ifdefstring{\atividade}{prova}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \renewcommand{\valorquestao}{\ValorQObj\ ponto}
+    }{%
+        \renewcommand{\valorquestao}{\ValorQDisc\ pontos}
+    }%
+}%
+
+\begin{exercicioBanco}[\valorquestao]
+Sejam \(S_{1}\) e \(S_{2}\) os conjuntos soluções das seguintes equações modulares, respectivamente: 
+\begin{multicols}{2}
+    \begin{enumerate}[(i)]
+        \item \(|x-3| = 2x-6\),
+        \item \(|2x-4| = 4-2x\).
+    \end{enumerate}
+\end{multicols}
+Determine \(S_{1} \cap S_{2}\).
+
+% Define as alternativas
+\newcommand{\alternativas}{%
+    \begin{center}
+        \begin{tabularx}{\textwidth}{XXX}
+            (a) \(\{3\}\). &
+            (b) \(\{2,3\}\). &
+            (c) \(\varnothing\). \\[5pt]
+            (d) \(\{x \in \bbR \mid x \le 2\}\). &
+            (e) \(\bbR\).
+        \end{tabularx}
+    \end{center}
+}
+
+% Define a resposta correta
+\newcommand{\resposta}{C}
+
+% Lógica condicional para exibição
+\ifdefstring{\atividade}{lista}{%
+    \alternativas
+    \vspace{0.5em}
+    
+    \noindent\textbf{Resposta:} letra \textbf{\resposta}.
+}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \alternativas
+    }{%
+        % modo = discursiva → não mostra alternativas
+    }
+}
+\end{exercicioBanco}
+

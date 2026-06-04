@@ -3,115 +3,91 @@
 %       RESPOSTA QUESTÃO DISCURSIVA
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\thispagestyle{empty}
-\vspace*{1pt}
-\backgroundsetup{
-  position=current page.center,
-  angle=0,
-  scale=1,
-  opacity=1,
-  contents={%
-    \begin{tikzpicture}[
-      normal lines/.style={gray, very thin},
-      every node/.append style={black, align=center, opacity=1}
-    ]
-    \foreach \y in {5.7,6.4,...,27.4}
-        \draw[normal lines] (0,\y cm) -- (21cm,\y cm);
-    \draw[draw=none] (3cm,0cm) -- (3cm,5.6cm);
-    \draw[normal lines] (3 cm, 5.6 cm) -- (3 cm, 29 cm);
-    \node (t) [font=\large, anchor=south, yshift=10pt] at ($(0,27.4)!1/2!(21cm,27.4)$) {Resposta da Questão Discursiva};
-    \node (d) [font=\large, anchor=south west, xshift=8pt] at (0,26.85 cm) {\textbf{\questaoDiscursiva}};
-    \end{tikzpicture}
-  }
-}
-
-\begin{tikzpicture}[remember picture, overlay]
-\node[
-  anchor=north west,
-  xshift=3.2cm,
-  yshift=-1.7cm,
-  text width=17cm,
-  align=left
-] at (current page.north west)
-{
-\cursive{
-    \setlength{\baselineskip}{0.7cm}
-    %\begingroup \mathcode`\:="003A
-    
-    Vamos determinar o lucro obtido ao vender \(800\) ingressos para um evento. O lucro em função do número de ingressos vendidos é determinado pela fórmula
-    \vspace{-3pt}
-    \[
-        L(x) = A(x) - C(x),
-    \]
-    
-    \vspace{-6pt}
-    onde \(A(x)\) é a arrecadação, \(C(x)\) é o custo operacional e \(x\) é o número de ingressos vendidos. As funções \(A(x)\) e \(C(x)\) serão determinadas a partir das informações extraídas do gráfico. Para isso, note que \(A(0) = 0\) e \(A(600) = 6600\). Assim, seu coeficiente linear é zero e o coeficiente angular é igual a taxa de variação média:
-    \[
-        \dfrac{6600 - 0}{600 - 0} = 11.
-    \]
-    
-    \vspace{5pt}
-    Logo,
-    \[
-        A(x) = 11x.
-    \]
-    
-    \vspace{10pt}
-    Para \(C(x)\), temos que \(C(0) = 2400\) e \(C(600) = 6600\). Nesse caso, o coeficiente linear, dado pela interseção do gráfico com o eixo das coordenadas, é \(2400\) e o coeficiente angular é a taxa de variação média:
-    \[
-        \dfrac{6600 - 2400}{600 - 0} = \dfrac{4200}{600} = 7.
-    \]
-    
-    \vspace{10pt}
-    Assim, \(C(x) = 7x + 2400\). Portanto,
-    \[
-        L(x) = A(x) - C(x) = 11x - 7x - 2400 = 4x - 2400.
-    \]
-    
-    \vspace{-5pt}
-    Finalmente, lucro obtido ao vender \(800\) ingressos é
-    \[
-        L(800) = 4\cdot 800 - 2400 = 800 \, \text{ reais}.
-    \]
-    }
-};
-\end{tikzpicture}
-
-%
-\vfill
-\noindent
 \begin{center}
-    \textit{A tabela a seguir será preenchida pelo professor para fins de avaliação. \textbf{Não escreva neste espaço.}}
+    \large{\textbf{Resposta da questão discursiva}}
 \end{center}
-\vspace{3pt}
+\vspace{20pt}
+    
+\textbf{Exercício 6}. Vamos escrever a função \(S(t)\) como uma função definida por sentenças. Para isso, note que 
+%
+\[
+    \begin{array}{ccc}
+        |t-2| = \left\{
+        \begin{array}{rl}
+            t - 2, & \text{se } t \ge 2, \\
+            -t + 2 & \text{se } t \le 2,
+        \end{array}
+        \right.
+        & \quad \text{ e } \qquad\qquad &
+        |t-7| = \left\{
+        \begin{array}{rl}
+            t - 7, & \text{se } t \ge 7, \\
+            -t + 7 & \text{se } t \le 7.
+        \end{array}
+        \right.
+    \end{array}
+\]
+%
+Assim, considerando o diagrama abaixo
+%
 \begin{center}
-    \begin{tabular}{C{150pt}|C{60pt}|C{60pt}|C{60pt}|C{60pt}|C{60pt}|}
-        \cline{2-6}
-        & \multicolumn{1}{c|}{\makecell{Muito ruim\\0\%}}
-        & \makecell{Ruim\\25\%}
-        & \makecell{Regular\\50\%}
-        & \makecell{Bom\\75\%} 
-        & \makecell{Muito bom\\100\%} \\
+    \begin{tikzpicture}[scale=0.6]
+        \draw[->] (-1,4) -- (10,4);
+        \node[left] at (-2,4) {\(|t-2|\)};
+        \node[above] at (0,4) {\(-t+2\)};
+        \node[above] at (4.5,4) {\(t-2\)};
+        \node[above] at (8.5,4) {\(t-2\)};
         
-        \hline
-            
-        \multicolumn{1}{|c|}{\makecell{Aplicação da Matemática \\ 50\%}}
-        & 
-        & 
-        & 
-        & 
-        &  \\
+        \draw[->] (-1,2) -- (10,2);
+        \node[left] at (-2,2) {\(|t-7|\)};
+        \node[above] at (0,2) {\(-t+7\)};
+        \node[above] at (4.5,2) {\(-t+7\)};
+        \node[above] at (8.5,2) {\(t-7\)};
+        
+        \draw[->] (-1,0) -- (10,0);
+        \node[left] at (-2,0) {\(|t-2|+|t-7|\)};
+        \node[above] at (0,0) {\(-2t+9\)};
+        \node[above] at (4.5,0) {\(5\)};
+        \node[above] at (8.5,0) {\(2t-9\)};
 
-        \hline
+        \draw[-] (2,-0.5) -- (2,5);
+        \draw[-] (7,-0.5) -- (7,5);
 
-        \multicolumn{1}{|c|}{\makecell{Organização e argumentação \\ 50\%}}
-        & 
-        & 
-        & 
-        & 
-        &  \\
+        \node[above] at (2,5) {\(2\)};
+        \node[above] at (7,5) {\(7\)};
+    \end{tikzpicture}
+\end{center}
+%
+obtemos que 
+%
+\[
+    S(t) = |t-2|+|t-7| = \left\{
+    \begin{array}{rl}
+        -2t + 9, & \text{se } t < 2, \\
+        5, & \text{se } 2 \le t < 7, \\
+        2t - 9 & \text{se } t \ge 7.
+    \end{array}
+    \right.
+\]
+%
+Agora, observe que se \(t<2\), então \(S(t) = -2t + 9\) é uma função decrescente cujo mínimo está limitado por \(S(2) = 5\). Se \(t \ge 7\), temos que \(S(t) = 2t + 9\) é uma função crescente cujo mínimo está limitado por \(S(7) = 5\). Como \(S(t) = 5\), para \(2 \le t < 7\), então o valor mínimo de \(S(t)\) é exatamente igual a \(5\). Abaixo, segue o gráfico da função.
+\begin{center}
+    \begin{tikzpicture}[scale=0.5]
+        % Eixos
+        \draw[->] (-1,0) -- (9,0) node[right] {\(x\)};
+        \draw[->] (0,-.5) -- (0,7) node[above] {\(y\)};
 
-        \hline
-    \end{tabular}
+        % Gráfico da função f(x) = |x-2| + |x+3|
+        \draw[domain=1:2, thick, blue] plot (\x, {-2*\x +9}); % x < -1
+        \draw[domain=2:7, thick, blue] plot (\x, {5});    % x ≥ -1
+        \draw[domain=7:8, thick, blue] plot (\x, {2*\x -9});    % x ≥ -1
+
+        % Marcação do vértice (x = -1)
+        \draw[dashed] (2,0) -- (2,5);
+        \node[below] at (2,0) {\small\(2\)};
+        \draw[dashed] (7,0) -- (7,5);
+        \node[below] at (7,0) {\small\(7\)};
+        \draw[dashed] (0,5) -- (2,5);
+        \node[left] at (0,5) {\small\(5\)};
+    \end{tikzpicture}
 \end{center}

@@ -1,0 +1,60 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%       EXERCÍCIO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ifdefstring{\atividade}{prova}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \renewcommand{\valorquestao}{\ValorQObj\ ponto}
+    }{%
+        \renewcommand{\valorquestao}{\ValorQDisc\ pontos}
+    }%
+}%
+
+\begin{exercicioBanco}[\valorquestao]
+Considere a função
+%
+\[
+    f(x)= \left\{
+    \begin{array}{cl}
+        x+2, & \text{se } x\le -1,\\[2pt]
+        1, & \text{se } -1<x<1,\\[2pt]
+        -2x+3, & \text{se } x\ge 1.
+    \end{array} 
+    \right.
+\]
+
+Assinale a alternativa correta.
+
+% Define as alternativas
+\newcommand{\alternativas}{%
+    \begin{center}
+        \begin{tabularx}{\textwidth}{XX}
+            (a) A função é crescente em todo \(\bbR\). &
+            (b) A função possui exatamente uma raiz real. \\[5pt]
+            (c) A imagem da função é \(\bbR\). & 
+            (d) A função possui valor máximo igual a \(1\). \\[5pt]
+            (e) A função é injetiva.
+        \end{tabularx}
+    \end{center}
+}
+
+% Define a resposta correta
+\newcommand{\resposta}{D}
+
+% Lógica condicional para exibição
+\ifdefstring{\atividade}{lista}{%
+    \alternativas
+    \vspace{0.5em}
+    
+    \noindent\textbf{Resposta:} letra \textbf{\resposta}.
+}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \alternativas
+    }{%
+        % modo = discursiva → não mostra alternativas
+    }
+}
+\end{exercicioBanco}
+

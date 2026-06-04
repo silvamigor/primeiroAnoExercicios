@@ -1,10 +1,10 @@
 # Como usar:
 # Dentro da pasta abrir o terminal e abrir o R
 # Digitar "source("analise_prova.R")"
-# Digitar "analisar_prova("EstatisticaCAMB_Conjuntos.csv")"
-# Na hora que for rodar o pdflatex, tem que rodar com "pdflatex --shell-escape arquivo.tex"
+# Digitar "analisar_prova("EstatisticaTabela.csv")"
+# Na hora que for rodar o pdflatex, tem que rodar com "pdflatex --shell-escape Estatistica_Prova.tex"
 
-# Instalar install.packages("modeest")
+# Instalar install.packages("modeest") install.packages("gridExtra") library(gridExtra)
 
 analisar_prova <- function(arquivo_csv) {
     library(gridExtra)  # Para grid.table
@@ -33,6 +33,7 @@ analisar_prova <- function(arquivo_csv) {
         svg(filename = paste0("graficos_prova/histograma_", titulo_arquivo, ".svg"), width = 8, height = 6, bg = "transparent")
     
         # Quebras automáticas (ou use `breaks = seq(0, 10, by = 1)` por ex.)
+        
         h <- hist(coluna,
                 breaks = seq(0, 4, by = 0.5),  # classes de 0.5
                 probability = TRUE,
@@ -43,7 +44,7 @@ analisar_prova <- function(arquivo_csv) {
                 main = "",
                 xlab = "Nota",
                 ylab = "Densidade",
-                ylim = c(0, max(density(coluna)$y) * 1.4),
+                ylim = c(0, max(density(coluna)$y) * 1.7),
                 xlim = c(0, 4),
                 xaxt = "n")
         
@@ -70,7 +71,7 @@ analisar_prova <- function(arquivo_csv) {
     
         # Linha tracejada e valor da média
         abline(v = media, col = "darkred", lty = 2, lwd = 2)
-        text(media, max(density(coluna)$y) * 1.4, 
+        text(media, max(density(coluna)$y) * 1.6, 
             labels = paste0("Média = ", round(media, 2)), 
             pos = 2,  # à esquerda da linha
             col = "darkred", cex = 1.1)

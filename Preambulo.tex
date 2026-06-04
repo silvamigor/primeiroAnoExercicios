@@ -20,7 +20,7 @@
 \usepackage{commath}              % Notações como \abs{}, \norm{}, \eval{}
 \usepackage{pgfmath}             % Permite realizar cálculos matemáticos (somas, produtos, números aleatórios, etc.)
 \usepackage{siunitx}              % sistema de unidades
-\sisetup{group-separator = {\,}, group-minimum-digits = 4} % espaço fino
+\sisetup{group-separator = {\,}, output-decimal-marker = {,}, group-minimum-digits = 4} % espaço fino
 \newcommand{\n}[1]{\num{#1}}
 \usepackage{cancel}
 
@@ -90,6 +90,7 @@
 \usepackage{background}           % Permite adicionar conteúdo fixo no fundo da página (ex: linhas, marcas d'água)
 \SetBgContents{} % Remove conteúdo padrão ("DRAFT")
 \definecolor{background-color}{RGB}{233 227 206}
+\usepackage{setspace}
 
 % --------------------------------------------------------
 % GRÁFICOS E PLOTAGENS

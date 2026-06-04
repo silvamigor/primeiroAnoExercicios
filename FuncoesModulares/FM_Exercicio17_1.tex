@@ -1,0 +1,53 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%       EXERCÍCIO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ifdefstring{\atividade}{prova}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \renewcommand{\valorquestao}{\ValorQObj\ ponto}
+    }{%
+        \renewcommand{\valorquestao}{\ValorQDisc\ pontos}
+    }%
+}%
+
+\begin{exercicioBanco}[\valorquestao]
+Uma fábrica considera aceitável que o comprimento \(x\), em milímetros, de uma peça satisfaça simultaneamente:
+\begin{itemize}
+    \item distância máxima de \(0{,}8\) mm do valor \(10\);
+    \item distância mínima de \(0{,}3\) mm do valor \(9\).
+\end{itemize}
+Determine todos os valores possíveis de \(x\).
+
+% Define as alternativas
+\newcommand{\alternativas}{%
+    \begin{center}
+        \begin{tabularx}{\textwidth}{XXX}
+            (a) \([9,2\,;\,10,8]\). &
+            (b) \([9,2\,;\,8,7]\cup[9,3\,;\,10,8]\). &
+            (c) \([9,2\,;\,8,7)\cup(9,3\,;\,10,8]\). \\[5pt]
+            (d) \([9,3\,;\,10,8]\). &
+            (e) \((-\infty,8,7]\cup[9,3,\infty)\).
+        \end{tabularx}
+    \end{center}
+}
+
+% Define a resposta correta
+\newcommand{\resposta}{D}
+
+% Lógica condicional para exibição
+\ifdefstring{\atividade}{lista}{%
+    \alternativas
+    \vspace{0.5em}
+    
+    \noindent\textbf{Resposta:} letra \textbf{\resposta}.
+}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \alternativas
+    }{%
+        % modo = discursiva → não mostra alternativas
+    }
+}
+\end{exercicioBanco}
+

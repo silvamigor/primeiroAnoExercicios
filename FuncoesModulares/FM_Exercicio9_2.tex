@@ -13,23 +13,29 @@
 }%
 
 \begin{exercicioBanco}[\valorquestao]
-O preço médio de certo produto agrícola é dado em função do mês do ano em que é comercializado. Se \(P\) é o preço médio em reais e \(n\) é o número correspondente ao mês do ano, \(P\) em função de \(n\) é dado por \(P(n) = 8 - |6 - n|\). Determine para qual valor de \(n\) ocorre o valor mínimo de \(P\).
+A temperatura média \(T\), em graus Celsius, de uma cidade ao longo de um dia é dada por
+%
+\[
+T(h)=30-|14-h|,
+\]
+%
+em que \(h\) representa a hora do dia, com \(0\le h\le 23\). Determine em que horário a temperatura atinge seu valor máximo.
 
 % Define as alternativas
 \newcommand{\alternativas}{%
     \begin{center}
         \begin{tabularx}{\textwidth}{XXXXX}
-            (a) \(12\). &
-            (b) \(13\). &
-            (c) \(14\). &
-            (d) \(15\). &
-            (e) \(16\).
+            (a) \(0\). &
+            (b) \(6\). &
+            (c) \(9\). &
+            (d) \(14\). &
+            (e) \(23\).
         \end{tabularx}
     \end{center}
 }
 
 % Define a resposta correta
-\newcommand{\resposta}{A}
+\newcommand{\resposta}{D}
 
 % Lógica condicional para exibição
 \ifdefstring{\atividade}{lista}{%

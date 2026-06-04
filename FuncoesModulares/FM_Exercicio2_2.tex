@@ -1,0 +1,64 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%       EXERCÍCIO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ifdefstring{\atividade}{prova}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \renewcommand{\valorquestao}{\ValorQObj\ ponto}
+    }{%
+        \renewcommand{\valorquestao}{\ValorQDisc\ pontos}
+    }%
+}%
+
+\begin{exercicioBanco}[\valorquestao]
+Considere a função
+%
+\[
+    \begin{array}{rcl}
+        f:\bbR & \to & \bbR \\
+        x & \mapsto &
+        \left\{
+        \begin{array}{cl}
+            x+2, & \text{se } x \le -1, \\[2pt]
+            1, & \text{se } -1 < x < 1, \\[2pt]
+            -2x+3, & \text{se } x \ge 1.
+        \end{array}
+        \right.
+    \end{array}
+\]
+%
+Determine a soma dos zeros dessa função.
+
+% Define as alternativas
+\newcommand{\alternativas}{%
+    \begin{center}
+        \begin{tabularx}{\textwidth}{XXXXX}
+            (a) \(-\dfrac{1}{2}\). &
+            (b) \(-2\). &
+            (c) \(0\). &
+            (d) \(\dfrac{3}{2}\). &
+            (e) \(1\).
+        \end{tabularx}
+    \end{center}
+}
+
+% Define a resposta correta
+\newcommand{\resposta}{A}
+
+% Lógica condicional para exibição
+\ifdefstring{\atividade}{lista}{%
+    \alternativas
+    \vspace{0.5em}
+    
+    \noindent\textbf{Resposta:} letra \textbf{\resposta}.
+}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \alternativas
+    }{%
+        % modo = discursiva → não mostra alternativas
+    }
+}
+\end{exercicioBanco}
+

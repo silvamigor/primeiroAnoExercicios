@@ -1,0 +1,54 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%       EXERCÍCIO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ifdefstring{\atividade}{prova}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \renewcommand{\valorquestao}{\ValorQObj\ ponto}
+    }{%
+        \renewcommand{\valorquestao}{\ValorQDisc\ pontos}
+    }%
+}%
+
+\begin{exercicioBanco}[\valorquestao]
+Considere as afirmações a seguir e responda se saõ verdadeiras ou falsas.
+\begin{enumerate}[(i)]
+    \item Seja \(k \in \bbR\). O conjunto solução da inequação \(|x| < k\) é \(S = ]-\infty,-k[\;\cup\;]k,\infty[\).
+    %
+    \item Para todo \(x, y \in \bbR\) vale que \(|x + y| = |x| + |y|\).
+    %
+    \item \(|-2x| = -2|x|\), para todo \(x \in \bbR\).
+\end{enumerate}
+% Define as alternativas
+\newcommand{\alternativas}{%
+    \begin{center}
+        \begin{tabularx}{\textwidth}{XXXXX}
+            (a) (F, F, V). &
+            (b) (F, V, V). &
+            (c) (V, F, F). &
+            (d) (F, V, F). &
+            (e) (F, F, F).
+        \end{tabularx}
+    \end{center}
+}
+
+% Define a resposta correta
+\newcommand{\resposta}{E}
+
+% Lógica condicional para exibição
+\ifdefstring{\atividade}{lista}{%
+    \alternativas
+    \vspace{0.5em}
+    
+    \noindent\textbf{Resposta:} letra \textbf{\resposta}.
+}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \alternativas
+    }{%
+        % modo = discursiva → não mostra alternativas
+    }
+}
+\end{exercicioBanco}
+
