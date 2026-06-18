@@ -1,0 +1,93 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%       EXERCÍCIO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ifdefstring{\atividade}{prova}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \renewcommand{\valorquestao}{\ValorQObj\ ponto}
+    }{%
+        \renewcommand{\valorquestao}{\ValorQDisc\ pontos}
+    }%
+}%
+
+\begin{exercicioBanco}[\valorquestao]
+A figura a seguir representa um quadrado com 18 cm de lado.
+
+\begin{center}
+    \begin{tikzpicture}[scale=0.45]
+
+        % Pontos
+        \coordinate (A) at (0,0);
+        \coordinate (B) at (8,0);
+        \coordinate (C) at (8,8);
+        \coordinate (D) at (0,8);
+
+        \coordinate (E) at (2,8);
+        \coordinate (F) at (0,2);
+        \coordinate (G) at (8,3);
+
+        % Região hachurada
+        \fill[pattern=north east lines]
+        (A)--(B)--(G)--(E)--(F)--cycle;
+
+        % Contornos
+        \draw[thick] (A)--(B)--(G)--(E)--(F)--cycle;
+        \draw[thick] (A)--(B)--(C)--(D)--cycle;
+
+        % Letras
+        \node[left] at (A) {$A$};
+        \node[right] at (B) {$B$};
+        \node[above] at (C) {$C$};
+        \node[above left] at (D) {$D$};
+
+        % Medidas
+        \draw[dashed] (D)--++(2,0);
+        \draw[<->] (0,8.7)--(2,8.7);
+        \node at (1,9.2) {$x$};
+
+        \draw[dashed] (-0.6,8)--(-0.6,2);
+        \draw[<->] (-0.6,2)--(-0.6,8);
+        \node[left] at (-0.8,5) {$2x$};
+
+        \draw[dashed] (8.6,8)--(8.6,5);
+        \draw[<->] (8.6,8)--(8.6,3);
+        \node[right] at (8.8,5.5) {$5$};
+
+    \end{tikzpicture}
+\end{center}
+
+Determine a expressão da área \(y\) da parte hachurada da figura.
+
+% Define as alternativas
+\newcommand{\alternativas}{%
+    \begin{center}
+        \begin{tabularx}{\textwidth}{XXX}
+            (a) \(y=-x^{2}+5x+279\). &
+            (b) \(y=x^{2}+5x+279\). &
+            (c) \(y=-x^{2}+3x+279\). \\[5pt]
+            (d) \(y=-x^{2}+5x+324\). &
+            (e) \(y=x^{2}+3x+279\).
+        \end{tabularx}
+    \end{center}
+}
+
+% Define a resposta correta
+\newcommand{\resposta}{A}
+
+% Lógica condicional para exibição
+\ifdefstring{\atividade}{lista}{%
+    \alternativas
+    \vspace{0.5em}
+    
+    \noindent\textbf{Resposta:} letra \textbf{\resposta}.
+}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \alternativas
+    }{%
+        % modo = discursiva → não mostra alternativas
+    }
+}
+\end{exercicioBanco}
+

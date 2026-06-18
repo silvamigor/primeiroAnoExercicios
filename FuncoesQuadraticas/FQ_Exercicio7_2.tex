@@ -1,0 +1,48 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%       EXERCÍCIO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ifdefstring{\atividade}{prova}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \renewcommand{\valorquestao}{\ValorQObj\ ponto}
+    }{%
+        \renewcommand{\valorquestao}{\ValorQDisc\ pontos}
+    }%
+}%
+
+\begin{exercicioBanco}[\valorquestao]
+Um retângulo inicial, de perímetro 160 centímetros, sofre uma modificação tal que a medida de sua largura aumenta 10\%, e a medida do seu comprimento diminui 10\%. Determine a função que define a área \(A\) do novo retângulo, em centímetros quadrados, em relação à medida da largura do retângulo inicial \(x\), em centímetros.
+
+% Define as alternativas
+\newcommand{\alternativas}{%
+    \begin{center}
+        \begin{tabularx}{\textwidth}{XXX}
+            (a) \(A(x)=79,2x-0,99x^{2}\). &
+            (b) \(A(x)=88x-0,99x^{2}\). &
+            (c) \(A(x)=79,2x+0,99x^{2}\). \\[5pt]
+            (d) \(A(x)=88x-1,1x^{2}\). &
+            (e) \(A(x)=72x-0,81x^{2}\).
+        \end{tabularx}
+    \end{center}
+}
+
+% Define a resposta correta
+\newcommand{\resposta}{A}
+
+% Lógica condicional para exibição
+\ifdefstring{\atividade}{lista}{%
+    \alternativas
+    \vspace{0.5em}
+    
+    \noindent\textbf{Resposta:} letra \textbf{\resposta}.
+}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \alternativas
+    }{%
+        % modo = discursiva → não mostra alternativas
+    }
+}
+\end{exercicioBanco}
+

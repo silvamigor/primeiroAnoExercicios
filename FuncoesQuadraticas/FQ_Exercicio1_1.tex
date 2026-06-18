@@ -13,23 +13,38 @@
 }%
 
 \begin{exercicioBanco}[\valorquestao]
-TEXTO DA QUESTÃO.
+Quais das funções a seguir são função quadrática?
+\begin{multicols}{3}
+    \begin{enumerate}[(I)]
+        \item \(f(x) = 2 - x\).
+        %
+        \item \(f(x) = (x + 1)^{2}\).
+        %
+        \item \(f(x) = |x^{2} - 1|\).
+        %
+        \item \(f(x) = x(x - 1)\).
+        %
+        \item \(f(x) = 2 - x + x^{3}\).
+        %
+        \item \(f(x) = \pi x^2\).
+    \end{enumerate}
+\end{multicols}
 
 % Define as alternativas
 \newcommand{\alternativas}{%
     \begin{center}
         \begin{tabularx}{\textwidth}{XXXXX}
-            (a) Alternativa A. &
-            (b) Alternativa B. &
-            (c) Alternativa C. &
-            (d) Alternativa D. &
-            (e) Alternativa E.
+            (a) I, II e IV. &
+            (b) II e IV. &
+            (c) II, IV e VI. &
+            (d) I, II, III, IV e VI. &
+            (e) II, III e VI.
         \end{tabularx}
     \end{center}
 }
 
 % Define a resposta correta
-\newcommand{\resposta}{X}
+\newcommand{\resposta}{C}
 
 % Lógica condicional para exibição
 \ifdefstring{\atividade}{lista}{%
