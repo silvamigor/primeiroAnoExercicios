@@ -1,0 +1,48 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%       EXERCÍCIO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\definevalorquestao
+
+\begin{exercicioBanco}[\valorquestao]
+Uma das maneiras de saber se o seu peso está adequado à sua altura é calculando o Índice de Massa Corporal (IMC), que pode ser obtido através da fórmula dada por
+%
+\[
+    h^{2}\cdot \text{IMC} - P = 0,
+\]
+%
+sendo \(h\) a altura da pessoa em metros (m) e \(P\) o seu peso em quilogramas (kg). Se uma pessoa possui IMC igual a 30 kg/m\(^2\) e está com peso igual a 120 kg, indique a alternativa que apresenta o valor de sua altura em metros.
+
+% Define as alternativas
+\newcommand{\alternativas}{%
+    \begin{center}
+        \begin{tabularx}{\textwidth}{XXXXX}
+            (a) \(1,7\). &
+            (b) \(1,8\). &
+            (c) \(1,9\). &
+            (d) \(2,0\). &
+            (e) \(2,1\).
+        \end{tabularx}
+    \end{center}
+}
+
+% Define a resposta correta
+\newcommand{\resposta}{D}
+
+% Lógica condicional para exibição
+\ifdefstring{\atividade}{lista}{%
+    \alternativas
+    \vspace{0.5em}
+    
+    \noindent\textbf{Resposta:} letra \textbf{\resposta}.
+}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \alternativas
+    }{%
+        % modo = discursiva → não mostra alternativas
+    }
+}
+\end{exercicioBanco}
+

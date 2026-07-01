@@ -1,0 +1,47 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%       EXERCÍCIO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\definevalorquestao
+
+\begin{exercicioBanco}[\valorquestao]
+Resolva, em \(\bbR\), a inequação
+%
+\[
+    \dfrac{6x^{2} + 12x + 17}{-2x^{2} + 7x - 5} \ge -1.
+\]
+%
+
+% Define as alternativas
+\newcommand{\alternativas}{%
+    \begin{center}
+        \begin{tabularx}{\textwidth}{XXX}
+            (a) \([-4,\frac{5}{2}]\). &
+            (b) \([-\frac{3}{4},1]\). &
+            (c) \([-\frac{3}{4},1] \cup [\frac{5}{2}, \infty[\). \\[5pt]
+            (d) \(]-\infty,-4] \cup [1,\frac{5}{2}]\). &
+            (e) \([-4,-\frac{3}{4}] \cup [1, \frac{5}{2}]\).
+        \end{tabularx}
+    \end{center}
+}
+
+% Define a resposta correta
+\newcommand{\resposta}{E}
+
+% Lógica condicional para exibição
+\ifdefstring{\atividade}{lista}{%
+    \alternativas
+    \vspace{0.5em}
+    
+    \noindent\textbf{Resposta:} letra \textbf{\resposta}.
+}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \alternativas
+    }{%
+        % modo = discursiva → não mostra alternativas
+    }
+}
+\end{exercicioBanco}
+

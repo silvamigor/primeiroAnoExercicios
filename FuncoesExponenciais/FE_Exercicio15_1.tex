@@ -1,0 +1,42 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%       EXERCÍCIO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\definevalorquestao
+
+\begin{exercicioBanco}[\valorquestao]
+Considere a função \(f(x) = e^{x}\), onde \(e\) é o número de Euler. Seja \(g(x)\) a reta tangente ao gráfico de \(f\) passando pelo ponto \((0,1)\). Qual é o zero de \(g(x)\)?
+
+% Define as alternativas
+\newcommand{\alternativas}{%
+    \begin{center}
+        \begin{tabularx}{\textwidth}{XXXXX}
+            (a) \(-2\). &
+            (b) \(-1\). &
+            (c) \(0\). &
+            (d) \(1\). &
+            (e) \(2\).
+        \end{tabularx}
+    \end{center}
+}
+
+% Define a resposta correta
+\newcommand{\resposta}{E}
+
+% Lógica condicional para exibição
+\ifdefstring{\atividade}{lista}{%
+    \alternativas
+    \vspace{0.5em}
+    
+    \noindent\textbf{Resposta:} letra \textbf{\resposta}.
+}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \alternativas
+    }{%
+        % modo = discursiva → não mostra alternativas
+    }
+}
+\end{exercicioBanco}
+

@@ -1,0 +1,73 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%       EXERCÍCIO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\definevalorquestao
+
+\begin{exercicioBanco}[\valorquestao]
+O lucro de uma pequena empresa é dado por uma função quadrática cujo gráfico está representado na figura abaixo:
+
+\begin{center}
+\begin{tikzpicture}[scale=0.2]
+    % Eixos
+    \draw[->] (-1,0) -- (22,0) node[right] {\small \shortstack{unidades \\ vendidas}};
+    \draw[->] (0,0) -- (0,14) node[right] {\small lucro (R\$)};
+    
+    % Pontos de referência
+    \draw[dashed] (10,0) -- (10,12);
+    \draw[dashed] (20,0) -- (20,12);
+    \draw[dashed] (0,12) -- (20,12);
+    
+    % Pontos e marcações
+    \filldraw (10,12) circle (2pt);
+    \filldraw (20,12) circle (2pt);
+    \node[left] at (0,12) {\small 1200};
+    \node[below] at (10,0) {\small 10};
+    \node[below] at (20,0) {\small 20};
+
+    % Curva da parábola com vértice em (15,13.5)
+    \draw[domain=0:22, smooth, samples=100, thick] 
+        plot (\x, {-0.06*(\x - 15)^2 + 13.5});
+\end{tikzpicture}
+
+\end{center}
+
+\bigskip
+
+\noindent Podemos concluir que o lucro máximo é de quanto?
+
+\bigskip
+
+% Define as alternativas
+\newcommand{\alternativas}{%
+    \begin{center}
+        \begin{tabularx}{\textwidth}{XXXXX}
+            (a) R\$ \(\n{1250,00}\). &
+            (b) R\$ \(\n{1300,00}\). &
+            (c) R\$ \(\n{1350,00}\). &
+            (d) R\$ \(\n{1400,00}\). &
+            (e) R\$ \(\n{1450,00}\).
+        \end{tabularx}
+    \end{center}
+}
+
+% Define a resposta correta
+\newcommand{\resposta}{C}
+
+% Lógica condicional para exibição
+\ifdefstring{\atividade}{lista}{%
+    \alternativas
+    \vspace{0.5em}
+    
+    \noindent\textbf{Resposta:} letra \textbf{\resposta}.
+}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \alternativas
+    }{%
+        % modo = discursiva → não mostra alternativas
+    }
+}
+\end{exercicioBanco}
+

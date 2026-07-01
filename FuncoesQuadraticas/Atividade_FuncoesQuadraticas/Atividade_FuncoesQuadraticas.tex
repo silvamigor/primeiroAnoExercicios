@@ -1,0 +1,86 @@
+\documentclass[a4paper,12pt]{article}
+
+\input{../../Preambulo.tex}
+\newcommand{\assunto}{FUNÇÕES QUADRÁTICAS}
+\newcommand{\atividade}{atividade} % prova ou lista ou as ou ad ou atividade
+\newcommand{\NumQObj}{6}
+\newcommand{\ValorProva}{2}
+\pgfmathparse{\ValorProva/\NumQObj}
+\edef\ValorQObj{\pgfmathresult}
+%\newcommand{\ValorQObj}{0.3}
+%\pgfmathparse{int(round(\NumQObj * \ValorQObj))}
+%\edef\ValorProva{\pgfmathresult}
+\newcommand{\tipo}{dupla} % dupla ou individual
+\newcommand{\calculadora}{nao} % sim ou nao
+\input{../../Variaveis.tex}
+
+\hypersetup{
+    pdfauthor={\professor},
+    pdftitle={\titulo \-- \assunto \-- \turma \-- \numProva},
+}
+
+\title{\titulo \-- \assunto \-- \turma \-- \numProva}
+\author{\professor}
+\date{\data}
+
+%************* INÍCIO DO DOCUMENTO *************
+\begin{document}
+    \NoBgThispage
+    \pagenumbering{alph}
+    %
+        
+    \phantomsection
+    \addcontentsline{toc}{section}{Capa}
+    \input{../../AT_Capa}
+    \newpage
+    \null
+    \thispagestyle{empty}
+    \addtocounter{page}{1}
+    \newpage
+        
+    \NoBgThispage
+    \pagenumbering{arabic}
+    %
+        
+    \subtitulopr
+    
+    \vspace{15pt}
+    \newcommand{\modo}{objetivo} % objetivo ou discursivo
+    
+    \phantomsection
+    \addcontentsline{toc}{section}{Exercício 1}
+    \input{../FQ_Exercicio6_2}
+    \vspace{15pt}
+    
+    \phantomsection
+    \addcontentsline{toc}{section}{Exercício 2}
+    \input{../FQ_Exercicio3_1}
+    \vspace{15pt}
+    
+    \phantomsection
+    \addcontentsline{toc}{section}{Exercício 3}
+    \input{../FQ_Exercicio4_2}
+    \vspace{15pt}
+    
+    \phantomsection
+    \addcontentsline{toc}{section}{Exercício 4}
+    \input{../FQ_Exercicio20_3}
+    \vspace{15pt}
+    
+    \phantomsection
+    \addcontentsline{toc}{section}{Exercício 5}
+    \input{../FQ_Exercicio8_2}
+    \vspace{15pt}
+    
+    \phantomsection
+    \addcontentsline{toc}{section}{Exercício 6}
+    \input{../FQ_Exercicio11_2}
+    \vspace{15pt}
+    
+    %\newpage
+    %\phantomsection
+    %\addcontentsline{toc}{section}{Rascunho}
+    %\input{../../Rascunho}
+    
+\end{document}
+%*************** FINAL DO DOCUMENTO ***************
