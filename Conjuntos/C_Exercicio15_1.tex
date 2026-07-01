@@ -4,13 +4,7 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\ifdefstring{\atividade}{prova}{%
-    \ifdefstring{\modo}{objetivo}{%
-        \renewcommand{\valorquestao}{\ValorQObj\ ponto}
-    }{%
-        \renewcommand{\valorquestao}{\ValorQDisc\ pontos}
-    }%
-}%
+\definevalorquestao
 
 \begin{exercicioBanco}[\valorquestao]
 Sejam \(A = \{0,1,2,3\}\) e \(B = \{x \in \bbZ \mid -6 \le x \le 6\}\). Considere a função

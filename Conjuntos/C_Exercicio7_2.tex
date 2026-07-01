@@ -4,13 +4,7 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\ifdefstring{\atividade}{prova}{%
-    \ifdefstring{\modo}{objetivo}{%
-        \renewcommand{\valorquestao}{\ValorQObj\ ponto}
-    }{%
-        \renewcommand{\valorquestao}{\ValorQDisc\ pontos}
-    }%
-}%
+\definevalorquestao
 
 \begin{exercicioBanco}[\valorquestao]
 Os números \(x\) e \(y\) são tais que \(4 \le x \le 12\) e \(15 \le y \le 25\). Determine o maior valor possível de \(\dfrac{x}{y}\).

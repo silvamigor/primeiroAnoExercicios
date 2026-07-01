@@ -4,13 +4,7 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\ifdefstring{\atividade}{prova}{%
-    \ifdefstring{\modo}{objetivo}{%
-        \renewcommand{\valorquestao}{\ValorQObj\ ponto}
-    }{%
-        \renewcommand{\valorquestao}{\ValorQDisc\ pontos}
-    }%
-}%
+\definevalorquestao
 
 \begin{exercicioBanco}[\valorquestao]
 Em uma turma, \(50\) estudantes responderam a uma pesquisa sobre duas redes sociais, \(A\) e \(B\).

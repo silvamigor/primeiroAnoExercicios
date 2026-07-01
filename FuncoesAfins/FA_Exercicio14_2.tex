@@ -4,13 +4,7 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\ifdefstring{\atividade}{prova}{%
-    \ifdefstring{\modo}{objetivo}{%
-        \renewcommand{\valorquestao}{\ValorQObj\ ponto}
-    }{%
-        \renewcommand{\valorquestao}{\ValorQDisc\ pontos}
-    }%
-}%
+\definevalorquestao
 
 \begin{exercicioBanco}[\valorquestao]
 Dois reservatórios de água, inicialmente com o mesmo volume de $20$ litros, começam a ser abastecidos. Os volumes de água, $V_{1}$ e $V_{2}$, em função do tempo $t$, em minutos, estão representados no plano cartesiano pelas retas com interseção no ponto $A = (0,20)$ e que passam, respectivamente, pelos pontos $B = (10, 50)$ e $C = (30, 35)$.

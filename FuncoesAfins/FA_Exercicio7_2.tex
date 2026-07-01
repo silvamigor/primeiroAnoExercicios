@@ -4,13 +4,7 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\ifdefstring{\atividade}{prova}{%
-    \ifdefstring{\modo}{objetivo}{%
-        \renewcommand{\valorquestao}{\ValorQObj\ ponto}
-    }{%
-        \renewcommand{\valorquestao}{\ValorQDisc\ pontos}
-    }%
-}%
+\definevalorquestao
 
 \begin{exercicioBanco}[\valorquestao]
 Determine o gráfico da função afim \(f: \bbR \to \bbR\), dada por \(f(x) = -2x + 1\).

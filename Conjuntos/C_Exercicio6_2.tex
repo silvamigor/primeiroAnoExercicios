@@ -4,17 +4,11 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\ifdefstring{\atividade}{prova}{%
-    \ifdefstring{\modo}{objetivo}{%
-        \renewcommand{\valorquestao}{\ValorQObj\ ponto}
-    }{%
-        \renewcommand{\valorquestao}{\ValorQDisc\ pontos}
-    }%
-}%
+\definevalorquestao
 
 \begin{exercicioBanco}[\valorquestao]
 No universo \(\bbN = \{1,2,3,\ldots\}\), sejam:
-
+%
 \begin{enumerate}[\(\bullet\)]
     \begin{multicols}{2}
         \item \(A\) o conjunto dos números múltiplos de \(4\);
@@ -22,13 +16,13 @@ No universo \(\bbN = \{1,2,3,\ldots\}\), sejam:
         \item \(C\) o conjunto dos números múltiplos de \(6\).
     \end{multicols}
 \end{enumerate}
-
+%
 Determine os \(4\) menores números que pertencem ao conjunto
-
+%
 \[
     B\setminus(A \cup C).
 \]
-
+%
 % Define as alternativas
 \newcommand{\alternativas}{%
     \begin{center}

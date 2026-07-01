@@ -4,13 +4,7 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\ifdefstring{\atividade}{prova}{%
-    \ifdefstring{\modo}{objetivo}{%
-        \renewcommand{\valorquestao}{\ValorQObj\ ponto}
-    }{%
-        \renewcommand{\valorquestao}{\ValorQDisc\ pontos}
-    }%
-}%
+\definevalorquestao
 
 \begin{exercicioBanco}[\valorquestao]
 O custo de um estacionamento é dado pela função \(f(x) = 4{,}00 + 3{,}20x\), em que \(x\) representa o número de horas utilizadas. Determine quantas horas foram utilizadas se o custo no estacionamento foi de R\$ \(20,00\).

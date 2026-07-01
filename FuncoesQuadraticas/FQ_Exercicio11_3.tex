@@ -4,26 +4,20 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\ifdefstring{\atividade}{prova}{%
-    \ifdefstring{\modo}{objetivo}{%
-        \renewcommand{\valorquestao}{\ValorQObj\ ponto}
-    }{%
-        \renewcommand{\valorquestao}{\ValorQDisc\ pontos}
-    }%
-}%
+\definevalorquestao
 
 \begin{exercicioBanco}[\valorquestao]
-Um fazendeiro dispõe de material para construir 100 metros de cerca em uma região retangular, com um lado adjacente a um rio. Sabendo que ele não pretende colocar cerca no lado do retângulo adjacente ao rio, a área máxima da superfície que conseguirá cercar é de quanto?
+As raízes da equação \(x^2 + bx + c = 0\) são \(4\) e \(-3\). Qual é o valor de \(b-c\)?
 
 % Define as alternativas
 \newcommand{\alternativas}{%
     \begin{center}
         \begin{tabularx}{\textwidth}{XXXXX}
-            (a) \(1000\) m\(^{2}\). &
-            (b) \(1200\) m\(^{2}\). &
-            (c) \(1250\) m\(^{2}\). &
-            (d) \(1500\) m\(^{2}\). &
-            (e) \(1600\) m\(^{2}\).
+            (a) \(7\). &
+            (b) \(9\). &
+            (c) \(11\). &
+            (d) \(13\). &
+            (e) \(15\).
         \end{tabularx}
     \end{center}
 }

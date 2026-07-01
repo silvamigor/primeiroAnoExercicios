@@ -4,13 +4,7 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\ifdefstring{\atividade}{prova}{%
-    \ifdefstring{\modo}{objetivo}{%
-        \renewcommand{\valorquestao}{\ValorQObj\ ponto}
-    }{%
-        \renewcommand{\valorquestao}{\ValorQDisc\ pontos}
-    }%
-}%
+\definevalorquestao
 
 \begin{exercicioBanco}[\valorquestao]
 A figura a seguir representa um quadrado com 18 cm de lado.
@@ -64,10 +58,10 @@ Determine a expressão da área \(y\) da parte hachurada da figura.
 \newcommand{\alternativas}{%
     \begin{center}
         \begin{tabularx}{\textwidth}{XXX}
-            (a) \(y=-x^{2}+5x+279\). &
+            (a) \(y=-x^{2}+2,5x+279\). &
             (b) \(y=x^{2}+5x+279\). &
             (c) \(y=-x^{2}+3x+279\). \\[5pt]
-            (d) \(y=-x^{2}+5x+324\). &
+            (d) \(y=-x^{2}+2,5x+324\). &
             (e) \(y=x^{2}+3x+279\).
         \end{tabularx}
     \end{center}

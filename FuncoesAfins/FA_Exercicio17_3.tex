@@ -4,13 +4,7 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\ifdefstring{\atividade}{prova}{%
-    \ifdefstring{\modo}{objetivo}{%
-        \renewcommand{\valorquestao}{\ValorQObj\ ponto}
-    }{%
-        \renewcommand{\valorquestao}{\ValorQDisc\ pontos}
-    }%
-}%
+\definevalorquestao
 
 \begin{exercicioBanco}[\valorquestao]
 Durante um período de 12 anos, o valor de revenda de um veículo decresce linearmente com o tempo, isto é, o valor \(y\), em função do tempo \(x\), é dado por uma função afim \(y = ax + b\). Sabe-se que, daqui a 3 anos, o valor do veículo será R\$ \(18000{,}00\), e daqui a 9 anos será R\$ \(9000{,}00\). Determine qual será o valor do veículo daqui a 6 anos.

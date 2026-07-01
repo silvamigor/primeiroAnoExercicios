@@ -4,32 +4,26 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\ifdefstring{\atividade}{prova}{%
-    \ifdefstring{\modo}{objetivo}{%
-        \renewcommand{\valorquestao}{\ValorQObj\ ponto}
-    }{%
-        \renewcommand{\valorquestao}{\ValorQDisc\ pontos}
-    }%
-}%
+\definevalorquestao
 
 \begin{exercicioBanco}[\valorquestao]
-Uma loja está fazendo uma promoção na venda de bolas: ``Compre \(x\) bolas e ganhe \(x\%\) de desconto''. A promoção é válida para compras de até 60 bolas, caso em que é concedido o desconto máximo de 60\%. Julia comprou 41 bolas e poderia ter comprado mais bolas e gasto a mesma quantia. Quantas bolas a mais Julia poderia ter comprado?
+Uma função quadrática \(f(x) = ax^{2} + bx + c\) assume valor máximo igual a \(2\) quando \(x = 3\). Sabendo-se que \(0\) é uma raiz de \(f\), então \(f(5)\) é igual a quanto?
 
 % Define as alternativas
 \newcommand{\alternativas}{%
     \begin{center}
         \begin{tabularx}{\textwidth}{XXXXX}
-            (a) \(56\). &
-            (b) \(57\). &
-            (c) \(58\). &
-            (d) \(59\). &
-            (e) \(60\).
+            (a) \(\dfrac{10}{9}\). &
+            (b) \(\dfrac{2}{3}\). &
+            (c) \(-\dfrac{11}{7}\). &
+            (d) \(-\dfrac{3}{5}\). &
+            (e) \(\dfrac{1}{11}\).
         \end{tabularx}
     \end{center}
 }
 
 % Define a resposta correta
-\newcommand{\resposta}{D}
+\newcommand{\resposta}{A}
 
 % Lógica condicional para exibição
 \ifdefstring{\atividade}{lista}{%

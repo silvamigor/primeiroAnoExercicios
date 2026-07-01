@@ -4,13 +4,7 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\ifdefstring{\atividade}{prova}{%
-    \ifdefstring{\modo}{objetivo}{%
-        \renewcommand{\valorquestao}{\ValorQObj\ ponto}
-    }{%
-        \renewcommand{\valorquestao}{\ValorQDisc\ pontos}
-    }%
-}%
+\definevalorquestao
 
 \begin{exercicioBanco}[\valorquestao]
 Seja \(f: \bbR \to \bbR\) uma função tal que \(f(\frac{1}{2}) = \sqrt{a}\), com \(a\) um número real positivo, e \(f(x+1) = xf(x)\), para todo \(x \in \bbR\). Determine \(f(\frac{7}{2})\).

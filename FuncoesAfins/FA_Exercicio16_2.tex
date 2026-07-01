@@ -4,13 +4,7 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\ifdefstring{\atividade}{prova}{%
-    \ifdefstring{\modo}{objetivo}{%
-        \renewcommand{\valorquestao}{\ValorQObj\ ponto}
-    }{%
-        \renewcommand{\valorquestao}{\ValorQDisc\ pontos}
-    }%
-}%
+\definevalorquestao
 
 \begin{exercicioBanco}[\valorquestao]
 Os gráficos abaixo representam as funções faturamento mensal \(F(x)\) e despesa mensal \(D(x)\) de um pequeno negócio de marmitas, em que \(x\) é o número de marmitas vendidas. Determine o lucro obtido ao vender \(900\) marmitas em um mês, onde lucro é definido pela subtração do faturamento com a despesa.

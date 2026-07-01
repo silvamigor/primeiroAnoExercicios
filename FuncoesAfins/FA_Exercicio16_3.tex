@@ -4,13 +4,7 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\ifdefstring{\atividade}{prova}{%
-    \ifdefstring{\modo}{objetivo}{%
-        \renewcommand{\valorquestao}{\ValorQObj\ ponto}
-    }{%
-        \renewcommand{\valorquestao}{\ValorQDisc\ pontos}
-    }%
-}%
+\definevalorquestao
 
 \begin{exercicioBanco}[\valorquestao]
 Os gráficos abaixo representam as funções arrecadação \(A(x)\) e custo operacional \(C(x)\) de um evento, em que \(x\) é o número de ingressos vendidos. Determine o lucro obtido ao vender \(800\) ingressos, onde o lucro é a diferença entre a arrecadação e o custo operacional.
@@ -59,7 +53,7 @@ Os gráficos abaixo representam as funções arrecadação \(A(x)\) e custo oper
             (b) R\$ \(400{,}00\). &
             (c) R\$ \(500{,}00\). &
             (d) R\$ \(800{,}00\). &
-            (e) R\$ \(1000{,}00\).
+            (e) R\$ \(\n{1000,00}\).
         \end{tabularx}
     \end{center}
 }

@@ -4,13 +4,7 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\ifdefstring{\atividade}{prova}{%
-    \ifdefstring{\modo}{objetivo}{%
-        \renewcommand{\valorquestao}{\ValorQObj\ ponto}
-    }{%
-        \renewcommand{\valorquestao}{\ValorQDisc\ pontos}
-    }%
-}%
+\definevalorquestao
 
 \begin{exercicioBanco}[\valorquestao]
 Seja \(M(a)\) o conjunto dos múltiplos positivos de \(a\) e \(D(a)\) o conjunto dos divisores positivos de \(a\), com \(a \in \bbN = \{1, 2, 3, \ldots\}\). Liste os elementos do conjunto \(M(3) \cap D(30)\).

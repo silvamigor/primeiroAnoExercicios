@@ -4,13 +4,7 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\ifdefstring{\atividade}{prova}{%
-    \ifdefstring{\modo}{objetivo}{%
-        \renewcommand{\valorquestao}{\ValorQObj\ ponto}
-    }{%
-        \renewcommand{\valorquestao}{\ValorQDisc\ pontos}
-    }%
-}%
+\definevalorquestao
 
 \begin{exercicioBanco}[\valorquestao]
 Quando variamos a medida de comprimento \(\ell\) do lado de uma região quadrada, a medida de área também varia. Essa relação pode ser expressa pela função \(A\) descrita pela lei \(A(\ell) = \ell^{2}\). Determine \(\ell\) tal que \(A(\ell) = 256\).

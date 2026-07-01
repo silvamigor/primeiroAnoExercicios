@@ -2,17 +2,17 @@
 
 \input{../../Preambulo.tex}
 \newcommand{\assunto}{FUNÇÕES EXPONENCIAIS}
-\newcommand{\atividade}{prova} % prova ou lista
+\newcommand{\atividade}{prova} % prova ou lista ou as ou ad ou atividade
 \newcommand{\NumQObj}{5}
 \newcommand{\NumQDisc}{1}
 \pgfmathparse{int(\NumQObj + \NumQDisc)}
 \edef\NumTotalQuestoes{\pgfmathresult}
 \newcommand{\questaoDiscursiva}{Exercício \NumTotalQuestoes}
-\newcommand{\ValorQObj}{0.6}
+\newcommand{\ValorQObj}{0.4}
 \newcommand{\ValorQDisc}{2}
-\pgfmathparse{int(\NumQObj * \ValorQObj + \NumQDisc * \ValorQDisc)}
+\pgfmathparse{int(round(\NumQObj * \ValorQObj + \NumQDisc * \ValorQDisc))}
 \edef\ValorProva{\pgfmathresult}
-\newcommand{\tipo}{dupla} % dupla ou individual
+\newcommand{\tipo}{individual} % dupla ou individual
 \newcommand{\calculadora}{nao} % sim ou nao
 \input{../../Variaveis.tex}
 
@@ -33,7 +33,7 @@
         
     \phantomsection
     \addcontentsline{toc}{section}{Capa}
-    \input{../../Capa}
+    \input{../../PR_Capa}
     \newpage
         
     \phantomsection
@@ -60,27 +60,27 @@
     
     \phantomsection
     \addcontentsline{toc}{section}{Exercício 1}
-    \input{../FE_Exercicio20}
+    \input{../FE_Exercicio20_1}
     \vspace{15pt}
     
     \phantomsection
     \addcontentsline{toc}{section}{Exercício 2}
-    \input{../FE_Exercicio2}
+    \input{../FE_Exercicio2_1}
     \vspace{15pt}
     
     \phantomsection
     \addcontentsline{toc}{section}{Exercício 3}
-    \input{../FE_Exercicio8}
+    \input{../FE_Exercicio8_1}
     \vspace{15pt}
     
     \phantomsection
     \addcontentsline{toc}{section}{Exercício 4}
-    \input{../FE_Exercicio23}
+    \input{../FE_Exercicio23_1}
     \vspace{15pt}
     
     \phantomsection
     \addcontentsline{toc}{section}{Exercício 5}
-    \input{../FE_Exercicio17}
+    \input{../FE_Exercicio17_1}
     \vspace{15pt}
     
     %
@@ -93,7 +93,7 @@
     \renewcommand{\modo}{discursivo} % objetivo ou discursivo
     \phantomsection
     \addcontentsline{toc}{section}{Exercício 6}
-    \input{../FE_Exercicio16}
+    \input{../FE_Exercicio16_1}
     \vspace{10pt}
     
     \newpage

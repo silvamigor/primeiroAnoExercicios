@@ -4,13 +4,7 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\ifdefstring{\atividade}{prova}{%
-    \ifdefstring{\modo}{objetivo}{%
-        \renewcommand{\valorquestao}{\ValorQObj\ ponto}
-    }{%
-        \renewcommand{\valorquestao}{\ValorQDisc\ pontos}
-    }%
-}%
+\definevalorquestao
 
 \begin{exercicioBanco}[\valorquestao]
 Sejam \(S_{1}\) e \(S_{1}\) os conjunto solução das seguintes equações modulares, respectivamente: (i) \(|x-5| = 1-2x\) e (ii) \(|2x-6| = 6-2x\). Determine \(S_{1} \cap S_{2}\).

@@ -4,13 +4,7 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\ifdefstring{\atividade}{prova}{%
-    \ifdefstring{\modo}{objetivo}{%
-        \renewcommand{\valorquestao}{\ValorQObj\ ponto}
-    }{%
-        \renewcommand{\valorquestao}{\ValorQDisc\ pontos}
-    }%
-}%
+\definevalorquestao
 
 \begin{exercicioBanco}[\valorquestao]
 A figura a seguir representa um quadrado com 24 cm de lado.
@@ -67,11 +61,11 @@ Determine a expressão da área \(y\) da parte hachurada da figura.
 \newcommand{\alternativas}{%
     \begin{center}
         \begin{tabularx}{\textwidth}{XXX}
-            (a) \(y=-x^{2}-x+456\). &
-            (b) \(y=x^{2}+x+456\). &
-            (c) \(y=-x^{2}+x+456\). \\[5pt]
-            (d) \(y=-x^{2}-2x+456\). &
-            (e) \(y=x^{2}-x+456\).
+            (a) \(y=-\dfrac{1}{2}x^{2}+2x+516\). &
+            (b) \(y=-\dfrac{1}{2}x^{2}-2x+516\). &
+            (c) \(y=-x^{2}+4x+456\). \\[15pt]
+            (d) \(y=\dfrac{1}{2}x^{2}+2x+516\). &
+            (e) \(y=-\dfrac{1}{2}x^{2}+2x+456\).
         \end{tabularx}
     \end{center}
 }

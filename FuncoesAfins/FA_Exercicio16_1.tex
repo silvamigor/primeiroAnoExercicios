@@ -4,13 +4,7 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\ifdefstring{\atividade}{prova}{%
-    \ifdefstring{\modo}{objetivo}{%
-        \renewcommand{\valorquestao}{\ValorQObj\ ponto}
-    }{%
-        \renewcommand{\valorquestao}{\ValorQDisc\ pontos}
-    }%
-}%
+\definevalorquestao
 
 \begin{exercicioBanco}[\valorquestao]
 Os gráficos abaixo representam as funções receita mensal \(R(x)\) e custo mensal \(C(x)\) de um produto fabricado por uma empresa, em que \(x\) é a quantidade produzida e vendida. Responda qual é o lucro obtido ao se produzir

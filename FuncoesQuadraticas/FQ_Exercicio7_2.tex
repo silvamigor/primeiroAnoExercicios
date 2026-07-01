@@ -4,13 +4,7 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\ifdefstring{\atividade}{prova}{%
-    \ifdefstring{\modo}{objetivo}{%
-        \renewcommand{\valorquestao}{\ValorQObj\ ponto}
-    }{%
-        \renewcommand{\valorquestao}{\ValorQDisc\ pontos}
-    }%
-}%
+\definevalorquestao
 
 \begin{exercicioBanco}[\valorquestao]
 Um retângulo inicial, de perímetro 160 centímetros, sofre uma modificação tal que a medida de sua largura aumenta 10\%, e a medida do seu comprimento diminui 10\%. Determine a função que define a área \(A\) do novo retângulo, em centímetros quadrados, em relação à medida da largura do retângulo inicial \(x\), em centímetros.

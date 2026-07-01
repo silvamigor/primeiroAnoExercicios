@@ -4,13 +4,7 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\ifdefstring{\atividade}{prova}{%
-    \ifdefstring{\modo}{objetivo}{%
-        \renewcommand{\valorquestao}{\ValorQObj\ ponto}
-    }{%
-        \renewcommand{\valorquestao}{\ValorQDisc\ pontos}
-    }%
-}%
+\definevalorquestao
 
 \begin{exercicioBanco}[\valorquestao]
 Uma empresa produz garrafas térmicas sob encomenda. O custo total de produção é composto por um custo fixo, mais um custo variável proporcional ao número de unidades produzidas. O custo total cresce de forma linear, e a tabela apresenta esse custo para algumas quantidades produzidas. 

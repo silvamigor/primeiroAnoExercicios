@@ -1,11 +1,11 @@
 \newcommand{\turma}{ELETROELETRÔNICA 1.\textordmasculine\ ANO}
 \newcommand{\numProva}{A}
 \newcommand{\professor}{Igor Martins Silva}
-\newcommand{\bimestre}{1}
+\newcommand{\bimestre}{3}
 \newcommand{\ano}{2026}
-\newcommand{\mesTexto}{junho}
-\newcommand{\mesNum}{06}
-\newcommand{\dia}{30}
+\newcommand{\mesTexto}{agosto}
+\newcommand{\mesNum}{08}
+\newcommand{\dia}{21}
 \newcommand{\dataTexto}{\dia\ de \mesTexto\ de \ano}
 \newcommand{\dataNun}{\dia/\mesNum/\ano}
 
@@ -29,16 +29,29 @@
   \ifdefstring{\tipo}{individual}{\tipo}{em \tipo}%
 }
 
+\edef\pathCapa{\currfiledir}
+
 \newcommand{\subtitulobase}[3]{%
     % #1 = título da 1ª coluna
     % #2 = conteúdo da 1ª coluna
     % #3 = mostra número da prova? (vazio ou algo)
     
-    \begin{center}
+    \noindent
+    \begin{minipage}{2.8cm}
+        \includegraphics[width=2.8cm]{\pathCapa Logo_Cefet.png}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{\dimexpr\textwidth-6.2cm\relax}
+        \begin{center}
         CEFET-MG -- Campus Contagem \\[3pt]
         \titulo\ -- \bimestre.\textordmasculine\ bimestre de \ano \\[3pt]
         \professor
     \end{center}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{3.2cm}
+        \includegraphics[width=3.2cm]{\pathCapa Brasao_Brasil.png}
+    \end{minipage}
     
     \begin{center}
         \vspace{15pt}
@@ -67,7 +80,7 @@
 }
 
 \newcommand{\subtituloas}{%
-  \subtitulobase{DISCIPLINA}{MATEMÁTICA}{}%
+  \subtitulobase{DISCIPLINA}{MATEMÁTICA}{\boxed{\numProva}}%
 }
 
 \newcommand{\subtituload}{%
@@ -76,11 +89,23 @@
 
 \newcommand{\valorquestao}{}
 
-\newenvironment{exercicioBanco}[1][]{%
-    \ifdefstring{\atividade}{prova}{%
-        \begin{exercicio}[#1]%
+\newcommand{\definevalorquestao}{%
+    \ifdefstring{\atividade}{lista}{%
+        % Não faz nada para lista
     }{%
+        \ifdefstring{\modo}{objetivo}{%
+            \renewcommand{\valorquestao}{\ValorQObj\ ponto}
+        }{%
+            \renewcommand{\valorquestao}{\ValorQDisc\ pontos}
+        }%
+    }%
+}
+
+\newenvironment{exercicioBanco}[1][]{%
+    \ifdefstring{\atividade}{lista}{%
         \begin{exercicio}%
+    }{%
+        \begin{exercicio}[#1]%
     }%
 }{%
     \end{exercicio}

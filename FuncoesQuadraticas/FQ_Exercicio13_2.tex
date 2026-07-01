@@ -4,32 +4,26 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\ifdefstring{\atividade}{prova}{%
-    \ifdefstring{\modo}{objetivo}{%
-        \renewcommand{\valorquestao}{\ValorQObj\ ponto}
-    }{%
-        \renewcommand{\valorquestao}{\ValorQDisc\ pontos}
-    }%
-}%
+\definevalorquestao
 
 \begin{exercicioBanco}[\valorquestao]
-Uma função quadrática \(f(x)=ax^2+bx+c\) assume valor máximo igual a \(8\) quando \(x=2\). Sabendo-se que \(0\) é uma raiz de \(f\), então \(f(5)\) é igual a quanto?
+No Laboratório de Química do CEFET, após várias medidas, um estudante concluiu que a concentração de certa substância em uma amostra variava em função do tempo, medido em horas, segundo a função quadrática \(f(t)=8t-t^2\). Determine em que momento, após iniciadas as medidas, a concentração dessa substância foi máxima nessa amostra.
 
 % Define as alternativas
 \newcommand{\alternativas}{%
     \begin{center}
         \begin{tabularx}{\textwidth}{XXXXX}
-            (a) \(-10\). &
-            (b) \(-9\). &
-            (c) \(-8\). &
-            (d) \(-7\). &
-            (e) \(-6\).
+            (a) \(2\). &
+            (b) \(3\). &
+            (c) \(4\). &
+            (d) \(5\). &
+            (e) \(6\).
         \end{tabularx}
     \end{center}
 }
 
 % Define a resposta correta
-\newcommand{\resposta}{A}
+\newcommand{\resposta}{C}
 
 % Lógica condicional para exibição
 \ifdefstring{\atividade}{lista}{%

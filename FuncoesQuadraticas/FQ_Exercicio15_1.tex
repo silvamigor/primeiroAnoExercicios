@@ -4,63 +4,26 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\ifdefstring{\atividade}{prova}{%
-    \ifdefstring{\modo}{objetivo}{%
-        \renewcommand{\valorquestao}{\ValorQObj\ ponto}
-    }{%
-        \renewcommand{\valorquestao}{\ValorQDisc\ pontos}
-    }%
-}%
+\definevalorquestao
 
 \begin{exercicioBanco}[\valorquestao]
-O lucro de uma pequena empresa é dado por uma função quadrática cujo gráfico está representado na figura abaixo:
-
-\begin{center}
-\begin{tikzpicture}[scale=0.2]
-    % Eixos
-    \draw[->] (-1,0) -- (22,0) node[right] {\small \shortstack{unidades \\ vendidas}};
-    \draw[->] (0,0) -- (0,14) node[right] {\small lucro (R\$)};
-    
-    % Pontos de referência
-    \draw[dashed] (10,0) -- (10,12);
-    \draw[dashed] (20,0) -- (20,12);
-    \draw[dashed] (0,12) -- (20,12);
-    
-    % Pontos e marcações
-    \filldraw (10,12) circle (2pt);
-    \filldraw (20,12) circle (2pt);
-    \node[left] at (0,12) {\small 1200};
-    \node[below] at (10,0) {\small 10};
-    \node[below] at (20,0) {\small 20};
-
-    % Curva da parábola com vértice em (15,13.5)
-    \draw[domain=0:22, smooth, samples=100, thick] 
-        plot (\x, {-0.06*(\x - 15)^2 + 13.5});
-\end{tikzpicture}
-
-\end{center}
-
-\bigskip
-
-\noindent Podemos concluir que o lucro máximo é de quanto?
-
-\bigskip
+O custo para produzir um produto é \(C(x) = 50 + 2x + 0,1x^{2}\), onde \(x\) é a quantidade produzida do produto. Cada unidade é vendida por R\$\(6,50\). Entre que valores deve variar \(x\) para não haver prejuízo?
 
 % Define as alternativas
 \newcommand{\alternativas}{%
     \begin{center}
-        \begin{tabularx}{\textwidth}{XXXXX}
-            (a) R\$ \(\n{1250,00}\). &
-            (b) R\$ \(\n{1300,00}\). &
-            (c) R\$ \(\n{1350,00}\). &
-            (d) R\$ \(\n{1400,00}\). &
-            (e) R\$ \(\n{1450,00}\).
+        \begin{tabularx}{\textwidth}{XXX}
+            (a) \(x \le 20\) ou \(x \ge 25\). &
+            (b) \(10 \le x \le 50\). &
+            (c) \(x \ge 20\). \\[5pt]
+            (d) \(x \le 25\). &
+            (e) \(20 \le x \le 25\).
         \end{tabularx}
     \end{center}
 }
 
 % Define a resposta correta
-\newcommand{\resposta}{C}
+\newcommand{\resposta}{E}
 
 % Lógica condicional para exibição
 \ifdefstring{\atividade}{lista}{%

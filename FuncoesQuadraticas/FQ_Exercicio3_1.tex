@@ -4,13 +4,7 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\ifdefstring{\atividade}{prova}{%
-    \ifdefstring{\modo}{objetivo}{%
-        \renewcommand{\valorquestao}{\ValorQObj\ ponto}
-    }{%
-        \renewcommand{\valorquestao}{\ValorQDisc\ pontos}
-    }%
-}%
+\definevalorquestao
 
 \begin{exercicioBanco}[\valorquestao]
 Gerador é um aparelho que transforma qualquer tipo de energia em energia elétrica. Se a medida de potência \(P\) (em watts) que certo gerador lança em um circuito elétrico é dada pela relação \(P(i) = 20i - 5i^{2}\), em que \(i\) é a medida de corrente elétrica que atravessa o gerador, determine a medida de potência \(P\), em watts, quando \(i = 3\) ampères.

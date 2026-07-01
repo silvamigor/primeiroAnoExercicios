@@ -4,25 +4,15 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\ifdefstring{\atividade}{prova}{%
-    \ifdefstring{\modo}{objetivo}{%
-        \renewcommand{\valorquestao}{\ValorQObj\ ponto}
-    }{%
-        \renewcommand{\valorquestao}{\ValorQDisc\ pontos}
-    }%
-}%
+\definevalorquestao
 
 \begin{exercicioBanco}[\valorquestao]
-Uma estrada retilínea possui um posto policial localizado no quilômetro \(2\). Um motorista percorre a estrada de modo que sua distância ao posto, em quilômetros, seja dada por
+Uma estrada retilínea possui um posto policial localizado no quilômetro \(2\) e outro posto localizado no quilômetro \(7\). Um motorista percorre a estrada de modo que a soma das distâncias dele aos dois postos é dada por
+%
 \[
-d(t)=|t-2|,
+    S(t)=|t-2|+|t-7|.
 \]
-onde \(t\) representa sua posição na estrada.
-
-Outro posto está localizado no quilômetro \(7\). A soma das distâncias do motorista aos dois postos é dada por
-\[
-S(t)=|t-2|+|t-7|.
-\]
+%
 Determine o menor valor possível de \(S(t)\).
 
 % Define as alternativas

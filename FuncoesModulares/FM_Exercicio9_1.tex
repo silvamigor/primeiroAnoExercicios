@@ -4,13 +4,7 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\ifdefstring{\atividade}{prova}{%
-    \ifdefstring{\modo}{objetivo}{%
-        \renewcommand{\valorquestao}{\ValorQObj\ ponto}
-    }{%
-        \renewcommand{\valorquestao}{\ValorQDisc\ pontos}
-    }%
-}%
+\definevalorquestao
 
 \begin{exercicioBanco}[\valorquestao]
 O preço médio de certo produto agrícola é dado em função do mês do ano em que é comercializado. Se \(P\) é o preço médio em reais e \(n\) é o número correspondente ao mês do ano, \(P\) em função de \(n\) é dado por \(P(n) = 8 - |6 - n|\). Determine para qual valor de \(n\) ocorre o valor mínimo de \(P\).

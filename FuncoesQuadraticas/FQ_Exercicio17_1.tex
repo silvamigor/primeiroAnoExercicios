@@ -4,37 +4,26 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\ifdefstring{\atividade}{prova}{%
-    \ifdefstring{\modo}{objetivo}{%
-        \renewcommand{\valorquestao}{\ValorQObj\ ponto}
-    }{%
-        \renewcommand{\valorquestao}{\ValorQDisc\ pontos}
-    }%
-}%
+\definevalorquestao
 
 \begin{exercicioBanco}[\valorquestao]
-Resolva, em \(\bbR\), a inequação
-%
-\[
-    \dfrac{6x^{2} + 12x + 17}{-2x^{2} + 7x - 5} \ge -1.
-\]
-%
+Uma loja está fazendo uma promoção na venda de bolas: ``Compre \(x\) bolas e ganhe \(x\%\) de desconto''. A promoção é válida para compras de até 60 bolas, caso em que é concedido o desconto máximo de 60\%. Julia comprou 41 bolas e poderia ter comprado mais bolas e gasto a mesma quantia. Quantas bolas a mais Julia poderia ter comprado?
 
 % Define as alternativas
 \newcommand{\alternativas}{%
     \begin{center}
-        \begin{tabularx}{\textwidth}{XXX}
-            (a) \([-4,\frac{5}{2}]\). &
-            (b) \([-\frac{3}{4},1]\). &
-            (c) \([-\frac{3}{4},1] \cup [\frac{5}{2}, \infty[\). \\[5pt]
-            (d) \(]-\infty,-4] \cup [1,\frac{5}{2}]\). &
-            (e) \([-4,-\frac{3}{4}] \cup [1, \frac{5}{2}]\).
+        \begin{tabularx}{\textwidth}{XXXXX}
+            (a) \(56\). &
+            (b) \(57\). &
+            (c) \(58\). &
+            (d) \(59\). &
+            (e) \(60\).
         \end{tabularx}
     \end{center}
 }
 
 % Define a resposta correta
-\newcommand{\resposta}{E}
+\newcommand{\resposta}{D}
 
 % Lógica condicional para exibição
 \ifdefstring{\atividade}{lista}{%

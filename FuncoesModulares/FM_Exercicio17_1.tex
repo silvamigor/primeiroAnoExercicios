@@ -4,13 +4,7 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\ifdefstring{\atividade}{prova}{%
-    \ifdefstring{\modo}{objetivo}{%
-        \renewcommand{\valorquestao}{\ValorQObj\ ponto}
-    }{%
-        \renewcommand{\valorquestao}{\ValorQDisc\ pontos}
-    }%
-}%
+\definevalorquestao
 
 \begin{exercicioBanco}[\valorquestao]
 Uma fábrica considera aceitável que o comprimento \(x\), em milímetros, de uma peça satisfaça simultaneamente:
@@ -24,17 +18,17 @@ Determine todos os valores possíveis de \(x\).
 \newcommand{\alternativas}{%
     \begin{center}
         \begin{tabularx}{\textwidth}{XXX}
-            (a) \([9,2\,;\,10,8]\). &
+            (a) \([9,3\,;\,10,8]\). &
             (b) \([9,2\,;\,8,7]\cup[9,3\,;\,10,8]\). &
             (c) \([9,2\,;\,8,7)\cup(9,3\,;\,10,8]\). \\[5pt]
-            (d) \([9,3\,;\,10,8]\). &
+            (d) \([9,2\,;\,10,8]\). &
             (e) \((-\infty,8,7]\cup[9,3,\infty)\).
         \end{tabularx}
     \end{center}
 }
 
 % Define a resposta correta
-\newcommand{\resposta}{D}
+\newcommand{\resposta}{A}
 
 % Lógica condicional para exibição
 \ifdefstring{\atividade}{lista}{%

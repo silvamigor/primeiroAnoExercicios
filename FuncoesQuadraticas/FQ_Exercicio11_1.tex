@@ -4,32 +4,26 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\ifdefstring{\atividade}{prova}{%
-    \ifdefstring{\modo}{objetivo}{%
-        \renewcommand{\valorquestao}{\ValorQObj\ ponto}
-    }{%
-        \renewcommand{\valorquestao}{\ValorQDisc\ pontos}
-    }%
-}%
+\definevalorquestao
 
 \begin{exercicioBanco}[\valorquestao]
-Um fazendeiro dispõe de material para construir 60 metros de cerca em uma região retangular, com um lado adjacente a um rio. Sabendo que ele não pretende colocar cerca no lado do retângulo adjacente ao rio, a área máxima da superfície que conseguirá cercar é de quanto?
+As raízes da equação \(2x^2 + bx + c = 0\) são \(3\) e \(-4\). Qual é o valor de \(b - c\)?
 
 % Define as alternativas
 \newcommand{\alternativas}{%
     \begin{center}
         \begin{tabularx}{\textwidth}{XXXXX}
-            (a) \(350\) m\(^{2}\). &
-            (b) \(400\) m\(^{2}\). &
-            (c) \(450\) m\(^{2}\). &
-            (d) \(500\) m\(^{2}\). &
-            (e) \(550\) m\(^{2}\).
+            (a) \(-22\). &
+            (b) \(-13\). &
+            (c) \(11\). &
+            (d) \(26\). &
+            (e) \(13\).
         \end{tabularx}
     \end{center}
 }
 
 % Define a resposta correta
-\newcommand{\resposta}{C}
+\newcommand{\resposta}{D}
 
 % Lógica condicional para exibição
 \ifdefstring{\atividade}{lista}{%

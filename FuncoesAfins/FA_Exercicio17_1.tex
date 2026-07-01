@@ -4,13 +4,7 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\ifdefstring{\atividade}{prova}{%
-    \ifdefstring{\modo}{objetivo}{%
-        \renewcommand{\valorquestao}{\ValorQObj\ ponto}
-    }{%
-        \renewcommand{\valorquestao}{\ValorQDisc\ pontos}
-    }%
-}%
+\definevalorquestao
 
 \begin{exercicioBanco}[\valorquestao]
 Considerando um intervalo de tempo de 10 anos a partir de hoje, o valor de uma máquina deprecia linearmente com o tempo, isto é, o valor da máquina \(y\), em função do tempo \(x\), é dado por uma função afim \(y = ax + b\). Se o valor da máquina daqui a dois anos for R\$ \(6400{,}00\), e seu valor daqui a cinco anos e meio for R\$ \(4300{,}00\), determine qual será o seu valor daqui a sete anos.
