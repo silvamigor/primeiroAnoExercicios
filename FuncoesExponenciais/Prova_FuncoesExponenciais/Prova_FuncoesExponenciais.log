@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.12.14)  1 JUL 2026 11:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.12.14)  24 JUL 2026 15:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2073,20 +2073,29 @@ LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
 st/fonts/enc/dvips/ly1/texnansi.enc} <../../Logo_Cefet.png>])
 (../../RespQuestaoDisc.tex
 LaTeX Font Info:    Font shape `T1/mdbch/m/it' will be
-(Font)              scaled to size 11.52008pt on input line 33.
+(Font)              scaled to size 11.52008pt on input line 32.
 LaTeX Font Info:    Font shape `T1/mdbch/b/it' will be
-(Font)              scaled to size 11.52008pt on input line 33.
+(Font)              scaled to size 11.52008pt on input line 32.
+LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
+(Font)              scaled to size 5.76004pt on input line 67.
+LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
+(Font)              scaled to size 5.76004pt on input line 67.
+<../../rubrica.png, id=90, 409.53pt x 409.53pt>
+File: ../../rubrica.png Graphic file (type png)
+<use ../../rubrica.png>
+Package pdftex.def Info: ../../rubrica.png  used on input line 69.
+(pdftex.def)             Requested size: 49.99757pt x 49.99757pt.
 )
 LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
 (Font)              scaled to size 13.82408pt on input line 43.
 LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
 (Font)              scaled to size 13.82408pt on input line 43.
- [2]
+ [2 <../../rubrica.png>]
 File: ../../Logo_Cefet.png Graphic file (type png)
 <use ../../Logo_Cefet.png>
 Package pdftex.def Info: ../../Logo_Cefet.png  used on input line 50.
 (pdftex.def)             Requested size: 79.6678pt x 60.36035pt.
-<../../Brasao_Brasil.png, id=95, 1284.8pt x 722.7pt>
+<../../Brasao_Brasil.png, id=97, 1284.8pt x 722.7pt>
 File: ../../Brasao_Brasil.png Graphic file (type png)
 <use ../../Brasao_Brasil.png>
 Package pdftex.def Info: ../../Brasao_Brasil.png  used on input line 50.
@@ -2112,8 +2121,6 @@ LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
 (../FE_Exercicio16_1.tex
 LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
 (Font)              scaled to size 7.68005pt on input line 10.
-LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
-(Font)              scaled to size 5.76004pt on input line 10.
 ) [2] [3] (../../Rascunho.tex) [4]
 (./Prova_FuncoesExponenciais.aux)
  ***********
@@ -2125,13 +2132,13 @@ ed.
 (rerunfilecheck)             Checksum: 5C62920F2EB05D510977AB90D9AD7C10;1007.
  ) 
 Here is how much of TeX's memory you used:
- 56874 strings out of 474222
- 1330432 string characters out of 5748732
+ 56897 strings out of 474222
+ 1330784 string characters out of 5748732
  1949975 words of memory out of 5000000
- 77815 multiletter control sequences out of 15000+600000
- 612441 words of font info for 227 fonts, out of 8000000 for 9000
+ 77824 multiletter control sequences out of 15000+600000
+ 615857 words of font info for 236 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,18n,120p,1291b,1337s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,15n,120p,1291b,1337s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></usr/
 share/texlive/texmf-dist/fonts/type1/bitstrea/charter/bchbi8a.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></usr/share/texlive/t
@@ -2141,10 +2148,10 @@ ist/fonts/type1/public/mathdesign/mdbch/md-chr7y.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/public/mathdesign/mdbch/md-chr8t.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/public/mathdesign/mdbch/md-chri7m.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/mathdesign/mdbch/md-chrma.pfb>
-Output written on Prova_FuncoesExponenciais.pdf (6 pages, 423976 bytes).
+Output written on Prova_FuncoesExponenciais.pdf (6 pages, 426542 bytes).
 PDF statistics:
- 171 PDF objects out of 1000 (max. 8388607)
+ 173 PDF objects out of 1000 (max. 8388607)
  115 compressed objects within 2 object streams
  22 named destinations out of 1000 (max. 500000)
- 82159 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 88308 words of extra memory for PDF output out of 89155 (max. 10000000)
 

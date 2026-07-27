@@ -1,7 +1,7 @@
 \documentclass[a4paper,12pt]{article}
 
 \input{../Preambulo.tex}
-\newcommand{\assunto}{FUNÇÕES MODULARES}
+\newcommand{\assunto}{FUNÇÕES QUADRÁTICAS}
 \newcommand{\atividade}{prova} % prova ou lista
 \input{../Variaveis.tex}
 
@@ -46,7 +46,7 @@
             \toprule
             Total de alunos & Menor nota (número de alunos com essa nota) & Maior nota (número de alunos com essa nota) & Média da nota & Mediana & Moda & Desvio padrão \\
             \midrule
-            35 & 0,5 (1) & 4 (2) & 2.04 & 2.1 & 0.9 & 0.89  \\
+            31 & 0 (1) & 4 (2) & 1,95 & 1,7 & 1,7 & 1  \\
             \bottomrule
         \end{tabular}
     \end{table}
@@ -59,9 +59,9 @@
             \toprule
             Prova A & Questão 1 & Questão 2 & Questão 3 & Questão 4 & Questão 5 \\
             \midrule
-            Prova B & Questão 2 & Questão 3 & Questão 4 & Questão 5 & Questão 1 \\
+            Prova B & Questão 3 & Questão 1 & Questão 2 & Questão 5 & Questão 4 \\
             \midrule
-            & \(\dfrac{10}{35} \approx 28,57\%\) & \(\dfrac{12}{35} = 34,29\%\) & \(\dfrac{10}{35} \approx 28,57\%\) & \(\dfrac{24}{35} \approx 68,57\%\) & \(\dfrac{14}{35} = 40\%\) \\
+            & \(\dfrac{12}{31} \approx 38,71\%\) & \(\dfrac{6}{31} = 19,35\%\) & \(\dfrac{9}{31} \approx 29,03\%\) & \(\dfrac{13}{31} = 41,94\%\) & \(\dfrac{20}{31} = 64,52\%\) \\
             \cmidrule[0.08em](l{2pt}r{0pt}){2-6}
         \end{tabular}
     \end{table}
@@ -69,12 +69,12 @@
     \begin{figure}[H]
         \centering
         \caption{Histograma e boxplot da nota.}
-        \begin{subfigure}[b]{0.55\textwidth}
+        \begin{subfigure}[b]{0.5\textwidth}
             \centering
             \includesvg[width=\textwidth]{histograma_Notas}
         \end{subfigure}
         \hfill
-        \begin{subfigure}[b]{0.35\textwidth}
+        \begin{subfigure}[b]{0.3\textwidth}
             \centering
             \includesvg[width=\textwidth]{boxplot_Notas}
         \end{subfigure}
@@ -84,8 +84,8 @@
     \begin{flushleft}
         \textbf{INTERPRETAÇÃO}
     \end{flushleft}
-    
-    A média de 2.04 corresponde a 51,0\% da pontuação máxima, com desvio padrão de 0,89, indicando dispersão moderada das notas. A moda 0,9 sugere maior concentração de alunos nessa pontuação, enquanto a mediana 2,01 indica um desempenho central próximo à média. A menor nota foi 0,5 (1 aluno) e a maior 4 (2 alunos). Segundo o boxplot, observa-se que 50\% das notas concentram-se no intervalo entre 1,3 e 2,6, sem indícios de valores discrepantes relevantes. O histograma revela maior concentração de notas em torno dos valores médios, sem evidência de assimetria acentuada. A questão 4 (prova A) apresentou o maior índice de erro (\(\approx 68,57\%\)), enquanto as questões 1 e 3 (prova A) apresentaram o menor (\(\approx 28,57\%\)).
+
+    A média de 1,95 corresponde a 48,75\% da pontuação máxima, com desvio padrão de 1, indicando dispersão moderada das notas. A moda 1,7 sugere maior concentração de alunos nessa pontuação, enquanto a mediana 1,7 indica que metade da turma obteve nota inferior ou igual a esse valor e metade superior ou igual. A menor nota foi 0 (1 aluno) e a maior 4 (2 alunos). Segundo o boxplot, observa-se que 50\% das notas concentram-se entre 1,3 e 2,5, sem indícios de valores discrepantes relevantes. O histograma revela uma distribuição assimétrica à direita, com maior concentração de alunos em torno das notas entre aproximadamente 1,5 e 2,0, seguida por uma cauda em direção às notas mais altas. A questão 5 (prova A) apresentou o maior índice de erro (64,52\%), enquanto a questão 2 (prova A) apresentou o menor (19,35\%).
     
 \end{document}
 %*************** FINAL DO DOCUMENTO ***************

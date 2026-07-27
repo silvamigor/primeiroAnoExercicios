@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.12.14)  4 JUN 2026 12:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.12.14)  8 JUL 2026 13:02
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -2058,7 +2058,7 @@ File: ./svg-inkscape/histograma_Notas_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/histograma_Notas_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/histograma_Notas_svg-tex.pdf , page1 us
 ed on input line 56.
-(pdftex.def)             Requested size: 297.33296pt x 198.23933pt.
+(pdftex.def)             Requested size: 270.3012pt x 180.21413pt.
 )
 Package svg Info: Last page of `./svg-inkscape/boxplot_Notas_svg-tex.pdf' is 1 
 on input line 79.
@@ -2070,7 +2070,7 @@ File: ./svg-inkscape/boxplot_Notas_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/boxplot_Notas_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/boxplot_Notas_svg-tex.pdf , page1 used 
 on input line 56.
-(pdftex.def)             Requested size: 189.21413pt x 210.05923pt.
+(pdftex.def)             Requested size: 162.18236pt x 180.05174pt.
 ) [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-di
@@ -2088,11 +2088,11 @@ Package rerunfilecheck Info: File `Estatistica_Prova.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 56544 strings out of 474222
- 1325593 string characters out of 5748732
- 1954975 words of memory out of 5000000
- 77666 multiletter control sequences out of 15000+600000
- 578528 words of font info for 111 fonts, out of 8000000 for 9000
+ 56557 strings out of 474222
+ 1325734 string characters out of 5748732
+ 1955975 words of memory out of 5000000
+ 77671 multiletter control sequences out of 15000+600000
+ 578998 words of font info for 117 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,15n,120p,1280b,927s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></usr/
@@ -2100,7 +2100,7 @@ share/texlive/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr7t.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr7y.pfb></usr/share/
 texlive/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr8t.pfb>
-Output written on Estatistica_Prova.pdf (1 page, 71116 bytes).
+Output written on Estatistica_Prova.pdf (1 page, 70630 bytes).
 PDF statistics:
  91 PDF objects out of 1000 (max. 8388607)
  48 compressed objects within 1 object stream
