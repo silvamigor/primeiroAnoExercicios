@@ -1,0 +1,51 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%       EXERCÍCIO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\definevalorquestao
+
+\begin{exercicioBanco}[\valorquestao]
+Considere as seguintes afirmações sobre exponenciação e suas propriedades:
+
+\begin{enumerate}[label=\Roman*.]
+    \item O valor da expressão \((-4)^{0{,}5}\) é igual a \(-2\).
+    \item A função \(g(x) = \left(\dfrac{1}{\pi}\right)^x\) é decrescente para todo \(x \in \mathbb{R}\).
+    \item Para todo \(x \in \mathbb{R}\), a igualdade \(2^{x+3} - 2^x = 7 \cdot 2^x\) é verdadeira.
+    \item Se \(f(x) = a^x\) é uma função exponencial, então \(f(x+y) = f(x) \cdot f(y)\) para quaisquer \(x, y \in \mathbb{R}\).
+\end{enumerate}
+
+Assinale a alternativa correta:
+
+% Define as alternativas
+\newcommand{\alternativas}{%
+    \begin{center}
+        \begin{tabularx}{\textwidth}{XXX}
+            (a) Todas são falsas. &
+            (b) Todas são verdadeiras. &
+            (c) Apenas I e III são falsas. \\[5pt]
+            (d) Apenas a afirmação I é falsa. &
+            (e) Apenas II e IV são verdadeiras.
+        \end{tabularx}
+    \end{center}
+}
+
+% Define a resposta correta
+\newcommand{\resposta}{D}
+
+% Lógica condicional para exibição
+\ifdefstring{\atividade}{lista}{%
+    \alternativas
+    \vspace{0.5em}
+    
+    \noindent\textbf{Resposta:} letra \textbf{\resposta}.
+}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \alternativas
+    }{%
+        % modo = discursiva → não mostra alternativas
+    }
+}
+\end{exercicioBanco}
+

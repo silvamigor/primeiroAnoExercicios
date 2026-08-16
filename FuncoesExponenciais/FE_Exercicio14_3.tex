@@ -1,0 +1,42 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%       EXERCÍCIO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\definevalorquestao
+
+\begin{exercicioBanco}[\valorquestao]
+Em um experimento, o número de bactérias presentes nas culturas A e B no instante \(t\), em horas, é dado, respectivamente, por \(A(t) = 10 \cdot 2^{t-1} + 238\) e \(B(t) = 2^{t+2} + 750\). De acordo com essas informações, o tempo decorrido, desde o início desse experimento, necessário para que o número de bactérias presentes na cultura A seja igual ao da cultura B é:
+
+% Define as alternativas
+\newcommand{\alternativas}{%
+    \begin{center}
+        \begin{tabularx}{\textwidth}{XXXXX}
+            (a) 5 horas. &
+            (b) 6 horas. &
+            (c) 7 horas. &
+            (d) 9 horas. &
+            (e) 12 horas.
+        \end{tabularx}
+    \end{center}
+}
+
+% Define a resposta correta
+\newcommand{\resposta}{D}
+
+% Lógica condicional para exibição
+\ifdefstring{\atividade}{lista}{%
+    \alternativas
+    \vspace{0.5em}
+    
+    \noindent\textbf{Resposta:} letra \textbf{\resposta}.
+}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \alternativas
+    }{%
+        % modo = discursiva → não mostra alternativas
+    }
+}
+\end{exercicioBanco}
+

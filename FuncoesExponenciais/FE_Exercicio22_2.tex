@@ -1,0 +1,42 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%       EXERCÍCIO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\definevalorquestao
+
+\begin{exercicioBanco}[\valorquestao]
+Os valores de \(x \in \mathbb{R}\) que satisfazem simultaneamente as condições \(\left(\dfrac{1}{5}\right)^{x^2} \le 5^{-4x}\) e \(x^2 \le 5\) são:
+
+% Define as alternativas
+\newcommand{\alternativas}{%
+    \begin{center}
+        \begin{tabularx}{\textwidth}{XXX}
+            (a) \(x \le -\sqrt{5}\) ou \(x \ge \sqrt{5}\). &
+            (b) \(-\sqrt{5} \le x \le \sqrt{5}\). &
+            (c) \(0 \le x \le 4\). \\[5pt]
+            (d) \(x \le 0\) ou \(x \ge 4\). &
+            (e) \(-\sqrt{5} \le x \le 0\).
+        \end{tabularx}
+    \end{center}
+}
+
+% Define a resposta correta
+\newcommand{\resposta}{E}
+
+% Lógica condicional para exibição
+\ifdefstring{\atividade}{lista}{%
+    \alternativas
+    \vspace{0.5em}
+    
+    \noindent\textbf{Resposta:} letra \textbf{\resposta}.
+}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \alternativas
+    }{%
+        % modo = discursiva → não mostra alternativas
+    }
+}
+\end{exercicioBanco}
+

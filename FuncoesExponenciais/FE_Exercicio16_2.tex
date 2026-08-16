@@ -1,0 +1,42 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%       EXERCÍCIO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\definevalorquestao
+
+\begin{exercicioBanco}[\valorquestao]
+O acréscimo de tecnologias no sistema produtivo industrial tem por objetivo reduzir custos e aumentar a produtividade. No primeiro ano de funcionamento, uma indústria fabricou \(8.000\) unidades de um determinado produto. No ano seguinte, investiu em tecnologia adquirindo novas máquinas e aumentou a produção em \(50\%\). Estima-se que esse aumento percentual se repita nos próximos anos, garantindo um crescimento anual de \(50\%\). Considere \(P\) a quantidade anual de produtos fabricados no ano \(t\) de funcionamento da indústria. Se a estimativa for alcançada, qual é a expressão que determina o número de unidades produzidas \(P\) em função de \(t\), para \(t \ge 1\)?
+
+% Define as alternativas
+\newcommand{\alternativas}{%
+    \begin{center}
+        \begin{tabularx}{\textwidth}{XXX}
+            (a) \(P(t) = 0{,}5^{t-1} + 8000\). &
+            (b) \(P(t) = 50 \cdot (0{,}5)^{t-1} + 8000\). &
+            (c) \(P(t) = 4000 \cdot 2^{t-1} + 8000\). \\[5pt]
+            (d) \(P(t) = 8000 \cdot (0{,}5)^{t-1}\). &
+            (e) \(P(t) = 8000 \cdot (1{,}5)^{t-1}\).
+        \end{tabularx}
+    \end{center}
+}
+
+% Define a resposta correta
+\newcommand{\resposta}{E}
+
+% Lógica condicional para exibição
+\ifdefstring{\atividade}{lista}{%
+    \alternativas
+    \vspace{0.5em}
+    
+    \noindent\textbf{Resposta:} letra \textbf{\resposta}.
+}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \alternativas
+    }{%
+        % modo = discursiva → não mostra alternativas
+    }
+}
+\end{exercicioBanco}
+

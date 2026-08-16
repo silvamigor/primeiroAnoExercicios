@@ -1,0 +1,51 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%       EXERCÍCIO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\definevalorquestao
+
+\begin{exercicioBanco}[\valorquestao]
+Analise as afirmações a respeito de potências e funções exponenciais:
+
+\begin{enumerate}[label=\Roman*.]
+    \item A função \(f(x) = \left(\sqrt{2}\right)^x\) é crescente em \(\mathbb{R}\).
+    \item Se \(f(x) = e^x\), então \(f(a \cdot b) = f(a) \cdot f(b)\) para quaisquer \(a, b \in \mathbb{R}\).
+    \item O valor numérico da expressão \(4^{-0{,}5} + 0{,}1^{-1}\) é igual a \(10{,}5\).
+    \item Se \(m, n \in \mathbb{N} = \{1,2,3,\dots\}\) com \(m < n\), então \(a^m < a^n\) para todo \(a \in \mathbb{R}\).
+\end{enumerate}
+
+Assinale a alternativa correta:
+
+% Define as alternativas
+\newcommand{\alternativas}{%
+    \begin{center}
+        \begin{tabularx}{\textwidth}{XXX}
+            (a) Todas são falsas. &
+            (b) Todas são verdadeiras. &
+            (c) Apenas I e III são verdadeiras. \\[5pt]
+            (d) Apenas II e IV são verdadeiras. &
+            (e) Apenas I, III e IV são verdadeiras.
+        \end{tabularx}
+    \end{center}
+}
+
+% Define a resposta correta
+\newcommand{\resposta}{C}
+
+% Lógica condicional para exibição
+\ifdefstring{\atividade}{lista}{%
+    \alternativas
+    \vspace{0.5em}
+    
+    \noindent\textbf{Resposta:} letra \textbf{\resposta}.
+}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \alternativas
+    }{%
+        % modo = discursiva → não mostra alternativas
+    }
+}
+\end{exercicioBanco}
+

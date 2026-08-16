@@ -1,0 +1,42 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%       EXERCÍCIO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\definevalorquestao
+
+\begin{exercicioBanco}[\valorquestao]
+Cientistas brasileiros verificaram que uma determinada colônia de bactérias triplica a cada meia hora. Uma amostra de \(\n{10000}\) bactérias por mililitro foi colocada em um tubo de ensaio e, após um tempo \(x\), verificou-se que o total era de \(2,43 \times 10^6\) bactérias por mililitro. O valor de \(x\) é:
+
+% Define as alternativas
+\newcommand{\alternativas}{%
+    \begin{center}
+        \begin{tabularx}{\textwidth}{XXX}
+            (a) duas horas. &
+            (b) duas horas e 30 minutos. &
+            (c) 3 horas e trinta minutos. \\[5pt]
+            (d) 48 horas. &
+            (e) 264 horas.
+        \end{tabularx}
+    \end{center}
+}
+
+% Define a resposta correta
+\newcommand{\resposta}{B}
+
+% Lógica condicional para exibição
+\ifdefstring{\atividade}{lista}{%
+    \alternativas
+    \vspace{0.5em}
+    
+    \noindent\textbf{Resposta:} letra \textbf{\resposta}.
+}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \alternativas
+    }{%
+        % modo = discursiva → não mostra alternativas
+    }
+}
+\end{exercicioBanco}
+

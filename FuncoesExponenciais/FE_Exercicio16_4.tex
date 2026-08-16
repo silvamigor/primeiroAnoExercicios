@@ -1,0 +1,44 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%       EXERCÍCIO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\definevalorquestao
+
+\begin{exercicioBanco}[\valorquestao]
+No mercado de segunda mão, considera-se que certo \textit{smartphone} perde \(\dfrac{1}{4}\) do seu valor em relação ao ano anterior a cada ano de uso. Após 4 anos, o proprietário de um aparelho cujo preço original era R\$ 2.560,00 deseja trocá-lo por um modelo novo e avalia duas opções: vendê-lo no mercado de segunda mão ou entregá-lo na loja onde comprará o novo modelo, que oferece um crédito equivalente a \(30\%\) do seu valor original de compra.
+
+Analisando financeiramente as opções, a alternativa mais vantajosa para esse consumidor é:
+
+% Define as alternativas
+\newcommand{\alternativas}{%
+    \begin{center}
+        \begin{tabularx}{\textwidth}{X}
+            (a) Vender no mercado de segunda mão, pois obterá R\$ 42,00 a mais do que na oferta da loja. \\[3pt]
+            (b) Entregar o aparelho na loja, pois obterá R\$ 42,00 a mais do que no mercado de segunda mão. \\[3pt]
+            (c) Vender no mercado de segunda mão, pois obterá R\$ 170,00 a mais do que na oferta da loja. \\[3pt]
+            (d) Entregar o aparelho na loja, pois obterá R\$ 100,00 a mais do que no mercado de segunda mão. \\[3pt]
+            (e) Ambas as opções resultam exatamente no mesmo valor financeiro.
+        \end{tabularx}
+    \end{center}
+}
+
+% Define a resposta correta
+\newcommand{\resposta}{A}
+
+% Lógica condicional para exibição
+\ifdefstring{\atividade}{lista}{%
+    \alternativas
+    \vspace{0.5em}
+    
+    \noindent\textbf{Resposta:} letra \textbf{\resposta}.
+}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \alternativas
+    }{%
+        % modo = discursiva → não mostra alternativas
+    }
+}
+\end{exercicioBanco}
+
