@@ -1,18 +1,22 @@
 \documentclass[a4paper,12pt]{article}
 
 \input{../../Preambulo.tex}
-\newcommand{\assunto}{FUNÇÕES LOGARITIMICAS}
-\newcommand{\atividade}{prova} % prova ou lista ou as ou ad ou atividade
-\newcommand{\NumQObj}{5}
-\newcommand{\NumQDisc}{1}
-\pgfmathparse{int(\NumQObj + \NumQDisc)}
-\edef\NumTotalQuestoes{\pgfmathresult}
-\newcommand{\questaoDiscursiva}{Exercício \NumTotalQuestoes}
-\newcommand{\ValorQObj}{0.4}
-\newcommand{\ValorQDisc}{2}
-\pgfmathparse{int(round(\NumQObj * \ValorQObj + \NumQDisc * \ValorQDisc))}
-\edef\ValorProva{\pgfmathresult}
-\newcommand{\tipo}{individual} % dupla ou individual
+\newcommand{\assunto}{FUNÇÕES EXPONENCIAIS}
+\newcommand{\atividade}{atividade} % prova ou lista ou as ou ad ou atividade
+\newcommand{\NumQObj}{6}
+\newcommand{\ValorProva}{2}
+\newcommand{\ValorQObj}{%
+\ensuremath{
+  \pgfmathsetmacro{\MDC}{gcd(\ValorProva,\NumQObj)}%
+  \pgfmathsetmacro{\NumSimpl}{int(\ValorProva/\MDC)}%
+  \pgfmathsetmacro{\DenSimpl}{int(\NumQObj/\MDC)}%
+  \frac{\NumSimpl}{\DenSimpl}%
+}
+}
+%\newcommand{\ValorQObj}{0.3}
+%\pgfmathparse{int(round(\NumQObj * \ValorQObj))}
+%\edef\ValorProva{\pgfmathresult}
+\newcommand{\tipo}{dupla} % dupla ou individual
 \newcommand{\calculadora}{nao} % sim ou nao
 \input{../../Variaveis.tex}
 
@@ -33,69 +37,54 @@
         
     \phantomsection
     \addcontentsline{toc}{section}{Capa}
-    \input{../../Capa}
+    \input{../../AT_Capa}
     \newpage
-        
-    \phantomsection
-    \addcontentsline{toc}{section}{Resposta para a questão discursiva}
-    \input{../../RespQuestaoDisc}
+    \null
+    \thispagestyle{empty}
     \addtocounter{page}{1}
     \newpage
-    %
         
     \NoBgThispage
     \pagenumbering{arabic}
     %
         
     \subtitulopr
-        
-    %
-    \begin{center}
-        QUESTÕES OBJETIVAS
-    \end{center}
-    %
     
     \vspace{15pt}
     \newcommand{\modo}{objetivo} % objetivo ou discursivo
     
     \phantomsection
     \addcontentsline{toc}{section}{Exercício 1}
-    \input{../FL_Exercicio3}
+    \input{../FE_Exercicio14_2}
     \vspace{15pt}
     
     \phantomsection
     \addcontentsline{toc}{section}{Exercício 2}
-    \input{../FL_Exercicio9}
+    \input{../FE_Exercicio16_2}
     \vspace{15pt}
     
     \phantomsection
     \addcontentsline{toc}{section}{Exercício 3}
-    \input{../FL_Exercicio13}
+    \input{../FE_Exercicio1_2}
     \vspace{15pt}
     
     \phantomsection
     \addcontentsline{toc}{section}{Exercício 4}
-    \input{../FL_Exercicio16}
+    \input{../FE_Exercicio5_2}
     \vspace{15pt}
     
     \phantomsection
     \addcontentsline{toc}{section}{Exercício 5}
-    \input{../FL_Exercicio27}
+    \input{../FE_Exercicio25_2}
     \vspace{15pt}
     
-    %
-    \begin{center}
-        QUESTÃO DISCURSIVA 
-    \end{center}
-    %
-    \vspace{15pt}
+    \newpage
     
-    \renewcommand{\modo}{discursivo} % objetivo ou discursivo
     \phantomsection
     \addcontentsline{toc}{section}{Exercício 6}
-    \input{../FL_Exercicio19}
+    \input{../FE_Exercicio19_3}
+    \vspace{15pt}
     
-    %\vspace{10pt}
     %\newpage
     %\phantomsection
     %\addcontentsline{toc}{section}{Rascunho}

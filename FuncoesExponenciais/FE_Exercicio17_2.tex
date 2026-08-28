@@ -16,9 +16,6 @@ A função real \(f\) definida por \(f(x) = a \cdot 3^x + b\), sendo \(a\) e \(b
     \draw[->, thick] (0,-3) -- (0,9) node[left] {$y$};
     \node[above left] at (0,0) {$0$};
     
-    % Assíntota horizontal
-    \draw[dashed] (-3,-2.2) -- (3.5,-2.2);
-    
     % Gráfico da função f(x) = (9/8)*3^x - 17/8
     \draw[thick, domain=-2.8:2.1, samples=100] plot (\x, {1.125*3^(\x) - 2.125});
     
@@ -39,8 +36,8 @@ Pode-se afirmar que o produto \(a \cdot b\) pertence ao intervalo real:
 \newcommand{\alternativas}{%
     \begin{center}
         \begin{tabularx}{\textwidth}{XXXXX}
-            (a) \([-4,-1]\). &
-            (b) \([-1,2[\). &
+            (a) \([-1,2[\). &
+            (b) \([-4,-1]\). &
             (c) \([2,5[\). &
             (d) \([5,8]\). &
             (e) \([8,11]\).
@@ -49,7 +46,7 @@ Pode-se afirmar que o produto \(a \cdot b\) pertence ao intervalo real:
 }
 
 % Define a resposta correta
-\newcommand{\resposta}{A}
+\newcommand{\resposta}{B}
 
 % Lógica condicional para exibição
 \ifdefstring{\atividade}{lista}{%

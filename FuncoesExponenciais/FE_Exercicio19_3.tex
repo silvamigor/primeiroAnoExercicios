@@ -7,23 +7,30 @@
 \definevalorquestao
 
 \begin{exercicioBanco}[\valorquestao]
-Os valores de \(x \in \mathbb{R}\) que satisfazem a condição \(\left(\dfrac{1}{5}\right)^{x^2} \le 5^{-4x}\) é
+Dado o sistema de equações exponenciais:
+\[
+\begin{cases} 
+    5^x = 25^{y+3} \\ 
+    27^y = 3^{x-4} 
+\end{cases}
+\]
+pode-se dizer que o valor de \(x + y\) é igual a:
 
 % Define as alternativas
 \newcommand{\alternativas}{%
     \begin{center}
-        \begin{tabularx}{\textwidth}{XXX}
-            (a) \(x \le -\sqrt{5}\) ou \(x \ge \sqrt{5}\). &
-            (b) \(-\sqrt{5} \le x \le \sqrt{5}\). &
-            (c) \(0 \le x \le 4\). \\[5pt]
-            (d) \(x \le 0\) ou \(x \ge 4\). &
-            (e) \(-\sqrt{5} \le x \le 0\).
+        \begin{tabularx}{\textwidth}{XXXXX}
+            (a) \(8\). &
+            (b) \(12\). &
+            (c) \(14\). &
+            (d) \(-2\). &
+            (e) \(16\).
         \end{tabularx}
     \end{center}
 }
 
 % Define a resposta correta
-\newcommand{\resposta}{D}
+\newcommand{\resposta}{B}
 
 % Lógica condicional para exibição
 \ifdefstring{\atividade}{lista}{%

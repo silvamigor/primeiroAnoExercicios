@@ -1,0 +1,40 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%       EXERCÍCIO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\definevalorquestao
+
+\begin{exercicioBanco}[\valorquestao]
+O processo de resfriamento de uma liga metálica em um ambiente de fabricação é descrito por \(T(t) = T_{A} + \alpha \cdot 2^{\beta t}\), onde \(T(t)\) é a temperatura da liga metálica, em graus Celsius, no instante \(t\) (em minutos), \(T_{A}\) é a temperatura ambiente e \(\alpha\) e \(\beta\) são constantes. A referida liga metálica foi colocada em uma sala com temperatura ambiente de \(20^\circ\text{C}\). Um sensor acoplado ao metal indicou que ele atingiu \(148^\circ\text{C}\) após \(10\) minutos e chegou a \(52^\circ\text{C}\) após \(30\) minutos. Determine o valor de \(t\) para o qual a temperatura da liga metálica no recinto é apenas \(1^\circ\text{C}\) superior à temperatura ambiente.
+
+\newcommand{\alternativas}{%
+    \begin{center}
+        \begin{tabularx}{\textwidth}{XXXXX}
+            (a) \(50\) minutos. &
+            (b) \(70\) minutos. &
+            (c) \(80\) minutos. &
+            (d) \(90\) minutos. &
+            (e) \(120\) minutos.
+        \end{tabularx}
+    \end{center}
+}
+
+\newcommand{\resposta}{A}
+
+% Lógica condicional para exibição
+\ifdefstring{\atividade}{lista}{%
+    \alternativas
+    \vspace{0.5em}
+    
+    \noindent\textbf{Resposta:} letra \textbf{\resposta}.
+}{%
+    \ifdefstring{\modo}{objetivo}{%
+        \alternativas
+    }{%
+        % modo = discursiva → não mostra alternativas
+    }
+}
+\end{exercicioBanco}
+
