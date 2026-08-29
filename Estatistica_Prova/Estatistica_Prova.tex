@@ -1,7 +1,7 @@
 \documentclass[a4paper,12pt]{article}
 
 \input{../Preambulo.tex}
-\newcommand{\assunto}{FUNÇÕES QUADRÁTICAS}
+\newcommand{\assunto}{FUNÇÕES EXPONENCIAIS}
 \newcommand{\atividade}{prova} % prova ou lista
 \input{../Variaveis.tex}
 
@@ -17,11 +17,27 @@
 
 %************* INÍCIO DO DOCUMENTO *************
 \begin{document}
+
+\edef\pathCapa{\currfiledir}
+    
+    %
+    \noindent
+    \begin{minipage}{2.8cm}
+        \includegraphics[width=2.8cm]{\pathCapa Logo_Cefet.png}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{\dimexpr\textwidth-6.2cm\relax}
     \begin{center}
         CEFET-MG -- Campus Contagem \\[3pt]
         Estatística da prova\ -- \bimestre.\textordmasculine\ Bimestre de \ano \\[3pt]
         \professor
     \end{center}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{3.2cm}
+        \includegraphics[width=3.2cm]{\pathCapa Brasao_Brasil.png}
+    \end{minipage}
+    %
     
     \begin{center}
         \vspace{15pt}
@@ -46,7 +62,7 @@
             \toprule
             Total de alunos & Menor nota (número de alunos com essa nota) & Maior nota (número de alunos com essa nota) & Média da nota & Mediana & Moda & Desvio padrão \\
             \midrule
-            31 & 0 (1) & 4 (2) & 1,95 & 1,7 & 1,7 & 1  \\
+            32 & 0,6 (1) & 4 (1) & 2,53 & 2,8 & 1,4 & 0,87  \\
             \bottomrule
         \end{tabular}
     \end{table}
@@ -59,9 +75,9 @@
             \toprule
             Prova A & Questão 1 & Questão 2 & Questão 3 & Questão 4 & Questão 5 \\
             \midrule
-            Prova B & Questão 3 & Questão 1 & Questão 2 & Questão 5 & Questão 4 \\
+            Prova B & Questão 4 & Questão 5 & Questão 1 & Questão 2 & Questão 3 \\
             \midrule
-            & \(\dfrac{12}{31} \approx 38,71\%\) & \(\dfrac{6}{31} = 19,35\%\) & \(\dfrac{9}{31} \approx 29,03\%\) & \(\dfrac{13}{31} = 41,94\%\) & \(\dfrac{20}{31} = 64,52\%\) \\
+            & \(\dfrac{4}{32} = 12,5\%\) & \(\dfrac{4}{32} = 12,5\%\) & \(\dfrac{24}{32} = 75\%\) & \(\dfrac{2}{32} \approx 6,3\%\) & \(\dfrac{25}{32} \approx 78,1\%\) \\
             \cmidrule[0.08em](l{2pt}r{0pt}){2-6}
         \end{tabular}
     \end{table}
@@ -85,7 +101,7 @@
         \textbf{INTERPRETAÇÃO}
     \end{flushleft}
 
-    A média de 1,95 corresponde a 48,75\% da pontuação máxima, com desvio padrão de 1, indicando dispersão moderada das notas. A moda 1,7 sugere maior concentração de alunos nessa pontuação, enquanto a mediana 1,7 indica que metade da turma obteve nota inferior ou igual a esse valor e metade superior ou igual. A menor nota foi 0 (1 aluno) e a maior 4 (2 alunos). Segundo o boxplot, observa-se que 50\% das notas concentram-se entre 1,3 e 2,5, sem indícios de valores discrepantes relevantes. O histograma revela uma distribuição assimétrica à direita, com maior concentração de alunos em torno das notas entre aproximadamente 1,5 e 2,0, seguida por uma cauda em direção às notas mais altas. A questão 5 (prova A) apresentou o maior índice de erro (64,52\%), enquanto a questão 2 (prova A) apresentou o menor (19,35\%).
+    A média de 2,53 corresponde a 63,3\% da pontuação máxima. O coeficiente de variação de Pearson de 0,34 indica dispersão alta das notas, e o coeficiente de assimetria de Pearson de -0,93 indica assimetria moderada à esquerda. O boxplot mostra mínimo de 0,6 (1 aluno) e máximo de 4 (1 aluno), com 50\% das notas concentradas entre 1,7 e 3,2. Complementarmente, o histograma revela que a classe modal é o intervalo \([3,0;3,5)\), concentrando 28,1\% dos alunos, enquanto cerca de 43,7\% ficaram abaixo de 2,5. Quanto às questões objetivas, a questão 5 (prova A) apresentou o maior índice de erro (78,1\%), enquanto a questão 4 (prova A) apresentou o menor (6,3\%).
     
 \end{document}
 %*************** FINAL DO DOCUMENTO ***************

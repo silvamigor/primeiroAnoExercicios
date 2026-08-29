@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.12.14)  8 JUL 2026 13:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.12.14)  29 AUG 2026 14:44
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1933,14 +1933,103 @@ Package hyperref Info: Link coloring OFF on input line 19.
 \openout4 = `Estatistica_Prova.out'.
 
 \c@lstlisting=\count423
+<Logo_Cefet.png, id=43, 651.1527pt x 493.3632pt>
+File: Logo_Cefet.png Graphic file (type png)
+<use Logo_Cefet.png>
+Package pdftex.def Info: Logo_Cefet.png  used on input line 26.
+(pdftex.def)             Requested size: 79.6678pt x 60.36035pt.
+LaTeX Font Info:    Trying to load font information for OT1+mdbch on input line
+ 27.
+
+(/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdbch/ot1mdbch.fd
+File: ot1mdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OT1/mdbch.
+)
+LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
+(Font)              scaled to size 11.52008pt on input line 27.
+LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
+(Font)              scaled to size 7.68005pt on input line 27.
+LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
+(Font)              scaled to size 5.76004pt on input line 27.
+LaTeX Font Info:    Trying to load font information for OML+mdbch on input line
+ 27.
+
+(/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdbch/omlmdbch.fd
+File: omlmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OML/mdbch.
+)
+LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
+(Font)              scaled to size 11.52008pt on input line 27.
+LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
+(Font)              scaled to size 7.68005pt on input line 27.
+LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
+(Font)              scaled to size 5.76004pt on input line 27.
+LaTeX Font Info:    Trying to load font information for OMS+mdbch on input line
+ 27.
+
+(/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdbch/omsmdbch.fd
+File: omsmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OMS/mdbch.
+)
+LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
+(Font)              scaled to size 11.52008pt on input line 27.
+LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
+(Font)              scaled to size 7.68005pt on input line 27.
+LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
+(Font)              scaled to size 5.76004pt on input line 27.
+LaTeX Font Info:    Trying to load font information for OMX+mdbch on input line
+ 27.
+
+(/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdbch/omxmdbch.fd
+File: omxmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OMX/mdbch.
+)
+LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
+(Font)              scaled to size 11.52008pt on input line 27.
+LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
+(Font)              scaled to size 7.68005pt on input line 27.
+LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
+(Font)              scaled to size 5.76004pt on input line 27.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 27
+.
+
+(/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)
+LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
+(Font)              scaled to size 11.52008pt on input line 27.
+LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
+(Font)              scaled to size 7.68005pt on input line 27.
+LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
+(Font)              scaled to size 5.76004pt on input line 27.
+LaTeX Font Info:    Trying to load font information for MDA+mdbch on input line
+ 27.
+
+(/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdbch/mdamdbch.fd
+File: mdamdbch.fd 2013/08/29 Fontinst v1.933 font definitions for MDA/mdbch.
+)
+LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
+(Font)              scaled to size 11.52008pt on input line 27.
+LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
+(Font)              scaled to size 7.68005pt on input line 27.
+LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
+(Font)              scaled to size 5.76004pt on input line 27.
+LaTeX Font Info:    Trying to load font information for MDB+mdbch on input line
+ 27.
+
+(/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdbch/mdbmdbch.fd
+File: mdbmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for MDB/mdbch.
+)
+LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
+(Font)              scaled to size 11.52008pt on input line 27.
+LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
+(Font)              scaled to size 7.68005pt on input line 27.
+LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
+(Font)              scaled to size 5.76004pt on input line 27.
 LaTeX Font Info:    Trying to load font information for TS1+mdbch on input line
- 22.
+ 32.
 
 (/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdbch/ts1mdbch.fd
 File: ts1mdbch.fd 2013/08/29 Fontinst v1.933 font definitions for TS1/mdbch.
 )
 LaTeX Font Info:    Font shape `TS1/mdbch/m/n' will be
-(Font)              scaled to size 11.52008pt on input line 22.
+(Font)              scaled to size 11.52008pt on input line 32.
 Package microtype Info: Character `texttwelveudash ' is missing
 (microtype)             in font `TS1/mdbch/m/n/12'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -1962,97 +2051,18 @@ Package microtype Info: Character `texttildelow ' is missing
 Package microtype Info: Character `textcelsius ' is missing
 (microtype)             in font `TS1/mdbch/m/n/12'.
 (microtype)             Ignoring protrusion settings for this character.
-LaTeX Font Info:    Trying to load font information for OT1+mdbch on input line
- 28.
-
-(/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdbch/ot1mdbch.fd
-File: ot1mdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OT1/mdbch.
-)
-LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 11.52008pt on input line 28.
-LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 7.68005pt on input line 28.
-LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 5.76004pt on input line 28.
-LaTeX Font Info:    Trying to load font information for OML+mdbch on input line
- 28.
-
-(/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdbch/omlmdbch.fd
-File: omlmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OML/mdbch.
-)
-LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 11.52008pt on input line 28.
-LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 7.68005pt on input line 28.
-LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 5.76004pt on input line 28.
-LaTeX Font Info:    Trying to load font information for OMS+mdbch on input line
- 28.
-
-(/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdbch/omsmdbch.fd
-File: omsmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OMS/mdbch.
-)
-LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 11.52008pt on input line 28.
-LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 7.68005pt on input line 28.
-LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 5.76004pt on input line 28.
-LaTeX Font Info:    Trying to load font information for OMX+mdbch on input line
- 28.
-
-(/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdbch/omxmdbch.fd
-File: omxmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OMX/mdbch.
-)
-LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 11.52008pt on input line 28.
-LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 7.68005pt on input line 28.
-LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 5.76004pt on input line 28.
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 28
-.
-
-(/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
-File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-)
-LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 11.52008pt on input line 28.
-LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 7.68005pt on input line 28.
-LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 5.76004pt on input line 28.
-LaTeX Font Info:    Trying to load font information for MDA+mdbch on input line
- 28.
-
-(/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdbch/mdamdbch.fd
-File: mdamdbch.fd 2013/08/29 Fontinst v1.933 font definitions for MDA/mdbch.
-)
-LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 11.52008pt on input line 28.
-LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 7.68005pt on input line 28.
-LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 5.76004pt on input line 28.
-LaTeX Font Info:    Trying to load font information for MDB+mdbch on input line
- 28.
-
-(/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdbch/mdbmdbch.fd
-File: mdbmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for MDB/mdbch.
-)
-LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 11.52008pt on input line 28.
-LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 7.68005pt on input line 28.
-LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 5.76004pt on input line 28.
+<Brasao_Brasil.png, id=45, 1284.8pt x 722.7pt>
+File: Brasao_Brasil.png Graphic file (type png)
+<use Brasao_Brasil.png>
+Package pdftex.def Info: Brasao_Brasil.png  used on input line 38.
+(pdftex.def)             Requested size: 91.04872pt x 51.2117pt.
 LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
-(Font)              scaled to size 11.52008pt on input line 30.
+(Font)              scaled to size 11.52008pt on input line 46.
 Package svg Info: Last page of `./svg-inkscape/histograma_Notas_svg-tex.pdf' is
- 1 on input line 74.
+ 1 on input line 90.
 
 (./svg-inkscape/histograma_Notas_svg-tex.pdf_tex
-<./svg-inkscape/histograma_Notas_svg-tex.pdf, id=44, page=1, 533.34608pt x 355.
+<./svg-inkscape/histograma_Notas_svg-tex.pdf, id=47, page=1, 533.34608pt x 355.
 6pt>
 File: ./svg-inkscape/histograma_Notas_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/histograma_Notas_svg-tex.pdf, page 1>
@@ -2061,21 +2071,22 @@ ed on input line 56.
 (pdftex.def)             Requested size: 270.3012pt x 180.21413pt.
 )
 Package svg Info: Last page of `./svg-inkscape/boxplot_Notas_svg-tex.pdf' is 1 
-on input line 79.
+on input line 95.
 
 (./svg-inkscape/boxplot_Notas_svg-tex.pdf_tex
-<./svg-inkscape/boxplot_Notas_svg-tex.pdf, id=46, page=1, 401.67938pt x 445.935
-55pt>
+<./svg-inkscape/boxplot_Notas_svg-tex.pdf, id=49, page=1, 401.67938pt x 450.605
+33pt>
 File: ./svg-inkscape/boxplot_Notas_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/boxplot_Notas_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/boxplot_Notas_svg-tex.pdf , page1 used 
 on input line 56.
-(pdftex.def)             Requested size: 162.18236pt x 180.05174pt.
+(pdftex.def)             Requested size: 162.18236pt x 181.93723pt.
 ) [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-di
-st/fonts/enc/dvips/ly1/texnansi.enc} <./svg-inkscape/histograma_Notas_svg-tex.p
-df> <./svg-inkscape/boxplot_Notas_svg-tex.pdf
+st/fonts/enc/dvips/ly1/texnansi.enc} <./Logo_Cefet.png> <./Brasao_Brasil.png> <
+./svg-inkscape/histograma_Notas_svg-tex.pdf> <./svg-inkscape/boxplot_Notas_svg-
+tex.pdf
 
 pdfTeX warning: pdflatex (file ./svg-inkscape/boxplot_Notas_svg-tex.pdf): PDF i
 nclusion: multiple pdfs with page group included in a single page
@@ -2088,11 +2099,11 @@ Package rerunfilecheck Info: File `Estatistica_Prova.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 56557 strings out of 474222
- 1325734 string characters out of 5748732
+ 56569 strings out of 474222
+ 1326055 string characters out of 5748732
  1955975 words of memory out of 5000000
- 77671 multiletter control sequences out of 15000+600000
- 578998 words of font info for 117 fonts, out of 8000000 for 9000
+ 77687 multiletter control sequences out of 15000+600000
+ 578768 words of font info for 114 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,15n,120p,1280b,927s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></usr/
@@ -2100,10 +2111,10 @@ share/texlive/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr7t.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr7y.pfb></usr/share/
 texlive/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr8t.pfb>
-Output written on Estatistica_Prova.pdf (1 page, 70630 bytes).
+Output written on Estatistica_Prova.pdf (1 page, 409553 bytes).
 PDF statistics:
- 91 PDF objects out of 1000 (max. 8388607)
- 48 compressed objects within 1 object stream
+ 95 PDF objects out of 1000 (max. 8388607)
+ 49 compressed objects within 1 object stream
  5 named destinations out of 1000 (max. 500000)
- 24753 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 24763 words of extra memory for PDF output out of 24883 (max. 10000000)
 
